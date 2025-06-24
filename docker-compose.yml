@@ -1,0 +1,64 @@
+version: '3.8'
+
+
+services:
+  frontend:
+    build:
+      context: ./movie-fe
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    env_file:
+      - ./movie-fe/.env
+    networks:
+      - app-network
+    volumes:
+      - ./movie-fe:/app
+      - /app/node_modules
+
+  backend:
+    build:
+      context: ./Nodejs
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    env_file:
+      - ./Nodejs/.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - app-network
+    volumes:
+      - ./Nodejs:/app
+      - /app/node_modules
+
+  mysql:
+    image: mysql:8.0  # Đảm bảo khai báo đúng image cho MySQL
+    container_name: mysql_server
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 29032003
+      MYSQL_DATABASE: HH_Movie
+      MYSQL_USER: huydev
+      MYSQL_PASSWORD: 22032003
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p29032003"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mysql_data: 

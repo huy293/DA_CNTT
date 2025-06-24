@@ -1,0 +1,11 @@
+# Ignore node_modules and .env in sub-projects
+movie-fe/node_modules/
+movie-fe/.env
+
+Nodejs/node_modules/
+Nodejs/.env
+Nodejs/uploads/**/*.mp4
+**/*.mp4
+# HLS streaming files
+**/*.m3u8
+**/*.ts
