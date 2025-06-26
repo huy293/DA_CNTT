@@ -46,8 +46,14 @@ const AddEpisodeForm = ({ season, mode, initialData, onClose, onReload }) => {
     if (!formData.runtime) {
       newErrors.runtime = "Vui lòng nhập thời lượng";
     }
-    if (mode === "add" && !selectedVideo) {
-      newErrors.video = "Vui lòng chọn file video";
+    if (videoType === "external") {
+      if (!videoUrl) {
+        newErrors.videoUrl = "Vui lòng nhập URL video";
+      }
+    } else if (videoType === "hls") {
+      if (!videoFile) {
+        newErrors.videoFile = "Vui lòng chọn file video";
+      }
     }
     if (!formData.release_date) {
       newErrors.release_date = "Vui lòng chọn ngày phát hành";
@@ -68,42 +74,53 @@ const AddEpisodeForm = ({ season, mode, initialData, onClose, onReload }) => {
 
     try {
       if (mode === "edit" && initialData?.id) {
-        // Edit mode - không upload video mới
+        // Edit mode - cập nhật episode
         await axiosInstance.put(`/api/episode/${initialData.id}`, {
           ...formData,
           seasonId: season.value,
+          video_type: videoType,
+          video_url: videoType === 'external' ? videoUrl : undefined,
         });
         alert("Cập nhật tập phim thành công!");
       } else {
-        // Add mode - upload video và tạo episode
-        if (!selectedVideo) {
-          throw new Error("Vui lòng chọn file video");
-        }
-
-        const formDataToSend = new FormData();
-        formDataToSend.append("video", selectedVideo);
-        formDataToSend.append("seasonId", season.value);
-        formDataToSend.append("episode_number", formData.episode_number);
-        formDataToSend.append("title", formData.title);
-        formDataToSend.append("description", formData.overview);
-        formDataToSend.append("runtime", formData.runtime);
-        formDataToSend.append("release_date", formData.release_date);
-
-        setIsUploading(true);
-        const response = await axiosInstance.post("/api/episode", formDataToSend, {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-          onUploadProgress: (progressEvent) => {
-            const progress = Math.round(
-              (progressEvent.loaded * 100) / progressEvent.total
-            );
-            setUploadProgress(progress);
-          },
-        });
-
-        if (response.data.success) {
+        // Add mode
+        if (videoType === 'external') {
+          // Gửi link ngoài
+          await axiosInstance.post("/api/episode", {
+            ...formData,
+            seasonId: season.value,
+            video_type: 'external',
+            video_url: videoUrl,
+          });
           alert("Thêm tập phim thành công!");
+        } else {
+          // Upload file HLS
+          const formDataToSend = new FormData();
+          formDataToSend.append("video", videoFile);
+          formDataToSend.append("seasonId", season.value);
+          formDataToSend.append("episode_number", formData.episode_number);
+          formDataToSend.append("title", formData.title);
+          formDataToSend.append("overview", formData.overview);
+          formDataToSend.append("runtime", formData.runtime);
+          formDataToSend.append("release_date", formData.release_date);
+          formDataToSend.append("video_type", "hls");
+
+          setIsUploading(true);
+          const response = await axiosInstance.post("/api/episode", formDataToSend, {
+            headers: {
+              "Content-Type": "multipart/form-data",
+            },
+            onUploadProgress: (progressEvent) => {
+              const progress = Math.round(
+                (progressEvent.loaded * 100) / progressEvent.total
+              );
+              setUploadProgress(progress);
+            },
+          });
+
+          if (response.data.success) {
+            alert("Thêm tập phim thành công!");
+          }
         }
       }
       onReload();
@@ -247,11 +264,17 @@ const AddEpisodeForm = ({ season, mode, initialData, onClose, onReload }) => {
             <div className="mb-4">
               <label className="block mb-1 font-medium">URL video</label>
               <input type="text" value={videoUrl} onChange={e => setVideoUrl(e.target.value)} className="border rounded px-2 py-1 w-full" required />
+              {errors.videoUrl && (
+                <p className="text-red-500 text-xs mt-1">{errors.videoUrl}</p>
+              )}
             </div>
           ) : (
             <div className="mb-4">
               <label className="block mb-1 font-medium">Upload file video</label>
               <input type="file" accept="video/*" onChange={e => setVideoFile(e.target.files[0])} className="border rounded px-2 py-1 w-full" required />
+              {errors.videoFile && (
+                <p className="text-red-500 text-xs mt-1">{errors.videoFile}</p>
+              )}
             </div>
           )}
 

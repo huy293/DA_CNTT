@@ -268,26 +268,33 @@ const Episode = () => {
   // Render player
   let videoPlayer = null;
   if (episode) {
+    let videoSrc = episode.video_url;
+    if (videoSrc && !videoSrc.startsWith('http')) {
+      if (!videoSrc.startsWith('/')) videoSrc = '/' + videoSrc;
+      videoSrc = API_URL + videoSrc;
+    }
+    console.log('DEBUG HLS src:', videoSrc);
     if (episode.video_type === 'hls') {
-      videoPlayer = <VideoPlayer src={episode.video_url} type="hls" />;
+      videoPlayer = <VideoPlayer src={videoSrc} type="hls" poster={season.poster_url} />;
     } else if (episode.video_type === 'external') {
       // Nếu là YouTube, nhúng iframe, còn lại dùng VideoPlayer bình thường
       if (/youtube\.com|youtu\.be/.test(episode.video_url)) {
         const youtubeId = episode.video_url.match(/(?:v=|be\/)([\w-]+)/)?.[1];
         videoPlayer = youtubeId ? (
-          <div className="aspect-w-16 aspect-h-9 mb-4">
+          <div className="w-full max-w-4xl mx-auto mb-4" style={{ aspectRatio: '16/9' }}>
             <iframe
               src={`https://www.youtube.com/embed/${youtubeId}`}
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              className="w-full h-full"
+              className="w-full h-full min-h-[320px] min-w-[320px]"
+              style={{ width: '100%', height: '100%' }}
             ></iframe>
           </div>
-        ) : <VideoPlayer src={episode.video_url} type="external" />;
+        ) : <VideoPlayer src={videoSrc} type="external" />;
       } else {
-        videoPlayer = <VideoPlayer src={episode.video_url} type="external" />;
+        videoPlayer = <VideoPlayer src={videoSrc} type="external" />;
       }
     }
   }

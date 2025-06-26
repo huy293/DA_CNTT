@@ -35,63 +35,91 @@ const upload = multer({
 });
 
 const createEpisode = async (req, res) => {
-  try {
-    upload.single("video")(req, res, async function (err) {
-      if (err) {
-        return res.status(400).json({ error: err.message });
+  // Nếu là external, không cần upload file
+  if (req.headers['content-type'] && req.headers['content-type'].includes('application/json')) {
+    try {
+      const { seasonId, episode_number, title, overview, runtime, release_date, video_url } = req.body;
+      if (!video_url) {
+        return res.status(400).json({ error: "No video URL provided" });
       }
-
-      const { seasonId, episode_number, title, description, runtime, release_date } = req.body;
-      const videoFile = req.file;
-
-      if (!videoFile) {
-        return res.status(400).json({ error: "No video file uploaded" });
-      }
-
-      // Process video and create HLS stream
-      const uploadDir = path.join(__dirname, "../../uploads/videos");
-      try {
-        const { hlsPath } = await createHLSStream(
-          videoFile.path,
-          uploadDir,
-          videoFile.filename
-        );
-
-        // Create episode record in database
-        const episode = await Episode.create({
-          seasonId,
-          episode_number,
-          title,
-          overview: description,
-          runtime,
-          release_date,
-          video_url: hlsPath,
-        });
-
-        res.status(201).json({
-          success: true,
-          message: "Episode created successfully",
-          data: episode,
-        });
-      } catch (error) {
-        // Clean up uploaded file if processing fails
-        if (fs.existsSync(videoFile.path)) {
-          fs.unlinkSync(videoFile.path);
-        }
-        console.error("Error during episode creation process:", error);
-        // Send an error response instead of throwing
-        return res.status(500).json({ 
-          error: "An error occurred while creating the episode.",
-          details: error.message 
-        });
-      }
-    });
-  } catch (error) {
-    console.error("Error creating episode:", error);
-    res.status(500).json({
-      error: "An error occurred while creating the episode",
-    });
+      const episode = await Episode.create({
+        seasonId,
+        episode_number,
+        title,
+        overview: overview || "",
+        runtime,
+        release_date,
+        video_url,
+        video_type: 'external',
+      });
+      return res.status(201).json({
+        success: true,
+        message: "Episode created successfully",
+        data: episode,
+      });
+    } catch (error) {
+      return res.status(500).json({ error: error.message });
+    }
   }
+
+  // Nếu là multipart/form-data (upload HLS)
+  upload.single("video")(req, res, async function (err) {
+    if (err) {
+      return res.status(400).json({ error: err.message });
+    }
+
+    // Lúc này req.body đã được parse!
+    const { seasonId, episode_number, title, overview = "", runtime, release_date, video_type } = req.body;
+    const videoFile = req.file;
+
+    if (video_type === 'external') {
+      // Trường hợp này không nên xảy ra, nhưng có thể xử lý nếu muốn
+      return res.status(400).json({ error: "Không hỗ trợ gửi external bằng multipart/form-data" });
+    }
+
+    if (!videoFile) {
+      return res.status(400).json({ error: "No video file uploaded" });
+    }
+
+    // Process video and create HLS stream
+    const uploadDir = path.join(__dirname, "../../uploads/videos");
+    try {
+      const { hlsPath } = await createHLSStream(
+        videoFile.path,
+        uploadDir,
+        videoFile.filename
+      );
+
+      // Create episode record in database
+      const episode = await Episode.create({
+        seasonId,
+        episode_number,
+        title,
+        overview,
+        runtime,
+        release_date,
+        video_url: hlsPath,
+        video_type: 'hls',
+      });
+
+      res.status(201).json({
+        success: true,
+        message: "Episode created successfully",
+        data: episode,
+      });
+    } catch (error) {
+      // Clean up uploaded file if processing fails
+      if (fs.existsSync(videoFile.path)) {
+        fs.unlinkSync(videoFile.path);
+      }
+      console.error("Error during episode creation process:", error);
+      // Send an error response instead of throwing
+      return res.status(500).json({ 
+        error: "An error occurred while creating the episode.",
+        details: error.message 
+      });
+    }
+  });
 };
 
 const updateEpisode = async (req, res) => {
