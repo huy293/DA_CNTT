@@ -31,18 +31,28 @@ exports.updatePermissions = async (userId, updates) => {
 }
 
 exports.getPermissions = async (userId) => {
-  let perm = await Permission.findOne({ where: { userId } });
-  if (!perm) {
-    perm = await Permission.create({ userId });
-  }
-  if (user.role === 'admin') {
-    // Trả về object với tất cả các quyền là true
-    return {
-      canDeleteMovie: true,
-      canManageComment: true,
-      canViewReport: true,
-      // ... các quyền khác
-    };
-  }
-  return perm.toJSON();
+    const user = await User.findByPk(userId);
+    if (!user) {
+        throw new Error('User not found');
+    }
+
+    if (user.role === 'admin' || user.isSuperAdmin) {
+        // Admin và SuperAdmin có tất cả các quyền
+        const allPermissions = {};
+        const permissionFields = Object.keys(Permission.getAttributes());
+        permissionFields.forEach(field => {
+            if (field !== 'id' && field !== 'userId' && field !== 'createdAt' && field !== 'updatedAt') {
+                allPermissions[field] = true;
+            }
+        });
+        return allPermissions;
+    }
+
+    // Đối với các vai trò khác như 'moderator'
+    let perm = await Permission.findOne({ where: { userId } });
+    if (!perm) {
+        // Nếu không có record, tạo một record mặc định
+        perm = await Permission.create({ userId });
+    }
+    return perm.toJSON();
 };

@@ -23,6 +23,7 @@ import History from "./Pages/Home/History";
 import Favorites from "./Pages/Home/Favorites";
 import { FavoriteProvider } from './context/FavoriteContext';
 import { WatchHistoryProvider } from "./context/WatchHistoryContext";
+import { PermissionProvider } from "./context/PermissionContext";
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
             </Route>
 
             <Route path="/admin/login" element={<Login />} />
-            <Route path="/admin" element={<Admin />}>
+            <Route path="/admin" element={<PermissionProvider><Admin /></PermissionProvider>}>
               <Route
                 index
                 element={

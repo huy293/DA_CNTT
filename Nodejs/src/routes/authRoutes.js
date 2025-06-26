@@ -15,10 +15,8 @@ router.post("/verify-otp", authController.verifyOtp);
 // Route /me để lấy thông tin người dùng đã đăng nhập
 router.get("/me", authMiddleware.protect(), authController.me);
 
-// Route để kiểm tra admin
-router.get("/admin/me", authMiddleware.protect(), authMiddleware.restrictTo('admin'), (req, res) => {
-  res.status(200).json({ success: true, message: "Welcome Admin!" });
-});
+// Route để kiểm tra nhân viên (admin/moderator)
+router.get("/staff/me", authMiddleware.protect(), authMiddleware.restrictTo('admin', 'moderator'), authController.me);
 
 router.patch('/update-my-password', authMiddleware.protect(), authController.updatePassword);
 

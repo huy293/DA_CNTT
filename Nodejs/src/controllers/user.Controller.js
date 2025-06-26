@@ -251,6 +251,7 @@ exports.updateUser = async (req, res) => {
         res.status(500).json({ message: 'Lỗi khi cập nhật thông tin' });
     }
 };
+
 exports.getLogs = async (req, res) => {
   try {
     const logs = await Log.findAll({
@@ -263,14 +264,18 @@ exports.getLogs = async (req, res) => {
     res.status(500).json({ message: "Không thể lấy log" });
   }
 };
+
 exports.getPermissions = async (req, res) => {
-  try {
-    const permissions = await userService.getPermissions(req.params.userId);
-    res.json(permissions);
-  } catch (err) {
-    res.status(500).json({ message: "Không thể lấy phân quyền" });
-  }
+    try {
+        const { userId } = req.params;
+        const permissions = await userService.getPermissions(userId);
+        res.status(200).json(permissions);
+    } catch (error) {
+        console.error("Error getting permissions:", error);
+        res.status(500).json({ message: error.message || "Lỗi server khi lấy quyền" });
+    }
 };
+
 exports.updatePermissions = async (req, res) => {
   try {
     const perm = await userService.updatePermissions(req.params.userId, req.body);

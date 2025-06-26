@@ -4,11 +4,6 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
     await queryInterface.createTable('MovieActors', {
-      id: {
-        type: Sequelize.INTEGER,
-        primaryKey: true,
-        autoIncrement: true
-      },
       seasonId: {
         type: Sequelize.INTEGER,
         references: {

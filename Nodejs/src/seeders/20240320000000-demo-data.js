@@ -12632,481 +12632,1626 @@ module.exports = {
     }
   ]);
   await queryInterface.bulkInsert('MovieActors', [
-    { "id": 1, "seasonId": 1, "peopleId": 1, "role": "Harry Potter" },
-    { "id": 2, "seasonId": 1, "peopleId": 2, "role": "Ron Weasley" },
-    { "id": 3, "seasonId": 1, "peopleId": 3, "role": "Hermione Granger" },
-    { "id": 4, "seasonId": 1, "peopleId": 4, "role": "Albus Dumbledore" },
-    { "id": 5, "seasonId": 1, "peopleId": 5, "role": "Minerva McGonagall" },
-  
-    { "id": 6, "seasonId": 2, "peopleId": 1, "role": "Harry Potter" },
-    { "id": 7, "seasonId": 2, "peopleId": 2, "role": "Ron Weasley" },
-    { "id": 8, "seasonId": 2, "peopleId": 3, "role": "Hermione Granger" },
-    { "id": 9, "seasonId": 2, "peopleId": 4, "role": "Albus Dumbledore" },
-    { "id": 10, "seasonId": 2, "peopleId": 5, "role": "Minerva McGonagall" },
-    { "id": 11, "seasonId": 2, "peopleId": 7, "role": "Gilderoy Lockhart" },
-  
-    { "id": 12, "seasonId": 3, "peopleId": 1, "role": "Harry Potter" },
-    { "id": 13, "seasonId": 3, "peopleId": 2, "role": "Ron Weasley" },
-    { "id": 14, "seasonId": 3, "peopleId": 3, "role": "Hermione Granger" },
-  
-    { "id": 15, "seasonId": 4, "peopleId": 1, "role": "Harry Potter" },
-    { "id": 16, "seasonId": 4, "peopleId": 2, "role": "Ron Weasley" },
-    { "id": 17, "seasonId": 4, "peopleId": 3, "role": "Hermione Granger" },
-    { "id": 18, "seasonId": 4, "peopleId": 10, "role": "Lord Voldemort" },
-    { "id": 19, "seasonId": 4, "peopleId": 11, "role": "Mad-Eye Moody" },
-  
-    { "id": 20, "seasonId": 5, "peopleId": 1, "role": "Harry Potter" },
-    { "id": 21, "seasonId": 5, "peopleId": 2, "role": "Ron Weasley" },
-    { "id": 22, "seasonId": 5, "peopleId": 3, "role": "Hermione Granger" },
-    { "id": 23, "seasonId": 5, "peopleId": 13, "role": "Dolores Umbridge" },
-  
-    { "id": 24, "seasonId": 6, "peopleId": 1, "role": "Harry Potter" },
-    { "id": 25, "seasonId": 6, "peopleId": 2, "role": "Ron Weasley" },
-    { "id": 26, "seasonId": 6, "peopleId": 3, "role": "Hermione Granger" },
-    { "id": 27, "seasonId": 6, "peopleId": 10, "role": "Lord Voldemort" },
-    { "id": 28, "seasonId": 6, "peopleId": 14, "role": "Bellatrix Lestrange" },
-    { "id": 29, "seasonId": 6, "peopleId": 15, "role": "Albus Dumbledore" },
-  
-    { "id": 30, "seasonId": 7, "peopleId": 17, "role": "Peter Parker" },
-    { "id": 31, "seasonId": 7, "peopleId": 18, "role": "Mary Jane Watson" },
-    { "id": 32, "seasonId": 7, "peopleId": 19, "role": "Green Goblin" },
-    { "id": 33, "seasonId": 7, "peopleId": 20, "role": "Harry Osborn" },
-  
-    { "id": 34, "seasonId": 8, "peopleId": 17, "role": "Peter Parker" },
-    { "id": 35, "seasonId": 8, "peopleId": 18, "role": "Mary Jane Watson" },
-    { "id": 36, "seasonId": 8, "peopleId": 20, "role": "Harry Osborn" },
-  
-    { "id": 37, "seasonId": 9, "peopleId": 17, "role": "Peter Parker" },
-    { "id": 38, "seasonId": 9, "peopleId": 18, "role": "Mary Jane Watson" },
-    { "id": 39, "seasonId": 9, "peopleId": 20, "role": "Harry Osborn" },
-  
-    { "id": 40, "seasonId": 10, "peopleId": 22, "role": "Logan / Wolverine" },
-    { "id": 41, "seasonId": 10, "peopleId": 23, "role": "Charles Xavier" },
-    { "id": 42, "seasonId": 10, "peopleId": 24, "role": "Magneto" },
-    { "id": 43, "seasonId": 10, "peopleId": 25, "role": "Storm" },
-    { "id": 44, "seasonId": 10, "peopleId": 26, "role": "Jean Grey" },
-  
-    { "id": 51, "seasonId": 11, "peopleId": 22, "role": "Logan / Wolverine" },
-    { "id": 52, "seasonId": 11, "peopleId": 23, "role": "Professor X" },
-    { "id": 53, "seasonId": 11, "peopleId": 24, "role": "Magneto" },
-    { "id": 54, "seasonId": 11, "peopleId": 25, "role": "Storm" },
-    { "id": 55, "seasonId": 11, "peopleId": 26, "role": "Jean Grey" },
-  
-    { "id": 56, "seasonId": 12, "peopleId": 22, "role": "Logan / Wolverine" },
-    { "id": 57, "seasonId": 12, "peopleId": 23, "role": "Professor X" },
-    { "id": 58, "seasonId": 12, "peopleId": 24, "role": "Magneto" },
-    { "id": 59, "seasonId": 12, "peopleId": 25, "role": "Storm" },
-    { "id": 60, "seasonId": 12, "peopleId": 26, "role": "Jean Grey" },
-  
-    { "id": 61, "seasonId": 13, "peopleId": 22, "role": "Logan / Wolverine" },
-  
-    { "id": 62, "seasonId": 14, "peopleId": 30, "role": "Frodo Baggins" },
-    { "id": 63, "seasonId": 14, "peopleId": 24, "role": "Gandalf" },
-    { "id": 64, "seasonId": 14, "peopleId": 32, "role": "Aragorn" },
-    { "id": 65, "seasonId": 14, "peopleId": 33, "role": "Samwise Gamgee" },
-    { "id": 66, "seasonId": 14, "peopleId": 34, "role": "Legolas" },
-  
-    { "id": 67, "seasonId": 15, "peopleId": 30, "role": "Frodo Baggins" },
-    { "id": 68, "seasonId": 15, "peopleId": 24, "role": "Gandalf" },
-    { "id": 69, "seasonId": 15, "peopleId": 32, "role": "Aragorn" },
-    { "id": 70, "seasonId": 15, "peopleId": 33, "role": "Samwise Gamgee" },
-    { "id": 71, "seasonId": 15, "peopleId": 34, "role": "Legolas" },
-  
-    { "id": 72, "seasonId": 16, "peopleId": 30, "role": "Frodo Baggins" },
-    { "id": 73, "seasonId": 16, "peopleId": 24, "role": "Gandalf" },
-    { "id": 74, "seasonId": 16, "peopleId": 32, "role": "Aragorn" },
-    { "id": 75, "seasonId": 16, "peopleId": 33, "role": "Samwise Gamgee" },
-    { "id": 76, "seasonId": 16, "peopleId": 34, "role": "Legolas" },
-  
-    { "id": 77, "seasonId": 17, "peopleId": 36, "role": "Jack Sparrow" },
-    { "id": 78, "seasonId": 17, "peopleId": 37, "role": "Elizabeth Swann" },
-    { "id": 79, "seasonId": 17, "peopleId": 38, "role": "Barbossa" },
-  
-    { "id": 80, "seasonId": 18, "peopleId": 36, "role": "Jack Sparrow" },
-    { "id": 81, "seasonId": 18, "peopleId": 37, "role": "Elizabeth Swann" },
-    { "id": 82, "seasonId": 18, "peopleId": 38, "role": "Barbossa" },
-    { "id": 83, "seasonId": 18, "peopleId": 39, "role": "Davy Jones" },
-  
-    { "id": 84, "seasonId": 19, "peopleId": 36, "role": "Jack Sparrow" },
-    { "id": 85, "seasonId": 19, "peopleId": 37, "role": "Elizabeth Swann" },
-    { "id": 86, "seasonId": 19, "peopleId": 38, "role": "Barbossa" },
-  
-    { "id": 87, "seasonId": 20, "peopleId": 40, "role": "Jason Bourne" },
-    { "id": 88, "seasonId": 20, "peopleId": 41, "role": "Marie" },
-    { "id": 89, "seasonId": 20, "peopleId": 42, "role": "Conklin" },
-    { "id": 90, "seasonId": 20, "peopleId": 43, "role": "The Professor" },
-  
-    { "id": 91, "seasonId": 21, "peopleId": 40, "role": "Jason Bourne" },
-    { "id": 92, "seasonId": 21, "peopleId": 41, "role": "Marie" },
-    { "id": 93, "seasonId": 21, "peopleId": 42, "role": "Ward Abbott" },
-    { "id": 94, "seasonId": 21, "peopleId": 43, "role": "Kirill" },
-  
-    { "id": 95, "seasonId": 22, "peopleId": 40, "role": "Jason Bourne" },
-    { "id": 96, "seasonId": 22, "peopleId": 42, "role": "Noah Vosen" },
-  
-    { "id": 97, "seasonId": 23, "peopleId": 46, "role": "Shrek" },
-    { "id": 98, "seasonId": 23, "peopleId": 47, "role": "Donkey" },
-    { "id": 99, "seasonId": 23, "peopleId": 48, "role": "Princess Fiona" },
-  
-    { "id": 100, "seasonId": 24, "peopleId": 46, "role": "Shrek" },
-    { "id": 101, "seasonId": 24, "peopleId": 47, "role": "Donkey" },
-    { "id": 102, "seasonId": 24, "peopleId": 48, "role": "Princess Fiona" },
-    { "id": 103, "seasonId": 24, "peopleId": 54, "role": "Prince Charming" },
-  
-    { "id": 104, "seasonId": 25, "peopleId": 46, "role": "Shrek" },
-    { "id": 105, "seasonId": 25, "peopleId": 47, "role": "Donkey" },
-    { "id": 106, "seasonId": 25, "peopleId": 48, "role": "Princess Fiona" },
-    { "id": 107, "seasonId": 25, "peopleId": 53, "role": "Castle Guard" },
-  
-    { "id": 108, "seasonId": 26, "peopleId": 46, "role": "Shrek" },
-    { "id": 109, "seasonId": 26, "peopleId": 47, "role": "Donkey" },
-    { "id": 110, "seasonId": 26, "peopleId": 48, "role": "Princess Fiona" },
-    { "id": 111, "seasonId": 26, "peopleId": 52, "role": "Puss in Boots" },
-  
-    { "id": 112, "seasonId": 27, "peopleId": 57, "role": "Sam Witwicky" },
-    { "id": 113, "seasonId": 27, "peopleId": 58, "role": "Mikaela Banes" },
-    { "id": 114, "seasonId": 27, "peopleId": 59, "role": "William Lennox" },
-    { "id": 115, "seasonId": 27, "peopleId": 60, "role": "Robert Epps" },
-    { "id": 116, "seasonId": 27, "peopleId": 62, "role": "Optimus Prime (voice)" },
-  
-    { "id": 117, "seasonId": 28, "peopleId": 57, "role": "Sam Witwicky" },
-    { "id": 118, "seasonId": 28, "peopleId": 58, "role": "Mikaela Banes" },
-  
-    { "id": 119, "seasonId": 29, "peopleId": 63, "role": "Bruce Wayne / Batman" },
-    { "id": 120, "seasonId": 29, "peopleId": 64, "role": "Alfred Pennyworth" },
-    { "id": 121, "seasonId": 29, "peopleId": 66, "role": "Scarecrow" },
-  
-    { "id": 122, "seasonId": 30, "peopleId": 63, "role": "Bruce Wayne / Batman" },
-    { "id": 123, "seasonId": 30, "peopleId": 64, "role": "Alfred Pennyworth" },
-    { "id": 124, "seasonId": 30, "peopleId": 65, "role": "James Gordon" },
-  
-    { "id": 125, "seasonId": 31, "peopleId": 68, "role": "Tony Stark / Iron Man" },
-    { "id": 126, "seasonId": 31, "peopleId": 69, "role": "Pepper Potts" },
-    { "id": 127, "seasonId": 31, "peopleId": 70, "role": "Obadiah Stane" },
-  
-    { "id": 128, "seasonId": 32, "peopleId": 68, "role": "Tony Stark / Iron Man" },
-    { "id": 129, "seasonId": 32, "peopleId": 69, "role": "Pepper Potts" },
-    { "id": 130, "seasonId": 32, "peopleId": 75, "role": "Natasha Romanoff" },
-  
-    { "id": 131, "seasonId": 33, "peopleId": 88, "role": "Aoyama" },
-  
-    { "id": 132, "seasonId": 34, "peopleId": 89, "role": "Shuya Nanahara" },
-    { "id": 133, "seasonId": 34, "peopleId": 90, "role": "Kitano" },
-  
-    { "id": 134, "seasonId": 35, "peopleId": 81, "role": "Oh Kyeong-pil" },
-  
-    { "id": 135, "seasonId": 36, "peopleId": 88, "role": "Ash" },
-  
-    { "id": 136, "seasonId": 37, "peopleId": 89, "role": "Gyeon-woo" },
-  
-    { "id": 137, "seasonId": 38, "peopleId": 82, "role": "Detective Park" },
-    { "id": 138, "seasonId": 38, "peopleId": 83, "role": "Detective Seo" },
-  
-    { "id": 139, "seasonId": 39, "peopleId": 85, "role": "Su-mi" },
-    { "id": 140, "seasonId": 39, "peopleId": 86, "role": "Moo-hyeon" },
-  
-    { "id": 141, "seasonId": 40, "peopleId": 85, "role": "Young Woman" },
-    { "id": 142, "seasonId": 40, "peopleId": 86, "role": "Monk" },
-  
-    { "id": 143, "seasonId": 41, "peopleId": 113, "role": "Oh Dae-su" },
-    { "id": 144, "seasonId": 41, "peopleId": 112, "role": "Mi-do" },
-    { "id": 145, "seasonId": 41, "peopleId": 111, "role": "Joo-hwan" },
-  
-    { "id": 146, "seasonId": 42, "peopleId": 91, "role": "Hana" },
-    { "id": 147, "seasonId": 42, "peopleId": 92, "role": "Gin" },
-  
-    { "id": 148, "seasonId": 43, "peopleId": 91, "role": "Keiko" },
-  
-    { "id": 149, "seasonId": 44, "peopleId": 95, "role": "Sophie" },
-    { "id": 150, "seasonId": 44, "peopleId": 96, "role": "Howl" },
-  
-    { "id": 151, "seasonId": 45, "peopleId": 99, "role": "Chagawa" },
-  
-    { "id": 152, "seasonId": 46, "peopleId": 91, "role": "Matsuko" },
-  
-    { "id": 153, "seasonId": 47, "peopleId": 111, "role": "Park Gang-du" },
-    { "id": 154, "seasonId": 47, "peopleId": 107, "role": "Nam-joo" },
-  
-    { "id": 155, "seasonId": 48, "peopleId": 120, "role": "Shin-ae" },
-  
-    { "id": 156, "seasonId": 49, "peopleId": 99, "role": "Kenji" },
-  
-    { "id": 157, "seasonId": 50, "peopleId": 115, "role": "Jung-ho" },
-  
-    { "id": 158, "seasonId": 51, "peopleId": 116, "role": "Yuko" },
-  
-    { "id": 159, "seasonId": 52, "peopleId": 115, "role": "Cha Tae-sik" },
-  
-    { "id": 160, "seasonId": 53, "peopleId": 119, "role": "Sơn" },
-    { "id": 161, "seasonId": 53, "peopleId": 120, "role": "Nhi" },
-  
-    { "id": 162, "seasonId": 54, "peopleId": 117, "role": "Hải Đen" },
-  
-    { "id": 163, "seasonId": 55, "peopleId": 119, "role": "Khoa" },
-  
-    { "id": 164, "seasonId": 56, "peopleId": 116, "role": "Kiều Trinh" },
-  
-    { "id": 165, "seasonId": 57, "peopleId": 117, "role": "Tâm" },
-  
-    { "id": 166, "seasonId": 58, "peopleId": 116, "role": "Duyên" },
-  
-    { "id": 167, "seasonId": 59, "peopleId": 120, "role": "Hiền" },
-  
-    { "id": 168, "seasonId": 60, "peopleId": 117, "role": "Cường" },
-  
-    { "id": 169, "seasonId": 61, "peopleId": 116, "role": "Ngọc" },
-  
-    { "id": 170, "seasonId": 62, "peopleId": 116, "role": "Hạnh" },
-  
-    { "id": 171, "seasonId": 63, "peopleId": 116, "role": "An" },
-  
-    { "id": 172, "seasonId": 64, "peopleId": 116, "role": "Linh" },
-  
-    { "id": 173, "seasonId": 65, "peopleId": 116, "role": "Duyên" },
-  
-    { "id": 174, "seasonId": 66, "peopleId": 117, "role": "Sơn" },
-    { "id": 175, "seasonId": 66, "peopleId": 116, "role": "Mai" },
-  
-    { "id": 176, "seasonId": 67, "peopleId": 119, "role": "Phong" },
-  
-    { "id": 177, "seasonId": 68, "peopleId": 116, "role": "Trang" },
-  
-    { "id": 178, "seasonId": 69, "peopleId": 116, "role": "Trinh" },
-  
-    { "id": 179, "seasonId": 70, "peopleId": 116, "role": "Út Vân" },
-  
-    { "id": 180, "seasonId": 71, "peopleId": 128, "role": "Hội" },
-    { "id": 181, "seasonId": 71, "peopleId": 126, "role": "Định" },
-  
-    { "id": 182, "seasonId": 72, "peopleId": 146, "role": "Lan" },
-    { "id": 183, "seasonId": 72, "peopleId": 150, "role": "Quỳnh" },
-  
-    { "id": 184, "seasonId": 73, "peopleId": 151, "role": "Steve Rogers / Captain America" },
-    { "id": 185, "seasonId": 73, "peopleId": 152, "role": "Bucky Barnes / Winter Soldier" },
-  
-    { "id": 186, "seasonId": 74, "peopleId": 151, "role": "Steve Rogers" },
-    { "id": 187, "seasonId": 74, "peopleId": 152, "role": "Winter Soldier" },
-    { "id": 188, "seasonId": 74, "peopleId": 153, "role": "Falcon" },
-  
-    { "id": 189, "seasonId": 75, "peopleId": 151, "role": "Captain America" },
-    { "id": 190, "seasonId": 75, "peopleId": 152, "role": "Winter Soldier" },
-    { "id": 191, "seasonId": 75, "peopleId": 153, "role": "Falcon" },
-  
-    { "id": 192, "seasonId": 76, "peopleId": 150, "role": "Katniss Everdeen" },
-  
-    { "id": 193, "seasonId": 77, "peopleId": 150, "role": "Katniss" },
-  
-    { "id": 194, "seasonId": 78, "peopleId": 150, "role": "Katniss" },
-  
-    { "id": 195, "seasonId": 79, "peopleId": 150, "role": "Katniss" },
-  
-    { "id": 196, "seasonId": 80, "peopleId": 151, "role": "John Wick" },
-  
-    { "id": 197, "seasonId": 81, "peopleId": 151, "role": "John Wick" },
-  
-    { "id": 198, "seasonId": 82, "peopleId": 151, "role": "John Wick" },
-  
-    { "id": 199, "seasonId": 83, "peopleId": 151, "role": "Ethan Hunt" },
-  
-    { "id": 200, "seasonId": 84, "peopleId": 151, "role": "Ethan Hunt" },
-  
-    { "id": 201, "seasonId": 85, "peopleId": 151, "role": "Ethan Hunt" },
-  
-    { "id": 202, "seasonId": 86, "peopleId": 151, "role": "Ethan Hunt" },
-  
-    { "id": 203, "seasonId": 87, "peopleId": 151, "role": "Ethan Hunt" },
-  
-    { "id": 204, "seasonId": 88, "peopleId": 149, "role": "Sidney" },
-  
-    { "id": 205, "seasonId": 89, "peopleId": 149, "role": "Sidney" },
-  
-    { "id": 206, "seasonId": 90, "peopleId": 149, "role": "Sidney" },
-  
-    { "id": 207, "seasonId": 91, "peopleId": 151, "role": "T'Challa / Black Panther" },
-  
-    { "id": 208, "seasonId": 92, "peopleId": 126, "role": "Tay đua Trí" },
-  
-    { "id": 209, "seasonId": 93, "peopleId": 150, "role": "Kaiji" },
-  
-    { "id": 210, "seasonId": 94, "peopleId": 150, "role": "Kaiji" },
-  
-    { "id": 211, "seasonId": 95, "peopleId": 151, "role": "Kenshin" },
-  
-    { "id": 212, "seasonId": 96, "peopleId": 150, "role": "Conan" },
-  
-    { "id": 213, "seasonId": 97, "peopleId": 150, "role": "Conan" },
-  
-    { "id": 214, "seasonId": 98, "peopleId": 151, "role": "Thanh tra Ma" },
-  
-    { "id": 215, "seasonId": 99, "peopleId": 151, "role": "Thanh tra Ma" },
-  
-    { "id": 216, "seasonId": 100, "peopleId": 151, "role": "Thanh tra Ma" },
-  
-    { "id": 217, "seasonId": 101, "peopleId": 174, "role": "Ma Seok-do" },
-  
-    { "id": 218, "seasonId": 102, "peopleId": 173, "role": "Seo Do-cheol" },
-  
-    { "id": 219, "seasonId": 103, "peopleId": 184, "role": "Cha Kim" },
-    { "id": 220, "seasonId": 103, "peopleId": 187, "role": "Young-shin" },
-  
-    { "id": 221, "seasonId": 104, "peopleId": 178, "role": "Sister Anna" },
-    { "id": 222, "seasonId": 104, "peopleId": 201, "role": "Sister Lucia" },
-  
-    { "id": 223, "seasonId": 105, "peopleId": 200, "role": "Jun" },
-  
-    { "id": 224, "seasonId": 106, "peopleId": 200, "role": "Jun" },
-    { "id": 225, "seasonId": 106, "peopleId": 198, "role": "Chang" },
-  
-    { "id": 226, "seasonId": 107, "peopleId": 186, "role": "Dokja" },
-    { "id": 227, "seasonId": 107, "peopleId": 170, "role": "Shin Yumi" },
-  
-    { "id": 228, "seasonId": 108, "peopleId": 180, "role": "Ahn Ok-yun" },
-    { "id": 229, "seasonId": 108, "peopleId": 172, "role": "Seo Hoon" },
-  
-    { "id": 230, "seasonId": 109, "peopleId": 187, "role": "Song Seo-rae" },
-    { "id": 231, "seasonId": 109, "peopleId": 170, "role": "Detective Hae-joon" },
-  
-    { "id": 232, "seasonId": 110, "peopleId": 189, "role": "Sang-hyeon" },
-    { "id": 233, "seasonId": 110, "peopleId": 187, "role": "So-young" },
-  
-    { "id": 253, "seasonId": 111, "peopleId": 161, "role": "Ilsa Faust" },
-    { "id": 254, "seasonId": 111, "peopleId": 162, "role": "Grace" },
-  
-    { "id": 255, "seasonId": 112, "peopleId": 164, "role": "Sidney Prescott" },
-    { "id": 256, "seasonId": 112, "peopleId": 165, "role": "Gale Weathers" },
-  
-    { "id": 257, "seasonId": 113, "peopleId": 166, "role": "Dewey Riley" },
-    { "id": 258, "seasonId": 113, "peopleId": 168, "role": "Tara Carpenter" },
-  
-    { "id": 259, "seasonId": 114, "peopleId": 169, "role": "Sam Carpenter" },
-    { "id": 260, "seasonId": 114, "peopleId": 170, "role": "Shuri" },
-  
-    { "id": 261, "seasonId": 115, "peopleId": 172, "role": "Vincenzo" },
-    { "id": 262, "seasonId": 115, "peopleId": 173, "role": "Thám tử Do-chul" },
-  
-    { "id": 263, "seasonId": 116, "peopleId": 174, "role": "Ma Seok-do" },
-    { "id": 264, "seasonId": 116, "peopleId": 175, "role": "Sĩ quan Kang" },
-  
-    { "id": 265, "seasonId": 117, "peopleId": 177, "role": "Lim Joong-ho" },
-    { "id": 266, "seasonId": 117, "peopleId": 178, "role": "Bà thị trưởng" },
-  
-    { "id": 267, "seasonId": 118, "peopleId": 180, "role": "Squid Game Master" },
-    { "id": 268, "seasonId": 118, "peopleId": 181, "role": "Park Sae-ro-yi" },
-  
-    { "id": 269, "seasonId": 119, "peopleId": 182, "role": "Kang Doo-young" },
-    { "id": 270, "seasonId": 119, "peopleId": 184, "role": "Father Kim" },
-  
-    { "id": 271, "seasonId": 120, "peopleId": 186, "role": "Seong Gi-hun" },
-    { "id": 272, "seasonId": 120, "peopleId": 187, "role": "Seo-rae" },
-  
-    { "id": 273, "seasonId": 121, "peopleId": 189, "role": "Sang-hyeon" },
-    { "id": 274, "seasonId": 121, "peopleId": 190, "role": "Người trung gian" },
-  
-    { "id": 275, "seasonId": 122, "peopleId": 191, "role": "Kafuku" },
-    { "id": 276, "seasonId": 122, "peopleId": 192, "role": "Yusuke" },
-  
-    { "id": 277, "seasonId": 123, "peopleId": 233, "role": "Thiện" },
-    { "id": 278, "seasonId": 123, "peopleId": 199, "role": "Bố Thiện" },
-  
-    { "id": 279, "seasonId": 124, "peopleId": 198, "role": "Nam" },
-    { "id": 280, "seasonId": 124, "peopleId": 214, "role": "Cô Nga" },
-  
-    { "id": 281, "seasonId": 125, "peopleId": 243, "role": "Thảo" },
-    { "id": 282, "seasonId": 125, "peopleId": 235, "role": "Cảnh sát Tuấn" },
-  
-    { "id": 283, "seasonId": 126, "peopleId": 228, "role": "Phong" },
-    { "id": 284, "seasonId": 126, "peopleId": 229, "role": "Lan" },
-  
-    { "id": 285, "seasonId": 127, "peopleId": 232, "role": "Minh" },
-    { "id": 286, "seasonId": 127, "peopleId": 219, "role": "Thảo" },
-  
-    { "id": 287, "seasonId": 128, "peopleId": 236, "role": "Phúc" },
-    { "id": 288, "seasonId": 128, "peopleId": 234, "role": "Mẹ Phúc" },
-  
-    { "id": 289, "seasonId": 129, "peopleId": 227, "role": "Mai" },
-    { "id": 290, "seasonId": 129, "peopleId": 220, "role": "Tùng" },
-  
-    { "id": 291, "seasonId": 130, "peopleId": 221, "role": "Hà Lan" },
-    { "id": 292, "seasonId": 130, "peopleId": 222, "role": "Thầy Định" },
-  
-    { "id": 293, "seasonId": 131, "peopleId": 224, "role": "Linh mục Giuse" },
-    { "id": 294, "seasonId": 131, "peopleId": 231, "role": "Hằng" },
-  
-    { "id": 295, "seasonId": 132, "peopleId": 242, "role": "Yến" },
-    { "id": 296, "seasonId": 132, "peopleId": 240, "role": "Ông Mười" },
-  
-    { "id": 297, "seasonId": 133, "peopleId": 246, "role": "Yoo Jung" },
-    { "id": 298, "seasonId": 133, "peopleId": 247, "role": "Hong Seol" },
-    { "id": 299, "seasonId": 133, "peopleId": 248, "role": "Baek In-ho" },
-    { "id": 300, "seasonId": 133, "peopleId": 249, "role": "Baek In-ha" },
-  
-    { "id": 301, "seasonId": 134, "peopleId": 250, "role": "Yoo Si-jin" },
-    { "id": 302, "seasonId": 134, "peopleId": 251, "role": "Kang Mo-yeon" },
-    { "id": 303, "seasonId": 134, "peopleId": 252, "role": "Seo Dae-young" },
-    { "id": 304, "seasonId": 134, "peopleId": 253, "role": "Yoon Myung-joo" },
-  
-    { "id": 305, "seasonId": 135, "peopleId": 254, "role": "Park Hae-young" },
-    { "id": 306, "seasonId": 135, "peopleId": 255, "role": "Cha Soo-hyun" },
-    { "id": 307, "seasonId": 135, "peopleId": 256, "role": "Lee Jae-han" },
-  
-    { "id": 308, "seasonId": 136, "peopleId": 257, "role": "Kim Je-ha" },
-    { "id": 309, "seasonId": 136, "peopleId": 258, "role": "Go Anna" },
-    { "id": 310, "seasonId": 136, "peopleId": 259, "role": "Choi Yoo-jin" },
-  
-    { "id": 311, "seasonId": 137, "peopleId": 260, "role": "Kim Shin / Goblin" },
-    { "id": 312, "seasonId": 137, "peopleId": 261, "role": "Grim Reaper" },
-    { "id": 313, "seasonId": 137, "peopleId": 262, "role": "Sunny" },
-    { "id": 314, "seasonId": 137, "peopleId": 291, "role": "Ji Eun-tak" },
-  
-    { "id": 315, "seasonId": 138, "peopleId": 263, "role": "Shim Cheong" },
-    { "id": 316, "seasonId": 138, "peopleId": 264, "role": "Heo Joon-jae" },
-  
-    { "id": 317, "seasonId": 139, "peopleId": 265, "role": "Ji Sun-woo" },
-    { "id": 318, "seasonId": 139, "peopleId": 266, "role": "Lee Tae-oh" },
-    { "id": 319, "seasonId": 139, "peopleId": 267, "role": "Yeo Da-kyung" },
-  
-    { "id": 320, "seasonId": 140, "peopleId": 268, "role": "Moon Gang-tae" },
-    { "id": 321, "seasonId": 140, "peopleId": 269, "role": "Ko Moon-young" },
-    { "id": 322, "seasonId": 140, "peopleId": 270, "role": "Moon Sang-tae" },
-  
-    { "id": 323, "seasonId": 141, "peopleId": 271, "role": "Choi Taek" },
-    { "id": 324, "seasonId": 141, "peopleId": 272, "role": "Sung Bo-ra" },
-    { "id": 325, "seasonId": 141, "peopleId": 273, "role": "Kim Jin-kyung" },
-  
-    { "id": 326, "seasonId": 142, "peopleId": 274, "role": "Han Bi-soo" },
-    { "id": 327, "seasonId": 142, "peopleId": 275, "role": "Oh Joo-in" },
-    { "id": 328, "seasonId": 142, "peopleId": 276, "role": "Jung Yoo-jin" },
-  
-    { "id": 329, "seasonId": 143, "peopleId": 277, "role": "Park Dong-hoon" },
-    { "id": 330, "seasonId": 143, "peopleId": 278, "role": "Lee Ji-an" },
-  
-    { "id": 331, "seasonId": 144, "peopleId": 279, "role": "Na Hee-do" },
-    { "id": 332, "seasonId": 144, "peopleId": 280, "role": "Baek Yi-jin" },
-  
-    { "id": 333, "seasonId": 145, "peopleId": 281, "role": "Woo Young-woo" },
-    { "id": 334, "seasonId": 145, "peopleId": 282, "role": "Lee Jun-ho" },
-  
-    { "id": 335, "seasonId": 146, "peopleId": 283, "role": "Ban Ji-eum" },
-    { "id": 336, "seasonId": 146, "peopleId": 284, "role": "Moon Seo-ha" },
-  
-    { "id": 337, "seasonId": 147, "peopleId": 285, "role": "Hong Du-sik" },
-    { "id": 338, "seasonId": 147, "peopleId": 286, "role": "Yoon Hye-jin" },
-  
-    { "id": 339, "seasonId": 148, "peopleId": 287, "role": "Vincenzo Cassano" },
-    { "id": 340, "seasonId": 148, "peopleId": 288, "role": "Hong Cha-young" },
-    { "id": 341, "seasonId": 148, "peopleId": 289, "role": "Jang Joon-woo" },
-  
-    { "id": 342, "seasonId": 149, "peopleId": 292, "role": "Song Hye-jin" },
-    { "id": 343, "seasonId": 149, "peopleId": 293, "role": "Seo Joon-hui" },
-  
-    { "id": 344, "seasonId": 150, "peopleId": 294, "role": "Jang Man-wol" },
-    { "id": 345, "seasonId": 150, "peopleId": 295, "role": "Goo Chan-sung" },
-  
-    { "id": 346, "seasonId": 151, "peopleId": 296, "role": "Lee Ji-soo" },
-    { "id": 347, "seasonId": 151, "peopleId": 297, "role": "Park In-gyu" },
-  
-    { "id": 348, "seasonId": 152, "peopleId": 298, "role": "Wang So" },
-    { "id": 349, "seasonId": 152, "peopleId": 294, "role": "Hae Soo" }
+    {
+      "seasonId": 1,
+      "peopleId": 1,
+      "role": "Harry Potter"
+    },
+    {
+      "seasonId": 1,
+      "peopleId": 2,
+      "role": "Ron Weasley"
+    },
+    {
+      "seasonId": 1,
+      "peopleId": 3,
+      "role": "Hermione Granger"
+    },
+    {
+      "seasonId": 1,
+      "peopleId": 4,
+      "role": "Albus Dumbledore"
+    },
+    {
+      "seasonId": 1,
+      "peopleId": 5,
+      "role": "Minerva McGonagall"
+    },
+    {
+      "seasonId": 2,
+      "peopleId": 1,
+      "role": "Harry Potter"
+    },
+    {
+      "seasonId": 2,
+      "peopleId": 2,
+      "role": "Ron Weasley"
+    },
+    {
+      "seasonId": 2,
+      "peopleId": 3,
+      "role": "Hermione Granger"
+    },
+    {
+      "seasonId": 2,
+      "peopleId": 4,
+      "role": "Albus Dumbledore"
+    },
+    {
+      "seasonId": 2,
+      "peopleId": 5,
+      "role": "Minerva McGonagall"
+    },
+    {
+      "seasonId": 2,
+      "peopleId": 7,
+      "role": "Gilderoy Lockhart"
+    },
+    {
+      "seasonId": 3,
+      "peopleId": 1,
+      "role": "Harry Potter"
+    },
+    {
+      "seasonId": 3,
+      "peopleId": 2,
+      "role": "Ron Weasley"
+    },
+    {
+      "seasonId": 3,
+      "peopleId": 3,
+      "role": "Hermione Granger"
+    },
+    {
+      "seasonId": 4,
+      "peopleId": 1,
+      "role": "Harry Potter"
+    },
+    {
+      "seasonId": 4,
+      "peopleId": 2,
+      "role": "Ron Weasley"
+    },
+    {
+      "seasonId": 4,
+      "peopleId": 3,
+      "role": "Hermione Granger"
+    },
+    {
+      "seasonId": 4,
+      "peopleId": 10,
+      "role": "Lord Voldemort"
+    },
+    {
+      "seasonId": 4,
+      "peopleId": 11,
+      "role": "Mad-Eye Moody"
+    },
+    {
+      "seasonId": 5,
+      "peopleId": 1,
+      "role": "Harry Potter"
+    },
+    {
+      "seasonId": 5,
+      "peopleId": 2,
+      "role": "Ron Weasley"
+    },
+    {
+      "seasonId": 5,
+      "peopleId": 3,
+      "role": "Hermione Granger"
+    },
+    {
+      "seasonId": 5,
+      "peopleId": 13,
+      "role": "Dolores Umbridge"
+    },
+    {
+      "seasonId": 6,
+      "peopleId": 1,
+      "role": "Harry Potter"
+    },
+    {
+      "seasonId": 6,
+      "peopleId": 2,
+      "role": "Ron Weasley"
+    },
+    {
+      "seasonId": 6,
+      "peopleId": 3,
+      "role": "Hermione Granger"
+    },
+    {
+      "seasonId": 6,
+      "peopleId": 10,
+      "role": "Lord Voldemort"
+    },
+    {
+      "seasonId": 6,
+      "peopleId": 14,
+      "role": "Bellatrix Lestrange"
+    },
+    {
+      "seasonId": 6,
+      "peopleId": 15,
+      "role": "Albus Dumbledore"
+    },
+    {
+      "seasonId": 7,
+      "peopleId": 17,
+      "role": "Peter Parker"
+    },
+    {
+      "seasonId": 7,
+      "peopleId": 18,
+      "role": "Mary Jane Watson"
+    },
+    {
+      "seasonId": 7,
+      "peopleId": 19,
+      "role": "Green Goblin"
+    },
+    {
+      "seasonId": 7,
+      "peopleId": 20,
+      "role": "Harry Osborn"
+    },
+    {
+      "seasonId": 8,
+      "peopleId": 17,
+      "role": "Peter Parker"
+    },
+    {
+      "seasonId": 8,
+      "peopleId": 18,
+      "role": "Mary Jane Watson"
+    },
+    {
+      "seasonId": 8,
+      "peopleId": 20,
+      "role": "Harry Osborn"
+    },
+    {
+      "seasonId": 9,
+      "peopleId": 17,
+      "role": "Peter Parker"
+    },
+    {
+      "seasonId": 9,
+      "peopleId": 18,
+      "role": "Mary Jane Watson"
+    },
+    {
+      "seasonId": 9,
+      "peopleId": 20,
+      "role": "Harry Osborn"
+    },
+    {
+      "seasonId": 10,
+      "peopleId": 22,
+      "role": "Logan / Wolverine"
+    },
+    {
+      "seasonId": 10,
+      "peopleId": 23,
+      "role": "Charles Xavier"
+    },
+    {
+      "seasonId": 10,
+      "peopleId": 24,
+      "role": "Magneto"
+    },
+    {
+      "seasonId": 10,
+      "peopleId": 25,
+      "role": "Storm"
+    },
+    {
+      "seasonId": 10,
+      "peopleId": 26,
+      "role": "Jean Grey"
+    },
+    {
+      "seasonId": 11,
+      "peopleId": 22,
+      "role": "Logan / Wolverine"
+    },
+    {
+      "seasonId": 11,
+      "peopleId": 23,
+      "role": "Professor X"
+    },
+    {
+      "seasonId": 11,
+      "peopleId": 24,
+      "role": "Magneto"
+    },
+    {
+      "seasonId": 11,
+      "peopleId": 25,
+      "role": "Storm"
+    },
+    {
+      "seasonId": 11,
+      "peopleId": 26,
+      "role": "Jean Grey"
+    },
+    {
+      "seasonId": 12,
+      "peopleId": 22,
+      "role": "Logan / Wolverine"
+    },
+    {
+      "seasonId": 12,
+      "peopleId": 23,
+      "role": "Professor X"
+    },
+    {
+      "seasonId": 12,
+      "peopleId": 24,
+      "role": "Magneto"
+    },
+    {
+      "seasonId": 12,
+      "peopleId": 25,
+      "role": "Storm"
+    },
+    {
+      "seasonId": 12,
+      "peopleId": 26,
+      "role": "Jean Grey"
+    },
+    {
+      "seasonId": 13,
+      "peopleId": 22,
+      "role": "Logan / Wolverine"
+    },
+    {
+      "seasonId": 14,
+      "peopleId": 30,
+      "role": "Frodo Baggins"
+    },
+    {
+      "seasonId": 14,
+      "peopleId": 24,
+      "role": "Gandalf"
+    },
+    {
+      "seasonId": 14,
+      "peopleId": 32,
+      "role": "Aragorn"
+    },
+    {
+      "seasonId": 14,
+      "peopleId": 33,
+      "role": "Samwise Gamgee"
+    },
+    {
+      "seasonId": 14,
+      "peopleId": 34,
+      "role": "Legolas"
+    },
+    {
+      "seasonId": 15,
+      "peopleId": 30,
+      "role": "Frodo Baggins"
+    },
+    {
+      "seasonId": 15,
+      "peopleId": 24,
+      "role": "Gandalf"
+    },
+    {
+      "seasonId": 15,
+      "peopleId": 32,
+      "role": "Aragorn"
+    },
+    {
+      "seasonId": 15,
+      "peopleId": 33,
+      "role": "Samwise Gamgee"
+    },
+    {
+      "seasonId": 15,
+      "peopleId": 34,
+      "role": "Legolas"
+    },
+    {
+      "seasonId": 16,
+      "peopleId": 30,
+      "role": "Frodo Baggins"
+    },
+    {
+      "seasonId": 16,
+      "peopleId": 24,
+      "role": "Gandalf"
+    },
+    {
+      "seasonId": 16,
+      "peopleId": 32,
+      "role": "Aragorn"
+    },
+    {
+      "seasonId": 16,
+      "peopleId": 33,
+      "role": "Samwise Gamgee"
+    },
+    {
+      "seasonId": 16,
+      "peopleId": 34,
+      "role": "Legolas"
+    },
+    {
+      "seasonId": 17,
+      "peopleId": 36,
+      "role": "Jack Sparrow"
+    },
+    {
+      "seasonId": 17,
+      "peopleId": 37,
+      "role": "Elizabeth Swann"
+    },
+    {
+      "seasonId": 17,
+      "peopleId": 38,
+      "role": "Barbossa"
+    },
+    {
+      "seasonId": 18,
+      "peopleId": 36,
+      "role": "Jack Sparrow"
+    },
+    {
+      "seasonId": 18,
+      "peopleId": 37,
+      "role": "Elizabeth Swann"
+    },
+    {
+      "seasonId": 18,
+      "peopleId": 38,
+      "role": "Barbossa"
+    },
+    {
+      "seasonId": 18,
+      "peopleId": 39,
+      "role": "Davy Jones"
+    },
+    {
+      "seasonId": 19,
+      "peopleId": 36,
+      "role": "Jack Sparrow"
+    },
+    {
+      "seasonId": 19,
+      "peopleId": 37,
+      "role": "Elizabeth Swann"
+    },
+    {
+      "seasonId": 19,
+      "peopleId": 38,
+      "role": "Barbossa"
+    },
+    {
+      "seasonId": 20,
+      "peopleId": 40,
+      "role": "Jason Bourne"
+    },
+    {
+      "seasonId": 20,
+      "peopleId": 41,
+      "role": "Marie"
+    },
+    {
+      "seasonId": 20,
+      "peopleId": 42,
+      "role": "Conklin"
+    },
+    {
+      "seasonId": 20,
+      "peopleId": 43,
+      "role": "The Professor"
+    },
+    {
+      "seasonId": 21,
+      "peopleId": 40,
+      "role": "Jason Bourne"
+    },
+    {
+      "seasonId": 21,
+      "peopleId": 41,
+      "role": "Marie"
+    },
+    {
+      "seasonId": 21,
+      "peopleId": 42,
+      "role": "Ward Abbott"
+    },
+    {
+      "seasonId": 21,
+      "peopleId": 43,
+      "role": "Kirill"
+    },
+    {
+      "seasonId": 22,
+      "peopleId": 40,
+      "role": "Jason Bourne"
+    },
+    {
+      "seasonId": 22,
+      "peopleId": 42,
+      "role": "Noah Vosen"
+    },
+    {
+      "seasonId": 23,
+      "peopleId": 46,
+      "role": "Shrek"
+    },
+    {
+      "seasonId": 23,
+      "peopleId": 47,
+      "role": "Donkey"
+    },
+    {
+      "seasonId": 23,
+      "peopleId": 48,
+      "role": "Princess Fiona"
+    },
+    {
+      "seasonId": 24,
+      "peopleId": 46,
+      "role": "Shrek"
+    },
+    {
+      "seasonId": 24,
+      "peopleId": 47,
+      "role": "Donkey"
+    },
+    {
+      "seasonId": 24,
+      "peopleId": 48,
+      "role": "Princess Fiona"
+    },
+    {
+      "seasonId": 24,
+      "peopleId": 54,
+      "role": "Prince Charming"
+    },
+    {
+      "seasonId": 25,
+      "peopleId": 46,
+      "role": "Shrek"
+    },
+    {
+      "seasonId": 25,
+      "peopleId": 47,
+      "role": "Donkey"
+    },
+    {
+      "seasonId": 25,
+      "peopleId": 48,
+      "role": "Princess Fiona"
+    },
+    {
+      "seasonId": 25,
+      "peopleId": 53,
+      "role": "Castle Guard"
+    },
+    {
+      "seasonId": 26,
+      "peopleId": 46,
+      "role": "Shrek"
+    },
+    {
+      "seasonId": 26,
+      "peopleId": 47,
+      "role": "Donkey"
+    },
+    {
+      "seasonId": 26,
+      "peopleId": 48,
+      "role": "Princess Fiona"
+    },
+    {
+      "seasonId": 26,
+      "peopleId": 52,
+      "role": "Puss in Boots"
+    },
+    {
+      "seasonId": 27,
+      "peopleId": 57,
+      "role": "Sam Witwicky"
+    },
+    {
+      "seasonId": 27,
+      "peopleId": 58,
+      "role": "Mikaela Banes"
+    },
+    {
+      "seasonId": 27,
+      "peopleId": 59,
+      "role": "William Lennox"
+    },
+    {
+      "seasonId": 27,
+      "peopleId": 60,
+      "role": "Robert Epps"
+    },
+    {
+      "seasonId": 27,
+      "peopleId": 62,
+      "role": "Optimus Prime (voice)"
+    },
+    {
+      "seasonId": 28,
+      "peopleId": 57,
+      "role": "Sam Witwicky"
+    },
+    {
+      "seasonId": 28,
+      "peopleId": 58,
+      "role": "Mikaela Banes"
+    },
+    {
+      "seasonId": 29,
+      "peopleId": 63,
+      "role": "Bruce Wayne / Batman"
+    },
+    {
+      "seasonId": 29,
+      "peopleId": 64,
+      "role": "Alfred Pennyworth"
+    },
+    {
+      "seasonId": 29,
+      "peopleId": 66,
+      "role": "Scarecrow"
+    },
+    {
+      "seasonId": 30,
+      "peopleId": 63,
+      "role": "Bruce Wayne / Batman"
+    },
+    {
+      "seasonId": 30,
+      "peopleId": 64,
+      "role": "Alfred Pennyworth"
+    },
+    {
+      "seasonId": 30,
+      "peopleId": 65,
+      "role": "James Gordon"
+    },
+    {
+      "seasonId": 31,
+      "peopleId": 68,
+      "role": "Tony Stark / Iron Man"
+    },
+    {
+      "seasonId": 31,
+      "peopleId": 69,
+      "role": "Pepper Potts"
+    },
+    {
+      "seasonId": 31,
+      "peopleId": 70,
+      "role": "Obadiah Stane"
+    },
+    {
+      "seasonId": 32,
+      "peopleId": 68,
+      "role": "Tony Stark / Iron Man"
+    },
+    {
+      "seasonId": 32,
+      "peopleId": 69,
+      "role": "Pepper Potts"
+    },
+    {
+      "seasonId": 32,
+      "peopleId": 75,
+      "role": "Natasha Romanoff"
+    },
+    {
+      "seasonId": 33,
+      "peopleId": 88,
+      "role": "Aoyama"
+    },
+    {
+      "seasonId": 34,
+      "peopleId": 89,
+      "role": "Shuya Nanahara"
+    },
+    {
+      "seasonId": 34,
+      "peopleId": 90,
+      "role": "Kitano"
+    },
+    {
+      "seasonId": 35,
+      "peopleId": 81,
+      "role": "Oh Kyeong-pil"
+    },
+    {
+      "seasonId": 36,
+      "peopleId": 88,
+      "role": "Ash"
+    },
+    {
+      "seasonId": 37,
+      "peopleId": 89,
+      "role": "Gyeon-woo"
+    },
+    {
+      "seasonId": 38,
+      "peopleId": 82,
+      "role": "Detective Park"
+    },
+    {
+      "seasonId": 38,
+      "peopleId": 83,
+      "role": "Detective Seo"
+    },
+    {
+      "seasonId": 39,
+      "peopleId": 85,
+      "role": "Su-mi"
+    },
+    {
+      "seasonId": 39,
+      "peopleId": 86,
+      "role": "Moo-hyeon"
+    },
+    {
+      "seasonId": 40,
+      "peopleId": 85,
+      "role": "Young Woman"
+    },
+    {
+      "seasonId": 40,
+      "peopleId": 86,
+      "role": "Monk"
+    },
+    {
+      "seasonId": 41,
+      "peopleId": 113,
+      "role": "Oh Dae-su"
+    },
+    {
+      "seasonId": 41,
+      "peopleId": 112,
+      "role": "Mi-do"
+    },
+    {
+      "seasonId": 41,
+      "peopleId": 111,
+      "role": "Joo-hwan"
+    },
+    {
+      "seasonId": 42,
+      "peopleId": 91,
+      "role": "Hana"
+    },
+    {
+      "seasonId": 42,
+      "peopleId": 92,
+      "role": "Gin"
+    },
+    {
+      "seasonId": 43,
+      "peopleId": 91,
+      "role": "Keiko"
+    },
+    {
+      "seasonId": 44,
+      "peopleId": 95,
+      "role": "Sophie"
+    },
+    {
+      "seasonId": 44,
+      "peopleId": 96,
+      "role": "Howl"
+    },
+    {
+      "seasonId": 45,
+      "peopleId": 99,
+      "role": "Chagawa"
+    },
+    {
+      "seasonId": 46,
+      "peopleId": 91,
+      "role": "Matsuko"
+    },
+    {
+      "seasonId": 47,
+      "peopleId": 111,
+      "role": "Park Gang-du"
+    },
+    {
+      "seasonId": 47,
+      "peopleId": 107,
+      "role": "Nam-joo"
+    },
+    {
+      "seasonId": 48,
+      "peopleId": 120,
+      "role": "Shin-ae"
+    },
+    {
+      "seasonId": 49,
+      "peopleId": 99,
+      "role": "Kenji"
+    },
+    {
+      "seasonId": 50,
+      "peopleId": 115,
+      "role": "Jung-ho"
+    },
+    {
+      "seasonId": 51,
+      "peopleId": 116,
+      "role": "Yuko"
+    },
+    {
+      "seasonId": 52,
+      "peopleId": 115,
+      "role": "Cha Tae-sik"
+    },
+    {
+      "seasonId": 53,
+      "peopleId": 119,
+      "role": "Sơn"
+    },
+    {
+      "seasonId": 53,
+      "peopleId": 120,
+      "role": "Nhi"
+    },
+    {
+      "seasonId": 54,
+      "peopleId": 117,
+      "role": "Hải Đen"
+    },
+    {
+      "seasonId": 55,
+      "peopleId": 119,
+      "role": "Khoa"
+    },
+    {
+      "seasonId": 56,
+      "peopleId": 116,
+      "role": "Kiều Trinh"
+    },
+    {
+      "seasonId": 57,
+      "peopleId": 117,
+      "role": "Tâm"
+    },
+    {
+      "seasonId": 58,
+      "peopleId": 116,
+      "role": "Duyên"
+    },
+    {
+      "seasonId": 59,
+      "peopleId": 120,
+      "role": "Hiền"
+    },
+    {
+      "seasonId": 60,
+      "peopleId": 117,
+      "role": "Cường"
+    },
+    {
+      "seasonId": 61,
+      "peopleId": 116,
+      "role": "Ngọc"
+    },
+    {
+      "seasonId": 62,
+      "peopleId": 116,
+      "role": "Hạnh"
+    },
+    {
+      "seasonId": 63,
+      "peopleId": 116,
+      "role": "An"
+    },
+    {
+      "seasonId": 64,
+      "peopleId": 116,
+      "role": "Linh"
+    },
+    {
+      "seasonId": 65,
+      "peopleId": 116,
+      "role": "Duyên"
+    },
+    {
+      "seasonId": 66,
+      "peopleId": 117,
+      "role": "Sơn"
+    },
+    {
+      "seasonId": 66,
+      "peopleId": 116,
+      "role": "Mai"
+    },
+    {
+      "seasonId": 67,
+      "peopleId": 119,
+      "role": "Phong"
+    },
+    {
+      "seasonId": 68,
+      "peopleId": 116,
+      "role": "Trang"
+    },
+    {
+      "seasonId": 69,
+      "peopleId": 116,
+      "role": "Trinh"
+    },
+    {
+      "seasonId": 70,
+      "peopleId": 116,
+      "role": "Út Vân"
+    },
+    {
+      "seasonId": 71,
+      "peopleId": 128,
+      "role": "Hội"
+    },
+    {
+      "seasonId": 71,
+      "peopleId": 126,
+      "role": "Định"
+    },
+    {
+      "seasonId": 72,
+      "peopleId": 146,
+      "role": "Lan"
+    },
+    {
+      "seasonId": 72,
+      "peopleId": 150,
+      "role": "Quỳnh"
+    },
+    {
+      "seasonId": 73,
+      "peopleId": 151,
+      "role": "Steve Rogers / Captain America"
+    },
+    {
+      "seasonId": 73,
+      "peopleId": 152,
+      "role": "Bucky Barnes / Winter Soldier"
+    },
+    {
+      "seasonId": 74,
+      "peopleId": 151,
+      "role": "Steve Rogers"
+    },
+    {
+      "seasonId": 74,
+      "peopleId": 152,
+      "role": "Winter Soldier"
+    },
+    {
+      "seasonId": 74,
+      "peopleId": 153,
+      "role": "Falcon"
+    },
+    {
+      "seasonId": 75,
+      "peopleId": 151,
+      "role": "Captain America"
+    },
+    {
+      "seasonId": 75,
+      "peopleId": 152,
+      "role": "Winter Soldier"
+    },
+    {
+      "seasonId": 75,
+      "peopleId": 153,
+      "role": "Falcon"
+    },
+    {
+      "seasonId": 76,
+      "peopleId": 150,
+      "role": "Katniss Everdeen"
+    },
+    {
+      "seasonId": 77,
+      "peopleId": 150,
+      "role": "Katniss"
+    },
+    {
+      "seasonId": 78,
+      "peopleId": 150,
+      "role": "Katniss"
+    },
+    {
+      "seasonId": 79,
+      "peopleId": 150,
+      "role": "Katniss"
+    },
+    {
+      "seasonId": 80,
+      "peopleId": 151,
+      "role": "John Wick"
+    },
+    {
+      "seasonId": 81,
+      "peopleId": 151,
+      "role": "John Wick"
+    },
+    {
+      "seasonId": 82,
+      "peopleId": 151,
+      "role": "John Wick"
+    },
+    {
+      "seasonId": 83,
+      "peopleId": 151,
+      "role": "Ethan Hunt"
+    },
+    {
+      "seasonId": 84,
+      "peopleId": 151,
+      "role": "Ethan Hunt"
+    },
+    {
+      "seasonId": 85,
+      "peopleId": 151,
+      "role": "Ethan Hunt"
+    },
+    {
+      "seasonId": 86,
+      "peopleId": 151,
+      "role": "Ethan Hunt"
+    },
+    {
+      "seasonId": 87,
+      "peopleId": 151,
+      "role": "Ethan Hunt"
+    },
+    {
+      "seasonId": 88,
+      "peopleId": 149,
+      "role": "Sidney"
+    },
+    {
+      "seasonId": 89,
+      "peopleId": 149,
+      "role": "Sidney"
+    },
+    {
+      "seasonId": 90,
+      "peopleId": 149,
+      "role": "Sidney"
+    },
+    {
+      "seasonId": 91,
+      "peopleId": 151,
+      "role": "T'Challa / Black Panther"
+    },
+    {
+      "seasonId": 92,
+      "peopleId": 126,
+      "role": "Tay đua Trí"
+    },
+    {
+      "seasonId": 93,
+      "peopleId": 150,
+      "role": "Kaiji"
+    },
+    {
+      "seasonId": 94,
+      "peopleId": 150,
+      "role": "Kaiji"
+    },
+    {
+      "seasonId": 95,
+      "peopleId": 151,
+      "role": "Kenshin"
+    },
+    {
+      "seasonId": 96,
+      "peopleId": 150,
+      "role": "Conan"
+    },
+    {
+      "seasonId": 97,
+      "peopleId": 150,
+      "role": "Conan"
+    },
+    {
+      "seasonId": 98,
+      "peopleId": 151,
+      "role": "Thanh tra Ma"
+    },
+    {
+      "seasonId": 99,
+      "peopleId": 151,
+      "role": "Thanh tra Ma"
+    },
+    {
+      "seasonId": 100,
+      "peopleId": 151,
+      "role": "Thanh tra Ma"
+    },
+    {
+      "seasonId": 101,
+      "peopleId": 174,
+      "role": "Ma Seok-do"
+    },
+    {
+      "seasonId": 102,
+      "peopleId": 173,
+      "role": "Seo Do-cheol"
+    },
+    {
+      "seasonId": 103,
+      "peopleId": 184,
+      "role": "Cha Kim"
+    },
+    {
+      "seasonId": 103,
+      "peopleId": 187,
+      "role": "Young-shin"
+    },
+    {
+      "seasonId": 104,
+      "peopleId": 178,
+      "role": "Sister Anna"
+    },
+    {
+      "seasonId": 104,
+      "peopleId": 201,
+      "role": "Sister Lucia"
+    },
+    {
+      "seasonId": 105,
+      "peopleId": 200,
+      "role": "Jun"
+    },
+    {
+      "seasonId": 106,
+      "peopleId": 200,
+      "role": "Jun"
+    },
+    {
+      "seasonId": 106,
+      "peopleId": 198,
+      "role": "Chang"
+    },
+    {
+      "seasonId": 107,
+      "peopleId": 186,
+      "role": "Dokja"
+    },
+    {
+      "seasonId": 107,
+      "peopleId": 170,
+      "role": "Shin Yumi"
+    },
+    {
+      "seasonId": 108,
+      "peopleId": 180,
+      "role": "Ahn Ok-yun"
+    },
+    {
+      "seasonId": 108,
+      "peopleId": 172,
+      "role": "Seo Hoon"
+    },
+    {
+      "seasonId": 109,
+      "peopleId": 187,
+      "role": "Song Seo-rae"
+    },
+    {
+      "seasonId": 109,
+      "peopleId": 170,
+      "role": "Detective Hae-joon"
+    },
+    {
+      "seasonId": 110,
+      "peopleId": 189,
+      "role": "Sang-hyeon"
+    },
+    {
+      "seasonId": 110,
+      "peopleId": 187,
+      "role": "So-young"
+    },
+    {
+      "seasonId": 111,
+      "peopleId": 161,
+      "role": "Ilsa Faust"
+    },
+    {
+      "seasonId": 111,
+      "peopleId": 162,
+      "role": "Grace"
+    },
+    {
+      "seasonId": 112,
+      "peopleId": 164,
+      "role": "Sidney Prescott"
+    },
+    {
+      "seasonId": 112,
+      "peopleId": 165,
+      "role": "Gale Weathers"
+    },
+    {
+      "seasonId": 113,
+      "peopleId": 166,
+      "role": "Dewey Riley"
+    },
+    {
+      "seasonId": 113,
+      "peopleId": 168,
+      "role": "Tara Carpenter"
+    },
+    {
+      "seasonId": 114,
+      "peopleId": 169,
+      "role": "Sam Carpenter"
+    },
+    {
+      "seasonId": 114,
+      "peopleId": 170,
+      "role": "Shuri"
+    },
+    {
+      "seasonId": 115,
+      "peopleId": 172,
+      "role": "Vincenzo"
+    },
+    {
+      "seasonId": 115,
+      "peopleId": 173,
+      "role": "Thám tử Do-chul"
+    },
+    {
+      "seasonId": 116,
+      "peopleId": 174,
+      "role": "Ma Seok-do"
+    },
+    {
+      "seasonId": 116,
+      "peopleId": 175,
+      "role": "Sĩ quan Kang"
+    },
+    {
+      "seasonId": 117,
+      "peopleId": 177,
+      "role": "Lim Joong-ho"
+    },
+    {
+      "seasonId": 117,
+      "peopleId": 178,
+      "role": "Bà thị trưởng"
+    },
+    {
+      "seasonId": 118,
+      "peopleId": 180,
+      "role": "Squid Game Master"
+    },
+    {
+      "seasonId": 118,
+      "peopleId": 181,
+      "role": "Park Sae-ro-yi"
+    },
+    {
+      "seasonId": 119,
+      "peopleId": 182,
+      "role": "Kang Doo-young"
+    },
+    {
+      "seasonId": 119,
+      "peopleId": 184,
+      "role": "Father Kim"
+    },
+    {
+      "seasonId": 120,
+      "peopleId": 186,
+      "role": "Seong Gi-hun"
+    },
+    {
+      "seasonId": 120,
+      "peopleId": 187,
+      "role": "Seo-rae"
+    },
+    {
+      "seasonId": 121,
+      "peopleId": 189,
+      "role": "Sang-hyeon"
+    },
+    {
+      "seasonId": 121,
+      "peopleId": 190,
+      "role": "Người trung gian"
+    },
+    {
+      "seasonId": 122,
+      "peopleId": 191,
+      "role": "Kafuku"
+    },
+    {
+      "seasonId": 122,
+      "peopleId": 192,
+      "role": "Yusuke"
+    },
+    {
+      "seasonId": 123,
+      "peopleId": 233,
+      "role": "Thiện"
+    },
+    {
+      "seasonId": 123,
+      "peopleId": 199,
+      "role": "Bố Thiện"
+    },
+    {
+      "seasonId": 124,
+      "peopleId": 198,
+      "role": "Nam"
+    },
+    {
+      "seasonId": 124,
+      "peopleId": 214,
+      "role": "Cô Nga"
+    },
+    {
+      "seasonId": 125,
+      "peopleId": 243,
+      "role": "Thảo"
+    },
+    {
+      "seasonId": 125,
+      "peopleId": 235,
+      "role": "Cảnh sát Tuấn"
+    },
+    {
+      "seasonId": 126,
+      "peopleId": 228,
+      "role": "Phong"
+    },
+    {
+      "seasonId": 126,
+      "peopleId": 229,
+      "role": "Lan"
+    },
+    {
+      "seasonId": 127,
+      "peopleId": 232,
+      "role": "Minh"
+    },
+    {
+      "seasonId": 127,
+      "peopleId": 219,
+      "role": "Thảo"
+    },
+    {
+      "seasonId": 128,
+      "peopleId": 236,
+      "role": "Phúc"
+    },
+    {
+      "seasonId": 128,
+      "peopleId": 234,
+      "role": "Mẹ Phúc"
+    },
+    {
+      "seasonId": 129,
+      "peopleId": 227,
+      "role": "Mai"
+    },
+    {
+      "seasonId": 129,
+      "peopleId": 220,
+      "role": "Tùng"
+    },
+    {
+      "seasonId": 130,
+      "peopleId": 221,
+      "role": "Hà Lan"
+    },
+    {
+      "seasonId": 130,
+      "peopleId": 222,
+      "role": "Thầy Định"
+    },
+    {
+      "seasonId": 131,
+      "peopleId": 224,
+      "role": "Linh mục Giuse"
+    },
+    {
+      "seasonId": 131,
+      "peopleId": 231,
+      "role": "Hằng"
+    },
+    {
+      "seasonId": 132,
+      "peopleId": 242,
+      "role": "Yến"
+    },
+    {
+      "seasonId": 132,
+      "peopleId": 240,
+      "role": "Ông Mười"
+    },
+    {
+      "seasonId": 133,
+      "peopleId": 246,
+      "role": "Yoo Jung"
+    },
+    {
+      "seasonId": 133,
+      "peopleId": 247,
+      "role": "Hong Seol"
+    },
+    {
+      "seasonId": 133,
+      "peopleId": 248,
+      "role": "Baek In-ho"
+    },
+    {
+      "seasonId": 133,
+      "peopleId": 249,
+      "role": "Baek In-ha"
+    },
+    {
+      "seasonId": 134,
+      "peopleId": 250,
+      "role": "Yoo Si-jin"
+    },
+    {
+      "seasonId": 134,
+      "peopleId": 251,
+      "role": "Kang Mo-yeon"
+    },
+    {
+      "seasonId": 134,
+      "peopleId": 252,
+      "role": "Seo Dae-young"
+    },
+    {
+      "seasonId": 134,
+      "peopleId": 253,
+      "role": "Yoon Myung-joo"
+    },
+    {
+      "seasonId": 135,
+      "peopleId": 254,
+      "role": "Park Hae-young"
+    },
+    {
+      "seasonId": 135,
+      "peopleId": 255,
+      "role": "Cha Soo-hyun"
+    },
+    {
+      "seasonId": 135,
+      "peopleId": 256,
+      "role": "Lee Jae-han"
+    },
+    {
+      "seasonId": 136,
+      "peopleId": 257,
+      "role": "Kim Je-ha"
+    },
+    {
+      "seasonId": 136,
+      "peopleId": 258,
+      "role": "Go Anna"
+    },
+    {
+      "seasonId": 136,
+      "peopleId": 259,
+      "role": "Choi Yoo-jin"
+    },
+    {
+      "seasonId": 137,
+      "peopleId": 260,
+      "role": "Kim Shin / Goblin"
+    },
+    {
+      "seasonId": 137,
+      "peopleId": 261,
+      "role": "Grim Reaper"
+    },
+    {
+      "seasonId": 137,
+      "peopleId": 262,
+      "role": "Sunny"
+    },
+    {
+      "seasonId": 137,
+      "peopleId": 291,
+      "role": "Ji Eun-tak"
+    },
+    {
+      "seasonId": 138,
+      "peopleId": 263,
+      "role": "Shim Cheong"
+    },
+    {
+      "seasonId": 138,
+      "peopleId": 264,
+      "role": "Heo Joon-jae"
+    },
+    {
+      "seasonId": 139,
+      "peopleId": 265,
+      "role": "Ji Sun-woo"
+    },
+    {
+      "seasonId": 139,
+      "peopleId": 266,
+      "role": "Lee Tae-oh"
+    },
+    {
+      "seasonId": 139,
+      "peopleId": 267,
+      "role": "Yeo Da-kyung"
+    },
+    {
+      "seasonId": 140,
+      "peopleId": 268,
+      "role": "Moon Gang-tae"
+    },
+    {
+      "seasonId": 140,
+      "peopleId": 269,
+      "role": "Ko Moon-young"
+    },
+    {
+      "seasonId": 140,
+      "peopleId": 270,
+      "role": "Moon Sang-tae"
+    },
+    {
+      "seasonId": 141,
+      "peopleId": 271,
+      "role": "Choi Taek"
+    },
+    {
+      "seasonId": 141,
+      "peopleId": 272,
+      "role": "Sung Bo-ra"
+    },
+    {
+      "seasonId": 141,
+      "peopleId": 273,
+      "role": "Kim Jin-kyung"
+    },
+    {
+      "seasonId": 142,
+      "peopleId": 274,
+      "role": "Han Bi-soo"
+    },
+    {
+      "seasonId": 142,
+      "peopleId": 275,
+      "role": "Oh Joo-in"
+    },
+    {
+      "seasonId": 142,
+      "peopleId": 276,
+      "role": "Jung Yoo-jin"
+    },
+    {
+      "seasonId": 143,
+      "peopleId": 277,
+      "role": "Park Dong-hoon"
+    },
+    {
+      "seasonId": 143,
+      "peopleId": 278,
+      "role": "Lee Ji-an"
+    },
+    {
+      "seasonId": 144,
+      "peopleId": 279,
+      "role": "Na Hee-do"
+    },
+    {
+      "seasonId": 144,
+      "peopleId": 280,
+      "role": "Baek Yi-jin"
+    },
+    {
+      "seasonId": 145,
+      "peopleId": 281,
+      "role": "Woo Young-woo"
+    },
+    {
+      "seasonId": 145,
+      "peopleId": 282,
+      "role": "Lee Jun-ho"
+    },
+    {
+      "seasonId": 146,
+      "peopleId": 283,
+      "role": "Ban Ji-eum"
+    },
+    {
+      "seasonId": 146,
+      "peopleId": 284,
+      "role": "Moon Seo-ha"
+    },
+    {
+      "seasonId": 147,
+      "peopleId": 285,
+      "role": "Hong Du-sik"
+    },
+    {
+      "seasonId": 147,
+      "peopleId": 286,
+      "role": "Yoon Hye-jin"
+    },
+    {
+      "seasonId": 148,
+      "peopleId": 287,
+      "role": "Vincenzo Cassano"
+    },
+    {
+      "seasonId": 148,
+      "peopleId": 288,
+      "role": "Hong Cha-young"
+    },
+    {
+      "seasonId": 148,
+      "peopleId": 289,
+      "role": "Jang Joon-woo"
+    },
+    {
+      "seasonId": 149,
+      "peopleId": 292,
+      "role": "Song Hye-jin"
+    },
+    {
+      "seasonId": 149,
+      "peopleId": 293,
+      "role": "Seo Joon-hui"
+    },
+    {
+      "seasonId": 150,
+      "peopleId": 294,
+      "role": "Jang Man-wol"
+    },
+    {
+      "seasonId": 150,
+      "peopleId": 295,
+      "role": "Goo Chan-sung"
+    },
+    {
+      "seasonId": 151,
+      "peopleId": 296,
+      "role": "Lee Ji-soo"
+    },
+    {
+      "seasonId": 151,
+      "peopleId": 297,
+      "role": "Park In-gyu"
+    },
+    {
+      "seasonId": 152,
+      "peopleId": 298,
+      "role": "Wang So"
+    },
+    {
+      "seasonId": 152,
+      "peopleId": 294,
+      "role": "Hae Soo"
+    }
   ]);
   await queryInterface.bulkInsert('MovieCrews', [
     { "seasonId": 1, "peopleId": 6, "job": "Đạo diễn" },

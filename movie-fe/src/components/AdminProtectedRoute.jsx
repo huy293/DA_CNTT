@@ -1,11 +1,11 @@
 // components/AdminProtectedRoute.jsx
 import React from "react";
 import { Navigate, useLocation } from "react-router-dom";
-import useAdminAuth from "../hooks/useAuth";
+import useStaffAuth from "../hooks/useStaffAuth";
 import spinner_Default from "./Spin/Default";
 
 const AdminProtectedRoute = ({ children }) => {
-  const { isAuthenticated, loading } = useAdminAuth();
+  const { isAuthenticated, loading } = useStaffAuth();
   const location = useLocation();
 
   // Show loading spinner while checking authentication
