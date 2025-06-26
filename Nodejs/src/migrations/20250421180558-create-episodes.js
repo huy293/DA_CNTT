@@ -42,6 +42,11 @@ module.exports = {
         },
         onDelete: 'CASCADE',
       },
+      video_type: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        defaultValue: 'external',
+      },
       createdAt: {
         type: Sequelize.DATE,
         defaultValue: Sequelize.NOW,
@@ -55,5 +60,6 @@ module.exports = {
 
   async down (queryInterface, Sequelize) {
     await queryInterface.dropTable('Episodes');
+    await queryInterface.removeColumn('Episodes', 'video_type');
   }
 };

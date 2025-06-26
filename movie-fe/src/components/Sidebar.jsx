@@ -197,6 +197,20 @@ const Sidebar = () => {
                 </span>
               </SidebarItem>
             </li>
+            <li>
+              <SidebarItem to="/admin/report">
+                <svg
+                  className="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M3 3h2v14H3V3zm4 0h2v14H7V3zm4 0h2v14h-2V3zm4 0h2v14h-2V3z" />
+                </svg>
+                <span className="ms-3">Báo cáo hệ thống</span>
+              </SidebarItem>
+            </li>
           </ul>
         </div>
       </aside>

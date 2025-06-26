@@ -281,18 +281,32 @@ exports.updatePermissions = async (req, res) => {
     const { userId } = req.params;
     const permissionUpdates = req.body;
 
-    // Logic kiểm tra quyền đặc biệt: Chỉ Super Admin mới được cấp/thu hồi quyền canManageUsers
-    if (permissionUpdates.hasOwnProperty('canManageUsers') && !req.user.isSuperAdmin) {
-      return res.status(403).json({ 
-        message: "Bạn không có quyền cấp hoặc thu hồi quyền quản lý người dùng." 
-      });
+    const user = await User.findByPk(userId);
+    if (!user) {
+      return res.status(404).json({ message: 'Không tìm thấy người dùng' });
     }
 
-    // Không cho phép cấp quyền canManageSettings cho moderator hoặc admin thường (chỉ super admin mới được cấp cho admin)
-    if (permissionUpdates.hasOwnProperty('canManageSettings') && permissionUpdates.canManageSettings) {
-      const user = await User.findByPk(userId);
-      if (user && (user.role === 'moderator')) {
-        return res.status(400).json({ message: 'Chỉ Super Admin mới có quyền này.' });
+    // Kiểm tra tuyệt đối cho canManageUsers
+    if (permissionUpdates.hasOwnProperty('canManageUsers')) {
+      // Không bao giờ cho phép cấp quyền này cho moderator hoặc user
+      if (user.role === 'moderator' || user.role === 'user') {
+        return res.status(400).json({ message: 'Không thể cấp quyền này cho moderator hoặc user.' });
+      }
+      // Chỉ super admin mới được cấp/thu hồi quyền này cho admin
+      if (user.role === 'admin' && !req.user.isSuperAdmin) {
+        return res.status(403).json({ message: 'Chỉ Super Admin mới có quyền này.' });
+      }
+    }
+
+    // Kiểm tra tuyệt đối cho canManageSettings
+    if (permissionUpdates.hasOwnProperty('canManageSettings')) {
+      // Không bao giờ cho phép cấp quyền này cho moderator hoặc user
+      if (user.role === 'moderator' || user.role === 'user') {
+        return res.status(400).json({ message: 'Không thể cấp quyền này cho moderator hoặc user.' });
+      }
+      // Chỉ super admin mới được cấp/thu hồi quyền này cho admin
+      if (user.role === 'admin' && !req.user.isSuperAdmin) {
+        return res.status(403).json({ message: 'Chỉ Super Admin mới có quyền này.' });
       }
     }
 

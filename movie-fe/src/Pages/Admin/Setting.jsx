@@ -3,6 +3,7 @@ import Select from "react-select";
 import axios from "../../config/axios";
 import { formatDateTime } from "../../utils/dateUtils";
 import useUser from '../../hooks/useUser';
+import { useNavigate } from 'react-router-dom';
 
 const AdminSettings = () => {
   const [admins, setAdmins] = useState([]);
@@ -18,6 +19,9 @@ const AdminSettings = () => {
   const [showPermissionModal, setShowPermissionModal] = useState(false);
   const [selectedAdmin, setSelectedAdmin] = useState(null);
   const { user: currentUser } = useUser();
+  const [newNotify, setNewNotify] = useState("");
+  const [newNotifyRole, setNewNotifyRole] = useState("admin");
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchAdmins();
@@ -119,6 +123,27 @@ const AdminSettings = () => {
   const isSuperAdmin = currentUser && currentUser.isSuperAdmin;
   const isEditingAdmin = permissions.role === 'admin';
 
+  // Thêm notification mới
+  const handleCreateNotification = async () => {
+    if (!newNotify.trim()) return;
+    try {
+      await axios.post("/api/notification", { message: newNotify, forRole: newNotifyRole });
+      setNewNotify("");
+      fetchNotifications();
+    } catch {
+      alert("Không thể tạo thông báo!");
+    }
+  };
+  const handleDeleteNotification = async (id) => {
+    if (!window.confirm("Bạn có chắc muốn xóa thông báo này?")) return;
+    try {
+      await axios.delete(`/api/notification/${id}`);
+      fetchNotifications();
+    } catch {
+      alert("Không thể xóa thông báo!");
+    }
+  };
+
   return (
     <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow mt-6">
       <h2 className="text-xl font-bold text-gray-800 dark:text-white mb-4">
@@ -131,6 +156,12 @@ const AdminSettings = () => {
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
         >
           Xem thông báo hệ thống
+        </button>
+        <button
+          onClick={() => navigate('/admin/report')}
+          className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded"
+        >
+          Xem báo cáo hệ thống
         </button>
       </div>
 
@@ -244,14 +275,49 @@ const AdminSettings = () => {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white dark:bg-gray-800 rounded-lg p-6 w-full max-w-lg">
             <h2 className="text-lg font-bold mb-4 dark:text-white">Thông báo hệ thống</h2>
+            {/* Form tạo notification mới */}
+            {(currentUser?.role === 'admin' || currentUser?.isSuperAdmin) && (
+              <div className="mb-4 flex gap-2 items-center">
+                <input
+                  type="text"
+                  value={newNotify}
+                  onChange={e => setNewNotify(e.target.value)}
+                  placeholder="Nhập nội dung thông báo"
+                  className="border rounded px-2 py-1 flex-1"
+                />
+                <select
+                  value={newNotifyRole}
+                  onChange={e => setNewNotifyRole(e.target.value)}
+                  className="border rounded px-2 py-1"
+                >
+                  <option value="admin">Admin</option>
+                  <option value="moderator">Moderator</option>
+                  <option value="user">User</option>
+                </select>
+                <button
+                  onClick={handleCreateNotification}
+                  className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded"
+                >
+                  Gửi
+                </button>
+              </div>
+            )}
             <div className="max-h-72 overflow-y-auto">
               {notifications.length === 0 ? (
                 <div className="text-gray-500">Không có thông báo nào</div>
               ) : (
                 <ul className="space-y-2">
                   {notifications.map((n, idx) => (
-                    <li key={idx} className="text-sm text-gray-700 dark:text-gray-200">
-                      [{formatDateTime(n.time)}] {n.message}
+                    <li key={n.id || idx} className="text-sm text-gray-700 dark:text-gray-200 flex items-center justify-between">
+                      <span>[{formatDateTime(n.time)}] {n.message} <span className="ml-2 text-xs text-gray-400">({n.forRole})</span></span>
+                      {(currentUser?.role === 'admin' || currentUser?.isSuperAdmin) && (
+                        <button
+                          onClick={() => handleDeleteNotification(n.id)}
+                          className="ml-2 text-xs text-red-500 hover:underline"
+                        >
+                          Xóa
+                        </button>
+                      )}
                     </li>
                   ))}
                 </ul>

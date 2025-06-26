@@ -53,7 +53,7 @@ exports.getPermissions = async (userId) => {
         permissionFields.forEach(field => {
             if (field !== 'id' && field !== 'userId' && field !== 'createdAt' && field !== 'updatedAt') {
                 if (field === 'canManageSettings') {
-                    defaultPermissions[field] = false;
+                    defaultPermissions[field] = !!(user.Permission && user.Permission[field]);
                 } else if (field === 'canManageUsers') {
                     defaultPermissions[field] = !!(user.Permission && user.Permission[field]);
                 } else {

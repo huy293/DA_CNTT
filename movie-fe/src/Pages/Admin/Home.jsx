@@ -6,13 +6,13 @@ import { Outlet } from "react-router-dom";
 
 const Admin = () => {
   return (
-    <>
+    <div>
       <Header />
       <Sidebar />
       <main>
-        <Outlet /> {/* 👈 nơi hiển thị component con (Main1, Main2, ...) */}
+        <Outlet />
       </main>
-    </>
+    </div>
   );
 };
 export default Admin;

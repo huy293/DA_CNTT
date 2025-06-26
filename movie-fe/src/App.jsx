@@ -114,6 +114,14 @@ function App() {
                   </AdminProtectedRoute>
                 }
               />
+              <Route
+                path="report"
+                element={
+                  <AdminProtectedRoute>
+                    <Report />
+                  </AdminProtectedRoute>
+                }
+              />
             </Route>
           </Routes>
         </Router>

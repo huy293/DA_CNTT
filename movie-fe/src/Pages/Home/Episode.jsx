@@ -265,6 +265,33 @@ const Episode = () => {
     setPage(prev => prev + 1);
   };
 
+  // Render player
+  let videoPlayer = null;
+  if (episode) {
+    if (episode.video_type === 'hls') {
+      videoPlayer = <VideoPlayer src={episode.video_url} type="hls" />;
+    } else if (episode.video_type === 'external') {
+      // Nếu là YouTube, nhúng iframe, còn lại dùng VideoPlayer bình thường
+      if (/youtube\.com|youtu\.be/.test(episode.video_url)) {
+        const youtubeId = episode.video_url.match(/(?:v=|be\/)([\w-]+)/)?.[1];
+        videoPlayer = youtubeId ? (
+          <div className="aspect-w-16 aspect-h-9 mb-4">
+            <iframe
+              src={`https://www.youtube.com/embed/${youtubeId}`}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            ></iframe>
+          </div>
+        ) : <VideoPlayer src={episode.video_url} type="external" />;
+      } else {
+        videoPlayer = <VideoPlayer src={episode.video_url} type="external" />;
+      }
+    }
+  }
+
   if (loading) {
     return (
       <>
@@ -293,14 +320,7 @@ const Episode = () => {
       <div className="min-h-screen bg-gray-900 text-white pb-12">
         {/* Video Player - Đã giảm kích thước */}
         <div className="w-full bg-black flex justify-center items-center" style={{ minHeight: 300 }}>
-          {episode.video_url ? (
-            <VideoPlayer
-              src={`${API_URL}${episode.video_url}`}
-              poster={season.poster_url}
-            />
-          ) : (
-            <div className="text-center w-full py-24 text-gray-400">Chưa có video cho tập này.</div>
-          )}
+          {videoPlayer}
         </div>
 
         <div className="container mx-auto px-4 mt-8">

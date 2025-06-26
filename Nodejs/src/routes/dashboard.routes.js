@@ -49,4 +49,6 @@ router.get('/newest-users', dashboardController.getNewestUsers);
 router.get('/newest-seasons', dashboardController.getNewestSeasons);
 router.get('/top-rated-seasons', dashboardController.getTopRatedSeasons);
 
+router.get('/report', dashboardController.getSystemReport);
+
 module.exports = router;

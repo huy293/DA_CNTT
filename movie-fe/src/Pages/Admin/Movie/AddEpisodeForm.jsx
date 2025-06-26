@@ -16,6 +16,9 @@ const AddEpisodeForm = ({ season, mode, initialData, onClose, onReload }) => {
   const [error, setError] = useState("");
   const [uploadProgress, setUploadProgress] = useState(0);
   const [isUploading, setIsUploading] = useState(false);
+  const [videoType, setVideoType] = useState(initialData?.video_type || 'external');
+  const [videoUrl, setVideoUrl] = useState(initialData?.video_url || '');
+  const [videoFile, setVideoFile] = useState(null);
 
   useEffect(() => {
     if (mode === "edit" && initialData) {
@@ -232,40 +235,23 @@ const AddEpisodeForm = ({ season, mode, initialData, onClose, onReload }) => {
             )}
           </div>
 
-          {mode === "add" && (
+          <div className="mb-4">
+            <label className="block mb-1 font-medium">Loại video</label>
+            <select value={videoType} onChange={e => setVideoType(e.target.value)} className="border rounded px-2 py-1">
+              <option value="external">Gắn link ngoài</option>
+              <option value="hls">Upload HLS</option>
+            </select>
+          </div>
+
+          {videoType === 'external' ? (
             <div className="mb-4">
-              <label className="block text-gray-700 dark:text-gray-300 text-sm font-bold mb-2">
-                Video
-              </label>
-              <input
-                type="file"
-                accept="video/*"
-                onChange={handleVideoChange}
-                className={`w-full p-2 border rounded dark:bg-gray-700 dark:border-gray-600 ${
-                  errors.video ? "border-red-500" : ""
-                }`}
-              />
-              {errors.video && (
-                <p className="text-red-500 text-xs mt-1">{errors.video}</p>
-              )}
-              {selectedVideo && (
-                <p className="text-sm text-green-600 dark:text-green-400 mt-1">
-                  Đã chọn: {selectedVideo.name}
-                </p>
-              )}
-              {isUploading && (
-                <div className="mt-2">
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                    <div
-                      className="bg-blue-600 h-2.5 rounded-full"
-                      style={{ width: `${uploadProgress}%` }}
-                    ></div>
-                  </div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                    Uploading: {uploadProgress}%
-                  </p>
-                </div>
-              )}
+              <label className="block mb-1 font-medium">URL video</label>
+              <input type="text" value={videoUrl} onChange={e => setVideoUrl(e.target.value)} className="border rounded px-2 py-1 w-full" required />
+            </div>
+          ) : (
+            <div className="mb-4">
+              <label className="block mb-1 font-medium">Upload file video</label>
+              <input type="file" accept="video/*" onChange={e => setVideoFile(e.target.files[0])} className="border rounded px-2 py-1 w-full" required />
             </div>
           )}
 

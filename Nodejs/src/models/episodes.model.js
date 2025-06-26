@@ -25,6 +25,11 @@ module.exports = (sequelize, Sequelize) => {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      video_type: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        defaultValue: 'external',
+      },
       release_date: {
         type: Sequelize.DATE,
         allowNull: false,

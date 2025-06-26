@@ -1,4 +1,6 @@
 const dashboardService = require('../services/dashboard.Service');
+const { User, Movie, Favorite, WatchHistory, Log } = require('../models');
+const { Op, fn, col, literal } = require('sequelize');
 
 // Lấy thống kê tổng quan
 exports.getStats = async (req, res) => {
@@ -162,5 +164,49 @@ exports.getTopRatedSeasons = async (req, res) => {
         res.json(data);
     } catch (error) {
         res.status(500).json({ error: error.message });
+    }
+};
+
+exports.getSystemReport = async (req, res) => {
+    try {
+        const totalUsers = await User.count();
+        const totalAdmins = await User.count({ where: { role: 'admin' } });
+        const totalModerators = await User.count({ where: { role: 'moderator' } });
+        const totalNormalUsers = await User.count({ where: { role: 'user' } });
+        const totalMovies = await Movie.count();
+        const totalFavorites = await Favorite.count();
+        const totalViews = await WatchHistory.count();
+
+        // Top 5 active users
+        const topUsers = await Log.findAll({
+            attributes: ['userId', [fn('COUNT', col('id')), 'actions']],
+            group: ['userId'],
+            order: [[literal('actions'), 'DESC']],
+            limit: 5,
+            include: [{ model: User, attributes: ['username', 'email'] }]
+        });
+
+        // Top 5 most viewed movies
+        const topMovies = await WatchHistory.findAll({
+            attributes: ['movieId', [fn('COUNT', col('id')), 'views']],
+            group: ['movieId'],
+            order: [[literal('views'), 'DESC']],
+            limit: 5,
+            include: [{ model: Movie, attributes: ['title'] }]
+        });
+
+        res.json({
+            totalUsers,
+            totalAdmins,
+            totalModerators,
+            totalNormalUsers,
+            totalMovies,
+            totalFavorites,
+            totalViews,
+            topUsers,
+            topMovies
+        });
+    } catch (err) {
+        res.status(500).json({ message: 'Lỗi khi lấy báo cáo hệ thống' });
     }
 };
