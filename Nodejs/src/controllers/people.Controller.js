@@ -45,8 +45,18 @@ exports.update = async (req, res) => {
     const { id } = req.params; 
     const PersonData = req.body; 
     try {
+        // Validate: name là bắt buộc
+        if (!PersonData.name || typeof PersonData.name !== 'string' || PersonData.name.trim() === '') {
+            return res.status(400).json({ error: 'Trường name là bắt buộc và phải là chuỗi.' });
+        }
+        // Validate: birthday nếu có thì phải là ngày hợp lệ
+        if (PersonData.birthday && isNaN(Date.parse(PersonData.birthday))) {
+            return res.status(400).json({ error: 'Trường birthday phải là ngày hợp lệ (YYYY-MM-DD).' });
+        }
         const people = await peopleService.Update(id, PersonData);
-
+        if (!people) {
+            return res.status(404).json({ error: 'People not found' });
+        }
         // Ghi log nếu là admin
         if (req.user && req.user.role === 'admin') {
             await Log.create({
@@ -55,9 +65,9 @@ exports.update = async (req, res) => {
                 time: new Date()
             });
         }
-
         return res.status(200).json(people);
     } catch (error) {
+        console.error('Error updating People:', error);
         return res.status(500).json({ error: error.message });
     }
 };

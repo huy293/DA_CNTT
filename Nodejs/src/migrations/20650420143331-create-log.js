@@ -16,7 +16,7 @@ module.exports = {
         onDelete: 'CASCADE'
       },
       action: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
         allowNull: false
       },
       time: {

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Select from "react-select";
 import axios from "../../config/axios";
 import { formatDateTime } from "../../utils/dateUtils";
+import useUser from '../../hooks/useUser';
 
 const AdminSettings = () => {
   const [admins, setAdmins] = useState([]);
@@ -16,6 +17,7 @@ const AdminSettings = () => {
   const [showNotifyModal, setShowNotifyModal] = useState(false);
   const [showPermissionModal, setShowPermissionModal] = useState(false);
   const [selectedAdmin, setSelectedAdmin] = useState(null);
+  const { user: currentUser } = useUser();
 
   useEffect(() => {
     fetchAdmins();
@@ -114,6 +116,8 @@ const AdminSettings = () => {
   };
 
   const isAdmin = selectedUser?.role === 'admin';
+  const isSuperAdmin = currentUser && currentUser.isSuperAdmin;
+  const isEditingAdmin = permissions.role === 'admin';
 
   return (
     <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow mt-6">
@@ -273,20 +277,66 @@ const AdminSettings = () => {
             <div className="space-y-3">
               {Object.entries(permissions)
                 .filter(([key, value]) => typeof value === 'boolean')
-                .map(([perm, value]) => (
-                  <div key={perm} className="flex items-center gap-3">
-                    <span className="w-40 capitalize">{perm}</span>
-                    <select
-                      value={isAdmin ? "yes" : value ? "yes" : "no"}
-                      disabled={isAdmin}
-                      onChange={e => handlePermissionChange(perm, e.target.value === "yes")}
-                      className="border rounded px-2 py-1"
-                    >
-                      <option value="yes">Có</option>
-                      <option value="no">Không</option>
-                    </select>
-                  </div>
-                ))}
+                .map(([perm, value]) => {
+                  const role = permissions.role;
+                  const isSuperAdmin = currentUser && currentUser.isSuperAdmin;
+                  const isEditingAdmin = permissions.role === 'admin';
+                  // Quyền chỉ enable khi đúng nghiệp vụ
+                  let disabled = false;
+                  let warning = '';
+                  if (role === 'moderator') {
+                    if (perm === 'canManageMovies' || perm === 'canManageComment') {
+                      disabled = false;
+                    } else if (perm === 'canViewReport') {
+                      disabled = true;
+                      warning = 'Moderator luôn có quyền này';
+                    } else {
+                      disabled = true;
+                      warning = 'Moderator không được cấp quyền này';
+                    }
+                  } else if (role === 'admin') {
+                    if (perm === 'canManageMovies' || perm === 'canManageComment' || perm === 'canViewReport') {
+                      disabled = false;
+                    } else if ((perm === 'canManageUsers' || perm === 'canManageSettings')) {
+                      disabled = !isSuperAdmin;
+                      if (!isSuperAdmin) warning = 'Chỉ Super Admin mới có quyền này';
+                    }
+                  } else if (role === 'user') {
+                    disabled = true;
+                    warning = 'User không có quyền này';
+                  }
+                  // Super admin: enable tất cả
+                  // Nếu cố tình chọn quyền không hợp lệ, alert và set lại về 'Không'
+                  return (
+                    <div key={perm} className="flex items-center gap-3">
+                      <span className="w-40 capitalize">{perm}</span>
+                      <select
+                        value={value ? "yes" : "no"}
+                        disabled={disabled}
+                        onChange={e => {
+                          if (disabled && e.target.value === 'yes') {
+                            alert(warning || 'Không thể cấp quyền này!');
+                            setPermissions((prev) => ({ ...prev, [perm]: false }));
+                            return;
+                          }
+                          // canViewReport của moderator luôn true
+                          if (role === 'moderator' && perm === 'canViewReport') {
+                            setPermissions((prev) => ({ ...prev, [perm]: true }));
+                            return;
+                          }
+                          handlePermissionChange(perm, e.target.value === "yes");
+                        }}
+                        className="border rounded px-2 py-1"
+                      >
+                        <option value="yes">Có</option>
+                        <option value="no">Không</option>
+                      </select>
+                      {disabled && (
+                        <span className="text-xs text-red-500 ml-2">{warning}</span>
+                      )}
+                    </div>
+                  );
+                })}
             </div>
             <div className="flex justify-end mt-4">
               <button
