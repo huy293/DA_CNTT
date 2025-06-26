@@ -35,9 +35,7 @@ const Details = ({ Season, onClose }) => {
   };
 
   const handlePlay = () => {
-    if (seasonDetail?.Episodes?.length > 0) {
-      navigate(`/watch/${seasonDetail.id}/${seasonDetail.Episodes[0].id}`);
-    }
+    navigate(`/movie/${seasonDetail.id}`);
   };
 
   const handleFavorite = async () => {

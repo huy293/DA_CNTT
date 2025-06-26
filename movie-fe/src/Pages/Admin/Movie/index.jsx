@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import movieColumns from "../../../components/Datatable/column/movieColumns";
 import seasonColumns from "../../../components/Datatable/column/seasonColumns";
 import TableSkeleton from "../../../components/Skeleton/TableSkeleton";
+import { useNavigate } from 'react-router-dom';
 
 const Movie = () => {
   const [showAddMovieForm, setShowAddMovieForm] = useState(false);
@@ -19,6 +20,7 @@ const Movie = () => {
   const [loading, setLoading] = useState(true);
   const [editingMovie, setEditingMovie] = useState(null);
   const [editingSeason, setEditingSeason] = useState(null);
+  const navigate = useNavigate();
 
   // Fetch Movies
   const fetchMovies = async () => {
@@ -128,6 +130,16 @@ const Movie = () => {
 
   return (
     <div className="p-4 sm:ml-64 dark:bg-gray-900 min-h-screen">
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="text-2xl font-bold text-gray-800 dark:text-white">Quản lý phim</h1>
+        <button
+          className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
+          onClick={() => navigate('/admin/editors-pick')}
+        >
+          Quản lý Editors Pick
+        </button>
+      </div>
+
       {/* Quản lý phim */}
       <div className="p-4 border-2 border-dashed rounded-lg border-gray-200 dark:border-gray-700 mt-14">
         <div className="flex items-center justify-between mb-6">

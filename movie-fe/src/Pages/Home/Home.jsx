@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import Banner from '../../components/Banner'
 import SlideMovie from '../../components/SlideMovie'
-import EditorsPickSlide from '../../components/EditorsPickSlide'
 import '../../index.css';
 import axios from '../../config/axios';
 
@@ -14,6 +13,8 @@ function Home() {
   const [genres, setGenres] = useState([]);
   const [seasonsByGenre, setSeasonsByGenre] = useState({});
   const [loading, setLoading] = useState(true);
+  const [editorsPickLists, setEditorsPickLists] = useState([]);
+  const [bannerMovies, setBannerMovies] = useState([]);
 
   useEffect(() => {
     // Lấy các list đặc biệt
@@ -42,6 +43,15 @@ function Home() {
     }).catch(err => {
       setGenres([]);
       console.error('Error fetching main lists:', err);
+    });
+
+    axios.get('/api/editors-pick-list/with-seasons').then(res => {
+      setEditorsPickLists(res.data);
+      // Lấy seasons cho banner từ list có isBanner=true
+      const bannerList = res.data.find(l => l.isBanner);
+      if (bannerList && bannerList.seasons && bannerList.seasons.length > 0) {
+        setBannerMovies(bannerList.seasons);
+      }
     });
   }, []);
 
@@ -74,18 +84,22 @@ function Home() {
 
   return (
     <div className="pt-16">
-      <Banner SeasonsList={trendingSeasons}/>
-      <EditorsPickSlide />
+      <Banner SeasonsList={bannerMovies}/>
+      {editorsPickLists.filter(list => !list.isBanner).map(list => (
+        <SlideMovie key={list.id} title={list.title} SeasonsList={list.seasons || []} />
+      ))}
       <SlideMovie title="Phim đề cử" SeasonsList={popularSeasons} />
       <SlideMovie title="Phim hay" SeasonsList={topRatedSeasons} />
       <SlideMovie title="Sắp chiếu" SeasonsList={upcomingSeasons} />
       <SlideMovie title="Đang chiếu" SeasonsList={nowPlayingSeasons} />
       {genres.map(genre => (
-        <SlideMovie
-          key={genre.id}
-          title={genre.name}
-          SeasonsList={seasonsByGenre[genre.id] || []}
-        />
+        (seasonsByGenre[genre.id] && seasonsByGenre[genre.id].length > 0) && (
+          <SlideMovie
+            key={genre.id}
+            title={genre.name}
+            SeasonsList={seasonsByGenre[genre.id]}
+          />
+        )
       ))}
     </div>
   );

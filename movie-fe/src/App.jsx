@@ -25,6 +25,7 @@ import Favorites from "./Pages/Home/Favorites";
 import { FavoriteProvider } from './context/FavoriteContext';
 import { WatchHistoryProvider } from "./context/WatchHistoryContext";
 import { PermissionProvider } from "./context/PermissionContext";
+import EditorsPickListAdmin from './Pages/Admin/Movie/EditorsPickList';
 
 function App() {
   return (
@@ -82,8 +83,8 @@ function App() {
               <Route 
                 path="user-interaction"
                 element={
-                  <AdminProtectedRoute>
-                    <Outlet />
+                   <AdminProtectedRoute>
+                      <Outlet />
                   </AdminProtectedRoute>
                 }
               >
@@ -119,6 +120,14 @@ function App() {
                 element={
                   <AdminProtectedRoute>
                     <Report />
+                  </AdminProtectedRoute>
+                }
+              />
+              <Route 
+                path="editors-pick"
+                element={
+                  <AdminProtectedRoute>
+                    <EditorsPickListAdmin />
                   </AdminProtectedRoute>
                 }
               />

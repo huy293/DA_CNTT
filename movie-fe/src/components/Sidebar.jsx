@@ -125,6 +125,11 @@ const Sidebar = () => {
                     <span className="ms-3">People</span>
                   </SidebarItem>
                 </li>
+                <li>
+                  <SidebarItem to="/admin/editors-pick" permission="canManageMovies">
+                    <span className="ms-3">Editors Pick</span>
+                  </SidebarItem>
+                </li>
               </ul>
             </li>
             <li className={`${!(permissions.canManageUsers || permissions.canManageComment) && 'opacity-50 pointer-events-none'}`}>

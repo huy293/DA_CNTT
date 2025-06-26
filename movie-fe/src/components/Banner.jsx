@@ -11,6 +11,7 @@ import { FaHeart, FaRegHeart } from 'react-icons/fa';
 import useUser from '../hooks/useUser';
 import axios from '../config/axios';
 import { useFavorite } from '../context/FavoriteContext';
+import { useNavigate } from "react-router-dom";
 
 const Banner = ({ SeasonsList }) => {
   const [trailers, setTrailers] = useState({});
@@ -22,6 +23,7 @@ const Banner = ({ SeasonsList }) => {
   const [isDetailModalOpen, setDetailModalOpen] = useState(false);
   const { user } = useUser();
   const { isFavorite, addFavorite, removeFavorite, loading } = useFavorite();
+  const navigate = useNavigate();
 
   const openDetailModal = (season) => {
     setSelectedSeason(season);
@@ -107,6 +109,14 @@ const Banner = ({ SeasonsList }) => {
       await removeFavorite(seasonId);
     } else {
       await addFavorite(seasonId);
+    }
+  };
+
+  const handlePlay = (season) => {
+    if (season?.Episodes && season.Episodes.length > 0) {
+      navigate(`/watch/${season.id}/${season.Episodes[0].id}`);
+    } else {
+      alert('Chưa có tập phim nào!');
     }
   };
 
@@ -197,7 +207,7 @@ const Banner = ({ SeasonsList }) => {
                 {season.overview}
               </p>
               <div className="mt-4">
-                <Gradient_outline_Blue content={"Xem phim"} />
+                <Gradient_outline_Blue content={"Xem phim"} onClick={() => navigate(`/movie/${season.id}`)} />
                 <Gradient_outline_Red onClick={() => openDetailModal(season)} content={"Chi tiết"} />
               </div>
             </div>

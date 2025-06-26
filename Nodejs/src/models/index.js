@@ -9,7 +9,6 @@ const env = process.env.NODE_ENV || 'development';
 const config = require(__dirname + '/../config/config.json')[env];
 const db = {};
 
-
 let sequelize;
 if (config.use_env_variable) {
   sequelize = new Sequelize(process.env[config.use_env_variable], config);
@@ -33,7 +32,9 @@ fs
   });
 
 const Notification = require('./notification.model.js')(sequelize, Sequelize.DataTypes);
+const EditorsPickList = require('./editors_pick_list.model')(sequelize);
 db.Notification = Notification;
+db.EditorsPickList = EditorsPickList;
 
 Object.keys(db).forEach(modelName => {
   if (db[modelName].associate) {

@@ -59,11 +59,11 @@ const SlideMovie = ({ title, SeasonsList }) => {
                 key={season.id}
                 className="relative group z-10 hover:z-50 overflow-visible transition-transform duration-300 transform"
               >
-                <div className="origin-center relative w-full h-full rounded-lg">
+                <div className="relative w-full pt-[56.25%] rounded-lg overflow-hidden">
                   <img
                     src={season.backdrop_url}
                     alt={season.title}
-                    className="w-full h-auto object-cover rounded-lg"
+                    className="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
                   />
 
                   <div className="absolute group-hover:hidden bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-3 text-white rounded-b-lg">

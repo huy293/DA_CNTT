@@ -43,6 +43,7 @@ const setupRoutes = () => {
     const seasonRoutes = require("./routes/season.routes");
     const episodeRoutes = require("./routes/episode.routes");
     const dashboardRoutes = require("./routes/dashboard.routes");
+    const editorsPickListRoutes = require("./routes/editorsPickList.routes");
 
     app.use("/api/auth", authRoutes);
     app.use("/api/movies", movieRoutes);
@@ -59,6 +60,7 @@ const setupRoutes = () => {
     app.use("/api/season", seasonRoutes);
     app.use("/api/episode", episodeRoutes);
     app.use("/api/dashboard", dashboardRoutes);
+    app.use("/api/editors-pick-list", editorsPickListRoutes);
 
     // General error handler should be last
     app.use((err, req, res, next) => {

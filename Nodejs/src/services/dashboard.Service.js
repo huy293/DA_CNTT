@@ -1,5 +1,18 @@
-const { Movie, User, Rating, Genre, Comment, Season, Episode, WatchHistory, Favorite, sequelize } = require('../models');
+const db = require('../models');
 const { Op } = require('sequelize');
+
+const { 
+    Movie, 
+    User, 
+    Rating, 
+    Genre, 
+    Comment, 
+    Season, 
+    Episode, 
+    WatchHistory, 
+    Favorite, 
+    Log 
+} = db;
 
 // Lấy thống kê tổng quan
 exports.getStats = async () => {
@@ -20,7 +33,7 @@ exports.getStats = async () => {
 
         const averageRating = await Rating.findOne({
             attributes: [
-                [sequelize.fn('AVG', sequelize.col('rating')), 'averageRating']
+                [db.sequelize.fn('AVG', db.sequelize.col('rating')), 'averageRating']
             ],
             raw: true
         });
@@ -44,8 +57,8 @@ exports.getMonthlyViews = async () => {
         const currentYear = new Date().getFullYear();
         const monthlyViews = await WatchHistory.findAll({
             attributes: [
-                [sequelize.fn('MONTH', sequelize.col('createdAt')), 'month'],
-                [sequelize.fn('COUNT', sequelize.col('id')), 'views']
+                [db.sequelize.fn('MONTH', db.sequelize.col('createdAt')), 'month'],
+                [db.sequelize.fn('COUNT', db.sequelize.col('id')), 'views']
             ],
             where: {
                 createdAt: {
@@ -53,7 +66,7 @@ exports.getMonthlyViews = async () => {
                     [Op.lte]: new Date(currentYear, 11, 31)
                 }
             },
-            group: [sequelize.fn('MONTH', sequelize.col('createdAt'))],
+            group: [db.sequelize.fn('MONTH', db.sequelize.col('createdAt'))],
             raw: true
         });
 
@@ -80,7 +93,7 @@ exports.getGenreDistribution = async () => {
             attributes: [
                 'id',
                 'name',
-                [sequelize.fn('COUNT', sequelize.col('Movies.id')), 'movieCount']
+                [db.sequelize.fn('COUNT', db.sequelize.col('Movies.id')), 'movieCount']
             ],
             include: [
                 {
@@ -101,93 +114,215 @@ exports.getGenreDistribution = async () => {
     }
 };
 
-// Lấy hoạt động gần đây
-exports.getRecentActivities = async () => {
+// Lấy top phim xem nhiều nhất
+exports.getTopSeasons = async () => {
     try {
-        const [recentComments, recentRatings] = await Promise.all([
-            Comment.findAll({
-                include: [
-                    { model: User, attributes: ['username'] },
-                    { model: Season, attributes: ['title'] }
-                ],
-                order: [['createdAt', 'DESC']],
-                limit: 5
-            }),
-            Rating.findAll({
-                include: [
-                    { model: User, attributes: ['username'] },
-                    { model: Season, attributes: ['title'] }
-                ],
-                order: [['createdAt', 'DESC']],
-                limit: 5
-            })
-        ]);
+        const histories = await WatchHistory.findAll({
+            include: [{
+                model: Episode,
+                as: 'episode',
+                attributes: ['seasonId'],
+                required: true
+            }],
+            attributes: [
+                [db.sequelize.col('episode.seasonId'), 'seasonId'],
+                [db.sequelize.fn('COUNT', db.sequelize.col('WatchHistory.id')), 'viewCount']
+            ],
+            group: ['episode.seasonId'],
+            order: [[db.sequelize.literal('viewCount'), 'DESC']],
+            limit: 10,
+            raw: true
+        });
 
-        const activities = [
-            ...recentComments.map(comment => ({
-                type: 'comment',
-                username: comment.User.username,
-                movieTitle: comment.Season.title,
-                content: comment.content,
-                createdAt: comment.createdAt
-            })),
-            ...recentRatings.map(rating => ({
-                type: 'rating',
-                username: rating.User.username,
-                movieTitle: rating.Season.title,
-                rating: rating.rating,
-                createdAt: rating.createdAt
-            }))
-        ].sort((a, b) => b.createdAt - a.createdAt).slice(0, 5);
+        const seasonIds = histories.map(h => Number(h.seasonId));
+        const seasons = await Season.findAll({
+            where: { id: seasonIds },
+            attributes: ['id', 'title', 'movieId'],
+            include: [
+                {
+                    model: Movie,
+                    attributes: ['id', 'title']
+                }
+            ],
+            raw: true,
+            nest: true
+        });
 
-        return activities;
+        return histories.map(h => {
+            const season = seasons.find(s => Number(s.id) === Number(h.seasonId));
+            return {
+                seasonId: Number(h.seasonId),
+                viewCount: Number(h.viewCount),
+                title: season ? season.title : null,
+                movieId: season ? season.movieId : null,
+                movie: season && season.Movie ? season.Movie : null
+            };
+        });
     } catch (error) {
-        throw new Error('Lỗi khi lấy hoạt động gần đây: ' + error.message);
+        throw new Error('Lỗi khi lấy top phim: ' + error.message);
     }
 };
 
-exports.getTopSeasons = async () => {
-    const histories = await WatchHistory.findAll({
-        include: [{
-            model: Episode,
-            as: 'episode', // dùng đúng alias
-            attributes: ['seasonId'],
-            required: true
-        }],
-        attributes: [
-            [sequelize.col('episode.seasonId'), 'seasonId'],
-            [sequelize.fn('COUNT', sequelize.col('WatchHistory.id')), 'viewCount']
-        ],
-        group: ['episode.seasonId'],
-        order: [[sequelize.literal('viewCount'), 'DESC']],
-        limit: 10,
-        raw: true
-    });
+// Lấy top user xem nhiều nhất
+exports.getTopUsers = async () => {
+    try {
+        const histories = await WatchHistory.findAll({
+            attributes: [
+                'userId',
+                [db.sequelize.fn('COUNT', db.sequelize.col('id')), 'viewCount']
+            ],
+            group: ['userId'],
+            order: [[db.sequelize.literal('viewCount'), 'DESC']],
+            limit: 10,
+            raw: true
+        });
 
-    const seasonIds = histories.map(h => Number(h.seasonId));
-    const seasons = await Season.findAll({
-        where: { id: seasonIds },
-        attributes: ['id', 'title', 'movieId'],
-        include: [
-            {
-                model: Movie,
-                attributes: ['id', 'title']
-            }
-        ],
-        raw: true,
-        nest: true
-    });
+        const users = await User.findAll({
+            where: { id: { [Op.in]: histories.map(h => h.userId) } },
+            attributes: ['id', 'username', 'email']
+        });
 
-    return histories.map(h => {
-        const season = seasons.find(s => Number(s.id) === Number(h.seasonId));
-        return {
-            seasonId: Number(h.seasonId),
-            viewCount: Number(h.viewCount),
-            title: season ? season.title : null,
-            movieId: season ? season.movieId : null,
-            movie: season && season.Movie ? season.Movie : null
-        };
-    });
+        return histories.map(h => ({
+            userId: h.userId,
+            viewCount: h.viewCount,
+            user: users.find(u => u.id === h.userId)
+        }));
+    } catch (error) {
+        throw new Error('Lỗi khi lấy top users: ' + error.message);
+    }
+};
+
+// Lấy top phim được yêu thích nhất
+exports.getTopFavoriteMovies = async () => {
+    try {
+        const favorites = await Favorite.findAll({
+            attributes: [
+                'seasonId',
+                [db.sequelize.fn('COUNT', db.sequelize.col('seasonId')), 'favoriteCount']
+            ],
+            group: ['seasonId'],
+            order: [[db.sequelize.literal('favoriteCount'), 'DESC']],
+            limit: 10,
+            raw: true
+        });
+
+        const seasons = await Season.findAll({
+            where: { id: { [Op.in]: favorites.map(f => f.seasonId) } },
+            attributes: ['id', 'title']
+        });
+
+        return favorites.map(f => ({
+            ...f,
+            season: seasons.find(s => s.id === f.seasonId)
+        }));
+    } catch (error) {
+        throw new Error('Lỗi khi lấy top favorite movies: ' + error.message);
+    }
+};
+
+// Lấy top phim rating cao nhất
+exports.getTopRatedSeasons = async () => {
+    try {
+        const ratings = await Rating.findAll({
+            attributes: [
+                'seasonId',
+                [db.sequelize.fn('AVG', db.sequelize.col('rating')), 'avgRating']
+            ],
+            group: ['seasonId'],
+            order: [[db.sequelize.literal('avgRating'), 'DESC']],
+            limit: 10,
+            raw: true
+        });
+
+        const seasons = await Season.findAll({
+            where: { id: ratings.map(r => r.seasonId) },
+            attributes: ['id', 'title']
+        });
+
+        return ratings.map(r => ({
+            ...r,
+            season: seasons.find(s => s.id === r.seasonId)
+        }));
+    } catch (error) {
+        throw new Error('Lỗi khi lấy top rated seasons: ' + error.message);
+    }
+};
+
+// Lấy user mới nhất
+exports.getNewestUsers = async () => {
+    try {
+        return await User.findAll({
+            order: [['createdAt', 'DESC']],
+            limit: 10,
+            attributes: ['id', 'username', 'email', 'createdAt'],
+            raw: true
+        });
+    } catch (error) {
+        throw new Error('Lỗi khi lấy newest users: ' + error.message);
+    }
+};
+
+// Lấy phim mới nhất
+exports.getNewestSeasons = async () => {
+    try {
+        return await Season.findAll({
+            order: [['createdAt', 'DESC']],
+            limit: 10,
+            attributes: ['id', 'title', 'createdAt'],
+            raw: true
+        });
+    } catch (error) {
+        throw new Error('Lỗi khi lấy newest seasons: ' + error.message);
+    }
+};
+
+// Lấy tỷ lệ user theo vai trò
+exports.getUserRoleDistribution = async () => {
+    try {
+        const roles = await User.findAll({
+            attributes: [
+                'role',
+                [db.sequelize.fn('COUNT', db.sequelize.col('id')), 'count']
+            ],
+            group: ['role'],
+            raw: true
+        });
+        return roles;
+    } catch (error) {
+        throw new Error('Lỗi khi lấy user role distribution: ' + error.message);
+    }
+};
+
+// Lấy số lượng comment theo tháng
+exports.getCommentsByMonth = async () => {
+    try {
+        const currentYear = new Date().getFullYear();
+        const comments = await Comment.findAll({
+            attributes: [
+                [db.sequelize.fn('MONTH', db.sequelize.col('createdAt')), 'month'],
+                [db.sequelize.fn('COUNT', db.sequelize.col('id')), 'count']
+            ],
+            where: {
+                createdAt: {
+                    [Op.gte]: new Date(currentYear, 0, 1),
+                    [Op.lte]: new Date(currentYear, 11, 31)
+                }
+            },
+            group: [db.sequelize.fn('MONTH', db.sequelize.col('createdAt'))],
+            raw: true
+        });
+
+        const allMonths = Array.from({ length: 12 }, (_, i) => ({
+            month: i + 1,
+            count: 0
+        }));
+        comments.forEach(c => {
+            allMonths[c.month - 1].count = parseInt(c.count);
+        });
+        return allMonths;
+    } catch (error) {
+        throw new Error('Lỗi khi lấy comments by month: ' + error.message);
+    }
 };
 
 // Lấy tỷ lệ hoàn thành xem phim
@@ -211,240 +346,4 @@ exports.getCompletionRate = async () => {
     } catch (error) {
         throw new Error('Lỗi khi lấy tỷ lệ hoàn thành: ' + error.message);
     }
-}; 
-exports.getNewUsersByMonth = async () => {
-    const currentYear = new Date().getFullYear();
-    const users = await User.findAll({
-        attributes: [
-            [sequelize.fn('MONTH', sequelize.col('createdAt')), 'month'],
-            [sequelize.fn('COUNT', sequelize.col('id')), 'count']
-        ],
-        where: {
-            createdAt: {
-                [Op.gte]: new Date(currentYear, 0, 1),
-                [Op.lte]: new Date(currentYear, 11, 31)
-            }
-        },
-        group: [sequelize.fn('MONTH', sequelize.col('createdAt'))],
-        raw: true
-    });
-
-    // Đảm bảo đủ 12 tháng
-    const allMonths = Array.from({ length: 12 }, (_, i) => ({
-        month: i + 1,
-        count: 0
-    }));
-    users.forEach(u => {
-        allMonths[u.month - 1].count = parseInt(u.count);
-    });
-    return allMonths;
-};
-// 2. Phim mới theo tháng
-exports.getNewMoviesByMonth = async () => {
-    const currentYear = new Date().getFullYear();
-    const seasons = await Season.findAll({
-        attributes: [
-            [sequelize.fn('MONTH', sequelize.col('createdAt')), 'month'],
-            [sequelize.fn('COUNT', sequelize.col('id')), 'count']
-        ],
-        where: {
-            createdAt: {
-                [Op.gte]: new Date(currentYear, 0, 1),
-                [Op.lte]: new Date(currentYear, 11, 31)
-            }
-        },
-        group: [sequelize.fn('MONTH', sequelize.col('createdAt'))],
-        raw: true
-    });
-    const allMonths = Array.from({ length: 12 }, (_, i) => ({
-        month: i + 1,
-        count: 0
-    }));
-    seasons.forEach(s => {
-        allMonths[s.month - 1].count = parseInt(s.count);
-    });
-    return allMonths;
-};
-
-// 3. Top user xem nhiều nhất
-exports.getTopUsers = async () => {
-    // Đếm số lượt xem của từng user
-    const histories = await WatchHistory.findAll({
-        attributes: [
-            'userId',
-            [sequelize.fn('COUNT', sequelize.col('id')), 'viewCount']
-        ],
-        group: ['userId'],
-        order: [[sequelize.literal('viewCount'), 'DESC']],
-        limit: 10,
-        raw: true
-    });
-
-    // Lấy thông tin user
-    const users = await User.findAll({
-        where: { id: { [Op.in]: histories.map(h => h.userId) } },
-        attributes: ['id', 'username', 'email']
-    });
-
-    // Gộp dữ liệu
-    return histories.map(h => ({
-        userId: h.userId,
-        viewCount: h.viewCount,
-        user: users.find(u => u.id === h.userId)
-    }));
-};
-
-// 4. Top phim được yêu thích nhất
-exports.getTopFavoriteMovies = async () => {
-    // Đếm số lượt favorite theo seasonId
-    const favorites = await Favorite.findAll({
-        attributes: [
-            'seasonId',
-            [sequelize.fn('COUNT', sequelize.col('seasonId')), 'favoriteCount']
-        ],
-        group: ['seasonId'],
-        order: [[sequelize.literal('favoriteCount'), 'DESC']],
-        limit: 10,
-        raw: true
-    });
-
-    // Lấy thông tin season
-    const seasons = await Season.findAll({
-        where: { id: { [Op.in]: favorites.map(f => f.seasonId) } },
-        attributes: ['id', 'title']
-    });
-
-    // Gộp dữ liệu
-    return favorites.map(f => ({
-        ...f,
-        season: seasons.find(s => s.id === f.seasonId)
-    }));
-};
-
-// 5. Rating trung bình theo thể loại
-exports.getAverageRatingByGenre = async () => {
-    // Lấy tất cả genre
-    const genres = await Genre.findAll({ attributes: ['id', 'name'], raw: true });
-
-    const result = [];
-    for (const genre of genres) {
-        // Lấy tất cả movie thuộc genre này
-        const movies = await Movie.findAll({
-            include: [{
-                model: Genre,
-                where: { id: genre.id },
-                attributes: []
-            }],
-            attributes: ['id'],
-            raw: true
-        });
-
-        const movieIds = movies.map(m => m.id);
-        if (movieIds.length === 0) {
-            result.push({ genre: genre.name, avgRating: "0.00" });
-            continue;
-        }
-
-        // Lấy tất cả season thuộc các movie này
-        const seasons = await Season.findAll({
-            where: { movieId: movieIds },
-            attributes: ['id'],
-            raw: true
-        });
-        const seasonIds = seasons.map(s => s.id);
-        if (seasonIds.length === 0) {
-            result.push({ genre: genre.name, avgRating: "0.00" });
-            continue;
-        }
-
-        // Tính trung bình rating của các season này
-        const rating = await Rating.findOne({
-            where: { seasonId: seasonIds },
-            attributes: [[sequelize.fn('AVG', sequelize.col('rating')), 'avgRating']],
-            raw: true
-        });
-
-        result.push({
-            genre: genre.name,
-            avgRating: Number(rating.avgRating || 0).toFixed(2)
-        });
-    }
-    return result;
-};
-
-// 6. Số lượng comment theo tháng
-exports.getCommentsByMonth = async () => {
-    const currentYear = new Date().getFullYear();
-    const comments = await Comment.findAll({
-        attributes: [
-            [sequelize.fn('MONTH', sequelize.col('createdAt')), 'month'],
-            [sequelize.fn('COUNT', sequelize.col('id')), 'count']
-        ],
-        where: {
-            createdAt: {
-                [Op.gte]: new Date(currentYear, 0, 1),
-                [Op.lte]: new Date(currentYear, 11, 31)
-            }
-        },
-        group: [sequelize.fn('MONTH', sequelize.col('createdAt'))],
-        raw: true
-    });
-    const allMonths = Array.from({ length: 12 }, (_, i) => ({
-        month: i + 1,
-        count: 0
-    }));
-    comments.forEach(c => {
-        allMonths[c.month - 1].count = parseInt(c.count);
-    });
-    return allMonths;
-};
-
-// 7. Tỷ lệ user theo vai trò
-exports.getUserRoleDistribution = async () => {
-    const roles = await User.findAll({
-        attributes: [
-            'role',
-            [sequelize.fn('COUNT', sequelize.col('id')), 'count']
-        ],
-        group: ['role'],
-        raw: true
-    });
-    return roles;
-};
-exports.getNewestUsers = async () => {
-    return await User.findAll({
-        order: [['createdAt', 'DESC']],
-        limit: 10,
-        attributes: ['id', 'username', 'email', 'createdAt'],
-        raw: true
-    });
-};
-exports.getNewestSeasons = async () => {
-    return await Season.findAll({
-        order: [['createdAt', 'DESC']],
-        limit: 10,
-        attributes: ['id', 'title', 'createdAt'],
-        raw: true
-    });
-};
-exports.getTopRatedSeasons = async () => {
-    const ratings = await Rating.findAll({
-        attributes: [
-            'seasonId',
-            [sequelize.fn('AVG', sequelize.col('rating')), 'avgRating']
-        ],
-        group: ['seasonId'],
-        order: [[sequelize.literal('avgRating'), 'DESC']],
-        limit: 10,
-        raw: true
-    });
-    const seasons = await Season.findAll({
-        where: { id: ratings.map(r => r.seasonId) },
-        attributes: ['id', 'title'],
-        raw: true
-    });
-    return ratings.map(r => ({
-        ...r,
-        season: seasons.find(s => s.id === r.seasonId)
-    }));
 };

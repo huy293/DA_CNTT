@@ -2,7 +2,7 @@
 import React from "react";
 import { Navigate, useLocation } from "react-router-dom";
 import useStaffAuth from "../hooks/useStaffAuth";
-import spinner_Default from "./Spin/Default";
+import SpinnerDefault from "./Spin/Default";
 
 const AdminProtectedRoute = ({ children }) => {
   const { isAuthenticated, loading } = useStaffAuth();
@@ -12,7 +12,7 @@ const AdminProtectedRoute = ({ children }) => {
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
-        <spinner_Default />
+        <SpinnerDefault />
       </div>
     );
   }

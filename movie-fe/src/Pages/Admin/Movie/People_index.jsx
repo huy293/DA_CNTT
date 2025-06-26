@@ -57,9 +57,8 @@ const People = () => {
       const response = await axiosInstance.get("/api/movies");
       const movies = response.data;
       
-      // Fetch seasons for each series type movie
+      // Fetch seasons for all movies (cả phim lẻ và phim bộ)
       const seasonsPromises = movies
-        .filter(movie => movie.type === "series")
         .map(movie => 
           axiosInstance.get(`/api/season/movie/${movie.id}`)
         );

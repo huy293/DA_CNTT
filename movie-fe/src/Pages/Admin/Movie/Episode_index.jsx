@@ -21,8 +21,7 @@ const Episode = () => {
     const fetchMovies = async () => {
       try {
         const response = await axiosInstance.get("/api/movies");
-        const seriesMovies = response.data.filter(movie => movie.type === "series");
-        setMovies(seriesMovies);
+        setMovies(response.data);
       } catch (error) {
         console.error("Error fetching movies:", error);
       }
