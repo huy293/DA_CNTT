@@ -32,10 +32,6 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         defaultValue: false
       },
-      canDeleteMovie: {
-        type: Sequelize.BOOLEAN,
-        defaultValue: false
-      },
       canManageComment: {
         type: Sequelize.BOOLEAN,
         defaultValue: true

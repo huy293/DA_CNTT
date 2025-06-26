@@ -82,20 +82,26 @@ function App() {
               <Route 
                 path="user-interaction"
                 element={
-                   <AdminProtectedRoute>
-                    <PermissionGuard requiredPermission="canManageUsers">
-                      <Outlet />
-                    </PermissionGuard>
+                  <AdminProtectedRoute>
+                    <Outlet />
                   </AdminProtectedRoute>
                 }
               >
                 <Route
                   path="interaction"
-                  element={<Interaction />}
+                  element={
+                    <PermissionGuard requiredPermission="canManageComment">
+                      <Interaction />
+                    </PermissionGuard>
+                  }
                 />
                 <Route
                   path="user"
-                  element={<User />}
+                  element={
+                    <PermissionGuard requiredPermission="canManageUsers">
+                      <User />
+                    </PermissionGuard>
+                  }
                 />
               </Route>
               <Route

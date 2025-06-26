@@ -4,6 +4,7 @@ import Datatables from "../../../components/Datatable/Datatables";
 import { userColumns } from "../../../components/Datatable/column/userColumns";
 import { UserModal } from "../../../components/Modal/UserModal";
 import Select from "react-select";
+import useUser from '../../../hooks/useUser';
 
 const User = () => {
   const [users, setUsers] = useState([]);
@@ -13,6 +14,7 @@ const User = () => {
   const [selectedUser, setSelectedUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { user: currentUser } = useUser();
 
   useEffect(() => {
     fetchUsers();
@@ -117,6 +119,8 @@ const User = () => {
             }}
             onSubmit={handleSubmit}
             editingUser={editingUser}
+            currentUser={currentUser}
+            permissions={editingUser?.permissions}
           />
         )}
 

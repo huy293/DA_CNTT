@@ -20,17 +20,13 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.BOOLEAN,
       defaultValue: false
     },
-    canDeleteMovie: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: false
-    },
     canManageComment: {
       type: DataTypes.BOOLEAN,
-      defaultValue: true
+      defaultValue: false
     },
     canViewReport: {
       type: DataTypes.BOOLEAN,
-      defaultValue: false
+      defaultValue: true
     }
     // Thêm các quyền khác nếu cần
   }, {});

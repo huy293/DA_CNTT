@@ -27,7 +27,7 @@ router.delete(
   "/:id", 
   authMiddleware.protect(), 
   authMiddleware.restrictTo("admin", "moderator"), 
-  checkPermission('canDeleteMovie'), 
+  checkPermission('canManageMovies'), 
   controller.deleteSeason
 );
 

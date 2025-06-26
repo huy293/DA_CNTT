@@ -31,11 +31,11 @@ exports.updatePermissions = async (userId, updates) => {
 }
 
 exports.getPermissions = async (userId) => {
-    const user = await User.findByPk(userId);
+    const user = await User.findByPk(userId, { include: Permission });
     if (!user) throw new Error('User not found');
 
-    if (user.role === 'admin' || user.isSuperAdmin) {
-        // Admin và SuperAdmin có tất cả các quyền
+    if (user.isSuperAdmin) {
+        // SuperAdmin: full quyền
         const allPermissions = {};
         const permissionFields = Object.keys(Permission.getAttributes());
         permissionFields.forEach(field => {
@@ -46,10 +46,38 @@ exports.getPermissions = async (userId) => {
         return allPermissions;
     }
 
-    // Đối với các vai trò khác như 'moderator'
+    if (user.role === 'admin') {
+        // Admin thường: full quyền trừ 2 quyền đặc biệt
+        const defaultPermissions = {};
+        const permissionFields = Object.keys(Permission.getAttributes());
+        permissionFields.forEach(field => {
+            if (field !== 'id' && field !== 'userId' && field !== 'createdAt' && field !== 'updatedAt') {
+                if (field === 'canManageSettings') {
+                    defaultPermissions[field] = false;
+                } else if (field === 'canManageUsers') {
+                    defaultPermissions[field] = !!(user.Permission && user.Permission[field]);
+                } else {
+                    defaultPermissions[field] = true;
+                }
+            }
+        });
+        return defaultPermissions;
+    }
+
+    // Đối với moderator: luôn có quyền canViewReport=true, các quyền khác lấy từ bảng Permission
+    if (user.role === 'moderator') {
+        let perm = await Permission.findOne({ where: { userId } });
+        if (!perm) {
+            perm = await Permission.create({ userId });
+        }
+        const result = perm.toJSON();
+        result.canViewReport = true;
+        return result;
+    }
+
+    // Đối với các vai trò khác
     let perm = await Permission.findOne({ where: { userId } });
     if (!perm) {
-        // Nếu không có record, tạo một record mặc định
         perm = await Permission.create({ userId });
     }
     return perm.toJSON();

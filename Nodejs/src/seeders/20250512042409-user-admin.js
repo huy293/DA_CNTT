@@ -8,14 +8,13 @@ module.exports = {
     // Import model User từ thư mục models
     const { User } = require('../models');  // Đảm bảo đường dẫn đúng với cấu trúc dự án của bạn
 
-    // Kiểm tra xem đã có admin chưa
-    const admin = await User.findOne({
+    const superAdmin = await User.findOne({
       where: {
-        role: 'admin',
+        isSuperAdmin: true,
       },
     });
 
-    if (!admin) {
+    if (!superAdmin) {
       // Mã hóa mật khẩu admin
       const hashedPassword = await bcrypt.hash(process.env.PASSWORD_ADMIN, 10);  // Dùng mật khẩu từ .env để mã hóa
 
@@ -26,6 +25,7 @@ module.exports = {
           email: process.env.EMAIL_ADMIN,  // Sử dụng biến môi trường từ .env
           password: hashedPassword,  // Mật khẩu đã mã hóa
           role: 'admin',
+          isSuperAdmin: true, // Đặt là super admin
           createdAt: new Date(),
           updatedAt: new Date(),
         },

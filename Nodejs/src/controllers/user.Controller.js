@@ -288,6 +288,14 @@ exports.updatePermissions = async (req, res) => {
       });
     }
 
+    // Không cho phép cấp quyền canManageSettings cho moderator hoặc admin thường (chỉ super admin mới được cấp cho admin)
+    if (permissionUpdates.hasOwnProperty('canManageSettings') && permissionUpdates.canManageSettings) {
+      const user = await User.findByPk(userId);
+      if (user && (user.role === 'moderator' || (user.role === 'admin' && !req.user.isSuperAdmin))) {
+        return res.status(400).json({ message: 'Chỉ Super Admin mới có quyền này.' });
+      }
+    }
+
     const perm = await userService.updatePermissions(userId, permissionUpdates);
 
     // Ghi log khi cập nhật phân quyền

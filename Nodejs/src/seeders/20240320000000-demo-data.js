@@ -9426,7 +9426,7 @@ module.exports = {
       "birthday": "1989-07-23",
       "gender": "male",
       "biography": "Daniel Radcliffe là diễn viên người Anh nổi tiếng với vai Harry Potter trong series phim cùng tên.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Daniel_Radcliffe_2012.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYzVmYjIxMzgtZWU2Ny00MjAyLTk5ZWUtZDEyMTliYjczMmIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9436,7 +9436,7 @@ module.exports = {
       "birthday": "1988-08-24",
       "gender": "male",
       "biography": "Rupert Grint là diễn viên người Anh được biết đến qua vai Ron Weasley trong series Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Rupert_Grint_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BODUwOTc5N2MtNTVmZi00MWE0LWE0Y2QtOTAyOTEzZDg1NGFiXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9446,7 +9446,7 @@ module.exports = {
       "birthday": "1990-04-15",
       "gender": "female",
       "biography": "Emma Watson là nữ diễn viên người Anh, nổi tiếng với vai Hermione Granger trong series phim Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Emma_Watson_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQ3ODE2NTMxMV5BMl5BanBnXkFtZTgwOTIzOTQzMjE@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9456,7 +9456,7 @@ module.exports = {
       "birthday": "1930-10-01",
       "gender": "male",
       "biography": "Richard Harris là diễn viên và nhà soạn nhạc người Ireland, nổi tiếng với vai Albus Dumbledore trong hai phần đầu của Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Richard_Harris_1973.JPG",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOGViY2QzMjAtZmZmYi00MmJhLWJiZjYtM2YxMjZkZjEzMzNjXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9466,7 +9466,7 @@ module.exports = {
       "birthday": "1934-12-28",
       "gender": "female",
       "biography": "Maggie Smith là nữ diễn viên người Anh nổi tiếng với vai Minerva McGonagall trong loạt phim Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Maggie_Smith_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjA4NzYxNjc5Ml5BMl5BanBnXkFtZTYwMTMzOTg1._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9476,7 +9476,7 @@ module.exports = {
       "birthday": "1958-09-10",
       "gender": "male",
       "biography": "Chris Columbus là đạo diễn, nhà sản xuất phim người Mỹ, nổi tiếng với vai trò đạo diễn bộ phim Harry Potter và Hòn đá Phù thủy.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Chris_Columbus_Cannes_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTY2MTYzNzUyNl5BMl5BanBnXkFtZTYwMDI0NzA0._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9486,7 +9486,7 @@ module.exports = {
       "birthday": "1960-12-10",
       "gender": "male",
       "biography": "Kenneth Branagh là diễn viên và đạo diễn người Bắc Ireland, nổi bật trong vai Gilderoy Lockhart trong Harry Potter và Phòng chứa Bí mật.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kenneth_Branagh_2011_Shankbone_2.JPG",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjI0NTQ4Mjk5Ml5BMl5BanBnXkFtZTcwMDc1NjkzNw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9496,7 +9496,7 @@ module.exports = {
       "birthday": "1963-06-06",
       "gender": "male",
       "biography": "Jason Isaacs là diễn viên người Anh, nổi tiếng với vai Lucius Malfoy trong series Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Jason_Isaacs_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTBhMjc3MjAtNWQ2OS00ZWVjLWE5MjQtZDg0YzQxZTA1MzYxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9506,7 +9506,7 @@ module.exports = {
       "birthday": "1961-11-28",
       "gender": "male",
       "biography": "Alfonso Cuarón là đạo diễn, nhà biên kịch người Mexico, từng đạo diễn Harry Potter và Tên tù Azkaban.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Alfonso_Cuaron_2009.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjA0ODY4OTk4Nl5BMl5BanBnXkFtZTcwNTkxMzYyMg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9516,7 +9516,7 @@ module.exports = {
       "birthday": "1962-12-22",
       "gender": "male",
       "biography": "Ralph Fiennes là diễn viên người Anh nổi tiếng với vai Voldemort trong loạt phim Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ralph_Fiennes_by_Gage_Skidmore.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMzc5MjE1NDgyN15BMl5BanBnXkFtZTcwNzg2ODgwNA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9526,7 +9526,7 @@ module.exports = {
       "birthday": "1955-03-29",
       "gender": "male",
       "biography": "Brendan Gleeson là diễn viên người Ireland, từng đóng vai Mad-Eye Moody trong series Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Brendan_Gleeson_2012.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTA3NTMxODI0OTBeQTJeQWpwZ15BbWU3MDQ1NTY5Mjc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9536,7 +9536,7 @@ module.exports = {
       "birthday": "1942-03-28",
       "gender": "male",
       "biography": "Mike Newell là đạo diễn người Anh, nổi tiếng với bộ phim Harry Potter và Chiếc cốc lửa.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mike_Newell_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTgzNDI1ODc4N15BMl5BanBnXkFtZTYwNjg3NTc1._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9546,7 +9546,7 @@ module.exports = {
       "birthday": "1956-01-09",
       "gender": "female",
       "biography": "Imelda Staunton là nữ diễn viên người Anh, nổi tiếng với vai Dolores Umbridge trong loạt phim Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Imelda_Staunton_at_the_National_Treasure_Premiere_2004.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQ0NzcwOTE0NF5BMl5BanBnXkFtZTYwNjAxOTI1._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9556,7 +9556,7 @@ module.exports = {
       "birthday": "1966-05-26",
       "gender": "female",
       "biography": "Helena Bonham Carter là nữ diễn viên người Anh, nổi tiếng với vai Bellatrix Lestrange trong Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Helena_Bonham_Carter_Cannes_2014.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTc2OTMxNDIzMF5BMl5BanBnXkFtZTcwNDU1MjA1NA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9566,7 +9566,7 @@ module.exports = {
       "birthday": "1940-10-19",
       "gender": "male",
       "biography": "Michael Gambon là diễn viên người Ireland, đóng vai Albus Dumbledore từ phần 3 đến phần cuối của Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Michael_Gambon_-_Montreal_-_2011-10-06.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTY3OTc4MTgyN15BMl5BanBnXkFtZTcwNTAxNjA3Mg@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9576,7 +9576,7 @@ module.exports = {
       "birthday": "1963-10-08",
       "gender": "male",
       "biography": "David Yates là đạo diễn người Anh, nổi tiếng với việc đạo diễn nhiều phần phim Harry Potter cuối cùng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/David_Yates_by_Gage_Skidmore.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTY2NTU4NjY4M15BMl5BanBnXkFtZTYwNjIxOTI1._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9586,7 +9586,7 @@ module.exports = {
       "birthday": "1975-06-27",
       "gender": "male",
       "biography": "Tobey Maguire là diễn viên người Mỹ, nổi tiếng với vai Peter Parker/Spider-Man trong loạt phim Spider-Man đầu tiên.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tobey_Maguire_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTYwMTI5NTM2OF5BMl5BanBnXkFtZTcwODk3MDQ2Mg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9596,7 +9596,7 @@ module.exports = {
       "birthday": "1982-04-30",
       "gender": "female",
       "biography": "Kirsten Dunst là nữ diễn viên người Mỹ, nổi tiếng với vai Mary Jane Watson trong loạt phim Spider-Man.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Kirsten_Dunst_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQ3NzkwNzM1MV5BMl5BanBnXkFtZTgwMzE2MTQ3MjE@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9606,7 +9606,7 @@ module.exports = {
       "birthday": "1955-07-22",
       "gender": "male",
       "biography": "Willem Dafoe là diễn viên người Mỹ, được biết đến với vai Green Goblin trong Spider-Man.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Willem_Dafoe_2017.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTBjNWMzMDEtZGZiZi00ZTEyLWEzMDUtZGFiYTE0ODQwZWU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9616,7 +9616,7 @@ module.exports = {
       "birthday": "1978-04-19",
       "gender": "male",
       "biography": "James Franco là diễn viên người Mỹ, đóng vai Harry Osborn trong loạt phim Spider-Man.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/James_Franco_2012_Shankbone_2.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjA4MzMzNDM5MF5BMl5BanBnXkFtZTgwMjQ0MDk0NDM@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9626,7 +9626,7 @@ module.exports = {
       "birthday": "1959-10-23",
       "gender": "male",
       "biography": "Sam Raimi là đạo diễn người Mỹ, nổi tiếng với việc đạo diễn bộ ba phim Spider-Man đầu tiên.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sam_Raimi_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BODQ0NjI0NzkzMV5BMl5BanBnXkFtZTYwMDc0ODk1._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9636,7 +9636,7 @@ module.exports = {
       "birthday": "1968-10-12",
       "gender": "male",
       "biography": "Hugh Jackman là diễn viên người Úc, nổi tiếng với vai Wolverine trong loạt phim X-Men.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hugh_Jackman_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNDExMzIzNjk3Nl5BMl5BanBnXkFtZTcwOTE4NDU5OA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9646,7 +9646,7 @@ module.exports = {
       "birthday": "1940-07-13",
       "gender": "male",
       "biography": "Patrick Stewart là diễn viên người Anh, nổi tiếng với vai Giáo sư X trong loạt phim X-Men.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Patrick_Stewart_by_Gage_Skidmore_2.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTc0MzU5ODQ5OF5BMl5BanBnXkFtZTYwODIwODk1._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9656,7 +9656,7 @@ module.exports = {
       "birthday": "1939-05-25",
       "gender": "male",
       "biography": "Ian McKellen là diễn viên người Anh, nổi tiếng với vai Magneto trong loạt phim X-Men và Gandalf trong Chúa tể những chiếc nhẫn.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sir_Ian_McKellen_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQ2MjgyNjk3MV5BMl5BanBnXkFtZTcwNTA3NTY5Mg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9666,7 +9666,7 @@ module.exports = {
       "birthday": "1966-08-14",
       "gender": "female",
       "biography": "Halle Berry là nữ diễn viên người Mỹ, từng đóng vai Storm trong loạt phim X-Men.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Halle_Berry_2007.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjIxNzc5MDAzOV5BMl5BanBnXkFtZTcwMDUxMjMxMw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9676,7 +9676,7 @@ module.exports = {
       "birthday": "1964-11-05",
       "gender": "female",
       "biography": "Famke Janssen là nữ diễn viên người Hà Lan, nổi tiếng với vai Jean Grey trong loạt phim X-Men.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Famke_Janssen_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNDQ5MjU2NTQ0OV5BMl5BanBnXkFtZTcwNzAzODU1Mg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9686,7 +9686,7 @@ module.exports = {
       "birthday": "1965-09-17",
       "gender": "male",
       "biography": "Bryan Singer là đạo diễn, nhà sản xuất phim người Mỹ, nổi tiếng với việc đạo diễn các phần đầu của series X-Men.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bryan_Singer_2006.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTMwMzQ0OTgzNF5BMl5BanBnXkFtZTcwMjExNzAyMg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9696,7 +9696,7 @@ module.exports = {
       "birthday": "1969-03-28",
       "gender": "male",
       "biography": "Brett Ratner là đạo diễn người Mỹ, nổi tiếng với việc đạo diễn X-Men: The Last Stand.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Brett_Ratner_2009.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTMyNDQ1MTQ0NV5BMl5BanBnXkFtZTcwNDg2Njg4Mw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9706,7 +9706,7 @@ module.exports = {
       "birthday": "1963-09-12",
       "gender": "male",
       "biography": "Gavin Hood là đạo diễn, biên kịch người Nam Phi, nổi tiếng với X-Men Origins: Wolverine.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Gavin_Hood_2008.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTgzNTQzMzI0Nl5BMl5BanBnXkFtZTgwNDA5MDkzMDE@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9716,7 +9716,7 @@ module.exports = {
       "birthday": "1981-01-28",
       "gender": "male",
       "biography": "Elijah Wood là diễn viên người Mỹ, nổi tiếng với vai Frodo trong loạt phim The Lord of the Rings.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Elijah_Wood_2014_%28cropped%29.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTM0NDIxMzQ5OF5BMl5BanBnXkFtZTcwNzAyNTA4Nw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9726,7 +9726,7 @@ module.exports = {
       "birthday": "1939-05-25",
       "gender": "male",
       "biography": "Ian McKellen là diễn viên người Anh, nổi tiếng với vai Gandalf trong Chúa tể những chiếc nhẫn và Magneto trong loạt phim X-Men.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sir_Ian_McKellen_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQ2MjgyNjk3MV5BMl5BanBnXkFtZTcwNTA3NTY5Mg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9736,7 +9736,7 @@ module.exports = {
       "birthday": "1958-10-20",
       "gender": "male",
       "biography": "Viggo Mortensen là diễn viên người Mỹ gốc Đan Mạch, nổi tiếng với vai Aragorn trong loạt phim Chúa tể những chiếc nhẫn.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Viggo_Mortensen_-_2014.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNDQzOTg4NzA2Nl5BMl5BanBnXkFtZTcwMzkwNjkxMg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9746,7 +9746,7 @@ module.exports = {
       "birthday": "1971-02-25",
       "gender": "male",
       "biography": "Sean Astin là diễn viên người Mỹ, nổi tiếng với vai Samwise Gamgee trong loạt phim Chúa tể những chiếc nhẫn.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Sean_Astin_2019_%28cropped%29.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjEzMjczOTQ1NF5BMl5BanBnXkFtZTcwMzI2NzYyMQ@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9756,7 +9756,7 @@ module.exports = {
       "birthday": "1977-01-13",
       "gender": "male",
       "biography": "Orlando Bloom là diễn viên người Anh, nổi tiếng với vai Legolas trong loạt phim Chúa tể những chiếc nhẫn và Will Turner trong Pirates of the Caribbean.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Orlando_Bloom_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjE1MDkxMjQ3NV5BMl5BanBnXkFtZTcwMzQ3Mjc4MQ@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9766,7 +9766,7 @@ module.exports = {
       "birthday": "1961-10-31",
       "gender": "male",
       "biography": "Peter Jackson là đạo diễn, nhà sản xuất phim người New Zealand, nổi tiếng với việc đạo diễn loạt phim Chúa tể những chiếc nhẫn.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Peter_Jackson_by_Gage_Skidmore.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNTk2MzA0ZDAtMTI0Yy00NzU2LTgyYmUtMDRlOGFmYjM3NzJhXkEyXkFqcGc@._V1_QL75_UY207_CR74,0,140,207_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9776,7 +9776,7 @@ module.exports = {
       "birthday": "1963-06-09",
       "gender": "male",
       "biography": "Johnny Depp là diễn viên người Mỹ, nổi tiếng với vai Jack Sparrow trong loạt phim Cướp biển vùng Caribbean.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Johnny_Depp_2018.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BZjA3NzZiZDktZjc2My00MzY2LThhOWMtZGFjYzg4ZDI2ZWVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9786,7 +9786,7 @@ module.exports = {
       "birthday": "1985-03-26",
       "gender": "female",
       "biography": "Keira Knightley là nữ diễn viên người Anh, nổi tiếng với vai Elizabeth Swann trong loạt phim Cướp biển vùng Caribbean.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Keira_Knightley_2017.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTYwNDM0NDA3M15BMl5BanBnXkFtZTcwNTkzMjQ3OA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9796,7 +9796,7 @@ module.exports = {
       "birthday": "1951-07-06",
       "gender": "male",
       "biography": "Geoffrey Rush là diễn viên người Úc, từng đoạt giải Oscar, nổi tiếng với vai Barbossa trong loạt phim Cướp biển vùng Caribbean.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Geoffrey_Rush_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTg2MjkxNDU0NV5BMl5BanBnXkFtZTcwOTk3MDQ0NA@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9806,7 +9806,7 @@ module.exports = {
       "birthday": "1949-12-12",
       "gender": "male",
       "biography": "Bill Nighy là diễn viên người Anh, nổi tiếng với nhiều vai diễn đa dạng trong điện ảnh và truyền hình.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Bill_Nighy_2009.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOGEyMGY2NWQtMTljYy00MmE3LThlZmQtNGRjOTQzMzY2MTkwXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9816,7 +9816,7 @@ module.exports = {
       "birthday": "1970-10-08",
       "gender": "male",
       "biography": "Matt Damon là diễn viên, nhà biên kịch và nhà sản xuất người Mỹ, nổi tiếng với vai Jason Bourne trong loạt phim Bourne.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Matt_Damon_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9826,7 +9826,7 @@ module.exports = {
       "birthday": "1974-07-22",
       "gender": "female",
       "biography": "Franka Potente là nữ diễn viên người Đức, nổi tiếng với vai Marie trong bộ phim The Bourne Identity.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Franka_Potente_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQ1NTI3MDIyMl5BMl5BanBnXkFtZTYwNzM2NjY0._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9836,7 +9836,7 @@ module.exports = {
       "birthday": "1951-07-09",
       "gender": "male",
       "biography": "Chris Cooper là diễn viên người Mỹ, từng đoạt giải Oscar cho vai phụ, đóng trong loạt phim Bourne.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Chris_Cooper_2009.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTJkYmYxYjMtMjM4MC00MWMxLThlY2MtZDY0MzBhMmM1ZWZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9846,7 +9846,7 @@ module.exports = {
       "birthday": "1964-10-03",
       "gender": "male",
       "biography": "Clive Owen là diễn viên người Anh, nổi tiếng với vai chính trong The Bourne Identity và nhiều phim hành động khác.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Clive_Owen_2014.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjA4MzAyOTc5Ml5BMl5BanBnXkFtZTcwOTQ5NzEzMg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9856,7 +9856,7 @@ module.exports = {
       "birthday": "1965-07-24",
       "gender": "male",
       "biography": "Doug Liman là đạo diễn người Mỹ, nổi tiếng với bộ phim The Bourne Identity.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Doug_Liman_2009.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BODk4MjIwNjU5OF5BMl5BanBnXkFtZTcwODU4Njk1Mw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9866,7 +9866,7 @@ module.exports = {
       "birthday": "1962-09-15",
       "gender": "male",
       "biography": "Fraser James là diễn viên người Anh, từng đóng các vai phụ trong nhiều bộ phim nổi tiếng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Fraser_James.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTMzNGI0YTgtYzg2Mi00Yzg2LWFkZDYtYzNkNzQzMDkwYTJiXkEyXkFqcGc@._V1_QL75_UX218_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9876,7 +9876,7 @@ module.exports = {
       "birthday": "1963-05-25",
       "gender": "male",
       "biography": "Mike Myers là diễn viên hài và diễn viên người Canada, nổi tiếng với vai Shrek trong loạt phim Shrek.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Mike_Myers_2012_Shankbone_2.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTY0MTM1MTM5Nl5BMl5BanBnXkFtZTcwNzA1OTM3MQ@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9886,7 +9886,7 @@ module.exports = {
       "birthday": "1961-04-03",
       "gender": "male",
       "biography": "Eddie Murphy là diễn viên hài và diễn viên người Mỹ, lồng tiếng cho nhân vật Donkey trong loạt phim Shrek.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Eddie_Murphy_2012_Shankbone_2.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTc0NDQzODAwNF5BMl5BanBnXkFtZTYwMzUzNTk3._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9896,7 +9896,7 @@ module.exports = {
       "birthday": "1972-08-30",
       "gender": "female",
       "biography": "Cameron Diaz là nữ diễn viên người Mỹ, lồng tiếng cho nhân vật Fiona trong loạt phim Shrek.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Cameron_Diaz_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTkxNTI5NzM4MV5BMl5BanBnXkFtZTcwMTI3ODY3Mg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9906,7 +9906,7 @@ module.exports = {
       "birthday": "1964-02-15",
       "gender": "male",
       "biography": "Chris Farley là diễn viên hài người Mỹ, tham gia trong nhiều dự án điện ảnh hài hước.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chris_Farley_SNL_1992.JPG",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQwMjQwODkxMl5BMl5BanBnXkFtZTYwMTAxNjc1._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9916,7 +9916,7 @@ module.exports = {
       "birthday": "1946-12-18",
       "gender": "male",
       "biography": "Steven Spielberg là đạo diễn và nhà sản xuất phim huyền thoại người Mỹ, đã đạo diễn nhiều bộ phim kinh điển của Hollywood.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Steven_Spielberg_Cannes_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTY1NjAzNzE1MV5BMl5BanBnXkFtZTYwNTk0ODc0._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9926,7 +9926,7 @@ module.exports = {
       "birthday": "1935-10-01",
       "gender": "female",
       "biography": "Julie Andrews là nữ diễn viên, ca sĩ người Anh, nổi tiếng với các vai diễn kinh điển và là người lồng tiếng cho Nữ hoàng Lillian trong loạt phim Shrek.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Julie_Andrews_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjExMTYyODA2Ml5BMl5BanBnXkFtZTYwMTgyMDA0._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9936,7 +9936,7 @@ module.exports = {
       "birthday": "1960-08-10",
       "gender": "male",
       "biography": "Antonio Banderas là diễn viên người Tây Ban Nha, nổi tiếng với vai lồng tiếng cho nhân vật Puss in Boots trong loạt phim Shrek.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Antonio_Banderas_2012.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTUyOTQ3NTYyNF5BMl5BanBnXkFtZTcwMTY2NjIzNQ@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9946,7 +9946,7 @@ module.exports = {
       "birthday": "1967-05-16",
       "gender": "male",
       "biography": "Ramon Tikaram là diễn viên và ca sĩ người Anh, từng tham gia lồng tiếng trong nhiều phim hoạt hình, bao gồm Shrek the Third.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ramon_Tikaram.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjIxOTU4MzI3Ml5BMl5BanBnXkFtZTcwNDAwMDAyOA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9956,7 +9956,7 @@ module.exports = {
       "birthday": "1959-05-29",
       "gender": "male",
       "biography": "Rupert Everett là diễn viên người Anh, lồng tiếng cho Prince Charming trong loạt phim Shrek.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Rupert_Everett_2004.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BODQzMDM2ODE3MV5BMl5BanBnXkFtZTYwMDkxODE2._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9966,7 +9966,7 @@ module.exports = {
       "birthday": "1965-03-12",
       "gender": "male",
       "biography": "Simon J. Smith là đạo diễn người Anh, đồng đạo diễn một số phần phim trong loạt Shrek.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Simon_J_Smith.jpg",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhTg5UyT_C2aJ7GfjKOcg9UTrYyGZdBO_5Dw&s",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9976,7 +9976,7 @@ module.exports = {
       "birthday": "1965-02-17",
       "gender": "male",
       "biography": "Michael Bay là đạo diễn người Mỹ, nổi tiếng với loạt phim hành động bom tấn Transformers.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Michael_Bay_2013_Comic_Con_%28cropped%29.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTc2NzcyMDU5NV5BMl5BanBnXkFtZTcwODc1OTM0NA@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9986,7 +9986,7 @@ module.exports = {
       "birthday": "1986-06-11",
       "gender": "male",
       "biography": "Shia LaBeouf là diễn viên người Mỹ, nổi tiếng với vai Sam Witwicky trong loạt phim Transformers.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Shia_LaBeouf_2014.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTU1MjQ1MzA5NF5BMl5BanBnXkFtZTcwNTA5NDE5Mw@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -9996,7 +9996,7 @@ module.exports = {
       "birthday": "1986-05-16",
       "gender": "female",
       "biography": "Megan Fox là nữ diễn viên người Mỹ, nổi tiếng với vai Mikaela Banes trong loạt phim Transformers.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Megan_Fox_2014.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTc5MjgyMzk4NF5BMl5BanBnXkFtZTcwODk2OTM4Mg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10006,7 +10006,7 @@ module.exports = {
       "birthday": "1972-11-14",
       "gender": "male",
       "biography": "Josh Duhamel là diễn viên người Mỹ, tham gia loạt phim Transformers với vai William Lennox.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Josh_Duhamel_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjE3MDUyNjM1N15BMl5BanBnXkFtZTcwMDc3NDY2Mg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10016,7 +10016,7 @@ module.exports = {
       "birthday": "1978-12-30",
       "gender": "male",
       "biography": "Tyrese Gibson là ca sĩ kiêm diễn viên người Mỹ, nổi tiếng với vai Robert Epps trong loạt phim Transformers.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Tyrese_Gibson_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjA3MjU1NzY4OF5BMl5BanBnXkFtZTgwMzU3MDQxNTE@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10026,7 +10026,7 @@ module.exports = {
       "birthday": "1957-02-28",
       "gender": "male",
       "biography": "John Turturro là diễn viên người Mỹ, vào vai Seymour Simmons trong loạt phim Transformers.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/John_Turturro_2010.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNzYwNjgwMjMxMF5BMl5BanBnXkFtZTcwNjUwOTc3NQ@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10036,7 +10036,7 @@ module.exports = {
       "birthday": "1941-07-28",
       "gender": "male",
       "biography": "Peter Cullen là diễn viên lồng tiếng kỳ cựu người Canada, nổi tiếng với giọng nói của Optimus Prime trong loạt phim Transformers.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Peter_Cullen_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTUxNzMwMTU0MF5BMl5BanBnXkFtZTcwMjI2OTU5Ng@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10046,7 +10046,7 @@ module.exports = {
       "birthday": "1974-01-30",
       "gender": "male",
       "biography": "Christian Bale là diễn viên người Anh, nổi tiếng với vai Batman trong The Dark Knight Trilogy.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Christian_Bale_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTY2MzcyMDcyM15BMl5BanBnXkFtZTcwNTYxMTk2Mw@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10056,7 +10056,7 @@ module.exports = {
       "birthday": "1933-03-14",
       "gender": "male",
       "biography": "Michael Caine là diễn viên huyền thoại người Anh, vào vai Alfred Pennyworth trong The Dark Knight Trilogy.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Michael_Caine_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjAwNzIwNTQ4Ml5BMl5BanBnXkFtZTYwMzE1MTUz._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10066,7 +10066,7 @@ module.exports = {
       "birthday": "1958-03-21",
       "gender": "male",
       "biography": "Gary Oldman là diễn viên người Anh, đóng vai James Gordon trong The Dark Knight Trilogy và Sirius Black trong Harry Potter.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Gary_Oldman_Cannes_2018.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTc3NTM4MzQ5MV5BMl5BanBnXkFtZTcwOTE4MDczNw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10076,7 +10076,7 @@ module.exports = {
       "birthday": "1976-05-25",
       "gender": "male",
       "biography": "Cillian Murphy là diễn viên người Ireland, vào vai Scarecrow trong The Dark Knight Trilogy.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Cillian_Murphy_2014.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNWJjYjMzMTQtY2I2NS00YjJlLTg4YzAtNDBlZWQzNzVhMDkxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10086,7 +10086,7 @@ module.exports = {
       "birthday": "1970-07-30",
       "gender": "male",
       "biography": "Christopher Nolan là đạo diễn người Anh, nổi tiếng với việc đạo diễn The Dark Knight Trilogy và nhiều bộ phim xuất sắc khác.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Christopher_Nolan_Cannes_2018.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10096,7 +10096,7 @@ module.exports = {
       "birthday": "1965-04-04",
       "gender": "male",
       "biography": "Robert Downey Jr. là diễn viên người Mỹ, nổi tiếng với vai Tony Stark / Iron Man trong Vũ trụ điện ảnh Marvel.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10106,7 +10106,7 @@ module.exports = {
       "birthday": "1972-09-27",
       "gender": "female",
       "biography": "Gwyneth Paltrow là nữ diễn viên người Mỹ, vào vai Pepper Potts trong loạt phim Iron Man và MCU.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Gwyneth_Paltrow_Berlin_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNzIxOTQ1NTU1OV5BMl5BanBnXkFtZTcwMTQ4MDY0Nw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10116,7 +10116,7 @@ module.exports = {
       "birthday": "1949-12-04",
       "gender": "male",
       "biography": "Jeff Bridges là diễn viên kỳ cựu người Mỹ, vào vai Obadiah Stane trong Iron Man (2008).",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Jeff_Bridges_2014_Comic_Con.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNTU1NjM4MDYzMl5BMl5BanBnXkFtZTcwMjIwMjMyMw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10126,7 +10126,7 @@ module.exports = {
       "birthday": "1966-10-19",
       "gender": "male",
       "biography": "Jon Favreau là đạo diễn và diễn viên người Mỹ, đạo diễn hai phần đầu Iron Man và vào vai Happy Hogan trong MCU.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Jon_Favreau_2018.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNzBiZGI5MmMtOWEzYi00ZDgwLTg4MGEtOTBjMmE1Y2ZiNDg5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10136,7 +10136,7 @@ module.exports = {
       "birthday": "1964-11-29",
       "gender": "male",
       "biography": "Don Cheadle là diễn viên người Mỹ, vào vai James Rhodes / War Machine trong loạt phim MCU.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Don_Cheadle_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNDMxNDM3MzY5N15BMl5BanBnXkFtZTcwMjkzOTY4MQ@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10146,7 +10146,7 @@ module.exports = {
       "birthday": "1968-11-05",
       "gender": "male",
       "biography": "Sam Rockwell là diễn viên người Mỹ, vào vai Justin Hammer trong Iron Man 2.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Sam_Rockwell_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BZWU5NDc1OTMtNGIyOC00YTBiLTg1MTctNzgxZTU0YWM0ZmJjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10156,7 +10156,7 @@ module.exports = {
       "birthday": "1952-09-16",
       "gender": "male",
       "biography": "Mickey Rourke là diễn viên người Mỹ, vào vai phản diện Ivan Vanko / Whiplash trong Iron Man 2.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mickey_Rourke_2009.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTM0MzYwNDA2MF5BMl5BanBnXkFtZTcwNDYzMjg4Mw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10166,7 +10166,7 @@ module.exports = {
       "birthday": "1984-11-22",
       "gender": "female",
       "biography": "Scarlett Johansson là nữ diễn viên người Mỹ, nổi tiếng với vai Natasha Romanoff / Black Widow trong MCU.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Scarlett_Johansson_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10176,7 +10176,7 @@ module.exports = {
       "birthday": "1971-08-10",
       "gender": "male",
       "biography": "Justin Theroux là diễn viên và biên kịch người Mỹ, đồng biên kịch cho Iron Man 2.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Justin_Theroux_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjA4MDAxNTc5Nl5BMl5BanBnXkFtZTgwNTYyNzE4MTE@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10186,7 +10186,7 @@ module.exports = {
       "birthday": "1974-11-17",
       "gender": "female",
       "biography": "Leslie Bibb là nữ diễn viên người Mỹ, vào vai nhà báo Christine Everhart trong Iron Man và MCU.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Leslie_Bibb_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTg2NzAzNzE5N15BMl5BanBnXkFtZTcwMjMyODM0MQ@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10196,7 +10196,7 @@ module.exports = {
       "birthday": "1971-05-27",
       "gender": "male",
       "biography": "Paul Bettany là diễn viên người Anh, ban đầu lồng tiếng JARVIS trong Iron Man và sau trở thành Vision trong MCU.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Paul_Bettany_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjMwNzIwMDYxMV5BMl5BanBnXkFtZTgwNTAzNzc1NTM@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10206,7 +10206,7 @@ module.exports = {
       "birthday": "1962-04-02",
       "gender": "male",
       "biography": "Clark Gregg là diễn viên người Mỹ, vào vai đặc vụ Phil Coulson trong nhiều phim thuộc MCU.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Clark_Gregg_2014_Comic_Con.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTQzMzMyOTY2MF5BMl5BanBnXkFtZTcwMzU3MjEzMQ@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10216,7 +10216,7 @@ module.exports = {
       "birthday": "1948-12-21",
       "gender": "male",
       "biography": "Samuel L. Jackson là diễn viên người Mỹ, vào vai Nick Fury trong vũ trụ điện ảnh Marvel.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Samuel_L_Jackson_SDCC_2014.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQ1NTQwMTYxNl5BMl5BanBnXkFtZTYwMjA1MzY1._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10226,7 +10226,7 @@ module.exports = {
       "birthday": "1962-05-30",
       "gender": "male",
       "biography": "Choi Min-sik là diễn viên gạo cội của Hàn Quốc, nổi tiếng với vai diễn trong phim Oldboy.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Choi_Min-sik_in_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYTFjZDU0MzUtZTg4Ny00YmQ5LTk0NmYtZDFhYjliNzUyMjFlXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10236,7 +10236,7 @@ module.exports = {
       "birthday": "1967-01-17",
       "gender": "male",
       "biography": "Song Kang-ho là diễn viên hàng đầu của điện ảnh Hàn Quốc, tham gia nhiều tác phẩm nổi bật như Memories of Murder và The Host.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Song_Kang-ho_in_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYmI2OTQwMmItMDI5OS00OGQxLWIyZGUtNThlNjRjODkwMTI1XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10246,7 +10246,7 @@ module.exports = {
       "birthday": "1972-06-01",
       "gender": "male",
       "biography": "Kim Sang-kyung là diễn viên người Hàn Quốc, nổi bật trong phim Memories of Murder.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Kim_Sang-kyung_in_2018.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BM2JlNmQ0YmEtNzU4OC00OGRiLWI1YTYtNWYzNDUyNTBjZDAyXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10256,7 +10256,7 @@ module.exports = {
       "birthday": "1969-09-14",
       "gender": "male",
       "biography": "Bong Joon-ho là đạo diễn nổi tiếng người Hàn Quốc, tác giả của nhiều phim đình đám như Memories of Murder và The Host.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bong_Joon-ho_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNTZkMTU4MjctZjk4NC00ZDNhLTk5ZWItNmZjNWUzMDI3NjUxXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10266,7 +10266,7 @@ module.exports = {
       "birthday": "1973-02-11",
       "gender": "female",
       "biography": "Jeon Do-yeon là nữ diễn viên nổi tiếng của Hàn Quốc, được quốc tế biết đến qua phim Secret Sunshine.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Jeon_Do-yeon_Berlinale_2023.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BZmQ3MGNiNzYtOGQwNi00OWZlLWJkNDYtY2FhMzg5NmI5M2UxXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10276,7 +10276,7 @@ module.exports = {
       "birthday": "1968-05-01",
       "gender": "male",
       "biography": "Sol Kyung-gu là diễn viên Hàn Quốc, xuất hiện trong nhiều phim kinh điển như Oasis và Public Enemy.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sol_Kyung-gu_in_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTg5MmU4MWUtMWY1Mi00YzViLThkODUtM2ZiOWFjOGU0NThkXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10286,7 +10286,7 @@ module.exports = {
       "birthday": "1954-07-04",
       "gender": "male",
       "biography": "Lee Chang-dong là đạo diễn, nhà văn, cựu Bộ trưởng Văn hóa của Hàn Quốc, tác giả phim Secret Sunshine.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lee_Chang-dong.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTc5NjIwOTc0MV5BMl5BanBnXkFtZTcwMzQ2Mzc3NA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10296,7 +10296,7 @@ module.exports = {
       "birthday": "1973-11-27",
       "gender": "male",
       "biography": "Tadanobu Asano là diễn viên Nhật Bản, nổi bật trong các phim như Ichi the Killer và Mongol.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Tadanobu_Asano_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTY5MzM5MTk5OV5BMl5BanBnXkFtZTgwMTcxMTY1MDE@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10306,7 +10306,7 @@ module.exports = {
       "birthday": "1983-05-09",
       "gender": "male",
       "biography": "Ryuhei Matsuda là diễn viên người Nhật Bản, được biết đến qua phim Taboo, Blue Spring, và Nana.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ryuhei_Matsuda_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTc1MTU2MTI3NF5BMl5BanBnXkFtZTgwMDU1ODEzMjE@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10316,7 +10316,7 @@ module.exports = {
       "birthday": "1947-01-18",
       "gender": "male",
       "biography": "Takeshi Kitano là đạo diễn, diễn viên, và danh hài nổi tiếng của Nhật Bản, tác giả các phim như Hana-bi, Kikujiro.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Takeshi_Kitano_2000.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTIwMjA4ODgzM15BMl5BanBnXkFtZTYwNzc3MjI0._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10326,7 +10326,7 @@ module.exports = {
       "birthday": "1981-01-06",
       "gender": "female",
       "biography": "Rinko Kikuchi là nữ diễn viên người Nhật, được quốc tế biết đến qua vai diễn trong phim Babel và Pacific Rim.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Rinko_Kikuchi_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTI5NjE0MjcwN15BMl5BanBnXkFtZTYwMDcxNTA1._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10336,7 +10336,7 @@ module.exports = {
       "birthday": "1976-02-16",
       "gender": "male",
       "biography": "Joe Odagiri là nam diễn viên Nhật Bản nổi tiếng với phong cách độc đáo và từng tham gia nhiều phim nghệ thuật.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Joe_Odagiri_2011.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNzRmNWZkYmItNzAyYy00YzI5LWJlYmYtNmQyZTRhNWU0ZmI0XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10346,7 +10346,7 @@ module.exports = {
       "birthday": "1962-06-06",
       "gender": "male",
       "biography": "Hirokazu Kore-eda là đạo diễn bậc thầy của điện ảnh Nhật Bản, nổi tiếng với các tác phẩm nhân văn như Nobody Knows, Still Walking và Shoplifters.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Hirokazu_Koreeda_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNjc3NDY4MzgzMV5BMl5BanBnXkFtZTcwNDI5NTc1OQ@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10356,7 +10356,7 @@ module.exports = {
       "birthday": "1941-01-05",
       "gender": "male",
       "biography": "Miyazaki Hayao là đạo diễn hoạt hình huyền thoại của Nhật Bản, sáng lập Studio Ghibli và tạo ra nhiều kiệt tác như Howl’s Moving Castle.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hayao_Miyazaki.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjcyNjk2OTkwNF5BMl5BanBnXkFtZTcwOTk0MTQ3Mg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10366,7 +10366,7 @@ module.exports = {
       "birthday": "1941-06-29",
       "gender": "female",
       "biography": "Chieko Baisho là diễn viên và ca sĩ người Nhật, lồng tiếng cho nhân vật chính trong phim Howl's Moving Castle của Ghibli.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Chieko_Baisho.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BZjJiYjdmM2ItYTIzOC00N2UzLTlkMGQtNGE1OGExZGU2OWFhXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10376,7 +10376,7 @@ module.exports = {
       "birthday": "1972-11-13",
       "gender": "male",
       "biography": "Takuya Kimura là diễn viên nổi tiếng và biểu tượng văn hóa của Nhật Bản, từng tham gia Howl's Moving Castle và nhiều phim truyền hình.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Takuya_Kimura_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjM1ODAxNjIwOF5BMl5BanBnXkFtZTgwMzI2MDYzMjI@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10386,7 +10386,7 @@ module.exports = {
       "birthday": "1960-05-22",
       "gender": "male",
       "biography": "Hideaki Anno là đạo diễn hoạt hình nổi tiếng, từng tham gia lồng tiếng cho nhân vật phụ trong phim Howl’s Moving Castle.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hideaki_Anno.jpg",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDiDXyhdmjcdajaKuLzBDDu5eVKCSHhTXGXQ&s",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10396,7 +10396,7 @@ module.exports = {
       "birthday": "1959-10-21",
       "gender": "male",
       "biography": "Ken Watanabe là diễn viên Nhật Bản nổi bật trong cả điện ảnh châu Á và Hollywood, được biết đến qua The Last Samurai và Inception.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Ken_Watanabe_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQzMTUzNjc4Nl5BMl5BanBnXkFtZTcwMTUyODU2Mw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10406,7 +10406,7 @@ module.exports = {
       "birthday": "1982-12-26",
       "gender": "male",
       "biography": "Shun Oguri là diễn viên nổi tiếng của Nhật Bản, góp mặt trong nhiều phim điện ảnh và truyền hình được yêu thích.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Shun_Oguri_2016.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNWYzMWNmYjEtZGIzOC00MmQyLWE3ZDAtNTY1ODY3MDhmNDY4XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10416,7 +10416,7 @@ module.exports = {
       "birthday": "1960-08-24",
       "gender": "male",
       "biography": "Takashi Miike là đạo diễn Nhật Bản nổi tiếng với các bộ phim đa dạng thể loại như Audition và 13 Assassins.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Takashi_Miike.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjI0NTI3NTg1OF5BMl5BanBnXkFtZTcwODU4NDE0NA@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10426,7 +10426,7 @@ module.exports = {
       "birthday": "1982-05-15",
       "gender": "male",
       "biography": "Tatsuya Fujiwara là diễn viên người Nhật nổi tiếng qua vai chính trong phim Battle Royale và Death Note.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Tatsuya_Fujiwara_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTU4Njc2OTYwMF5BMl5BanBnXkFtZTcwNDM1MzkwOA@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10436,7 +10436,7 @@ module.exports = {
       "birthday": "1985-07-11",
       "gender": "female",
       "biography": "Aki Maeda là nữ diễn viên Nhật Bản, nổi bật với vai diễn trong loạt phim Battle Royale.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Aki_Maeda_2009.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTQ2NDA5MzA5Ml5BMl5BanBnXkFtZTcwMjA4NTIxOA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10446,7 +10446,7 @@ module.exports = {
       "birthday": "1930-07-03",
       "gender": "male",
       "biography": "Kinji Fukasaku là đạo diễn huyền thoại của điện ảnh Nhật Bản, nổi tiếng với bộ phim Battle Royale.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Kinji_Fukasaku.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYWRmYWQ2YzctYTY3NS00ZmU2LThjMWMtZWZiN2Q2NTVhNmE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10456,7 +10456,7 @@ module.exports = {
       "birthday": "1970-07-12",
       "gender": "male",
       "biography": "Lee Byung-hun là diễn viên nổi tiếng của Hàn Quốc, từng góp mặt trong nhiều phim hành động và truyền hình đình đám.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Lee_Byung-hun_in_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMmExYjVlNGUtMTA1OC00ZTcxLTk3N2EtN2FkYmY4Yzg4OTE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10466,7 +10466,7 @@ module.exports = {
       "birthday": "1981-11-22",
       "gender": "female",
       "biography": "Song Hye-kyo là nữ diễn viên nổi tiếng Hàn Quốc, được yêu mến qua nhiều phim truyền hình và điện ảnh.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Song_Hye-kyo_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMzE1NGFlZWUtOTg0OC00YzMxLTg3NjEtNTUzYWRkYWI5YzA4XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10476,7 +10476,7 @@ module.exports = {
       "birthday": "1963-08-23",
       "gender": "male",
       "biography": "Park Chan-wook là đạo diễn nổi tiếng của Hàn Quốc, người đứng sau nhiều tác phẩm kinh điển như Oldboy và Decision to Leave.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Park_Chan-wook_2016.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTgyODk3MTU5OV5BMl5BanBnXkFtZTcwMTc3NjcyMQ@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10486,7 +10486,7 @@ module.exports = {
       "birthday": "1979-10-11",
       "gender": "female",
       "biography": "Bae Doona là nữ diễn viên Hàn Quốc nổi tiếng, hoạt động cả ở Hàn và Hollywood trong các phim như Cloud Atlas và Sense8.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Bae_Doona_2015.jpg",
+      "profile_url": "https://static.wikia.nocookie.net/cloudatlas/images/7/7b/Doona_Bae.jpg/revision/latest/scale-to-width-down/284?cb=20121004181831",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10496,7 +10496,7 @@ module.exports = {
       "birthday": "1964-05-27",
       "gender": "male",
       "biography": "Kim Ji-woon là đạo diễn nổi tiếng Hàn Quốc với nhiều thể loại đa dạng như kinh dị, hành động và tâm lý.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kim_Ji-woon_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTk3MzI4NzUzNV5BMl5BanBnXkFtZTcwNjM0NzUzNA@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10506,7 +10506,7 @@ module.exports = {
       "birthday": "1974-07-02",
       "gender": "female",
       "biography": "Moon So-ri là nữ diễn viên kiêm đạo diễn của Hàn Quốc, nổi tiếng với các vai diễn cảm động và sâu sắc.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Moon_So-ri_2016.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTM4OTEzNzU2MF5BMl5BanBnXkFtZTgwMTE5MTU0MDE@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10516,7 +10516,7 @@ module.exports = {
       "birthday": "1962-04-27",
       "gender": "male",
       "biography": "Im Sang-soo là đạo diễn người Hàn Quốc, được biết đến với các phim chính kịch có yếu tố xã hội sâu sắc.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Im_Sang-soo_2012.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjAyMDM0MTA0N15BMl5BanBnXkFtZTcwODIzMjkwNA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10526,7 +10526,7 @@ module.exports = {
       "birthday": "1967-01-17",
       "gender": "male",
       "biography": "Song Kang-ho là nam diễn viên hàng đầu của Hàn Quốc, nổi tiếng qua các bộ phim như The Host, Snowpiercer và Parasite.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Song_Kang-ho_at_The_King_premiere.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYmI2OTQwMmItMDI5OS00OGQxLWIyZGUtNThlNjRjODkwMTI1XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10536,7 +10536,7 @@ module.exports = {
       "birthday": "1982-01-04",
       "gender": "female",
       "biography": "Kang Hye-jung là nữ diễn viên Hàn Quốc được biết đến với vai diễn ấn tượng trong bộ phim Oldboy.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Kang_Hye-jung_2012.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTgyMDY1MDE5M15BMl5BanBnXkFtZTcwNDI3MDExOA@@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10546,7 +10546,7 @@ module.exports = {
       "birthday": "1962-01-22",
       "gender": "male",
       "biography": "Choi Min-sik là diễn viên gạo cội của điện ảnh Hàn Quốc, nổi bật với vai chính trong Oldboy và I Saw the Devil.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Choi_Min-sik_2014.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYTFjZDU0MzUtZTg4Ny00YmQ5LTk0NmYtZDFhYjliNzUyMjFlXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10556,7 +10556,7 @@ module.exports = {
       "birthday": "1974-03-14",
       "gender": "male",
       "biography": "Na Hong-jin là đạo diễn nổi tiếng Hàn Quốc, được biết đến với các bộ phim hồi hộp như The Chaser và The Wailing.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Na_Hong-jin.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNTNmODhhMDgtOTU3ZS00NzEwLTk2N2QtOTA0ZDQ1MTJiZjZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10566,7 +10566,7 @@ module.exports = {
       "birthday": "1978-03-11",
       "gender": "male",
       "biography": "Ha Jung-woo là diễn viên tài năng của Hàn Quốc, nổi tiếng với các vai diễn đa dạng và ấn tượng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ha_Jung-woo_at_The_Terror_Live_premiere.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTc4NTYwMTAxNF5BMl5BanBnXkFtZTcwNTQ2Mzc3NA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10576,7 +10576,7 @@ module.exports = {
       "birthday": "1970-09-05",
       "gender": "female",
       "biography": "Kim Hye-soo là nữ diễn viên nổi tiếng của Hàn Quốc, hoạt động nghệ thuật bền bỉ và đa tài.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Kim_Hye-soo_2016.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMWU3NDE1YzktNjk4YS00NzgwLTk3ODktZTJiODVjMGUxMDUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10586,7 +10586,7 @@ module.exports = {
       "birthday": "1970-09-01",
       "gender": "male",
       "biography": "Hwang Jung-min là một trong những diễn viên hàng đầu Hàn Quốc, với nhiều vai diễn điện ảnh nổi bật.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Hwang_Jung-min_2016.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BZTlkYTI0YmUtMDI3OS00NWY0LTkxMDQtMWMzY2Q3NDRhZTE2XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10596,7 +10596,7 @@ module.exports = {
       "birthday": "1964-05-27",
       "gender": "male",
       "biography": "Kim Jee-woon là đạo diễn Hàn Quốc nổi tiếng với phong cách đa thể loại và chất lượng điện ảnh cao.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Kim_Jee-woon_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTk3MzI4NzUzNV5BMl5BanBnXkFtZTcwNjM0NzUzNA@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10606,7 +10606,7 @@ module.exports = {
       "birthday": "1972-12-15",
       "gender": "male",
       "biography": "Lee Jung-jae là nam diễn viên Hàn Quốc có sự nghiệp thành công, đặc biệt nổi tiếng toàn cầu qua series Squid Game.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Lee_Jung-jae_in_2021.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNzQ4YTczN2UtMGQxYi00YTMxLWI0NTAtNjc3YjYxZDBjMzg3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10616,7 +10616,7 @@ module.exports = {
       "birthday": "1973-02-11",
       "gender": "female",
       "biography": "Jeon Do-yeon là một trong những nữ diễn viên xuất sắc nhất của điện ảnh Hàn Quốc, đoạt giải tại Cannes.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Jeon_Do-yeon_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BZmQ3MGNiNzYtOGQwNi00OWZlLWJkNDYtY2FhMzg5NmI5M2UxXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10626,7 +10626,7 @@ module.exports = {
       "birthday": "1974-08-30",
       "gender": "male",
       "biography": "Ngô Ngạn Tổ là nam diễn viên và người mẫu gốc Đài Loan – Mỹ, nổi bật với vai diễn trong phim Dòng máu anh hùng và loạt phim hành động châu Á.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Daniel_Wu_by_Gage_Skidmore.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Daniel_Wu_by_Gage_Skidmore.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10636,7 +10636,7 @@ module.exports = {
       "birthday": "1974-02-16",
       "gender": "male",
       "biography": "Johnny Trí Nguyễn là diễn viên, võ sĩ và đạo diễn Việt kiều Mỹ, nổi tiếng với các phim hành động như Dòng máu anh hùng và Bẫy rồng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Johnny_Tri_Nguyen.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTU0MjYzNTI3M15BMl5BanBnXkFtZTYwMzQ1NjAz._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10646,7 +10646,7 @@ module.exports = {
       "birthday": "1979-02-26",
       "gender": "female",
       "biography": "Ngô Thanh Vân là nữ diễn viên, ca sĩ và nhà sản xuất phim nổi tiếng của Việt Nam, góp mặt trong các phim Hai Phượng, Dòng máu anh hùng và Star Wars: The Last Jedi.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ngô_Thanh_Vân.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMzc2ZmJjNGMtZWMzZS00YWUzLWJjYmItMzgzMzAxMDQ5ZTM5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10656,7 +10656,7 @@ module.exports = {
       "birthday": "1977-08-01",
       "gender": "female",
       "biography": "Hồng Ánh là nữ diễn viên gạo cội của điện ảnh Việt Nam, từng đạt nhiều giải thưởng quốc tế với các vai diễn sâu sắc trong Sống trong sợ hãi, Trăng nơi đáy giếng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Hồng_Ánh_2018.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNDhhMzdhYTQtZWJiZS00ZTQwLTgzYzItMjhkYzkwYzdkZjA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10666,7 +10666,7 @@ module.exports = {
       "birthday": "1976-11-12",
       "gender": "female",
       "biography": "Trương Ngọc Ánh là diễn viên, người mẫu, nhà sản xuất phim, nổi bật trong các phim Áo lụa Hà Đông, Hương Ga.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Trương_Ngọc_Ánh.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTk0ZWQ1YjctN2Y2NS00ZmU5LTkyZmQtMWM5ODZhYTMxZmUwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10676,7 +10676,7 @@ module.exports = {
       "birthday": "1981-01-20",
       "gender": "male",
       "biography": "Lương Mạnh Hải là nam diễn viên Việt Nam nổi tiếng với các vai diễn trong phim truyền hình và điện ảnh như Đẹp từng centimét, Hotboy nổi loạn.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lương_Mạnh_Hải.jpg",
+      "profile_url": "https://images2.thanhnien.vn/528068263637045248/2023/11/19/dien-vien-luong-manh-hai-17003528316121208410735.jpeg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10686,7 +10686,7 @@ module.exports = {
       "birthday": "1982-08-01",
       "gender": "female",
       "biography": "Đỗ Hải Yến là nữ diễn viên nổi bật của điện ảnh Việt, từng tham gia các phim nghệ thuật như Mùa len trâu, Người Mỹ trầm lặng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Đỗ_Hải_Yến.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNmQwYjgxZGYtOWMzYS00MTVhLTk4MGQtNTg1OTEwNmEyYzYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10696,7 +10696,7 @@ module.exports = {
       "birthday": "1974-09-10",
       "gender": "male",
       "biography": "Thái Hòa là diễn viên hài và chính kịch nổi tiếng của Việt Nam, góp mặt trong nhiều phim ăn khách như Để Mai Tính, Long Ruồi.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Thái_Hòa.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNTU0MzkzMmQtOTJkOC00ZmFkLWIxYzEtNTc4ZDBlYjU1ZTUyXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10706,7 +10706,7 @@ module.exports = {
       "birthday": "1968-07-25",
       "gender": "male",
       "biography": "Charlie Nguyễn là đạo diễn Việt kiều nổi tiếng, người đứng sau thành công của các phim như Dòng máu anh hùng, Để Mai Tính, Long Ruồi.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Charlie_Nguyễn.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYTNiYTEzZGEtMDY5My00MTg1LTg2NjMtNjZlYjI3YjlkOTMyXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10716,7 +10716,7 @@ module.exports = {
       "birthday": "1957-04-12",
       "gender": "male",
       "biography": "Nguyễn Vinh Sơn là đạo diễn kỳ cựu của điện ảnh Việt Nam, từng đạo diễn các phim Mùa len trâu, Thời xa vắng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Nguyễn_Vinh_Sơn.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Director_Nguyen_Vinh_Son.png",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10726,7 +10726,7 @@ module.exports = {
       "birthday": "1956-03-25",
       "gender": "male",
       "biography": "Lê Hoàng là đạo diễn nổi tiếng với phong cách điện ảnh độc đáo, nổi bật qua phim Gái nhảy, Những cô gái chân dài.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Lê_Hoàng.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNWU4NGM2MzQtNTQ3YS00YWEyLWI3NWItMjg2MDFhYTcxZDFiXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10736,7 +10736,7 @@ module.exports = {
       "birthday": "1976-09-30",
       "gender": "male",
       "biography": "Phan Đăng Di là đạo diễn và biên kịch được đánh giá cao trong giới điện ảnh nghệ thuật với phim Bi, đừng sợ và Cha và con và...",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Phan_Đăng_Di.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTAxNzcwODQ5MjFeQTJeQWpwZ15BbWU3MDk2OTA1MTU@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10746,7 +10746,7 @@ module.exports = {
       "birthday": "1978-09-08",
       "gender": "male",
       "biography": "Nguyễn Quang Dũng là đạo diễn và biên kịch nổi bật của điện ảnh Việt với nhiều phim như Nụ hôn thần chết, Mỹ nhân kế.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Nguyễn_Quang_Dũng.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Director_Nguyen_Quang_Dung_in_2022.png",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10756,7 +10756,7 @@ module.exports = {
       "birthday": "1962-12-23",
       "gender": "male",
       "biography": "Trần Anh Hùng là đạo diễn người Pháp gốc Việt, nổi tiếng với các phim Mùi đu đủ xanh, Mùa hè chiều thẳng đứng, và phim điện ảnh quốc tế như Eternity.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Trần_Anh_Hùng_2013.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTY0MTQzMjE1Ml5BMl5BanBnXkFtZTcwMjAxMzEyNQ@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10766,7 +10766,7 @@ module.exports = {
       "birthday": "1975-11-25",
       "gender": "male",
       "biography": "Victor Vũ là đạo diễn Việt kiều, tạo dấu ấn với các phim như Scandal, Quả tim máu, Mắt biếc.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Victor_Vũ.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYmZjZmIyMWUtNzVjMy00NTMyLWEwMDctZjRiNWE4NGJkNWQzXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10776,7 +10776,7 @@ module.exports = {
       "birthday": "1955-05-07",
       "gender": "male",
       "biography": "Nguyễn Nhật Ánh là nhà văn nổi tiếng, nhiều tác phẩm của ông được chuyển thể thành phim như Mắt biếc, Tôi thấy hoa vàng trên cỏ xanh.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nguyễn_Nhật_Ánh.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nguy%E1%BB%85n_Nh%E1%BA%ADt_%C3%81nh.jpg/1200px-Nguy%E1%BB%85n_Nh%E1%BA%ADt_%C3%81nh.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10786,7 +10786,7 @@ module.exports = {
       "birthday": "1973-04-01",
       "gender": "male",
       "biography": "Lương Đình Dũng là đạo diễn, biên kịch phim nghệ thuật nổi bật của Việt Nam với tác phẩm ấn tượng như Cha cõng con, 578: Phát đạn của kẻ điên.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Lương_Đình_Dũng.jpg",
+      "profile_url": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/4/9/1177768/VHTT-996657.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10796,7 +10796,7 @@ module.exports = {
       "birthday": "1938-05-10",
       "gender": "male",
       "biography": "Đặng Nhật Minh là đạo diễn gạo cội của Việt Nam với nhiều tác phẩm sâu sắc, mang đậm dấu ấn dân tộc như Bao giờ cho đến tháng Mười.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Đặng_Nhật_Minh.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/NSND_%C4%90%E1%BA%B7ng_Nh%E1%BA%ADt_Minh_2023_%28cropped%29.jpg/250px-NSND_%C4%90%E1%BA%B7ng_Nh%E1%BA%ADt_Minh_2023_%28cropped%29.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10806,7 +10806,7 @@ module.exports = {
       "birthday": "1978-04-12",
       "gender": "male",
       "biography": "Lê Văn Kiệt là đạo diễn người Việt nổi bật với các tác phẩm như Hai Phượng và Ngôi nhà trong hẻm, kết hợp yếu tố hành động và tâm lý.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Lê_Văn_Kiệt.jpg",
+      "profile_url": "https://vcdn1-giaitri.vnecdn.net/2015/03/29/Le-Van-Kiet1-1870-1427562297.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=N4pzmtWYCsPsUXuRJW9nAw",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10816,7 +10816,7 @@ module.exports = {
       "birthday": "1974-03-20",
       "gender": "male",
       "biography": "Nguyễn Phan Quang Bình là đạo diễn, nhà sản xuất nổi tiếng với các phim như Cánh đồng bất tận, Quyên và Bí mật của gió.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Nguyễn_Phan_Quang_Bình.jpg",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXmFDM9nazWzw9uY_Ai9M42yTxnorsw2ATQ&s",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10826,7 +10826,7 @@ module.exports = {
       "birthday": "1982-10-25",
       "gender": "female",
       "biography": "Nguyễn Hoàng Điệp là đạo diễn nữ trẻ của Việt Nam, nổi tiếng với phim độc lập Đập cánh giữa không trung, được quốc tế đánh giá cao.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Nguyễn_Hoàng_Điệp.jpg",
+      "profile_url": "https://media.vietnamplus.vn/images/7255a701687d11cb8c6bbc58a6c80785c40ab237bc250dfa8cb5f16af08b8a0430f09c4666cb590c200461716d2473bc7c704d40e61e50bab96eac10831391cc/NguyenHoangDiep7.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10836,7 +10836,7 @@ module.exports = {
       "birthday": "1980-03-27",
       "gender": "male",
       "biography": "Phan Gia Nhật Linh là đạo diễn nổi tiếng với phim Em là bà nội của anh, từng lập kỷ lục phòng vé tại Việt Nam.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Phan_Gia_Nhật_Linh.jpg",
+      "profile_url": "https://vcdn1-giaitri.vnecdn.net/2022/05/10/PhanGiaNhatLinh-1652178163-9200-1652178274.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=03_WYkMKdpSBlD2VlPxHOQ",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10846,7 +10846,7 @@ module.exports = {
       "birthday": "1986-11-18",
       "gender": "male",
       "biography": "Trịnh Đình Lê Minh là đạo diễn trẻ thuộc thế hệ mới của điện ảnh Việt, được biết đến với tác phẩm Ròm và Bằng chứng vô hình.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Trịnh_Đình_Lê_Minh.jpg",
+      "profile_url": "https://luxuo.vn/wp-content/uploads/2020/08/Dao-dien-Trinh-Dinh-Le-Minh-2.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10856,7 +10856,7 @@ module.exports = {
       "birthday": "1968-09-28",
       "gender": "male",
       "biography": "Lý Hải là ca sĩ, đạo diễn và nhà sản xuất phim nổi bật với loạt phim điện ảnh ăn khách Lật Mặt từ phần 1 đến phần 6.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lý_Hải.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ly_hai_1_%28cropped%29.jpg/960px-Ly_hai_1_%28cropped%29.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10866,7 +10866,7 @@ module.exports = {
       "birthday": "1970-05-15",
       "gender": "female",
       "biography": "Cát Phượng là nữ nghệ sĩ đa tài của sân khấu và điện ảnh Việt, nổi bật trong các phim như Đẻ mướn, Hotboy nổi loạn.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Cát_Phượng.jpg",
+      "profile_url": "https://1.vikiplatform.com/pr/23969pr/9b7e1dddd7.jpg?x=b&s=480x270&e=t&q=g",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10876,7 +10876,7 @@ module.exports = {
       "birthday": "1993-06-14",
       "gender": "female",
       "biography": "Chi Pu là diễn viên, ca sĩ và người mẫu trẻ của Việt Nam, từng tham gia các phim như Mối tình đầu của tôi và Yêu.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Chi_Pu_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYTI2NDgzNmEtN2M0YS00ZDMwLTlmNmEtZWMyMmQ1OGVmZDQwXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10886,7 +10886,7 @@ module.exports = {
       "birthday": "1984-09-15",
       "gender": "female",
       "biography": "Thu Trang là diễn viên hài nổi tiếng, được mệnh danh là 'Hoa hậu làng hài', nổi bật trong các phim Chị Mười Ba và Nghề siêu dễ.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Thu_Trang.jpg",
+      "profile_url": "https://cdn.tuoitre.vn/thumb_w/640/471584752817336320/2023/2/8/2751431565098110905162135895003073958147241n-1675833137657885238847.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10896,7 +10896,7 @@ module.exports = {
       "birthday": "1988-02-21",
       "gender": "male",
       "biography": "Kiều Minh Tuấn là diễn viên nổi bật trong các phim hài và hành động như Em chưa 18, Chị Mười Ba.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Kiều_Minh_Tuấn.jpg",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfPpyW66P5MAt2YAvgU7uqhIGUeX8xMYWRjw&s",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10906,7 +10906,7 @@ module.exports = {
       "birthday": "1992-10-10",
       "gender": "female",
       "biography": "Oanh Kiều là nữ diễn viên Việt trẻ tuổi, tham gia nhiều bộ phim truyền hình và điện ảnh như Mùa len trâu và Tháng năm rực rỡ.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Oanh_Kiều.jpg",
+      "profile_url": "https://image.phunuonline.com.vn/news/2019/20190831/fckimage/163831_-aru3407-29028323.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10916,7 +10916,7 @@ module.exports = {
       "birthday": "1997-11-16",
       "gender": "female",
       "biography": "Trịnh Thảo là diễn viên trẻ được yêu thích với các vai diễn trong phim điện ảnh và truyền hình như Tháng năm rực rỡ và Người cần quên phải nhớ.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Trịnh_Thảo.jpg",
+      "profile_url": "https://kenh14cdn.com/2018/3/3/2699420820619248640492923824902675598912711n-1520061799979891258377.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10926,7 +10926,7 @@ module.exports = {
       "birthday": "1981-06-13",
       "gender": "male",
       "biography": "Chris Evans là nam diễn viên người Mỹ, nổi tiếng với vai Captain America trong Vũ trụ Điện ảnh Marvel.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Chris_Evans_by_Gage_Skidmore_2.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/ChrisEvans2023.jpg/1200px-ChrisEvans2023.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10936,7 +10936,7 @@ module.exports = {
       "birthday": "1982-08-13",
       "gender": "male",
       "biography": "Sebastian Stan là diễn viên người Mỹ gốc Romania, được biết đến nhiều qua vai Bucky Barnes / Winter Soldier trong các phim Marvel.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sebastian_Stan_by_Gage_Skidmore.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMWEwYjgxMDQtYmRkOS00MGFiLThjMzMtZGQ2ZjBhMTcyOWNlXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10946,7 +10946,7 @@ module.exports = {
       "birthday": "1978-09-23",
       "gender": "male",
       "biography": "Anthony Mackie là diễn viên người Mỹ, nổi tiếng với vai Falcon trong loạt phim Marvel.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Anthony_Mackie_SDCC_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTk3NTM1MjE2M15BMl5BanBnXkFtZTcwNzc5OTI2Mg@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10956,7 +10956,7 @@ module.exports = {
       "birthday": "1990-08-15",
       "gender": "female",
       "biography": "Jennifer Lawrence là diễn viên người Mỹ, từng đoạt giải Oscar và nổi tiếng với vai Katniss Everdeen trong The Hunger Games.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Jennifer_Lawrence_SDCC_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BOTU3NDE5MDQ4MV5BMl5BanBnXkFtZTgwMzE5ODQ3MDI@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10966,7 +10966,7 @@ module.exports = {
       "birthday": "1992-10-12",
       "gender": "male",
       "biography": "Josh Hutcherson là diễn viên người Mỹ, nổi tiếng qua vai Peeta Mellark trong loạt phim The Hunger Games.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Josh_Hutcherson_SDCC_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTI4OTk0MjQ1OV5BMl5BanBnXkFtZTcwNTE3NjM3Mw@@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10976,7 +10976,7 @@ module.exports = {
       "birthday": "1990-01-13",
       "gender": "male",
       "biography": "Liam Hemsworth là diễn viên người Úc, em trai của Chris Hemsworth, được biết đến với vai Gale trong The Hunger Games.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Liam_Hemsworth_SDCC_2013.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hemsworth_Liam.jpg/1200px-Hemsworth_Liam.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10986,7 +10986,7 @@ module.exports = {
       "birthday": "1964-09-02",
       "gender": "male",
       "biography": "Keanu Reeves là diễn viên người Canada nổi tiếng toàn cầu qua các phim như The Matrix và John Wick.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Keanu_Reeves_2013.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/LanaDRPrimavera310524_%2810_of_155%29_%28cropped%29.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -10996,7 +10996,7 @@ module.exports = {
       "birthday": "1966-08-14",
       "gender": "female",
       "biography": "Halle Berry là nữ diễn viên Mỹ đoạt giải Oscar, từng đóng vai Sofia trong loạt phim John Wick.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Halle_Berry_in_2017.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Halle_Berry-1910.jpg/1200px-Halle_Berry-1910.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11006,7 +11006,7 @@ module.exports = {
       "birthday": "1968-09-20",
       "gender": "male",
       "biography": "Chad Stahelski là đạo diễn và diễn viên đóng thế nổi tiếng, đạo diễn loạt phim John Wick.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Chad_Stahelski_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNjgwNzc0NTc2Nl5BMl5BanBnXkFtZTgwMjM0NzEzMDI@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11016,7 +11016,7 @@ module.exports = {
       "birthday": "1962-07-03",
       "gender": "male",
       "biography": "Tom Cruise là diễn viên, nhà sản xuất nổi tiếng với loạt phim Mission: Impossible và nhiều phim hành động kinh điển khác.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Tom_Cruise_by_Gage_Skidmore.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Tom_Cruise-2428.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11026,7 +11026,7 @@ module.exports = {
       "birthday": "1983-10-19",
       "gender": "female",
       "biography": "Rebecca Ferguson là nữ diễn viên Thụy Điển, đóng vai Ilsa Faust trong loạt phim Mission: Impossible.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Rebecca_Ferguson_in_2019.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Rebecca_Ferguson_in_2018.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11036,7 +11036,7 @@ module.exports = {
       "birthday": "1982-04-05",
       "gender": "female",
       "biography": "Hayley Atwell là nữ diễn viên Anh, được biết đến qua vai Peggy Carter trong MCU và loạt phim Mission: Impossible.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hayley_Atwell_SDCC_2015.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Hayley_Atwell-2771.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11046,7 +11046,7 @@ module.exports = {
       "birthday": "1968-10-25",
       "gender": "male",
       "biography": "Christopher McQuarrie là đạo diễn và biên kịch của loạt phim Mission: Impossible từ phần 5 trở đi.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Christopher_McQuarrie_2013.jpg",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZww-WkAJ_Sk0b5iaIhIAWqkqgQ3XXBOTCw&s",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11056,7 +11056,7 @@ module.exports = {
       "birthday": "1973-10-03",
       "gender": "female",
       "biography": "Neve Campbell là nữ diễn viên Canada, nổi tiếng với vai Sidney Prescott trong loạt phim kinh dị Scream.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Neve_Campbell_2015.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Neve_Campbell_at_the_Golden_Globes_in_2010_%28crop%29.png",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11066,7 +11066,7 @@ module.exports = {
       "birthday": "1964-06-15",
       "gender": "female",
       "biography": "Courteney Cox là nữ diễn viên Mỹ, nổi tiếng qua series Friends và vai Gale Weathers trong loạt phim Scream.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Courteney_Cox_2013.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/CourteneyCoxFeb09.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11076,7 +11076,7 @@ module.exports = {
       "birthday": "1971-09-08",
       "gender": "male",
       "biography": "David Arquette là diễn viên Mỹ, từng tham gia nhiều phần trong loạt phim Scream trong vai cảnh sát Dewey.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/David_Arquette_2014.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/David_Arquette_Alpha1_2019_%28cropped%29.jpg/960px-David_Arquette_Alpha1_2019_%28cropped%29.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11086,7 +11086,7 @@ module.exports = {
       "birthday": "1978-02-19",
       "gender": "male",
       "biography": "Matt Bettinelli-Olpin là đạo diễn người Mỹ, một trong hai đạo diễn chính của các phần Scream mới.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Matt_Bettinelli-Olpin.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYzc2M2NmM2ItYjcyMi00MGI3LWIyYTctOGZiNGU1OTliMzA5XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11096,7 +11096,7 @@ module.exports = {
       "birthday": "2002-09-27",
       "gender": "female",
       "biography": "Jenna Ortega là nữ diễn viên người Mỹ, được biết đến với vai Tara Carpenter trong loạt phim Scream và vai Wednesday trong loạt phim Netflix cùng tên.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Jenna_Ortega_2022.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Jenna_Ortega-63792_%28cropped%29.jpg/1200px-Jenna_Ortega-63792_%28cropped%29.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11106,7 +11106,7 @@ module.exports = {
       "birthday": "1990-07-04",
       "gender": "female",
       "biography": "Melissa Barrera là nữ diễn viên Mexico, thủ vai chính trong các phần phim Scream gần đây.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Melissa_Barrera_2019.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNDdkZTRiZWMtM2I2NS00YzE1LWJkN2MtY2U3YzEyOGIwNjk4XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11116,7 +11116,7 @@ module.exports = {
       "birthday": "1993-10-31",
       "gender": "female",
       "biography": "Letitia Wright là nữ diễn viên Guyana–Anh Quốc, nổi tiếng với vai Shuri trong loạt phim Black Panther của Marvel.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Letitia_Wright_2019.jpg",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFokN6OhzspLHHfTaPiXCcZJ_wfv3rRMtwQ&s",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11126,7 +11126,7 @@ module.exports = {
       "birthday": "1986-05-23",
       "gender": "male",
       "biography": "Ryan Coogler là đạo diễn và biên kịch người Mỹ, nổi tiếng với các phim như Creed và Black Panther.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ryan_Coogler_2018.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjI2MTYyNzU1MV5BMl5BanBnXkFtZTgwNTE4NzI5NzE@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11136,7 +11136,7 @@ module.exports = {
       "birthday": "1985-09-19",
       "gender": "male",
       "biography": "Song Joong-ki là nam diễn viên nổi tiếng Hàn Quốc, tham gia nhiều phim truyền hình và điện ảnh thành công.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Song_Joong-ki_2022.jpg",
+      "profile_url": "https://kenh14cdn.com/203336854389633024/2022/12/26/song-joong-ki-16720299502841317227681.jpeg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11146,7 +11146,7 @@ module.exports = {
       "birthday": "1970-09-01",
       "gender": "male",
       "biography": "Hwang Jung-min là diễn viên kỳ cựu Hàn Quốc, nổi tiếng qua nhiều phim như Veteran, Ode to My Father và The Wailing.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hwang_Jung-min_BIFAN_2019.jpg",
+      "profile_url": "https://images2.thanhnien.vn/Uploaded/ttt/images/Content/chan-dung/sao-quoc-te/2016_03_w3/hwang_jung_min/hwang-jung-min-01.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11156,7 +11156,7 @@ module.exports = {
       "birthday": "1971-03-01",
       "gender": "male",
       "biography": "Don Lee (Ma Dong-seok) là diễn viên hành động nổi tiếng Hàn Quốc, từng đóng trong Train to Busan và loạt phim The Outlaws.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ma_Dong-seok.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Don_Lee_by_Gage_Skidmore.jpg/1200px-Don_Lee_by_Gage_Skidmore.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11166,7 +11166,7 @@ module.exports = {
       "birthday": "1978-03-03",
       "gender": "male",
       "biography": "Choi Gwi-hwa là diễn viên phụ quen mặt của điện ảnh Hàn Quốc, từng góp mặt trong The Outlaws và A Taxi Driver.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Choi_Gwi-hwa.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BZmZjMDQzZjQtNTYwNi00Njg5LWFmODQtMTczNWViZDBkNjg0XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11176,7 +11176,7 @@ module.exports = {
       "birthday": "1979-12-20",
       "gender": "male",
       "biography": "Yoon Jong-bin là đạo diễn Hàn Quốc, được biết đến với các tác phẩm như The Spy Gone North và Nameless Gangster.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Yoon_Jong-bin_2017.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMTcwNzUwMjUyMV5BMl5BanBnXkFtZTgwNzc1NTk0NTM@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11186,7 +11186,7 @@ module.exports = {
       "birthday": "1978-03-11",
       "gender": "male",
       "biography": "Ha Jung-woo là diễn viên và đạo diễn nổi tiếng Hàn Quốc, từng tham gia nhiều phim điện ảnh lớn như The Chaser, Along with the Gods.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ha_Jung-woo_2016.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Ha_Jung_Woo_promoting_The_Tunnel.png",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11196,7 +11196,7 @@ module.exports = {
       "birthday": "1970-09-05",
       "gender": "female",
       "biography": "Kim Hye-soo là một trong những nữ diễn viên hàng đầu Hàn Quốc, nổi bật trong nhiều tác phẩm truyền hình và điện ảnh.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Kim_Hye-soo_2019.jpg",
+      "profile_url": "https://cdnphoto.dantri.com.vn/33kbbtq6A7--_f97QmstQXmYoTA=/thumb_w/960/2020/11/06/kim-5-1604636293496.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11206,7 +11206,7 @@ module.exports = {
       "birthday": "1974-11-01",
       "gender": "male",
       "biography": "Kang Hyeong-cheol là đạo diễn nổi tiếng Hàn Quốc, người đứng sau thành công của phim Sunny và Scandal Makers.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Kang_Hyeong-cheol.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/%28%ED%83%80%EC%A7%9C-%EC%8B%A0%EC%9D%98_%EC%86%90%29_%EC%B5%9C%EC%8A%B9%ED%98%84_%EC%BA%90%EC%8A%A4%ED%8C%85_%EB%B9%84%ED%95%98%EC%9D%B8%EB%93%9C_%EC%98%81%EC%83%81_Kang_Hyeong-cheol.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11216,7 +11216,7 @@ module.exports = {
       "birthday": "1970-07-12",
       "gender": "male",
       "biography": "Lee Byung-hun là diễn viên nổi tiếng Hàn Quốc với sự nghiệp quốc tế, từng tham gia G.I. Joe, Squid Game và nhiều phim điện ảnh lớn.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Lee_Byung-hun_2020.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMmExYjVlNGUtMTA1OC00ZTcxLTk3N2EtN2FkYmY4Yzg4OTE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11226,7 +11226,7 @@ module.exports = {
       "birthday": "1988-12-16",
       "gender": "male",
       "biography": "Park Seo-jun là nam diễn viên Hàn Quốc, nổi bật với các vai diễn trong Itaewon Class, What's Wrong with Secretary Kim và nhiều phim điện ảnh.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Park_Seo-jun_2019.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Park_Seo-joon_at_%22The_Chronicles_of_Evil%22_stage_greeting_in_Busan%2C_23_May_2015_01.jpg/250px-Park_Seo-joon_at_%22The_Chronicles_of_Evil%22_stage_greeting_in_Busan%2C_23_May_2015_01.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11236,7 +11236,7 @@ module.exports = {
       "birthday": "1990-02-21",
       "gender": "male",
       "biography": "Kang Ha-neul là diễn viên Hàn Quốc, nổi bật với vai diễn trong When the Camellia Blooms, Forgotten và Midnight Runners.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Kang_Ha-neul_2019.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Kang_Ha-neul_at_Midnight_Runners_VIP_premiere_in_August_2017.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11246,7 +11246,7 @@ module.exports = {
       "birthday": "1973-12-15",
       "gender": "male",
       "biography": "Ryoo Seung-wan là đạo diễn Hàn Quốc nổi tiếng với các phim hành động như Veteran, The Battleship Island và Escape from Mogadishu.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ryoo_Seung-wan_2015.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNjFjMzZhNTEtZjgxZC00Y2M3LWI4ZjktM2M5Mjk1M2E2YTViXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11256,7 +11256,7 @@ module.exports = {
       "birthday": "1980-03-13",
       "gender": "male",
       "biography": "Kim Nam-gil là diễn viên Hàn Quốc, từng xuất hiện trong The Fiery Priest, Pandora và Through the Darkness.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Kim_Nam-gil_2019.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kim_Nam-gil_at_Island_Press_Conference_2022.png",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11266,7 +11266,7 @@ module.exports = {
       "birthday": "1975-01-10",
       "gender": "male",
       "biography": "Park Hoon-jung là đạo diễn và biên kịch Hàn Quốc, nổi bật với các phim như New World, The Witch và Night in Paradise.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Park_Hoon-jung.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Park_Hoon-jung_2017.jpg/250px-Park_Hoon-jung_2017.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11276,7 +11276,7 @@ module.exports = {
       "birthday": "1972-12-15",
       "gender": "male",
       "biography": "Lee Jung-jae là diễn viên Hàn Quốc, nổi bật với vai chính trong Squid Game, đồng thời là đạo diễn và nhà sản xuất.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Lee_Jung-jae_2021.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/240305_Lee_Jung-jae_%28cropped%29.jpg/640px-240305_Lee_Jung-jae_%28cropped%29.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11286,7 +11286,7 @@ module.exports = {
       "birthday": "1979-10-07",
       "gender": "female",
       "biography": "Tang Wei là nữ diễn viên Trung Quốc, nổi bật với vai diễn trong Lust, Caution và phim Decision to Leave của đạo diễn Park Chan-wook.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Tang_Wei.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/20250425_Tang_Wei_%E6%B1%A4%E5%94%AF_03.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11296,7 +11296,7 @@ module.exports = {
       "birthday": "1963-08-23",
       "gender": "male",
       "biography": "Park Chan-wook là đạo diễn lừng danh Hàn Quốc, được biết đến với các phim như Oldboy, The Handmaiden và Decision to Leave.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Park_Chan-wook_2022.jpg",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLawnUSqvkraDF3YWf9Z8Rdl7xdcCWuEJWtg&s",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11306,7 +11306,7 @@ module.exports = {
       "birthday": "1967-01-17",
       "gender": "male",
       "biography": "Song Kang-ho là một trong những nam diễn viên hàng đầu Hàn Quốc, từng góp mặt trong Parasite, Memories of Murder và nhiều phim điện ảnh nổi bật khác.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Song_Kang-ho_2019.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Song_Gangho_2016.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11316,7 +11316,7 @@ module.exports = {
       "birthday": "1962-06-06",
       "gender": "male",
       "biography": "Hirokazu Kore-eda là đạo diễn Nhật Bản từng đoạt Cành cọ vàng tại Cannes, nổi bật với các phim như Shoplifters và Broker.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Hirokazu_Koreeda_2018.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Hirokazu_Kore-eda_Cannes_2015.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11326,7 +11326,7 @@ module.exports = {
       "birthday": "1971-03-29",
       "gender": "male",
       "biography": "Nishijima Hidetoshi là diễn viên Nhật Bản, nổi tiếng với vai chính trong Drive My Car – phim đoạt Oscar Phim quốc tế hay nhất 2022.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hidetoshi_Nishijima_2019.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nishijima_Hidetoshi_from_%22The_House_Where_the_Mermaid_Sleeps%22_World_Premiere_Red_Carpet_of_the_Tokyo_International_Film_Festival_2018_%2845632820412%29.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11336,7 +11336,7 @@ module.exports = {
       "birthday": "1978-12-16",
       "gender": "male",
       "biography": "Ryusuke Hamaguchi là đạo diễn Nhật Bản, nổi tiếng với phim Drive My Car, đoạt nhiều giải thưởng quốc tế.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ryusuke_Hamaguchi_2021.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNWI5MmVkYjUtYzNjMC00NGMyLWIyMjctOGJiY2YwZDRkYjc5XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11346,7 +11346,7 @@ module.exports = {
       "birthday": "1980-11-18",
       "gender": "male",
       "biography": "Junichi Okada là diễn viên Nhật Bản, từng thủ vai trong các phim lịch sử như Sekigahara và The Eternal Zero.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Junichi_Okada_2021.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNTExNjhiNDktN2RmOS00YTkwLWI0YTQtZDk4NTFiOTEzZDM5XkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11356,7 +11356,7 @@ module.exports = {
       "birthday": "1949-07-03",
       "gender": "male",
       "biography": "Masato Harada là đạo diễn, nhà biên kịch và diễn viên Nhật Bản, nổi tiếng với các phim lịch sử – chiến tranh như Sekigahara.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Masato_Harada.jpg",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BODQ4MjYyMDQ2Nl5BMl5BanBnXkFtZTYwOTkxOTQ1._V1_.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11366,7 +11366,7 @@ module.exports = {
       "birthday": "1920-09-27",
       "gender": "male",
       "biography": "Tô Hoài là nhà văn nổi tiếng của Việt Nam, tác giả của nhiều tác phẩm văn học và từng được chuyển thể thành phim như Trăng nơi đáy giếng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/T%C3%B4_Ho%C3%A0i.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/vi/7/73/Nhavan_t%C3%B4_ho%C3%A0i.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11376,7 +11376,7 @@ module.exports = {
       "birthday": "1979-02-26",
       "gender": "female",
       "biography": "Ngô Thanh Vân là nữ diễn viên, nhà sản xuất, đạo diễn nổi tiếng của Việt Nam, từng đóng vai chính trong Dòng máu anh hùng, Hai Phượng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ngo_Thanh_Van_2017.jpg",
+      "profile_url": "https://vietnambusinessinsider.vn/uploads/images/2022/01/20/ngo-thanh-van-5-1642647264.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11386,7 +11386,7 @@ module.exports = {
       "birthday": "1968-09-28",
       "gender": "male",
       "biography": "Lý Hải là ca sĩ, diễn viên và đạo diễn nổi tiếng với loạt phim điện ảnh Lật Mặt được yêu thích tại Việt Nam.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ly_Hai_2023.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ly_hai_1_%28cropped%29.jpg/960px-Ly_hai_1_%28cropped%29.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11396,7 +11396,7 @@ module.exports = {
       "birthday": "1988-02-21",
       "gender": "male",
       "biography": "Kiều Minh Tuấn là nam diễn viên Việt Nam nổi bật với nhiều vai diễn hài hước và cảm xúc trong Em chưa 18, Lật mặt và Để Mai Tính 2.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Kieu_Minh_Tuan.jpg",
+      "profile_url": "https://cdn.24h.com.vn/upload/4-2022/images/2022-11-16/kieuminhtuan2-1668572668-361-width1125height1845.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11406,7 +11406,7 @@ module.exports = {
       "birthday": "1979-12-13",
       "gender": "male",
       "biography": "Hứa Vĩ Văn là diễn viên điện ảnh, ca sĩ và người mẫu Việt Nam, nổi bật với các phim như Chàng vợ của em và Em là bà nội của anh.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Hua_Vi_Van.jpg",
+      "profile_url": "https://bazaarvietnam.vn/wp-content/uploads/2022/06/harper-bazaar-phim-cua-hua-vi-van-14.jpeg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11416,7 +11416,7 @@ module.exports = {
       "birthday": "1987-02-05",
       "gender": "male",
       "biography": "Trấn Thành là nghệ sĩ đa tài tại Việt Nam: diễn viên, MC, đạo diễn – nổi bật với phim Nhà Bà Nữ, Bố Già.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tran_Thanh_2022.jpg",
+      "profile_url": "https://cdn2.tuoitre.vn/471584752817336320/2024/12/12/tran-thanh-17339800958191998578738.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11426,7 +11426,7 @@ module.exports = {
       "birthday": "1990-04-04",
       "gender": "female",
       "biography": "Lan Ngọc là nữ diễn viên trẻ nổi tiếng tại Việt Nam, từng tham gia các phim như Cánh đồng bất tận, Gái già lắm chiêu.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Ninh_Duong_Lan_Ngoc.jpg",
+      "profile_url": "https://thammyvienngocdung.com/wp-content/uploads/2022/05/idol.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11436,7 +11436,7 @@ module.exports = {
       "birthday": "1984-09-15",
       "gender": "female",
       "biography": "Thu Trang là diễn viên hài và nhà sản xuất phim tại Việt Nam, nổi bật trong loạt phim Chị Mười Ba và Nghề siêu dễ.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Thu_Trang_2022.jpg",
+      "profile_url": "https://cdn.tuoitre.vn/thumb_w/640/471584752817336320/2023/2/8/2751431565098110905162135895003073958147241n-1675833137657885238847.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11446,7 +11446,7 @@ module.exports = {
       "birthday": "1982-01-13",
       "gender": "male",
       "biography": "Tiến Luật là diễn viên hài nổi tiếng, thường xuyên đóng cặp với vợ là Thu Trang trong các dự án phim Việt ăn khách.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Tien_Luat.jpg",
+      "profile_url": "https://dep.com.vn/wp-content/uploads/2021/01/deponline002tien-luat.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11456,7 +11456,7 @@ module.exports = {
       "birthday": "1974-09-10",
       "gender": "male",
       "biography": "Thái Hòa là diễn viên điện ảnh và hài kịch được yêu thích, với các vai diễn ấn tượng trong Để Mai Tính, Long Ruồi và Bỗng Dưng Muốn Khóc.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Thai_Hoa_Vietnam.jpg",
+      "profile_url": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/4/4/1175689/JIN_6750.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11466,7 +11466,7 @@ module.exports = {
       "birthday": "1976-08-14",
       "gender": "male",
       "biography": "Lê Bảo Trung là đạo diễn nổi bật của dòng phim hài, thanh thiếu niên tại Việt Nam như Giải cứu thần chết, Những nụ hôn rực rỡ.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Le_Bao_Trung.jpg",
+      "profile_url": "https://thethaovanhoa.mediacdn.vn/thumb_w/1200/2016/06/01/15/36/Le-Bao-Trung.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11476,7 +11476,7 @@ module.exports = {
       "birthday": "1975-01-02",
       "gender": "male",
       "biography": "Vũ Ngọc Đãng là đạo diễn tài năng Việt Nam với các tác phẩm gây tiếng vang như Bỗng Dưng Muốn Khóc, Đẹp Từng Centimét.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Vu_Ngoc_Dang.jpg",
+      "profile_url": "https://images2.thanhnien.vn/528068263637045248/2023/2/4/img1-16755273351281555899950.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11486,7 +11486,7 @@ module.exports = {
       "birthday": "1976-11-12",
       "gender": "female",
       "biography": "Trương Ngọc Ánh là diễn viên, nhà sản xuất nổi tiếng với các vai diễn mạnh mẽ trong Hương Ga, Truy Sát và Bẫy Rồng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Truong_Ngoc_Anh.jpg",
+      "profile_url": "https://kenh14cdn.com/203336854389633024/2025/4/18/truong-ngoc-anh-va-ban-trai-kem-tuoi-treu-nhau-tinh-tu-1715472704591844173580-17449032803561946917149-1744935878556-17449358790901972894762.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11496,7 +11496,7 @@ module.exports = {
       "birthday": "1974-02-16",
       "gender": "male",
       "biography": "Johnny Trí Nguyễn là diễn viên và võ sư Việt kiều Mỹ, nổi bật trong các phim hành động như Dòng Máu Anh Hùng, Bẫy Rồng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Johnny_Tri_Nguyen.jpg",
+      "profile_url": "https://cdnphoto.dantri.com.vn/FQNM1wv2S1tVJfjA_U1UF9LxUEM=/2022/08/31/47-1661911473379.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11506,7 +11506,7 @@ module.exports = {
       "birthday": "1983-12-13",
       "gender": "male",
       "biography": "Huỳnh Đông là diễn viên, đạo diễn nổi bật trong các phim như Áo Lụa Hà Đông, Mẹ Con Đậu Đũa, Trăng Nơi Đáy Giếng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Huynh_Dong.jpg",
+      "profile_url": "https://icdn.dantri.com.vn/thumb_w/960/2019/03/11/huynhdongv-1552289004295.jpeg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11516,7 +11516,7 @@ module.exports = {
       "birthday": "1978-09-03",
       "gender": "male",
       "biography": "Lê Văn Kiệt là đạo diễn Việt kiều nổi bật, đạo diễn các phim hành động như Hai Phượng, Ngôi Nhà Trong Hẻm.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Le_Van_Kiet.jpg",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0TOpwXtET4wP8Rs-kwnTGDvwLh6KKoGVOJw&s",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11526,7 +11526,7 @@ module.exports = {
       "birthday": "1977-08-10",
       "gender": "female",
       "biography": "Hồng Ánh là diễn viên kỳ cựu của điện ảnh Việt, từng tham gia nhiều phim nghệ thuật như Trăng nơi đáy giếng, Thời xa vắng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Hong_Anh.jpg",
+      "profile_url": "https://images2.thanhnien.vn/528068263637045248/2025/1/11/h3-17366221814121002534363.jpeg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11536,7 +11536,7 @@ module.exports = {
       "birthday": "1975-11-25",
       "gender": "male",
       "biography": "Victor Vũ là đạo diễn nổi tiếng người Mỹ gốc Việt, đạo diễn các phim như Mắt Biếc, Thiên Mệnh Anh Hùng, Tôi thấy hoa vàng trên cỏ xanh.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Victor_Vu.jpg",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdHxfrNjWt7pAPYlk-9-Bdeer6YBWd7Onipdg4ciM-4PyhBl_1Q6erdclH95yTBwTJoDA&usqp=CAU",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11546,7 +11546,7 @@ module.exports = {
       "birthday": "1978-08-08",
       "gender": "male",
       "biography": "Nguyễn Quang Dũng là đạo diễn nổi tiếng của điện ảnh Việt với các phim ăn khách như Đẹp từng centimét, Hồn Trương Ba da hàng thịt.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Nguyen_Quang_Dung.jpg",
+      "profile_url": "https://bazaarvietnam.vn/wp-content/uploads/2024/01/harper-bazaar-dao-dien-nguyen-quang-dung-14-scaled-e1704536409487.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11556,7 +11556,7 @@ module.exports = {
       "birthday": "1983-07-22",
       "gender": "female",
       "biography": "Thanh Hằng là siêu mẫu và diễn viên nổi tiếng, tham gia nhiều phim như Mỹ nhân kế, Chị chị em em và Những nụ hôn rực rỡ.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Thanh_Hang.jpg",
+      "profile_url": "https://thanhnien.mediacdn.vn/Uploaded/thuyptt/2022_01_25/th-0-6113.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11566,7 +11566,7 @@ module.exports = {
       "birthday": "1988-06-13",
       "gender": "male",
       "biography": "Isaac là ca sĩ, diễn viên người Việt Nam, từng tham gia phim điện ảnh như Tấm Cám, Song Lang, Trạng Tí Phiêu Lưu Ký.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Isaac_2019.jpg",
+      "profile_url": "https://images2.thanhnien.vn/528068263637045248/2024/8/31/isaactretrungdientrai8-17250882468251463526626.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11576,7 +11576,7 @@ module.exports = {
       "birthday": "1980-03-15",
       "gender": "male",
       "biography": "Phan Gia Nhật Linh là đạo diễn Việt Nam, nổi bật với Em là bà nội của anh, Trạng Tí Phiêu Lưu Ký.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Phan_Gia_Nhat_Linh.jpg",
+      "profile_url": "https://cand.com.vn/Files/Image/chienthang/2016/11/06/thumb_660_83225b1f-974d-4f9f-a3e2-39b7861eaa3b.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11586,7 +11586,7 @@ module.exports = {
       "birthday": "1979-06-30",
       "gender": "female",
       "biography": "Mai Thu Huyền là diễn viên, nhà sản xuất, đạo diễn nổi tiếng, đảm nhiệm vai trò đạo diễn phim The Last Wife (Người Vợ Cuối Cùng).",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mai_Thu_Huyen_2022.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/MaiThuHuyen2024.jpg/960px-MaiThuHuyen2024.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11596,7 +11596,7 @@ module.exports = {
       "birthday": "1978-10-29",
       "gender": "male",
       "biography": "Nguyễn Phan Quang Bình là đạo diễn của các phim như Cánh đồng bất tận, Quyên và Tro tàn rực rỡ.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Nguyen_Phan_Quang_Binh.jpg",
+      "profile_url": "https://hnm.1cdn.vn/2022/07/31/hanoimoi.com.vn-uploads-images-phananh-2022-07-28-_phim1.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11606,7 +11606,7 @@ module.exports = {
       "birthday": "1988-08-11",
       "gender": "female",
       "biography": "Hoàng Thùy Linh là ca sĩ, diễn viên nổi tiếng, từng tham gia phim truyền hình Nhật ký Vàng Anh và điện ảnh Thần tượng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Hoang_Thuy_Linh_2022.jpg",
+      "profile_url": "https://i.scdn.co/image/ab6761610000e5eb0910bc39eeb9ad6af0ed34b3",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11616,7 +11616,7 @@ module.exports = {
       "birthday": "1993-11-05",
       "gender": "male",
       "biography": "Lãnh Thanh là diễn viên trẻ Việt Nam, từng tham gia các phim điện ảnh như Thưa mẹ con đi, Bí mật của gió.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Lanh_Thanh.jpg",
+      "profile_url": "https://images2.thanhnien.vn/528068263637045248/2023/3/20/lanh-thanh-1679311454377820176052.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11626,7 +11626,7 @@ module.exports = {
       "birthday": "1998-09-25",
       "gender": "female",
       "biography": "Trúc Anh là nữ diễn viên trẻ nổi bật qua vai Hà Lan trong Mắt Biếc, tạo dấu ấn mạnh mẽ trong lòng khán giả.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Truc_Anh_Mat_Biec.jpg",
+      "profile_url": "https://images2.thanhnien.vn/528068263637045248/2023/4/23/dv-truc-anh-1682251770601542649392.jpeg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11636,7 +11636,7 @@ module.exports = {
       "birthday": "1982-06-19",
       "gender": "male",
       "biography": "Nguyễn Nhật Trung là đạo diễn Việt Nam, nổi bật với phim Quỷ Nhập Tràng và các dự án điện ảnh thuộc thể loại kinh dị.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Nguyen_Nhat_Trung.jpg",
+      "profile_url": "https://vcdn1-sohoa.vnecdn.net/2022/05/05/NguynNhtTrung-1651716587-2526-1651716591.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=AicSAaidDja1qcz1St36-A",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11646,7 +11646,7 @@ module.exports = {
       "birthday": "1960-01-20",
       "gender": "male",
       "biography": "Lưu Huỳnh là đạo diễn kỳ cựu tại Việt Nam, tác giả của các phim nghệ thuật nổi bật như Hạt mưa sa, Áo lụa Hà Đông.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Luu_Huynh.jpg",
+      "profile_url": "https://vcdn1-giaitri.vnecdn.net/2020/01/28/luu-huynh-1-7648-1580225975.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=UfUkY6iZcl1Pd7P0ydF8-Q",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11656,7 +11656,7 @@ module.exports = {
       "birthday": "1979-04-11",
       "gender": "female",
       "biography": "Trần Khánh Duyên là biên kịch và đạo diễn điện ảnh Việt Nam, nổi bật với phim điện ảnh nghệ thuật và các dự án độc lập.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tran_Khanh_Duyen.jpg",
+      "profile_url": "https://hoathinh.org.vn/sites/default/files/dao_dien_5_0.png",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11666,7 +11666,7 @@ module.exports = {
       "birthday": "1979-02-26",
       "gender": "female",
       "biography": "Ngô Thanh Vân là diễn viên, nhà sản xuất nổi bật trong điện ảnh Việt với các phim như Hai Phượng, Dòng Máu Anh Hùng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ngo_Thanh_Van.jpg",
+      "profile_url": "https://vietnambusinessinsider.vn/uploads/images/2022/01/20/ngo-thanh-van-5-1642647264.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11676,7 +11676,7 @@ module.exports = {
       "birthday": "1968-09-28",
       "gender": "male",
       "biography": "Lý Hải là ca sĩ, đạo diễn thành công với loạt phim Lật Mặt – thương hiệu hành động hài nổi bật của Việt Nam.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ly_Hai.jpg",
+      "profile_url": "https://media.vov.vn/sites/default/files/styles/large/public/2023-04/7c7a6106.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11686,7 +11686,7 @@ module.exports = {
       "birthday": "1999-04-09",
       "gender": "female",
       "biography": "Kaity Nguyễn là diễn viên trẻ nổi bật với các vai diễn trong Em Chưa 18, Hồn Papa Da Con Gái, Người Vợ Cuối Cùng.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kaity_Nguyen.jpg",
+      "profile_url": "https://api.theinfluencer.vn/files/2025/1/imgs/1736993290049.webp??",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11696,7 +11696,7 @@ module.exports = {
       "birthday": "1974-08-10",
       "gender": "male",
       "biography": "Thái Hòa là diễn viên nổi tiếng với khả năng biến hóa trong nhiều vai hài hước và tâm lý như Để Mai Tính, Long Ruồi.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Thai_Hoa.jpg",
+      "profile_url": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/4/4/1175689/JIN_6750.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11706,7 +11706,7 @@ module.exports = {
       "birthday": "1990-05-27",
       "gender": "female",
       "biography": "Diễm My 9x là diễn viên trẻ nổi tiếng trong điện ảnh Việt với phong cách hiện đại, từng tham gia các phim như Mỹ Nhân Kế, Gái Già Lắm Chiêu.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Dieu_My_9x.jpg",
+      "profile_url": "https://cdn.eva.vn/upload/4-2023/images/2023-11-23/diem-my-9x-diem-my-9x-20230317090043-1700724028-619-width780height1170.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11716,7 +11716,7 @@ module.exports = {
       "birthday": "1988-02-21",
       "gender": "male",
       "biography": "Kiều Minh Tuấn là diễn viên điện ảnh Việt nổi tiếng với lối diễn tự nhiên, được biết đến qua Em Chưa 18, Bố Già.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Kieu_Minh_Tuan.jpg",
+      "profile_url": "https://cdn.24h.com.vn/upload/4-2022/images/2022-11-16/kieuminhtuan2-1668572668-361-width1125height1845.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11726,7 +11726,7 @@ module.exports = {
       "birthday": "1986-10-24",
       "gender": "female",
       "biography": "Tăng Thanh Hà là diễn viên nổi tiếng trong nhiều phim điện ảnh và truyền hình như Bỗng Dưng Muốn Khóc, Mỹ Nhân Kế.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Tang_Thanh_Ha.jpg",
+      "profile_url": "https://www.elle.vn/wp-content/uploads/2019/05/17/tang-thanh-ha-radiance-of-power-phong-van-chan-dung-ft540.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11736,7 +11736,7 @@ module.exports = {
       "birthday": "1989-01-03",
       "gender": "male",
       "biography": "Cường Seven là ca sĩ, diễn viên nổi bật với phong cách trẻ trung, từng góp mặt trong Truy Sát, Lôi Báo.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cuong_Seven.jpg",
+      "profile_url": "https://thanhnien.mediacdn.vn/uploaded/minhnguyet/2017_03_06/cuong2_HQFZ.jpg?width=500",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11746,7 +11746,7 @@ module.exports = {
       "birthday": "1992-08-25",
       "gender": "female",
       "biography": "Phương Anh Đào là diễn viên trẻ, ghi dấu ấn trong Chàng Vợ Của Em, Nhắm Mắt Thấy Mùa Hè và Tro Tàn Rực Rỡ.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Phuong_Anh_Dao.jpg",
+      "profile_url": "https://onoff.vn/blog/wp-content/uploads/2024/03/phuong-anh-dao-la-ai.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11756,7 +11756,7 @@ module.exports = {
       "birthday": "1984-09-15",
       "gender": "female",
       "biography": "Thu Trang là nghệ sĩ hài kiêm diễn viên nổi tiếng, được biết đến với vai diễn trong phim điện ảnh Chị Mười Ba.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Thu_Trang_2023.jpg",
+      "profile_url": "https://cdn.tuoitre.vn/thumb_w/640/471584752817336320/2023/2/8/2751431565098110905162135895003073958147241n-1675833137657885238847.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11766,7 +11766,7 @@ module.exports = {
       "birthday": "1982-01-11",
       "gender": "male",
       "biography": "Tiến Luật là diễn viên hài, chồng của Thu Trang, thường xuyên góp mặt trong các phim hài, hành động như Chị Mười Ba.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Tien_Luat_2022.jpg",
+      "profile_url": "https://dep.com.vn/wp-content/uploads/2021/01/deponline002tien-luat.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11776,7 +11776,7 @@ module.exports = {
       "birthday": "1979-12-03",
       "gender": "male",
       "biography": "Hứa Vĩ Văn là diễn viên, người mẫu nổi bật tại Việt Nam, từng tham gia các phim Chàng Trai Năm Ấy, Em Là Bà Nội Của Anh.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hua_Vi_Van.jpg",
+      "profile_url": "https://bazaarvietnam.vn/wp-content/uploads/2022/06/harper-bazaar-phim-cua-hua-vi-van-14.jpeg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11786,7 +11786,7 @@ module.exports = {
       "birthday": "1975-09-15",
       "gender": "male",
       "biography": "Đỗ Đức Thịnh là đạo diễn kiêm biên kịch điện ảnh Việt, từng đạo diễn phim Siêu Sao Siêu Ngố, Vu Quy Đại Náo.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Do_Duc_Thinh.jpg",
+      "profile_url": "https://phunuvietnam.mediacdn.vn/179072216278405120/2022/2/22/215367367102172168959292362924542375167791334n-1645495578511243397430.jpeg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11796,7 +11796,7 @@ module.exports = {
       "birthday": "1985-11-15",
       "gender": "male",
       "biography": "Quang Tuấn là diễn viên được đánh giá cao với các vai diễn trong Bằng Chứng Vô Hình, Bí Mật Của Gió.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Quang_Tuan.jpg",
+      "profile_url": "https://thanhnien.mediacdn.vn/Uploaded/thanhlongn/2022_03_29/quang-tuan-7-3877.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11806,7 +11806,7 @@ module.exports = {
       "birthday": "1990-05-18",
       "gender": "male",
       "biography": "B Trần là diễn viên trẻ nổi bật của điện ảnh Việt với phong cách hiện đại, từng xuất hiện trong 12 Chòm Sao, Trạng Tí.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/B_Tran.jpg",
+      "profile_url": "https://afamilycdn.com/150157425591193600/2023/12/26/3953900019019354079575977605435833893854259n-17032188383431164484623-1703558615118-17035586156281472352912.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11816,7 +11816,7 @@ module.exports = {
       "birthday": "1967-08-11",
       "gender": "male",
       "biography": "Trung Dân là nghệ sĩ gạo cội với kinh nghiệm diễn xuất đa dạng trong phim hài, phim truyền hình lẫn điện ảnh.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Trung_Dan.jpg",
+      "profile_url": "https://music.quehuong.org/ns2/277.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11826,7 +11826,7 @@ module.exports = {
       "birthday": "1984-11-29",
       "gender": "male",
       "biography": "Khương Ngọc là diễn viên kiêm đạo diễn cá tính, thường xuất hiện trong các vai phản diện hoặc hài độc đáo.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Khuong_Ngoc.jpg",
+      "profile_url": "https://danviet.ex-cdn.com/files/f1/296231569849192448/2023/7/14/khuong-ngoc-1689326524030818586749.jpeg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11836,7 +11836,7 @@ module.exports = {
       "birthday": "1995-12-08",
       "gender": "female",
       "biography": "Hoàng Yến Chibi là ca sĩ, diễn viên trẻ Việt Nam, nổi bật trong các phim điện ảnh như Tháng Năm Rực Rỡ.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hoang_Yen_Chibi_2022.jpg",
+      "profile_url": "https://cdn2.tuoitre.vn/471584752817336320/data/teen360/pictures/2018/07/27/1532675425_hoang-yen-chi-bi.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11846,7 +11846,7 @@ module.exports = {
       "birthday": "1987-06-22",
       "gender": "female",
       "biography": "Minh Hằng là ca sĩ, diễn viên có nhiều đóng góp cho truyền hình và điện ảnh Việt, nổi bật trong Ngôi Nhà Hạnh Phúc bản Việt.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Minh_Hang_2023.jpg",
+      "profile_url": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/3/8/1155548/TNH_4783.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11856,7 +11856,7 @@ module.exports = {
       "birthday": "1984-10-26",
       "gender": "female",
       "biography": "Đinh Ngọc Diệp là diễn viên và nhà sản xuất phim, vợ của đạo diễn Victor Vũ, từng tham gia trong Cô Dâu Đại Chiến, Bóng Ma Học Đường.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Dinh_Ngoc_Diep.jpg",
+      "profile_url": "https://cdnphoto.dantri.com.vn/a-BrC0T34PAbvt1Hp1CfxCV4n08=/2025/05/15/diep1-1747276984406.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11866,7 +11866,7 @@ module.exports = {
       "birthday": "1962-04-25",
       "gender": "female",
       "biography": "Hồng Đào là nghệ sĩ kỳ cựu của sân khấu kịch và điện ảnh Việt, từng tham gia các phim như Thưa mẹ con đi, Đoạt Hồn.",
-      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Hong_Dao.jpg",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Hongdao.jpg",
       "createdAt": "2025-06-22T00:00:00+07:00",
       "updatedAt": "2025-06-22T00:00:00+07:00"
     },
@@ -11876,7 +11876,7 @@ module.exports = {
       "birthday": "1983-05-01",
       "gender": "male",
       "biography": "Park Hae-jin là diễn viên Hàn Quốc sinh tại Busan, nổi tiếng với các vai trong Cheese in the Trap, Man to Man và Bad Guys. Anh từng nhận giải Nam diễn viên mới tại Baeksang và MBC Drama Awards.",
-      "profile_url": "https://en.wikipedia.org/wiki/Park_Hae-jin",
+      "profile_url": "https://media-cdn-v2.laodong.vn/storage/newsportal/2024/5/4/1335797/Park-Hae-Jin.jpeg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11886,7 +11886,7 @@ module.exports = {
       "birthday": "1991-07-02",
       "gender": "female",
       "biography": "Kim Go-eun là diễn viên Hàn Quốc, từng đoạt giải Nữ diễn viên mới qua phim Eungyo (2012). Cô được biết đến qua Cheese in the Trap, Guardian và A Muse.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Go-eun",
+      "profile_url": "https://asianwiki.com/images/6/6f/Kim_Go-Eun-Coin_Locker_Girl-GV.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11896,7 +11896,7 @@ module.exports = {
       "birthday": "1993-10-12",
       "gender": "male",
       "biography": "Seo Kang-joon, tên thật Lee Seung-hwan, là diễn viên kiêm ca sĩ, thành viên nhóm 5urprise. Anh được biết đến với Cheese in the Trap, Are You Human? và Grid.",
-      "profile_url": "https://en.wikipedia.org/wiki/Seo_Kang-joon",
+      "profile_url": "https://i.pinimg.com/736x/f6/89/e8/f689e8abc5ba323dd430a945ad5f2703.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11906,7 +11906,7 @@ module.exports = {
       "birthday": "1990-08-10",
       "gender": "female",
       "biography": "Lee Sung-kyung là diễn viên, người mẫu Hàn Quốc, nổi bật trong Weightlifting Fairy Kim Bok-joo, Cheese in the Trap và Dr. Romantic 2.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Sung-kyung",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Lee_Sung-kyung_in_March_2025.png/640px-Lee_Sung-kyung_in_March_2025.png",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11916,7 +11916,7 @@ module.exports = {
       "birthday": "1985-09-19",
       "gender": "male",
       "biography": "Song Joong-ki là diễn viên nổi tiếng Hàn Quốc, tên tuổi qua Sungkyunkwan Scandal, Descendants of the Sun, Vincenzo và Arthdal Chronicles.",
-      "profile_url": "https://en.wikipedia.org/wiki/Song_Joong-ki",
+      "profile_url": "https://kenh14cdn.com/203336854389633024/2022/12/26/song-joong-ki-16720299502841317227681.jpeg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11926,7 +11926,7 @@ module.exports = {
       "birthday": "1981-11-22",
       "gender": "female",
       "biography": "Song Hye-kyo là nữ diễn viên hàng đầu Hàn Quốc, nổi bật qua Full House, Descendants of the Sun và Encounter.",
-      "profile_url": "https://en.wikipedia.org/wiki/Song_Hye-kyo",
+      "profile_url": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/1/20/f1750f9ce21745c2b9390fcacf18601b",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11936,7 +11936,7 @@ module.exports = {
       "birthday": "1980-07-20",
       "gender": "male",
       "biography": "Jin Goo là diễn viên Hàn Quốc, biết đến qua Descendants of the Sun, Uncontrollably Fond và The Last Princess.",
-      "profile_url": "https://en.wikipedia.org/wiki/Jin_Goo",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/%EC%A0%9C19%ED%9A%8C_%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%ED%8C%90%ED%83%80%EC%8A%A4%ED%8B%B1%EC%98%81%ED%99%94%EC%A0%9C_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_part.3_37.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11946,7 +11946,7 @@ module.exports = {
       "birthday": "1992-10-19",
       "gender": "female",
       "biography": "Kim Ji-won là nữ diễn viên Hàn Quốc, đóng vai chính trong Descendants of the Sun, Fight for My Way và Chronicle of Life.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Ji-won",
+      "profile_url": "https://media-cdn-v2.laodong.vn/storage/newsportal/2024/4/22/1330533/Kim-Ji-Won-6.jpeg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11956,7 +11956,7 @@ module.exports = {
       "birthday": "1984-07-04",
       "gender": "male",
       "biography": "Lee Je-hoon là diễn viên Hàn Quốc, nổi tiếng qua Signal, Architecture 101 và Taxi Driver.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Je-hoon",
+      "profile_url": "https://asianwiki.com/images/d/dc/Lee_Je-Hoon-1984-p1.jpeg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11976,7 +11976,7 @@ module.exports = {
       "birthday": "1976-03-30",
       "gender": "male",
       "biography": "Cho Jin-woong là diễn viên, nổi bật trong Signal, The Wailing, A Hard Day và The Age of Shadows.",
-      "profile_url": "https://en.wikipedia.org/wiki/Cho_Jin-woong",
+      "profile_url": "https://cdnphoto.dantri.com.vn/33kbbtq6A7--_f97QmstQXmYoTA=/thumb_w/960/2020/11/06/kim-5-1604636293496.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11986,7 +11986,7 @@ module.exports = {
       "birthday": "1987-07-05",
       "gender": "male",
       "biography": "Ji Chang-wook là diễn viên Hàn Quốc, nổi bật qua The K2, Healer, và Suspicious Partner.",
-      "profile_url": "https://en.wikipedia.org/wiki/Ji_Chang-wook",
+      "profile_url": "https://asianwiki.com/images/d/d1/Ji_Chang-Wook-1987-p01.jpeg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -11996,7 +11996,7 @@ module.exports = {
       "birthday": "1990-05-30",
       "gender": "female",
       "biography": "Im Yoon-ah (Yoona) là ca sĩ-nữ diễn viên, thành viên SNSD và diễn viên trong The K2, The King in Love và Exit.",
-      "profile_url": "https://en.wikipedia.org/wiki/Yoona",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMGNjODkwM2UtMTM0MS00MzY1LWIzNTItNWM2NTM2NTU2OTRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12006,7 +12006,7 @@ module.exports = {
       "birthday": "1973-03-28",
       "gender": "female",
       "biography": "Song Yoon-ah là diễn viên Hàn Quốc, bắt đầu nổi tiếng qua phim Divorce Lawyer in Love, cũng đóng chính trong The K2.",
-      "profile_url": "https://en.wikipedia.org/wiki/Song_Yoon-ah",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Song_Yun-ah_from_acrofan.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12016,7 +12016,7 @@ module.exports = {
       "birthday": "1979-07-10",
       "gender": "male",
       "biography": "Gong Yoo là diễn viên nổi tiếng với vai Goblin trong Goblin và nam chính trong The Age of Shadows, Train to Busan.",
-      "profile_url": "https://en.wikipedia.org/wiki/Gong_Yoo",
+      "profile_url": "https://ss-images.saostar.vn/2023/7/17/pc/1689579011289/saostar-a8cbuh7u1163k1no.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12026,7 +12026,7 @@ module.exports = {
       "birthday": "1981-11-06",
       "gender": "male",
       "biography": "Lee Dong-wook là diễn viên quen thuộc với Goblin, My Girl, Scent of a Woman và Touch Your Heart.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Dong-wook",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Lee_Dong-wook_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12036,7 +12036,7 @@ module.exports = {
       "birthday": "1982-06-05",
       "gender": "female",
       "biography": "Yoo In-na là nữ diễn viên và MC Hàn Quốc, được biết đến qua vai trong Goblin, Queen In-hyun's Man và My Love from the Star.",
-      "profile_url": "https://en.wikipedia.org/wiki/Yoo_In-na",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBFp8mDzOuR7qrS36hgyzd609c4GfcGEJ-Tc711YuUqOuoxzdhwv5AJCBqAnXzRvds-bc&usqp=CAU",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12046,7 +12046,7 @@ module.exports = {
       "birthday": "1981-10-30",
       "gender": "female",
       "biography": "Jun Ji-hyun (Gianna Jun) là nữ diễn viên nổi tiếng với My Sassy Girl, The Thieves và Legends of the Blue Sea.",
-      "profile_url": "https://en.wikipedia.org/wiki/Jun_Ji-hyun",
+      "profile_url": "https://cdn.tuoitre.vn/471584752817336320/2023/2/15/screenshot-2023-02-15-171515-1676456130090771427913.png",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12056,7 +12056,7 @@ module.exports = {
       "birthday": "1987-06-22",
       "gender": "male",
       "biography": "Lee Min-ho là diễn viên đình đám Hàn Quốc, nổi tiếng qua Boys Over Flowers, The Heirs, Legend of the Blue Sea và The King: Eternal Monarch.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Min-ho",
+      "profile_url": "https://ss-images.saostar.vn/wp700/2025/6/24/pc/1750759151744/galka3jidy1-i93wbhvvam2-0oj0odyn163.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12066,7 +12066,7 @@ module.exports = {
       "birthday": "1967-04-23",
       "gender": "female",
       "biography": "Kim Hee-ae là nữ diễn viên kỳ cựu, nổi bật trong The World of the Married, Secret Love Affair và The Queen of Office.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Hee-ae",
+      "profile_url": "https://vcdn1-giaitri.vnecdn.net/2020/04/13/kim-hee-ae-1-7752-1586768804.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=-9jZdatSo_1BS_2QqxQN5w",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12076,7 +12076,7 @@ module.exports = {
       "birthday": "1976-10-14",
       "gender": "male",
       "biography": "Park Hae-joon là diễn viên, từng đóng vai chính trong The World of the Married, Itaewon Class, Chronicle of a Blood Merchant.",
-      "profile_url": "https://en.wikipedia.org/wiki/Park_Hae-joon",
+      "profile_url": "https://asianwiki.com/images/4/43/Park_Hae-Joon-1976-p1.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12086,7 +12086,7 @@ module.exports = {
       "birthday": "1994-11-18",
       "gender": "female",
       "biography": "Han So-hee là nữ diễn viên trẻ, nổi lên qua A World of Married Couple, Nevertheless, My Name và The World of the Married.",
-      "profile_url": "https://en.wikipedia.org/wiki/Han_So-hee",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNDNmNTZhMDgtNGNjZi00OWNjLThlZDktYzE3NGNiYjhkNWNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12096,7 +12096,7 @@ module.exports = {
       "birthday": "1988-02-16",
       "gender": "male",
       "biography": "Kim Soo-hyun là diễn viên nổi bật qua Dream High, My Love from the Star, It's Okay to Not Be Okay và The Producers.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Soo-hyun",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Kim_Soo-hyun_in_August_2024_-_2.png",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12106,7 +12106,7 @@ module.exports = {
       "birthday": "1990-04-06",
       "gender": "female",
       "biography": "Seo Ye‑ji là nữ diễn viên Hàn Quốc, nổi bật với vai diễn trong It's Okay to Not Be Okay, Lawless Lawyer và Island.",
-      "profile_url": "https://en.wikipedia.org/wiki/Seo_Ye-ji",
+      "profile_url": "https://vcdn1-ione.vnecdn.net/2020/06/24/104172132-141340914207372-8053-8232-8171-1592997258.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=FZkdwZPSoi9fJtHqiyO40g",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12116,7 +12116,7 @@ module.exports = {
       "birthday": "1977-11-27",
       "gender": "male",
       "biography": "Oh Jung-se là diễn viên Hàn Quốc, được biết đến qua vai trong It's Okay to Not Be Okay, Hospital Playlist và Missing: The Other Side.",
-      "profile_url": "https://en.wikipedia.org/wiki/Oh_Jung-se",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNTBhNGZhZTktMGZlMS00YTA2LWIwMjktYjY4MzAzNTViMTI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12126,7 +12126,7 @@ module.exports = {
       "birthday": "1993-06-16",
       "gender": "male",
       "biography": "Park Bo‑gum là diễn viên Hàn Quốc nổi tiếng với Reply 1988, Love in the Moonlight và Record of Youth.",
-      "profile_url": "https://en.wikipedia.org/wiki/Park_Bo-gum",
+      "profile_url": "https://asianwiki.com/images/a/a1/Park_Bo-Gum-Coin_Locker_Girl-GV.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12136,7 +12136,7 @@ module.exports = {
       "birthday": "1991-09-08",
       "gender": "female",
       "biography": "Park So‑dam là nữ diễn viên Hàn Quốc, nổi bật qua Train to Busan, Parasite và Record of Youth.",
-      "profile_url": "https://en.wikipedia.org/wiki/Park_So-dam",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNzE2ZTM1ZGUtOWM5ZC00ZDU5LWExOTUtM2E5ZGVjNDI4OWQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12146,7 +12146,7 @@ module.exports = {
       "birthday": "1991-05-31",
       "gender": "male",
       "biography": "Byeon Woo-seok là diễn viên Hàn Quốc, nổi bật với vai trong Record of Youth, Moonshine và Moon Lovers: Scarlet Heart Ryeo.",
-      "profile_url": "https://en.wikipedia.org/wiki/Byeon_Woo-seok",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3iv4W3UgKiIsURRB7kPZV3C-V0uj_EPrSoA&s",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12156,7 +12156,7 @@ module.exports = {
       "birthday": "1985-01-16",
       "gender": "male",
       "biography": "Lee Min‑ki là diễn viên, đạo diễn Hàn Quốc, nổi bật với Oh My Ladylord, Because This Is My First Life và Dreadnought.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Min-ki",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNzMxOGVjNjEtZjhlMi00NTY5LWIwNzAtMWRiYzZkMDk3ZjI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12166,7 +12166,7 @@ module.exports = {
       "birthday": "1991-09-14",
       "gender": "female",
       "biography": "Nana (Lee Na‑ra) là ca sĩ, diễn viên, thành viên After School và Orange Caramel, đóng chính trong Oh My Ladylord.",
-      "profile_url": "https://en.wikipedia.org/wiki/Nana_(entertainer)",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Nana_at_Dalba_Photo_Call%2C_January_13%2C_2025_%281%29.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12176,7 +12176,7 @@ module.exports = {
       "birthday": "1991-06-28",
       "gender": "male",
       "biography": "Kang Min‑hyuk là diễn viên, nhạc sĩ, tay trống của CNBLUE, góp mặt trong Oh My Ladylord, The Heirs và Hospital Ship.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kang_Min-hyuk",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/CNBLUE_%EC%94%A8%EC%97%94%EB%B8%94%EB%A3%A8_%EC%B4%AC%EC%98%81%EC%9E%A5_%EC%8A%A4%EC%BC%80%EC%B9%98_%EA%B0%95%EB%AF%BC%ED%98%81.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12186,7 +12186,7 @@ module.exports = {
       "birthday": "1975-03-02",
       "gender": "male",
       "biography": "Lee Sun‑kyun là diễn viên nổi tiếng qua My Mister, Parasite, Coffee Prince và Helpless.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Sun-kyun",
+      "profile_url": "https://kenh14cdn.com/203336854389633024/2022/7/16/photo-1-1657975710771873705224.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12196,7 +12196,7 @@ module.exports = {
       "birthday": "1993-05-16",
       "gender": "female",
       "biography": "IU (Lee Ji-eun) là ca sĩ-nữ diễn viên nổi tiếng Hàn Quốc, đóng chính trong My Mister, Moon Lovers và Hotel Del Luna.",
-      "profile_url": "https://en.wikipedia.org/wiki/IU_(singer)",
+      "profile_url": "https://cdnphoto.dantri.com.vn/EZhJpF0CDqItc6nrsnjVZ5DwhGQ=/thumb_w/1920/2023/01/02/iu-1-1672627157111.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12206,7 +12206,7 @@ module.exports = {
       "birthday": "1990-04-24",
       "gender": "female",
       "biography": "Kim Tae-ri là nữ diễn viên Hàn Quốc, nổi bật với vai diễn trong The Handmaiden, Mr. Sunshine và Twenty-Five Twenty-One.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Tae-ri",
+      "profile_url": "https://asianwiki.com/images/1/1d/Kim_Tae-Ri-1990-p1.jpeg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12216,7 +12216,7 @@ module.exports = {
       "birthday": "1994-02-22",
       "gender": "male",
       "biography": "Nam Joo-hyuk là diễn viên và người mẫu Hàn Quốc, nổi bật trong Weightlifting Fairy Kim Bok-joo, Start-Up và Twenty-Five Twenty-One.",
-      "profile_url": "https://en.wikipedia.org/wiki/Nam_Joo-hyuk",
+      "profile_url": "https://asianwiki.com/images/7/7c/Nam_Joo-Hyuk-PR002.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12226,7 +12226,7 @@ module.exports = {
       "birthday": "1992-09-04",
       "gender": "female",
       "biography": "Park Eun-bin là nữ diễn viên Hàn Quốc, nổi tiếng với vai chính trong Extraordinary Attorney Woo, The King's Affection và Hot Stove League.",
-      "profile_url": "https://en.wikipedia.org/wiki/Park_Eun-bin",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/211014_%EB%B0%95%EC%9D%80%EB%B9%88.png",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12236,7 +12236,7 @@ module.exports = {
       "birthday": "1994-06-20",
       "gender": "male",
       "biography": "Kang Tae-oh là diễn viên Hàn Quốc, nổi bật với vai diễn trong Extraordinary Attorney Woo và Run On.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kang_Tae-oh",
+      "profile_url": "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2025/04/02144508/tv-shows-with-kang-tae-oh-2.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12246,7 +12246,7 @@ module.exports = {
       "birthday": "1989-08-31",
       "gender": "female",
       "biography": "Shin Hye-sun là nữ diễn viên Hàn Quốc, đóng chính trong See You in My 19th Life, Mr. Queen và Stranger.",
-      "profile_url": "https://en.wikipedia.org/wiki/Shin_Hye-sun",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNzZmYjkxY2ItNGQ0Yi00YzkxLWEyODUtYzgzMmEyOTdlOWNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12256,7 +12256,7 @@ module.exports = {
       "birthday": "1988-05-16",
       "gender": "male",
       "biography": "Ahn Bo-hyun là diễn viên Hàn Quốc, nổi bật qua vai diễn trong Itaewon Class, Yumi's Cells và See You in My 19th Life.",
-      "profile_url": "https://en.wikipedia.org/wiki/Ahn_Bo-hyun",
+      "profile_url": "https://asianwiki.com/images/1/14/Ahn_Bo-Hyun-1988-p1.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12266,7 +12266,7 @@ module.exports = {
       "birthday": "1986-05-08",
       "gender": "male",
       "biography": "Kim Seon-ho là diễn viên Hàn Quốc, nổi bật với vai trong Hometown Cha-Cha-Cha, Start-Up và 100 Days My Prince.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Seon-ho",
+      "profile_url": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2021/10/30/968963/Received_31553297328.jpeg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12276,7 +12276,7 @@ module.exports = {
       "birthday": "1984-04-05",
       "gender": "female",
       "biography": "Shin Min-a là nữ diễn viên Hàn Quốc, nổi tiếng với vai diễn trong Hometown Cha-Cha-Cha, My Girlfriend is a Gumiho và Tomorrow With You.",
-      "profile_url": "https://en.wikipedia.org/wiki/Shin_Min-a",
+      "profile_url": "https://cdnphoto.dantri.com.vn/Jf98B30o8gNpthx2gA1whsNZitA=/thumb_w/1020/2024/08/09/shin-min-ah-10-1723179339193.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12286,7 +12286,7 @@ module.exports = {
       "birthday": "1985-09-19",
       "gender": "male",
       "biography": "Song Joong-ki là diễn viên Hàn Quốc, nổi tiếng với các vai trong Descendants of the Sun, Vincenzo và Reborn Rich.",
-      "profile_url": "https://en.wikipedia.org/wiki/Song_Joong-ki",
+      "profile_url": "https://kenh14cdn.com/203336854389633024/2022/12/26/song-joong-ki-16720299502841317227681.jpeg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12296,7 +12296,7 @@ module.exports = {
       "birthday": "1989-07-26",
       "gender": "female",
       "biography": "Jeon Yeo-been là nữ diễn viên Hàn Quốc, nổi bật qua vai chính trong Vincenzo và Night in Paradise.",
-      "profile_url": "https://en.wikipedia.org/wiki/Jeon_Yeo-been",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BZWI1MjhiYjItM2YxNy00MzM0LWI1NDctMjNhZjNjM2FkNDNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12306,7 +12306,7 @@ module.exports = {
       "birthday": "1988-12-27",
       "gender": "male",
       "biography": "Ok Taec-yeon là ca sĩ, rapper, diễn viên Hàn Quốc, thành viên nhóm 2PM, đóng chính trong Vincenzo và Secret Royal Inspector.",
-      "profile_url": "https://en.wikipedia.org/wiki/Ok_Taec-yeon",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/221125_Ok_Taec-yeon.jpg/250px-221125_Ok_Taec-yeon.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12316,7 +12316,7 @@ module.exports = {
       "birthday": "1979-07-10",
       "gender": "male",
       "biography": "Gong Yoo là diễn viên nổi tiếng của Hàn Quốc với các phim như Goblin, Train to Busan và Coffee Prince.",
-      "profile_url": "https://en.wikipedia.org/wiki/Gong_Yoo",
+      "profile_url": "https://ss-images.saostar.vn/2023/7/17/pc/1689579011289/saostar-a8cbuh7u1163k1no.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12326,7 +12326,7 @@ module.exports = {
       "birthday": "1991-07-02",
       "gender": "female",
       "biography": "Kim Go-eun là diễn viên Hàn Quốc, nổi bật với Goblin, Cheese in the Trap và The King: Eternal Monarch.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Go-eun",
+      "profile_url": "https://asianwiki.com/images/6/6f/Kim_Go-Eun-Coin_Locker_Girl-GV.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12336,7 +12336,7 @@ module.exports = {
       "birthday": "1982-11-05",
       "gender": "female",
       "biography": "Han Ji-min là nữ diễn viên Hàn Quốc, nổi bật với các vai trong Rooftop Prince, The Light in Your Eyes và Our Blues.",
-      "profile_url": "https://en.wikipedia.org/wiki/Han_Ji-min",
+      "profile_url": "https://asianwiki.com/images/9/98/Han_Ji-Min-p04.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12346,7 +12346,7 @@ module.exports = {
       "birthday": "1988-04-01",
       "gender": "male",
       "biography": "Jung Hae-in là diễn viên Hàn Quốc, nổi bật với Something in the Rain, D.P. và Snowdrop.",
-      "profile_url": "https://en.wikipedia.org/wiki/Jung_Hae-in",
+      "profile_url": "https://i.pinimg.com/736x/de/f3/4f/def34fdb188e8a07b5114e4d9f270f67.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12356,7 +12356,7 @@ module.exports = {
       "birthday": "1993-05-16",
       "gender": "female",
       "biography": "Lee Ji-eun, nghệ danh IU, là ca sĩ kiêm diễn viên Hàn Quốc, nổi tiếng với My Mister, Hotel Del Luna và Moon Lovers.",
-      "profile_url": "https://en.wikipedia.org/wiki/IU_(singer)",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/230428_%EB%B0%B1%EC%83%81%EC%98%88%EC%88%A0%EB%8C%80%EC%83%81_IU_%285%29.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12366,7 +12366,7 @@ module.exports = {
       "birthday": "1975-03-02",
       "gender": "male",
       "biography": "Lee Sun-kyun là diễn viên Hàn Quốc, nổi bật trong My Mister, Parasite và Pasta.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Sun-kyun",
+      "profile_url": "https://kenh14cdn.com/203336854389633024/2022/7/16/photo-1-1657975710771873705224.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12376,7 +12376,7 @@ module.exports = {
       "birthday": "1979-01-12",
       "gender": "female",
       "biography": "Lee Bo-young là diễn viên Hàn Quốc, nổi bật với vai diễn trong I Can Hear Your Voice, Whisper và Mine.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Bo-young",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYTgyMDUwOWMtM2VkNC00ZGIyLThlZWQtMTZkMmNlYzM0MDZiXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12386,7 +12386,7 @@ module.exports = {
       "birthday": "1976-06-14",
       "gender": "male",
       "biography": "Park Hae-joon là diễn viên Hàn Quốc, nổi bật trong The World of the Married, Arthdal Chronicles và My Mister.",
-      "profile_url": "https://en.wikipedia.org/wiki/Park_Hae-joon",
+      "profile_url": "https://asianwiki.com/images/4/43/Park_Hae-Joon-1976-p1.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12396,7 +12396,7 @@ module.exports = {
       "birthday": "1982-04-17",
       "gender": "male",
       "biography": "Lee Joon-gi là diễn viên Hàn Quốc, nổi tiếng với các vai trong Moon Lovers, Flower of Evil và Lawless Lawyer.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Joon-gi",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/2022_Again_My_Life_Lee_Joon-gi_%EC%9D%B4%EC%A4%80%EA%B8%B0_%281%29.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12406,7 +12406,7 @@ module.exports = {
       "birthday": "1987-06-22",
       "gender": "male",
       "biography": "Lee Min-ho là diễn viên Hàn Quốc, nổi tiếng với Boys Over Flowers, The Heirs và Legends of the Blue Sea.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Min-ho_(actor)",
+      "profile_url": "https://ss-images.saostar.vn/wp700/2025/6/24/pc/1750759151744/galka3jidy1-i93wbhvvam2-0oj0odyn163.jpg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12416,7 +12416,7 @@ module.exports = {
       "birthday": "1981-10-30",
       "gender": "female",
       "biography": "Jun Ji-hyun là nữ diễn viên Hàn Quốc, nổi tiếng với My Sassy Girl, Legends of the Blue Sea và Kingdom: Ashin of the North.",
-      "profile_url": "https://en.wikipedia.org/wiki/Jun_Ji-hyun",
+      "profile_url": "https://cdn.tuoitre.vn/471584752817336320/2023/2/15/screenshot-2023-02-15-171515-1676456130090771427913.png",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12426,7 +12426,7 @@ module.exports = {
       "birthday": "1987-07-05",
       "gender": "male",
       "biography": "Ji Chang-wook là diễn viên Hàn Quốc, nổi bật qua các vai trong The K2, Healer và Empress Ki.",
-      "profile_url": "https://en.wikipedia.org/wiki/Ji_Chang-wook",
+      "profile_url": "https://asianwiki.com/images/d/d1/Ji_Chang-Wook-1987-p01.jpeg",
       "createdAt": "2025-06-24T00:00:00+00:00",
       "updatedAt": "2025-06-24T00:00:00+00:00"
     },
@@ -12436,7 +12436,7 @@ module.exports = {
       "birthday": "1976-01-01",
       "gender": "female",
       "biography": "Lee Yoon-jung là đạo diễn nổi tiếng người Hàn Quốc, được biết đến qua các bộ phim truyền hình như Cheese in the Trap.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Yoon-jung_(director)",
+      "profile_url": "https://asianwiki.com/images/e/ed/Lee_Yoon-Jung-1-9-2016.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12446,7 +12446,7 @@ module.exports = {
       "birthday": "1971-02-27",
       "gender": "male",
       "biography": "Lee Eung-bok là đạo diễn nổi tiếng của Hàn Quốc, từng chỉ đạo Descendants of the Sun, Goblin và Mr. Sunshine.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Eung-bok",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BNDYzODFhZTQtNWIwMy00ZTNlLTgzMDYtZDEyOTM1YzllMDE3XkEyXkFqcGc@._V1_.jpgk",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12456,7 +12456,7 @@ module.exports = {
       "birthday": "1972-01-01",
       "gender": "male",
       "biography": "Kim Won-seok là đạo diễn Hàn Quốc, nổi tiếng với tác phẩm Signal.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Won-seok_(director)",
+      "profile_url": "https://i.mydramalist.com/b2rnjf.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12466,7 +12466,7 @@ module.exports = {
       "birthday": "1972-01-01",
       "gender": "male",
       "biography": "Kwak Jung-hwan là đạo diễn Hàn Quốc nổi tiếng với phim The K2.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kwak_Jung-hwan",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJFIyi4C_P_GySTYswikARAHjVcLDL6YEAtw&s",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12476,7 +12476,7 @@ module.exports = {
       "birthday": "1970-01-01",
       "gender": "male",
       "biography": "Jin Hyuk là đạo diễn Hàn Quốc với nhiều phim nổi bật như Legend of the Blue Sea.",
-      "profile_url": "https://en.wikipedia.org/wiki/Jin_Hyuk_(director)",
+      "profile_url": "https://asianwiki.com/images/2/24/Choi_Jin-Hyuk-p3.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12486,7 +12486,7 @@ module.exports = {
       "birthday": "1970-01-01",
       "gender": "male",
       "biography": "Mo Wan-il là đạo diễn của bộ phim đình đám The World of the Married.",
-      "profile_url": "https://en.wikipedia.org/wiki/Mo_Wan-il",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQln7yWjpBtt_rSR52-iYXJVXb5LLuLebVDRQ&s",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12496,7 +12496,7 @@ module.exports = {
       "birthday": "1970-01-01",
       "gender": "male",
       "biography": "Park Shin-woo là đạo diễn của It’s Okay to Not Be Okay và nhiều bộ phim tình cảm nổi tiếng.",
-      "profile_url": "https://en.wikipedia.org/wiki/Park_Shin-woo",
+      "profile_url": "https://image.tmdb.org/t/p/w400/tdB0QONQN8Z7nO544tesCrylKor.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12506,7 +12506,7 @@ module.exports = {
       "birthday": "1974-01-01",
       "gender": "male",
       "biography": "Ahn Gil-ho là đạo diễn Hàn Quốc, đã tham gia nhiều dự án truyền hình như Record of Youth.",
-      "profile_url": "https://en.wikipedia.org/wiki/Ahn_Gil-ho",
+      "profile_url": "https://images2.thanhnien.vn/thumb_w/686/528068263637045248/2023/3/29/daodientheglorybaoluchocduongghelanh15-1680064794409302970804-0-54-1229-975-crop-16800656100741143914015.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12516,7 +12516,7 @@ module.exports = {
       "birthday": "1980-01-01",
       "gender": "female",
       "biography": "Oh Da-young là nữ đạo diễn Hàn Quốc, đảm nhận vai trò đạo diễn chính trong Oh My Ladylord.",
-      "profile_url": "https://asianwiki.com/Oh_Da-Young",
+      "profile_url": "https://i.mydramalist.com/vbK8Z_5f.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12526,7 +12526,7 @@ module.exports = {
       "birthday": "1972-01-01",
       "gender": "male",
       "biography": "Kim Won-seok là đạo diễn từng thực hiện bộ phim nổi bật My Mister.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Won-seok_(director)",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BYzA4OWUwZGEtNzYwNC00ZjVkLWE0ZDAtOTYwNTNmNWQ0MjJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12536,7 +12536,7 @@ module.exports = {
       "birthday": "1957-06-04",
       "gender": "male",
       "biography": "Yoon Seok-ho là đạo diễn nổi tiếng với nhiều phim Hàn lãng mạn, trong đó có Mr. Sunshine.",
-      "profile_url": "https://en.wikipedia.org/wiki/Yoon_Seok-ho",
+      "profile_url": "https://asianwiki.com/images/1/1d/Yoon_Seok-Ho-p01.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12546,7 +12546,7 @@ module.exports = {
       "birthday": "1961-11-25",
       "gender": "male",
       "biography": "Ahn Pan-seok là đạo diễn nổi bật của Hàn Quốc, đứng sau thành công của Something in the Rain.",
-      "profile_url": "https://en.wikipedia.org/wiki/Ahn_Pan-seok",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShwDKDtOOK1zhMTLXkh8T9cS8JHlo91wNEQg&s",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12556,7 +12556,7 @@ module.exports = {
       "birthday": "1970-01-01",
       "gender": "male",
       "biography": "Lee Jung-hyo là đạo diễn của bộ phim nổi tiếng Crash Landing on You.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Jung-hyo",
+      "profile_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmhXCF0M3bLARBWeRNIwl5R0QxWHO9OqvX3A&s",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12566,7 +12566,7 @@ module.exports = {
       "birthday": "1970-01-01",
       "gender": "male",
       "biography": "Cha Young-hoon là đạo diễn người Hàn Quốc được biết đến với phim When the Camellia Blooms.",
-      "profile_url": "https://en.wikipedia.org/wiki/Cha_Young-hoon",
+      "profile_url": "https://media.themoviedb.org/t/p/w500/jg0EkyAS9RGPAa272TudECUpwIN.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12576,7 +12576,7 @@ module.exports = {
       "birthday": "1972-01-01",
       "gender": "female",
       "biography": "Kim Hee-won là đạo diễn của bộ phim Vincenzo, mang phong cách độc đáo và hiện đại.",
-      "profile_url": "https://en.wikipedia.org/wiki/Kim_Hee-won_(director)",
+      "profile_url": "https://asianwiki.com/images/b/ba/Kim_Hee-Won_%28director-1%29-P1.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12586,7 +12586,7 @@ module.exports = {
       "birthday": "1971-01-01",
       "gender": "male",
       "biography": "Yu Je-won là đạo diễn Hàn Quốc, được biết đến với tác phẩm Hometown Cha-Cha-Cha.",
-      "profile_url": "https://en.wikipedia.org/wiki/Yu_Je-won",
+      "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Yoo_Je-won_2019.jpg/250px-Yoo_Je-won_2019.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12596,7 +12596,7 @@ module.exports = {
       "birthday": "1970-01-01",
       "gender": "male",
       "biography": "Jung Ji-hyun là đạo diễn phim truyền hình Twenty-Five Twenty-One.",
-      "profile_url": "https://en.wikipedia.org/wiki/Jung_Ji-hyun",
+      "profile_url": "https://asianwiki.com/images/2/2d/Jung_Ji-Hyun-ds_director-p1.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12606,7 +12606,7 @@ module.exports = {
       "birthday": "1970-01-01",
       "gender": "male",
       "biography": "Yoo In-sik là đạo diễn nổi tiếng, thực hiện Extraordinary Attorney Woo.",
-      "profile_url": "https://en.wikipedia.org/wiki/Yoo_In-sik",
+      "profile_url": "https://tintuc-divineshop.cdn.vccloud.vn/wp-content/uploads/2022/07/nu-luat-su-ky-la-woo-young-woo-va-loat-phim-chat-luong-tu-yoo-in-shik_62db659b40faa.jpeg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12616,7 +12616,7 @@ module.exports = {
       "birthday": "1970-01-01",
       "gender": "female",
       "biography": "Lee Na-jung là đạo diễn Hàn Quốc, chỉ đạo bộ phim See You in My 19th Life.",
-      "profile_url": "https://en.wikipedia.org/wiki/Lee_Na-jung",
+      "profile_url": "https://m.media-amazon.com/images/M/MV5BMjAyNTQzMWEtOWUwYi00ZDdiLTg1YTUtNWU5ZWViODZhZjllXkEyXkFqcGc@._V1_.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     },
@@ -12626,7 +12626,7 @@ module.exports = {
       "birthday": "1979-03-03",
       "gender": "male",
       "biography": "Shin Won-ho là đạo diễn Hàn Quốc nổi bật, từng làm việc ở nhiều dự án truyền hình đình đám.",
-      "profile_url": "https://en.wikipedia.org/wiki/Shin_Won-ho",
+      "profile_url": "https://media.themoviedb.org/t/p/w500/2skcn2e1GDFo5DLgJK3R4IDGXCz.jpg",
       "createdAt": "2024-01-01T00:00:00",
       "updatedAt": "2024-01-01T00:00:00"
     }

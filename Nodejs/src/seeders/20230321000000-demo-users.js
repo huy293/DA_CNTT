@@ -33,6 +33,19 @@ module.exports = {
       });
     }
 
+    // Tạo 3 người dùng với vai trò 'admin'
+    for (let i = 1; i <= 3; i++) {
+      users.push({
+        username: `admin${i}`,
+        email: `admin${i}@example.com`,
+        password: hashedPassword,
+        role: 'admin',
+        status: 'active',
+        createdAt: new Date(),
+        updatedAt: new Date()
+      });
+    }
+
     return queryInterface.bulkInsert('Users', users, {});
   },
 

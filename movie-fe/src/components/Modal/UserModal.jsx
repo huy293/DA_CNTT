@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from "react";
 import Select from "react-select";
 
-export const UserModal = ({ isOpen, onClose, onSubmit, editingUser }) => {
+export const UserModal = ({ isOpen, onClose, onSubmit, editingUser, currentUser, permissions }) => {
   const [formData, setFormData] = useState({
     username: "",
     email: "",
     password: "",
     role: "user",
-    status: "active"
+    status: "active",
+    canManageMovies: false,
+    canManageUsers: false,
+    canManageSettings: false,
+    canManageComment: false,
+    canViewReport: false
   });
 
   useEffect(() => {
@@ -17,10 +22,33 @@ export const UserModal = ({ isOpen, onClose, onSubmit, editingUser }) => {
         email: editingUser.email || "",
         password: "", // Không hiển thị mật khẩu cũ
         role: editingUser.role || "user",
-        status: editingUser.status || "active"
+        status: editingUser.status || "active",
+        canManageMovies: editingUser.canManageMovies || false,
+        canManageUsers: editingUser.canManageUsers || false,
+        canManageSettings: editingUser.canManageSettings || false,
+        canManageComment: editingUser.canManageComment || false,
+        canViewReport: editingUser.canViewReport || false
       });
     }
   }, [editingUser]);
+
+  // Chỉ enable nếu: đang phân quyền cho user role 'admin' và người thao tác là super admin
+  const isCanManageSettingsDisabled = !(formData.role === 'admin' && currentUser && currentUser.isSuperAdmin);
+
+  const handleCheckboxChange = (e) => {
+    const { name, checked } = e.target;
+    // Nếu chọn canManageSettings mà không đủ điều kiện, cảnh báo và không cho phép
+    if (
+      name === 'canManageSettings' &&
+      isCanManageSettingsDisabled &&
+      checked
+    ) {
+      alert('Chỉ Super Admin mới có quyền này!');
+      setFormData((prev) => ({ ...prev, [name]: false }));
+      return;
+    }
+    setFormData((prev) => ({ ...prev, [name]: checked }));
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -117,6 +145,63 @@ export const UserModal = ({ isOpen, onClose, onSubmit, editingUser }) => {
               isClearable={false}
               isSearchable={false}
             />
+          </div>
+
+          <div className="mb-4">
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              Phân quyền chi tiết
+            </label>
+            <div className="flex flex-col gap-2">
+              <label className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  name="canManageMovies"
+                  checked={formData.canManageMovies}
+                  onChange={handleCheckboxChange}
+                />
+                Quản lý phim
+              </label>
+              <label className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  name="canManageUsers"
+                  checked={formData.canManageUsers}
+                  onChange={handleCheckboxChange}
+                />
+                Quản lý người dùng
+              </label>
+              <label className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  name="canManageSettings"
+                  checked={formData.canManageSettings}
+                  onChange={handleCheckboxChange}
+                  disabled={isCanManageSettingsDisabled}
+                />
+                Quản lý cài đặt hệ thống
+                {isCanManageSettingsDisabled && (
+                  <span className="text-xs text-red-500 ml-2">Chỉ Super Admin mới có quyền này</span>
+                )}
+              </label>
+              <label className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  name="canManageComment"
+                  checked={formData.canManageComment}
+                  onChange={handleCheckboxChange}
+                />
+                Quản lý bình luận
+              </label>
+              <label className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  name="canViewReport"
+                  checked={formData.canViewReport}
+                  onChange={handleCheckboxChange}
+                />
+                Xem báo cáo
+              </label>
+            </div>
           </div>
 
           <div className="flex justify-end gap-2">

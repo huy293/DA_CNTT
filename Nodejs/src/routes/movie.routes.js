@@ -7,6 +7,7 @@ const { checkPermission } = require("../middleware/permissionMiddleware");
 // Public routes - Ai cũng có thể truy cập
 router.get("/", movieController.getAllMovies); // Lấy danh sách phim
 router.get("/with-genres", movieController.getAllWithGenres); // Lấy danh sách phim kèm thể loại
+router.get("/editors-pick", movieController.getEditorsPickMovies);
 
 // Protected routes - Chỉ admin/moderator mới có thể truy cập
 router.post("/", authMiddleware.protect(), authMiddleware.restrictTo("admin", "moderator"), movieController.createMovie); // Thêm phim
@@ -15,7 +16,7 @@ router.delete(
     "/:id", 
     authMiddleware.protect(), 
     authMiddleware.restrictTo("admin", "moderator"), 
-    checkPermission('canDeleteMovie'), 
+    checkPermission('canManageMovies'), 
     movieController.deleteMovie
 ); // Xóa phim (admin hoặc moderator có quyền)
 

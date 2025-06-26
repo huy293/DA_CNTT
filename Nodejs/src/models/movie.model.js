@@ -11,6 +11,10 @@ module.exports = (sequelize, DataTypes) => {
         defaultValue: "movie",
         allowNull: false,
       },
+      isEditorsPick: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false,
+      },
     });
   
     Movie.associate = (models) => {

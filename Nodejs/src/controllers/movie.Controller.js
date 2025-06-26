@@ -1,5 +1,6 @@
 const movieService = require("../services/movie.Service");
 const { Log } = require("../models");
+const { Movie } = require("../models");
 
 exports.createMovie = async (req, res) => {
     try {
@@ -86,5 +87,14 @@ exports.getAllWithGenres = async (req, res) => {
     return res.status(200).json(movies);
   } catch (error) {
     return res.status(500).json({ error: error.message });
+  }
+};
+
+exports.getEditorsPickMovies = async (req, res) => {
+  try {
+    const movies = await Movie.findAll({ where: { isEditorsPick: true } });
+    res.status(200).json(movies);
+  } catch (error) {
+    res.status(500).json({ message: 'Lỗi khi lấy danh sách phim Editors Pick' });
   }
 };

@@ -127,13 +127,13 @@ const Sidebar = () => {
                 </li>
               </ul>
             </li>
-            <li className={`${!permissions.canManageUsers && 'opacity-50 pointer-events-none'}`}>
+            <li className={`${!(permissions.canManageUsers || permissions.canManageComment) && 'opacity-50 pointer-events-none'}`}>
               <button
                 type="button"
                 className="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                 onClick={toggleUserDropdown}
                 aria-expanded={isUserDropdownOpen}
-                disabled={!permissions.canManageUsers}
+                disabled={!(permissions.canManageUsers || permissions.canManageComment)}
               >
                 <svg
                   className="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
@@ -175,7 +175,7 @@ const Sidebar = () => {
                   </SidebarItem>
                 </li>
                 <li>
-                  <SidebarItem to="/admin/user-interaction/interaction" permission="canManageUsers">
+                  <SidebarItem to="/admin/user-interaction/interaction" permission="canManageComment">
                     <span className="ms-3">Interaction</span>
                   </SidebarItem>
                 </li>

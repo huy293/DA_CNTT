@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Banner from '../../components/Banner'
 import SlideMovie from '../../components/SlideMovie'
+import EditorsPickSlide from '../../components/EditorsPickSlide'
 import '../../index.css';
 import axios from '../../config/axios';
 
@@ -74,6 +75,7 @@ function Home() {
   return (
     <div className="pt-16">
       <Banner SeasonsList={trendingSeasons}/>
+      <EditorsPickSlide />
       <SlideMovie title="Phim đề cử" SeasonsList={popularSeasons} />
       <SlideMovie title="Phim hay" SeasonsList={topRatedSeasons} />
       <SlideMovie title="Sắp chiếu" SeasonsList={upcomingSeasons} />

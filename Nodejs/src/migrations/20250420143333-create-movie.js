@@ -18,6 +18,10 @@ module.exports = {
         values: ['movie', 'series'],
         allowNull: false,
       },
+      isEditorsPick: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+      },
       createdAt: {
         type: Sequelize.DATE,
         defaultValue: Sequelize.NOW,

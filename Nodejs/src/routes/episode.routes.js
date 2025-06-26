@@ -11,7 +11,7 @@ router.delete(
     "/:id", 
     authMiddleware.protect(), 
     authMiddleware.restrictTo("admin", "moderator"), 
-    checkPermission('canDeleteMovie'), 
+    checkPermission('canManageMovies'), 
     episodeController.deleteEpisode
 );
 router.post('/upload', authMiddleware.protect(), authMiddleware.restrictTo("admin", "moderator"), episodeController.uploadVideo);

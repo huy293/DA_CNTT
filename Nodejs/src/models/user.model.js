@@ -7,6 +7,7 @@ module.exports = (sequelize, DataTypes) => {
       User.hasMany(models.Comment, { foreignKey: 'userId' });
       User.hasMany(models.Rating, { foreignKey: 'userId' });
       User.hasMany(models.Favorite, { foreignKey: 'userId' });
+      User.hasOne(models.Permission, { foreignKey: 'userId' });
     }
   }
   User.init({
