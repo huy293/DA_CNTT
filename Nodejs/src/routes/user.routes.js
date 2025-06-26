@@ -12,7 +12,7 @@ router.put("/:id", authMiddleware.protect(), authMiddleware.restrictTo("admin", 
 router.put("/update-avatar/:id", authMiddleware.protect(), authMiddleware.restrictTo("admin","user"), userController.updateAvatar);
 router.put("/toggle-lock/:userId", authMiddleware.protect(), authMiddleware.restrictTo("admin"), userController.toggleLockUser);
 router.get("/logs/:userId", authMiddleware.protect(), authMiddleware.restrictTo("admin"), userController.getLogs);
-router.get("/permissions/:userId", authMiddleware.protect(), authMiddleware.restrictTo("admin"), userController.getPermissions);
+router.get("/permissions/:userId", authMiddleware.protect(), authMiddleware.restrictTo("admin", "moderator"), userController.getPermissions);
 router.put("/permissions/:userId", authMiddleware.protect(), authMiddleware.restrictTo("admin"), userController.updatePermissions);
 
 module.exports = router;

@@ -5,7 +5,7 @@ import useStaffAuth from "../hooks/useStaffAuth";
 import SpinnerDefault from "./Spin/Default";
 
 const AdminProtectedRoute = ({ children }) => {
-  const { isAuthenticated, loading } = useStaffAuth();
+  const { isAuthenticated, user, loading } = useStaffAuth();
   const location = useLocation();
 
   // Show loading spinner while checking authentication
@@ -22,7 +22,12 @@ const AdminProtectedRoute = ({ children }) => {
     return <Navigate to="/admin/login" state={{ from: location.pathname }} replace />;
   }
 
-  // If authenticated, render the protected content
+  // Check if user has admin or moderator role
+  if (user && user.role && !['admin', 'moderator'].includes(user.role)) {
+    return <Navigate to="/admin/login" state={{ from: location.pathname }} replace />;
+  }
+
+  // If authenticated and has proper role, render the protected content
   return children;
 };
 
