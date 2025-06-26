@@ -85,13 +85,15 @@ exports.getGenreDistribution = async () => {
             include: [
                 {
                     model: Movie,
+                    as: 'Movies',
                     attributes: [],
-                    through: { attributes: [] }, // Không lấy trường trung gian
-                    required: false // Lấy cả genre chưa có movie
+                    through: { attributes: [] },
+                    required: false
                 }
             ],
             group: ['Genre.id', 'Genre.name'],
-            raw: true
+            raw: true,
+            nest: true
         });
         return genres;
     } catch (error) {
