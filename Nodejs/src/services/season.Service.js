@@ -129,7 +129,7 @@ exports.getTrendingSeasons = async () => {
       [sequelize.col('episode.seasonId'), 'seasonId'],
       [sequelize.fn('COUNT', sequelize.col('WatchHistory.userId')), 'viewCount']
     ],
-    where: { watched_at: { [Op.gte]: sevenDaysAgo } }, // Sửa lại ở đây
+    where: { updatedAt: { [Op.gte]: sevenDaysAgo } },
     group: ['episode.seasonId'],
     order: [[sequelize.literal('viewCount'), 'DESC']],
     limit: 10,

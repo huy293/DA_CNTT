@@ -15,6 +15,12 @@ router.get('/:userId', watchHistoryController.getWatchHistoryByUser);
 // Route xóa lịch sử xem
 router.delete('/:historyId', watchHistoryController.deleteWatchHistory);
 
+// Route để xóa toàn bộ lịch sử của người dùng
+router.delete('/user/history', watchHistoryController.clearWatchHistory);
+
+// Route để xóa nhiều mục lịch sử cùng lúc
+router.delete('/bulk-delete', watchHistoryController.bulkDeleteWatchHistory);
+
 // Route cập nhật tiến độ phim bộ
 router.patch('/:historyId', watchHistoryController.updateWatchHistory);
 

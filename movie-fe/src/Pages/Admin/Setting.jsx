@@ -113,6 +113,8 @@ const AdminSettings = () => {
     }
   };
 
+  const isAdmin = selectedUser?.role === 'admin';
+
   return (
     <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow mt-6">
       <h2 className="text-xl font-bold text-gray-800 dark:text-white mb-4">
@@ -269,14 +271,14 @@ const AdminSettings = () => {
           <div className="bg-white dark:bg-gray-800 rounded-lg p-6 w-full max-w-md">
             <h2 className="text-lg font-bold mb-4 dark:text-white">Phân quyền chi tiết</h2>
             <div className="space-y-3">
-              {Object.keys(permissions).length === 0 ? (
-                <div className="text-gray-500">Không có dữ liệu phân quyền</div>
-              ) : (
-                Object.entries(permissions).map(([perm, value]) => (
+              {Object.entries(permissions)
+                .filter(([key, value]) => typeof value === 'boolean')
+                .map(([perm, value]) => (
                   <div key={perm} className="flex items-center gap-3">
                     <span className="w-40 capitalize">{perm}</span>
                     <select
-                      value={value ? "yes" : "no"}
+                      value={isAdmin ? "yes" : value ? "yes" : "no"}
+                      disabled={isAdmin}
                       onChange={e => handlePermissionChange(perm, e.target.value === "yes")}
                       className="border rounded px-2 py-1"
                     >
@@ -284,8 +286,7 @@ const AdminSettings = () => {
                       <option value="no">Không</option>
                     </select>
                   </div>
-                ))
-              )}
+                ))}
             </div>
             <div className="flex justify-end mt-4">
               <button

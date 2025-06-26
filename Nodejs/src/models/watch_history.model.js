@@ -1,5 +1,10 @@
 module.exports = (sequelize, DataTypes) => {
   const WatchHistory = sequelize.define('WatchHistory', {
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true
+    },
     userId: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -7,11 +12,9 @@ module.exports = (sequelize, DataTypes) => {
     episodeId: {
       type: DataTypes.INTEGER,
       allowNull: false,
-    },
-    watched_at: {
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW,
-    },
+    }
+  }, {
+    timestamps: true
   });
 
   WatchHistory.associate = (models) => {

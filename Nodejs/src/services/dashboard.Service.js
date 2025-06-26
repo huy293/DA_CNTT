@@ -44,16 +44,16 @@ exports.getMonthlyViews = async () => {
         const currentYear = new Date().getFullYear();
         const monthlyViews = await WatchHistory.findAll({
             attributes: [
-                [sequelize.fn('MONTH', sequelize.col('watched_at')), 'month'],
+                [sequelize.fn('MONTH', sequelize.col('createdAt')), 'month'],
                 [sequelize.fn('COUNT', sequelize.col('id')), 'views']
             ],
             where: {
-                watched_at: {
+                createdAt: {
                     [Op.gte]: new Date(currentYear, 0, 1),
                     [Op.lte]: new Date(currentYear, 11, 31)
                 }
             },
-            group: [sequelize.fn('MONTH', sequelize.col('watched_at'))],
+            group: [sequelize.fn('MONTH', sequelize.col('createdAt'))],
             raw: true
         });
 

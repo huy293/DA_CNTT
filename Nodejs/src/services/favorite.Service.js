@@ -1,4 +1,4 @@
-const { Favorite, User, Season } = require('../models');
+const { Favorite, User, Season, Movie } = require('../models');
 
 exports.AddFavorite = async (userId, seasonId) => {
     const user = await User.findByPk(userId);
@@ -25,5 +25,15 @@ exports.RemoveFavorite = async (userId, seasonId) => {
 };
 
 exports.GetFavoritesByUser = async (userId) => {
-    return await Favorite.findAll({ where: { userId } });
+    return await Favorite.findAll({
+        where: { userId },
+        include: [{
+            model: Season,
+            as: 'Season',
+            include: [{
+                model: Movie,
+                as: 'Movie'
+            }]
+        }]
+    });
 };

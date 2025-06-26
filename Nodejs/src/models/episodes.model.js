@@ -41,6 +41,7 @@ module.exports = (sequelize, Sequelize) => {
     Episode.associate = (models) => {
         Episode.belongsTo(models.Season, {
           foreignKey: 'seasonId',
+          as: 'Season'
         });
 
       };

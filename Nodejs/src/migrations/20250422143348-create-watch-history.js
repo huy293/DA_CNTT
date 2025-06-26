@@ -9,10 +9,6 @@ module.exports = {
         primaryKey: true,
         autoIncrement: true,
       },
-      watched_at: {
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW,
-      },
       userId: {
         type: Sequelize.INTEGER,
         references: {
@@ -30,6 +26,14 @@ module.exports = {
         },
         onDelete: 'CASCADE',
       },
+      createdAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      }
     });    
   },
 

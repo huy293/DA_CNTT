@@ -296,34 +296,22 @@ const Header = () => {
                                     {/* Dropdown menu */}
                                     {isUserDropdownOpen && (
                                         <div className="absolute right-0 mt-2 w-48 rounded-lg bg-white py-2 shadow-lg dark:bg-gray-700">
-                                            <div className="px-4 py-3 text-sm text-gray-900 dark:text-white">
-                                                <div>{user.username}</div>
-                                                <div className="font-medium truncate">{user.email}</div>
+                                            <div className="px-4 py-3">
+                                                <span className="block text-sm text-gray-900 dark:text-white">{user.username}</span>
+                                                <span className="block text-sm text-gray-500 truncate dark:text-gray-400">{user.email}</span>
                                             </div>
-                                            <ul className="py-2">
+                                            <ul className="py-2" aria-labelledby="user-menu-button">
                                                 <li>
-                                                    <a
-                                                        href="/profile"
-                                                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600"
-                                                    >
-                                                        Thông tin tài khoản
-                                                    </a>
+                                                    <a href="/profile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Trang cá nhân</a>
                                                 </li>
                                                 <li>
-                                                    <a
-                                                        href="/favorites"
-                                                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600"
-                                                    >
-                                                        Danh sách yêu thích
-                                                    </a>
+                                                    <a href="/history" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Lịch sử xem</a>
                                                 </li>
                                                 <li>
-                                                    <a
-                                                        href="/history"
-                                                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600"
-                                                    >
-                                                        Lịch sử xem phim
-                                                    </a>
+                                                    <a href="/favorites" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Yêu thích</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
                                                 </li>
                                                 <li>
                                                     <button

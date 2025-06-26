@@ -8,11 +8,15 @@ import Login from '../../components/Modal/Login';
 import { formatDate, formatRelativeTime } from "../../utils/dateUtils";
 import { API_URL } from "../../config/config";
 import VideoPlayer from "../../components/VideoPlayer";
+import { useFavorite } from "../../context/FavoriteContext";
+import { useWatchHistory } from "../../context/WatchHistoryContext";
 
 const Episode = () => {
   const { seasonId, episodeId } = useParams();
   const navigate = useNavigate();
   const { user } = useUser();
+  const { isFavorite, addFavorite, removeFavorite, loading: favoriteLoading } = useFavorite();
+  const { history: watchHistory = [], addWatchHistory } = useWatchHistory();
 
   const [episode, setEpisode] = useState(null);
   const [season, setSeason] = useState(null);
@@ -21,7 +25,6 @@ const Episode = () => {
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
   const [related, setRelated] = useState([]);
-  const [isFavorite, setIsFavorite] = useState(false);
   const [editingComment, setEditingComment] = useState(null);
   const [editContent, setEditContent] = useState('');
   const [page, setPage] = useState(1);
@@ -82,13 +85,14 @@ const Episode = () => {
       }
     };
     fetchData();
-    // Ghi nhận lịch sử xem nếu đã đăng nhập và có episode
+  }, [seasonId, episodeId, page]);
+
+  // Record watch history
+  useEffect(() => {
     if (user && episodeId) {
-      axios.post("/api/watch-history", {
-        episodeId: episodeId
-      }).catch(() => {});
+      addWatchHistory(episodeId);
     }
-  }, [seasonId, episodeId, page, user]);
+  }, [user, episodeId, addWatchHistory]);
 
   useEffect(() => {
     if (user && season) {
@@ -114,17 +118,6 @@ const Episode = () => {
     }
     setRatingLoading(false);
   };
-  // Hàm kiểm tra trạng thái yêu thích
-  const checkFavoriteStatus = async () => {
-    try {
-      const response = await axios.get(`/api/favorite/check/${seasonId}`, {
-        withCredentials: true
-      });
-      setIsFavorite(response.data.isFavorite);
-    } catch (err) {
-      console.error('Lỗi khi kiểm tra trạng thái yêu thích:', err);
-    }
-  };
 
   // Hàm xử lý yêu thích/bỏ yêu thích
   const handleFavorite = async () => {
@@ -132,20 +125,19 @@ const Episode = () => {
       setShowLoginModal(true);
       return;
     }
+    
+    if (favoriteLoading || !season) return;
 
     try {
-      if (isFavorite) {
-        await axios.delete(`/api/favorite/${seasonId}`, {
-          withCredentials: true
-        });
+      if (isFavorite(season.id)) {
+        await removeFavorite(season.id);
+        setMessage({ type: 'success', text: 'Đã xóa khỏi danh sách yêu thích' });
       } else {
-        await axios.post('/api/favorite', 
-          { seasonId },
-          { withCredentials: true }
-        );
+        await addFavorite(season.id);
+        setMessage({ type: 'success', text: 'Đã thêm vào danh sách yêu thích' });
       }
-      setIsFavorite(!isFavorite);
     } catch (err) {
+      setMessage({ type: 'error', text: 'Không thể cập nhật trạng thái yêu thích' });
       console.error('Lỗi khi cập nhật trạng thái yêu thích:', err);
     }
   };
@@ -292,6 +284,9 @@ const Episode = () => {
   }
 
   const episodes = season.Episodes || [];
+  const watchedEpisodeIds = new Set(
+    Array.isArray(watchHistory) ? watchHistory.map(item => item.episodeId) : []
+  );
 
   return (
     <>
@@ -313,25 +308,37 @@ const Episode = () => {
           <div className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Danh sách tập</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
-              {episodes.map((ep) => (
-                <div
-                  key={ep.id}
-                  className={`flex items-center gap-2 bg-gray-800 rounded-lg p-2 cursor-pointer hover:bg-blue-700 transition ${
-                    ep.id === episode.id ? "border-2 border-blue-500" : ""
-                  }`}
-                  onClick={() => navigate(`/watch/${seasonId}/${ep.id}`)}
-                >
-                  <div className="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-base font-bold">{ep.episode_number}</span>
+              {episodes.map((ep) => {
+                const isCurrent = ep.id === episode.id;
+                const isWatched = watchedEpisodeIds.has(ep.id);
+                
+                let episodeClass = 'flex items-center gap-2 rounded-lg p-2 cursor-pointer hover:bg-blue-700 transition';
+                if (isCurrent) {
+                  episodeClass += ' border-2 border-blue-500 bg-blue-800';
+                } else if (isWatched) {
+                  episodeClass += ' bg-gray-600'; // Màu đậm hơn cho tập đã xem
+                } else {
+                  episodeClass += ' bg-gray-800';
+                }
+
+                return (
+                  <div
+                    key={ep.id}
+                    className={episodeClass}
+                    onClick={() => navigate(`/watch/${seasonId}/${ep.id}`)}
+                  >
+                    <div className="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <span className="text-base font-bold">{ep.episode_number}</span>
+                    </div>
+                    <div className="flex-grow min-w-0">
+                      <h3 className="text-sm font-semibold line-clamp-1">
+                        Tập {ep.episode_number}
+                      </h3>
+                      <p className="text-xs text-gray-400 line-clamp-1">{ep.title}</p>
+                    </div>
                   </div>
-                  <div className="flex-grow min-w-0">
-                    <h3 className="text-sm font-semibold line-clamp-1">
-                      Tập {ep.episode_number}
-                    </h3>
-                    <p className="text-xs text-gray-400 line-clamp-1">{ep.title}</p>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
 
@@ -355,23 +362,21 @@ const Episode = () => {
                 </h1>
                 <button
                   onClick={handleFavorite}
+                  disabled={favoriteLoading || !season}
                   className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
-                    isFavorite 
-                      ? 'bg-red-500 hover:bg-red-600' 
-                      : 'bg-gray-700 hover:bg-gray-600'
+                    season && isFavorite(season.id)
+                      ? 'bg-red-600 text-white hover:bg-red-700'
+                      : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
                   }`}
                 >
-                  {isFavorite ? (
-                    <>
-                      <FaHeart className="text-white" />
-                      <span>Đã thích</span>
-                    </>
+                  {favoriteLoading ? (
+                    <span className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
+                  ) : season && isFavorite(season.id) ? (
+                    <FaHeart className="w-5 h-5" />
                   ) : (
-                    <>
-                      <FaRegHeart className="text-white" />
-                      <span>Thêm vào yêu thích</span>
-                    </>
+                    <FaRegHeart className="w-5 h-5" />
                   )}
+                  <span>{season && isFavorite(season.id) ? "Đã yêu thích" : "Yêu thích"}</span>
                 </button>
               </div>
               <div className="flex flex-wrap gap-4 mb-2 text-gray-300">

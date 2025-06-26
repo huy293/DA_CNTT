@@ -47,11 +47,25 @@ exports.changeRole = async (req, res) => {
     try {
         const id = req.params.id;
         const { role } = req.body;
-        const user = await userService.Changerole(id, role);
+        const user = await userService.GetById(id);
         if (!user) return res.status(404).json({ message: "User not found" });
+
+        // Nếu là moderator thì không được đổi role ai cả
+        if (req.user.role === 'moderator') {
+            return res.status(403).json({ message: "Bạn không có quyền đổi role!" });
+        }
+        // Nếu là admin thường (không phải super admin)
+        if (req.user.role === 'admin' && !req.user.isSuperAdmin) {
+            // Không cho đổi role của admin khác hoặc super admin
+            if (user.role === 'admin' || user.isSuperAdmin) {
+                return res.status(403).json({ message: "Bạn không có quyền đổi role admin khác!" });
+            }
+        }
+        // Super admin thì được đổi role bất kỳ ai
+        await user.update({ role });
         await Log.create({
             userId: req.user.id,
-            action: `Thay đổi role cho user ${req.params.userId}: ${JSON.stringify(req.body)}`,
+            action: `Thay đổi role cho user ${id}: ${JSON.stringify(req.body)}`,
             time: new Date()
         });
         res.status(200).json({ message: "Role updated", user });
@@ -251,8 +265,8 @@ exports.getLogs = async (req, res) => {
 };
 exports.getPermissions = async (req, res) => {
   try {
-    const permissions = await Permission.findOne({ where: { userId: req.params.userId } });
-    res.json(permissions || {});
+    const permissions = await userService.getPermissions(req.params.userId);
+    res.json(permissions);
   } catch (err) {
     res.status(500).json({ message: "Không thể lấy phân quyền" });
   }

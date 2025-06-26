@@ -8,11 +8,14 @@ import { formatDistanceToNow } from 'date-fns';
 import { vi } from 'date-fns/locale';
 import Login from '../../components/Modal/Login';
 import { formatRelativeTime } from "../../utils/dateUtils";
+import { useFavorite } from '../../context/FavoriteContext';
+import { FaStar, FaHeart, FaRegHeart } from 'react-icons/fa';
 
 const MovieDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const { user } = useUser();
+  const { isFavorite, addFavorite, removeFavorite, loading: favoriteLoading } = useFavorite();
   const [season, setSeason] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -224,6 +227,24 @@ const MovieDetail = () => {
     setPage(prev => prev + 1);
   };
 
+  const handleFavoriteClick = async () => {
+    if (!user) {
+      setShowLoginModal(true);
+      return;
+    }
+    try {
+      if (isFavorite(season.id)) {
+        await removeFavorite(season.id);
+        setMessage({ type: 'success', text: 'Đã xóa khỏi danh sách yêu thích' });
+      } else {
+        await addFavorite(season.id);
+        setMessage({ type: 'success', text: 'Đã thêm vào danh sách yêu thích' });
+      }
+    } catch (err) {
+      setMessage({ type: 'error', text: 'Không thể thực hiện thao tác' });
+    }
+  };
+
   if (loading) return (
     <>
       <div className="flex justify-center items-center min-h-screen">
@@ -330,6 +351,28 @@ const MovieDetail = () => {
                   <span className="ml-2 text-yellow-400 font-bold">{userRating}/5</span>
                   {ratingLoading && <span className="ml-2 text-gray-400 text-sm">Đang gửi...</span>}
                 </div>
+                {season && (
+                  <div className="flex items-center gap-4 mb-4">
+                    <button
+                      onClick={handleFavoriteClick}
+                      disabled={favoriteLoading}
+                      className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
+                        isFavorite(season.id)
+                          ? 'bg-red-600 text-white hover:bg-red-700'
+                          : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
+                      }`}
+                    >
+                      {favoriteLoading ? (
+                        <div className="w-5 h-5 border-2 border-current border-t-transparent rounded-full animate-spin"></div>
+                      ) : isFavorite(season.id) ? (
+                        <FaHeart className="w-5 h-5" />
+                      ) : (
+                        <FaRegHeart className="w-5 h-5" />
+                      )}
+                      <span>{isFavorite(season.id) ? 'Đã yêu thích' : 'Yêu thích'}</span>
+                    </button>
+                  </div>
+                )}
               </div>
               {/* Danh sách tập phim */}
               <div>

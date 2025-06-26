@@ -39,16 +39,20 @@ const Favorites = () => {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {favorites.map((item) => (
+            {favorites.map((item) => {
+              const season = item.Season || item; // Handle both nested and non-nested structures for safety
+              if (!season) return null; // Skip rendering if no season data
+
+              return (
               <div key={item.id} className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="relative">
                   <img
-                    src={item.poster || item.poster_url || 'https://via.placeholder.com/500x750'}
-                    alt={item.title}
+                    src={season.poster_url || 'https://via.placeholder.com/500x750'}
+                    alt={season.title}
                     className="w-full h-48 object-cover"
                   />
                   <button
-                    onClick={() => handleRemoveFromFavorites(item.id)}
+                    onClick={() => handleRemoveFromFavorites(season.id)}
                     className="absolute top-2 right-2 p-2 bg-black/50 rounded-full hover:bg-black/70"
                   >
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -57,16 +61,17 @@ const Favorites = () => {
                   </button>
                 </div>
                 <div className="p-4">
-                  <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
+                  <h3 className="font-semibold text-lg mb-2">{season.Movie?.title} - {season.title}</h3>
                   <button
-                    onClick={() => navigate(`/movie/${item.id}`)}
+                    onClick={() => navigate(`/movie/${season.id}`)}
                     className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                   >
                     Xem phim
                   </button>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         )}
       </div>

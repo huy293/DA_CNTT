@@ -22,111 +22,114 @@ import Profile from "./Pages/Home/Profile";
 import History from "./Pages/Home/History";
 import Favorites from "./Pages/Home/Favorites";
 import { FavoriteProvider } from './context/FavoriteContext';
+import { WatchHistoryProvider } from "./context/WatchHistoryContext";
 
 function App() {
   return (
     <FavoriteProvider>
-      <Router>
-        <Routes>
-          <Route element={<HomeLayout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/search" element={<Search />} />
-            <Route path="/movie/:id" element={<MovieDetail />} />
-            <Route path="/watch/:seasonId/:episodeId" element={<Episode />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/history" element={<History />} />
-            <Route path="/favorites" element={<Favorites />} />
-          </Route>
+      <WatchHistoryProvider>
+        <Router>
+          <Routes>
+            <Route element={<HomeLayout />}>
+              <Route path="/" element={<Home />} />
+              <Route path="/search" element={<Search />} />
+              <Route path="/movie/:id" element={<MovieDetail />} />
+              <Route path="/watch/:seasonId/:episodeId" element={<Episode />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/history" element={<History />} />
+              <Route path="/favorites" element={<Favorites />} />
+            </Route>
 
-          <Route path="/admin/login" element={<Login />} />
-          <Route path="/admin" element={<Admin />}>
-            <Route
-              index
-              element={
-                <AdminProtectedRoute>
-                  <Dashboard />
-                </AdminProtectedRoute>
-              }
-            />
-            <Route path="movie-center">
+            <Route path="/admin/login" element={<Login />} />
+            <Route path="/admin" element={<Admin />}>
               <Route
-                path="movies-management"
+                index
                 element={
                   <AdminProtectedRoute>
-                    <Movie />
+                    <Dashboard />
+                  </AdminProtectedRoute>
+                }
+              />
+              <Route path="movie-center">
+                <Route
+                  path="movies-management"
+                  element={
+                    <AdminProtectedRoute>
+                      <Movie />
+                    </AdminProtectedRoute>
+                  }
+                />
+                <Route
+                  path="genres"
+                  element={
+                    <AdminProtectedRoute>
+                      <Genre />
+                    </AdminProtectedRoute>
+                  }
+                />
+                <Route
+                  path="people"
+                  element={
+                    <AdminProtectedRoute>
+                      <People />
+                    </AdminProtectedRoute>
+                  }
+                />
+                <Route
+                  path="episode"
+                  element={
+                    <AdminProtectedRoute>
+                      <Episode_admin />
+                    </AdminProtectedRoute>
+                  }
+                />
+              </Route>
+              <Route path="user-interaction">
+                <Route
+                  path="interaction"
+                  element={
+                    <AdminProtectedRoute>
+                      <Interaction />
+                    </AdminProtectedRoute>
+                  }
+                />
+                <Route
+                  path="user"
+                  element={
+                    <AdminProtectedRoute>
+                      <User />
+                    </AdminProtectedRoute>
+                  }
+                />
+              </Route>
+              <Route
+                path="system-setting"
+                element={
+                  <AdminProtectedRoute>
+                    <Setting />
+                  </AdminProtectedRoute>
+                }
+              />
+              {/* <Route
+                path="moderation-report"
+                element={
+                  <AdminProtectedRoute>
+                    <Report />
                   </AdminProtectedRoute>
                 }
               />
               <Route
-                path="genres"
+                path="support-help"
                 element={
                   <AdminProtectedRoute>
-                    <Genre />
+                    <Help />
                   </AdminProtectedRoute>
                 }
-              />
-              <Route
-                path="people"
-                element={
-                  <AdminProtectedRoute>
-                    <People />
-                  </AdminProtectedRoute>
-                }
-              />
-              <Route
-                path="episode"
-                element={
-                  <AdminProtectedRoute>
-                    <Episode_admin />
-                  </AdminProtectedRoute>
-                }
-              />
+              /> */}
             </Route>
-            <Route path="user-interaction">
-              <Route
-                path="interaction"
-                element={
-                  <AdminProtectedRoute>
-                    <Interaction />
-                  </AdminProtectedRoute>
-                }
-              />
-              <Route
-                path="user"
-                element={
-                  <AdminProtectedRoute>
-                    <User />
-                  </AdminProtectedRoute>
-                }
-              />
-            </Route>
-            <Route
-              path="system-setting"
-              element={
-                <AdminProtectedRoute>
-                  <Setting />
-                </AdminProtectedRoute>
-              }
-            />
-            {/* <Route
-              path="moderation-report"
-              element={
-                <AdminProtectedRoute>
-                  <Report />
-                </AdminProtectedRoute>
-              }
-            />
-            <Route
-              path="support-help"
-              element={
-                <AdminProtectedRoute>
-                  <Help />
-                </AdminProtectedRoute>
-              }
-            /> */}
-          </Route>
-        </Routes>
-      </Router>
+          </Routes>
+        </Router>
+      </WatchHistoryProvider>
     </FavoriteProvider>
   );
 }

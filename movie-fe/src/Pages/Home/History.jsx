@@ -1,121 +1,169 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import axios from '../../config/axios';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import useUser from '../../hooks/useUser';
-import { formatDate } from '../../utils/dateUtils';
+import axios from '../../config/axios';
+import { FaSpinner } from 'react-icons/fa';
+import HistoryListItem from '../../components/HistoryListItem';
+import { format, isToday, isYesterday, parseISO } from 'date-fns';
+import { vi } from 'date-fns/locale';
+
+const groupHistoryByDate = (historyItems) => {
+    return historyItems.reduce((acc, item) => {
+        const date = parseISO(item.updatedAt);
+        let dayLabel;
+
+        if (isToday(date)) {
+            dayLabel = 'Hôm nay';
+        } else if (isYesterday(date)) {
+            dayLabel = 'Hôm qua';
+        } else {
+            dayLabel = format(date, 'eeee, dd MMMM, yyyy', { locale: vi });
+        }
+        
+        if (!acc[dayLabel]) {
+            acc[dayLabel] = [];
+        }
+        acc[dayLabel].push(item);
+        return acc;
+    }, {});
+};
+
 
 const History = () => {
-  const { user, loading } = useUser();
-  const navigate = useNavigate();
-  const [history, setHistory] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+    const { user } = useUser();
+    const [historyItems, setHistoryItems] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [totalPages, setTotalPages] = useState(1);
+    const [loading, setLoading] = useState(false);
+    const [initialLoading, setInitialLoading] = useState(true);
+    const [selectedItems, setSelectedItems] = useState([]);
 
-  useEffect(() => {
-    if (!loading && !user) {
-      navigate('/');
-    }
-  }, [user, loading, navigate]);
+    const observer = useRef();
 
-  useEffect(() => {
-    const fetchHistory = async () => {
-      try {
-        const response = await axios.get(`/api/watch-history/${user.id}`);
-        setHistory(response.data);
-      } catch (error) {
-        console.error('Error fetching history:', error);
-      } finally {
-        setIsLoading(false);
-      }
+    const fetchHistory = useCallback(async (pageToFetch) => {
+        if (loading || !user) return;
+        setLoading(true);
+        if (pageToFetch === 1) setInitialLoading(true);
+
+        try {
+            const res = await axios.get(`/api/watch-history/${user.id}?page=${pageToFetch}`);
+            const { history, totalPages: newTotalPages } = res.data.data;
+            setHistoryItems(prev => pageToFetch === 1 ? history : [...prev, ...history]);
+            setCurrentPage(pageToFetch);
+            setTotalPages(newTotalPages);
+        } catch (error) {
+            console.error("Failed to fetch history:", error);
+        } finally {
+            setLoading(false);
+            setInitialLoading(false);
+        }
+    }, [user, loading]);
+
+    useEffect(() => {
+        if (user) {
+            setHistoryItems([]);
+            setCurrentPage(1);
+            setTotalPages(1);
+            fetchHistory(1);
+        } else {
+            setHistoryItems([]);
+            setInitialLoading(false);
+        }
+    }, [user]);
+
+    const lastHistoryElementRef = useCallback(node => {
+        if (loading) return;
+        if (observer.current) observer.current.disconnect();
+        observer.current = new IntersectionObserver(entries => {
+            if (entries[0].isIntersecting && currentPage < totalPages) {
+                fetchHistory(currentPage + 1);
+            }
+        });
+        if (node) observer.current.observe(node);
+    }, [loading, currentPage, totalPages, fetchHistory]);
+
+    const handleSelectionChange = (id) => {
+        setSelectedItems(prev =>
+            prev.includes(id) ? prev.filter(itemId => itemId !== id) : [...prev, id]
+        );
     };
 
-    if (user) {
-      fetchHistory();
-    }
-  }, [user]);
+    const handleDelete = async (ids) => {
+        const idsToDelete = Array.isArray(ids) ? ids : [ids];
+        if (idsToDelete.length === 0) return;
+        
+        if (!window.confirm(`Bạn có chắc muốn xóa ${idsToDelete.length} mục đã chọn?`)) return;
 
-  const handleRemoveFromHistory = async (historyId) => {
-    try {
-      await axios.delete(`/api/watch-history/${historyId}`);
-      setHistory(prev => prev.filter(item => item.id !== historyId));
-    } catch (error) {
-      console.error('Error removing from history:', error);
-    }
-  };
+        try {
+            await axios.delete('/api/watch-history/bulk-delete', { data: { historyIds: idsToDelete } });
+            setHistoryItems(prev => prev.filter(item => !idsToDelete.includes(item.id)));
+            setSelectedItems(prev => prev.filter(id => !idsToDelete.includes(id)));
+        } catch (error) {
+            console.error("Failed to delete history items:", error);
+            // Add user-facing error message here
+        }
+    };
+    
+    const groupedHistory = groupHistoryByDate(historyItems);
 
-  const handleClearHistory = async () => {
-    try {
-      await axios.delete('/api/user/history');
-      setHistory([]);
-    } catch (error) {
-      console.error('Error clearing history:', error);
+    if (initialLoading) {
+        return (
+            <div className="min-h-screen pt-20 flex justify-center items-center">
+                <FaSpinner className="animate-spin text-4xl" />
+            </div>
+        );
     }
-  };
 
-  if (loading || isLoading) {
     return (
-      <div className="min-h-screen pt-20 flex justify-center items-center">
-        <div className="w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-      </div>
-    );
-  }
+        <div className="min-h-screen pt-20 pb-10 text-white">
+            <div className="max-w-4xl mx-auto px-4">
+                <div className="flex justify-between items-center mb-6">
+                    <h1 className="text-2xl font-bold">Lịch sử xem</h1>
+                    {selectedItems.length > 0 && (
+                        <button
+                            onClick={() => handleDelete(selectedItems)}
+                            className="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-md text-white font-semibold transition-colors"
+                        >
+                            Xóa ({selectedItems.length}) mục đã chọn
+                        </button>
+                    )}
+                </div>
 
-  return (
-    <div className="min-h-screen pt-20 pb-10 px-4">
-      <div className="max-w-6xl mx-auto">
-        <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-bold">Lịch sử xem phim</h1>
-          {history.length > 0 && (
-            <button
-              onClick={handleClearHistory}
-              className="px-4 py-2 text-red-600 hover:text-red-700 focus:outline-none"
-            >
-              Xóa tất cả
-            </button>
-          )}
+                {historyItems.length === 0 && !loading ? (
+                    <div className="text-center py-12">
+                        <p className="text-gray-400">Lịch sử xem của bạn trống.</p>
+                    </div>
+                ) : (
+                    <div className="space-y-6">
+                        {Object.keys(groupedHistory).map((dayLabel, index) => (
+                            <div key={dayLabel}>
+                                <h2 className="text-lg font-semibold mb-2 sticky top-16 bg-gray-800 py-2">{dayLabel}</h2>
+                                <div className="space-y-1">
+                                    {groupedHistory[dayLabel].map((item, itemIndex) => {
+                                        const isLastItem = index === Object.keys(groupedHistory).length - 1 && itemIndex === groupedHistory[dayLabel].length - 1;
+                                        return (
+                                            <div ref={isLastItem ? lastHistoryElementRef : null} key={item.id}>
+                                                <HistoryListItem
+                                                    item={item}
+                                                    isSelected={selectedItems.includes(item.id)}
+                                                    onSelectionChange={handleSelectionChange}
+                                                    onDelete={handleDelete}
+                                                />
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            </div>
+                        ))}
+                        {loading && !initialLoading && (
+                             <div className="flex justify-center items-center p-4">
+                                <FaSpinner className="animate-spin text-3xl text-gray-400" />
+                            </div>
+                        )}
+                    </div>
+                )}
+            </div>
         </div>
-
-        {history.length === 0 ? (
-          <div className="text-center py-12">
-            <p className="text-gray-500">Bạn chưa xem phim nào</p>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {history.map((item) => (
-              <div key={item.id} className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="relative">
-                  <img
-                    src={item.poster}
-                    alt={item.title}
-                    className="w-full h-48 object-cover"
-                  />
-                  <button
-                    onClick={() => handleRemoveFromHistory(item.id)}
-                    className="absolute top-2 right-2 p-2 bg-black/50 rounded-full hover:bg-black/70"
-                  >
-                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </button>
-                </div>
-                <div className="p-4">
-                  <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
-                  <p className="text-gray-600 text-sm mb-2">
-                    Đã xem: {formatDate(item.watchedAt)}
-                  </p>
-                  <button
-                    onClick={() => navigate(`/movie/${item.movieId}`)}
-                    className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-                  >
-                    Xem lại
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-    </div>
-  );
+    );
 };
 
 export default History; 

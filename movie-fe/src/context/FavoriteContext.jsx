@@ -7,32 +7,47 @@ const FavoriteContext = createContext();
 export const useFavorite = () => useContext(FavoriteContext);
 
 export const FavoriteProvider = ({ children }) => {
-  const { user } = useUser();
+  const { user, loading: userLoading } = useUser();
   const [favorites, setFavorites] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   // Fetch danh sách favorite khi user thay đổi
   useEffect(() => {
-    if (!user) {
-      setFavorites([]);
+    if (userLoading) {
+      // Chờ cho đến khi thông tin user được xác thực xong
       return;
     }
-    setLoading(true);
+
+    if (!user) {
+      setFavorites([]);
+      setLoading(false); // Không có user, không cần tải gì cả
+      return;
+    }
+
+    // Khi có user, tải danh sách yêu thích
     axios.get(`/api/favorite/${user.id}`)
       .then(res => setFavorites(res.data))
       .catch(() => setFavorites([]))
       .finally(() => setLoading(false));
-  }, [user]);
+  }, [user, userLoading]);
 
   // Thêm vào favorite
   const addFavorite = useCallback(async (seasonId) => {
     if (!user) return false;
     setLoading(true);
     try {
+      // Gọi API để thêm vào favorite ở backend
       await axios.post('/api/favorite', { seasonId });
-      setFavorites(prev => [...prev, { id: seasonId }]);
+
+      // Lấy thông tin chi tiết của season vừa được thêm
+      const seasonRes = await axios.get(`/api/season/${seasonId}`);
+
+      // Cập nhật state với đầy đủ thông tin
+      setFavorites(prev => [...prev, seasonRes.data]);
+
       return true;
-    } catch {
+    } catch (err) {
+      console.error("Failed to add favorite:", err);
       return false;
     } finally {
       setLoading(false);
@@ -44,8 +59,8 @@ export const FavoriteProvider = ({ children }) => {
     if (!user) return false;
     setLoading(true);
     try {
-      await axios.delete(`/api/favorite/${seasonId}`);
-      setFavorites(prev => prev.filter(item => item.id !== seasonId));
+      await axios.delete('/api/favorite', { data: { seasonId } });
+      setFavorites(prev => prev.filter(item => (item.Season?.id || item.id) !== seasonId));
       return true;
     } catch {
       return false;
@@ -56,7 +71,7 @@ export const FavoriteProvider = ({ children }) => {
 
   // Kiểm tra đã favorite chưa
   const isFavorite = useCallback((seasonId) => {
-    return favorites.some(item => item.id === seasonId);
+    return favorites.some(item => (item.Season?.id || item.id) === seasonId);
   }, [favorites]);
 
   return (
