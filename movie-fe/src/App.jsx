@@ -1,6 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
 import AdminProtectedRoute from "./components/AdminProtectedRoute";
+import PermissionGuard from "./components/PermissionGuard";
 import HomeLayout from "./Pages/Home/HomeLayout";
 import Home from "./Pages/Home/Home";
 import Admin from "./Pages/Admin/Home";
@@ -51,82 +52,62 @@ function App() {
                   </AdminProtectedRoute>
                 }
               />
-              <Route path="movie-center">
+              <Route 
+                path="movie-center"
+                element={
+                  <AdminProtectedRoute>
+                    <PermissionGuard requiredPermission="canManageMovies">
+                      <Outlet />
+                    </PermissionGuard>
+                  </AdminProtectedRoute>
+                }
+              >
                 <Route
                   path="movies-management"
-                  element={
-                    <AdminProtectedRoute>
-                      <Movie />
-                    </AdminProtectedRoute>
-                  }
+                  element={<Movie />}
                 />
                 <Route
                   path="genres"
-                  element={
-                    <AdminProtectedRoute>
-                      <Genre />
-                    </AdminProtectedRoute>
-                  }
+                  element={<Genre />}
                 />
                 <Route
                   path="people"
-                  element={
-                    <AdminProtectedRoute>
-                      <People />
-                    </AdminProtectedRoute>
-                  }
+                  element={<People />}
                 />
                 <Route
                   path="episode"
-                  element={
-                    <AdminProtectedRoute>
-                      <Episode_admin />
-                    </AdminProtectedRoute>
-                  }
+                  element={<Episode_admin />}
                 />
               </Route>
-              <Route path="user-interaction">
+              <Route 
+                path="user-interaction"
+                element={
+                   <AdminProtectedRoute>
+                    <PermissionGuard requiredPermission="canManageUsers">
+                      <Outlet />
+                    </PermissionGuard>
+                  </AdminProtectedRoute>
+                }
+              >
                 <Route
                   path="interaction"
-                  element={
-                    <AdminProtectedRoute>
-                      <Interaction />
-                    </AdminProtectedRoute>
-                  }
+                  element={<Interaction />}
                 />
                 <Route
                   path="user"
-                  element={
-                    <AdminProtectedRoute>
-                      <User />
-                    </AdminProtectedRoute>
-                  }
+                  element={<User />}
                 />
               </Route>
               <Route
                 path="system-setting"
                 element={
                   <AdminProtectedRoute>
-                    <Setting />
+                    <PermissionGuard requiredPermission="canManageSettings">
+                      <Setting />
+                    </PermissionGuard>
                   </AdminProtectedRoute>
                 }
               />
-              {/* <Route
-                path="moderation-report"
-                element={
-                  <AdminProtectedRoute>
-                    <Report />
-                  </AdminProtectedRoute>
-                }
-              />
-              <Route
-                path="support-help"
-                element={
-                  <AdminProtectedRoute>
-                    <Help />
-                  </AdminProtectedRoute>
-                }
-              /> */}
             </Route>
           </Routes>
         </Router>

@@ -1,7 +1,7 @@
 'use strict';
-
+/** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  up: async (queryInterface, Sequelize) => {
+  async up(queryInterface, Sequelize) {
     await queryInterface.createTable('Permissions', {
       id: {
         allowNull: false,
@@ -13,8 +13,24 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
         unique: true,
-        references: { model: 'Users', key: 'id' },
+        references: {
+          model: 'Users',
+          key: 'id'
+        },
+        onUpdate: 'CASCADE',
         onDelete: 'CASCADE'
+      },
+      canManageMovies: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false
+      },
+      canManageUsers: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false
+      },
+      canManageSettings: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false
       },
       canDeleteMovie: {
         type: Sequelize.BOOLEAN,
@@ -28,20 +44,17 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         defaultValue: false
       },
-      // Thêm các quyền khác nếu cần
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW
+        type: Sequelize.DATE
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW
+        type: Sequelize.DATE
       }
     });
   },
-  down: async (queryInterface, Sequelize) => {
+  async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('Permissions');
   }
 };

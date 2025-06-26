@@ -20155,6 +20155,9884 @@ module.exports = {
       "updatedAt": "2025-06-24 00:00:00"
     }
   ]);
+  await queryInterface.bulkInsert('WatchHistories', [
+    {
+      "id": 1,
+      "userId": 6,
+      "episodeId": 1,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "episodeId": 2,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "episodeId": 3,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "episodeId": 4,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "episodeId": 5,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 6,
+      "userId": 5,
+      "episodeId": 6,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "episodeId": 7,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 8,
+      "userId": 7,
+      "episodeId": 8,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 9,
+      "userId": 7,
+      "episodeId": 9,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 10,
+      "userId": 6,
+      "episodeId": 10,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "episodeId": 11,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "episodeId": 12,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 13,
+      "userId": 4,
+      "episodeId": 13,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 14,
+      "userId": 5,
+      "episodeId": 14,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 15,
+      "userId": 5,
+      "episodeId": 15,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 16,
+      "userId": 10,
+      "episodeId": 16,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 17,
+      "userId": 2,
+      "episodeId": 17,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 18,
+      "userId": 9,
+      "episodeId": 18,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 19,
+      "userId": 2,
+      "episodeId": 19,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 20,
+      "userId": 3,
+      "episodeId": 20,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 21,
+      "userId": 9,
+      "episodeId": 21,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 22,
+      "userId": 1,
+      "episodeId": 22,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 23,
+      "userId": 9,
+      "episodeId": 23,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 24,
+      "userId": 5,
+      "episodeId": 24,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 25,
+      "userId": 5,
+      "episodeId": 25,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 26,
+      "userId": 10,
+      "episodeId": 26,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 27,
+      "userId": 4,
+      "episodeId": 27,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 28,
+      "userId": 2,
+      "episodeId": 28,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 29,
+      "userId": 1,
+      "episodeId": 29,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 30,
+      "userId": 4,
+      "episodeId": 30,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 31,
+      "userId": 9,
+      "episodeId": 31,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 32,
+      "userId": 6,
+      "episodeId": 32,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 33,
+      "userId": 10,
+      "episodeId": 33,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 34,
+      "userId": 5,
+      "episodeId": 34,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 35,
+      "userId": 2,
+      "episodeId": 35,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 36,
+      "userId": 4,
+      "episodeId": 36,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 37,
+      "userId": 10,
+      "episodeId": 37,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 38,
+      "userId": 2,
+      "episodeId": 38,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 39,
+      "userId": 1,
+      "episodeId": 39,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 40,
+      "userId": 1,
+      "episodeId": 40,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 41,
+      "userId": 7,
+      "episodeId": 41,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 42,
+      "userId": 2,
+      "episodeId": 42,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 43,
+      "userId": 9,
+      "episodeId": 43,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 44,
+      "userId": 7,
+      "episodeId": 44,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 45,
+      "userId": 5,
+      "episodeId": 45,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 46,
+      "userId": 3,
+      "episodeId": 46,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 47,
+      "userId": 6,
+      "episodeId": 47,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 48,
+      "userId": 10,
+      "episodeId": 48,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 49,
+      "userId": 2,
+      "episodeId": 49,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 50,
+      "userId": 3,
+      "episodeId": 50,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 51,
+      "userId": 6,
+      "episodeId": 51,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 52,
+      "userId": 6,
+      "episodeId": 52,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 53,
+      "userId": 5,
+      "episodeId": 53,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 54,
+      "userId": 1,
+      "episodeId": 54,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 55,
+      "userId": 7,
+      "episodeId": 55,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 56,
+      "userId": 1,
+      "episodeId": 56,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 57,
+      "userId": 5,
+      "episodeId": 57,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 58,
+      "userId": 5,
+      "episodeId": 58,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 59,
+      "userId": 4,
+      "episodeId": 59,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 60,
+      "userId": 1,
+      "episodeId": 60,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 61,
+      "userId": 4,
+      "episodeId": 61,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 62,
+      "userId": 5,
+      "episodeId": 62,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 63,
+      "userId": 6,
+      "episodeId": 63,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 64,
+      "userId": 2,
+      "episodeId": 64,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 65,
+      "userId": 4,
+      "episodeId": 65,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 66,
+      "userId": 3,
+      "episodeId": 66,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 67,
+      "userId": 3,
+      "episodeId": 67,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 68,
+      "userId": 2,
+      "episodeId": 68,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 69,
+      "userId": 1,
+      "episodeId": 69,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 70,
+      "userId": 1,
+      "episodeId": 70,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 71,
+      "userId": 2,
+      "episodeId": 71,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 72,
+      "userId": 4,
+      "episodeId": 72,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 73,
+      "userId": 5,
+      "episodeId": 73,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 74,
+      "userId": 1,
+      "episodeId": 74,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 75,
+      "userId": 3,
+      "episodeId": 75,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 76,
+      "userId": 3,
+      "episodeId": 76,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 77,
+      "userId": 10,
+      "episodeId": 77,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 78,
+      "userId": 5,
+      "episodeId": 78,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 79,
+      "userId": 1,
+      "episodeId": 79,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 80,
+      "userId": 8,
+      "episodeId": 80,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 81,
+      "userId": 5,
+      "episodeId": 81,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 82,
+      "userId": 5,
+      "episodeId": 82,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 83,
+      "userId": 5,
+      "episodeId": 83,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 84,
+      "userId": 4,
+      "episodeId": 84,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 85,
+      "userId": 1,
+      "episodeId": 85,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 86,
+      "userId": 9,
+      "episodeId": 86,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 87,
+      "userId": 6,
+      "episodeId": 87,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 88,
+      "userId": 1,
+      "episodeId": 88,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 89,
+      "userId": 5,
+      "episodeId": 89,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 90,
+      "userId": 6,
+      "episodeId": 90,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 91,
+      "userId": 4,
+      "episodeId": 91,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 92,
+      "userId": 10,
+      "episodeId": 92,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 93,
+      "userId": 10,
+      "episodeId": 93,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 94,
+      "userId": 9,
+      "episodeId": 94,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 95,
+      "userId": 5,
+      "episodeId": 95,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 96,
+      "userId": 2,
+      "episodeId": 96,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 97,
+      "userId": 1,
+      "episodeId": 97,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 98,
+      "userId": 3,
+      "episodeId": 98,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 99,
+      "userId": 3,
+      "episodeId": 99,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 100,
+      "userId": 7,
+      "episodeId": 100,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 101,
+      "userId": 8,
+      "episodeId": 101,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "episodeId": 102,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 103,
+      "userId": 5,
+      "episodeId": 103,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 104,
+      "userId": 2,
+      "episodeId": 104,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 105,
+      "userId": 2,
+      "episodeId": 105,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 106,
+      "userId": 5,
+      "episodeId": 106,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 107,
+      "userId": 7,
+      "episodeId": 107,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 108,
+      "userId": 6,
+      "episodeId": 108,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 109,
+      "userId": 3,
+      "episodeId": 109,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 110,
+      "userId": 1,
+      "episodeId": 110,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 111,
+      "userId": 9,
+      "episodeId": 111,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 112,
+      "userId": 7,
+      "episodeId": 112,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 113,
+      "userId": 9,
+      "episodeId": 113,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 114,
+      "userId": 1,
+      "episodeId": 114,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 115,
+      "userId": 9,
+      "episodeId": 115,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 116,
+      "userId": 2,
+      "episodeId": 116,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 117,
+      "userId": 1,
+      "episodeId": 117,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 118,
+      "userId": 5,
+      "episodeId": 118,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 119,
+      "userId": 1,
+      "episodeId": 119,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 120,
+      "userId": 10,
+      "episodeId": 120,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 121,
+      "userId": 1,
+      "episodeId": 121,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 122,
+      "userId": 9,
+      "episodeId": 122,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 123,
+      "userId": 7,
+      "episodeId": 123,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 124,
+      "userId": 9,
+      "episodeId": 124,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 125,
+      "userId": 6,
+      "episodeId": 125,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 126,
+      "userId": 3,
+      "episodeId": 126,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 127,
+      "userId": 3,
+      "episodeId": 127,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 128,
+      "userId": 2,
+      "episodeId": 128,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 129,
+      "userId": 3,
+      "episodeId": 129,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 130,
+      "userId": 10,
+      "episodeId": 130,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 131,
+      "userId": 6,
+      "episodeId": 131,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 132,
+      "userId": 4,
+      "episodeId": 132,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 133,
+      "userId": 1,
+      "episodeId": 133,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 134,
+      "userId": 3,
+      "episodeId": 134,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 135,
+      "userId": 8,
+      "episodeId": 135,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 136,
+      "userId": 9,
+      "episodeId": 136,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 137,
+      "userId": 8,
+      "episodeId": 137,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 138,
+      "userId": 8,
+      "episodeId": 138,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 139,
+      "userId": 2,
+      "episodeId": 139,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 140,
+      "userId": 5,
+      "episodeId": 140,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 141,
+      "userId": 8,
+      "episodeId": 141,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 142,
+      "userId": 5,
+      "episodeId": 142,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 143,
+      "userId": 9,
+      "episodeId": 143,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 144,
+      "userId": 10,
+      "episodeId": 144,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 145,
+      "userId": 2,
+      "episodeId": 145,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 146,
+      "userId": 1,
+      "episodeId": 146,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 147,
+      "userId": 1,
+      "episodeId": 147,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 148,
+      "userId": 4,
+      "episodeId": 148,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 149,
+      "userId": 3,
+      "episodeId": 149,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 150,
+      "userId": 7,
+      "episodeId": 150,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 151,
+      "userId": 5,
+      "episodeId": 151,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 152,
+      "userId": 7,
+      "episodeId": 152,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 153,
+      "userId": 7,
+      "episodeId": 153,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 154,
+      "userId": 3,
+      "episodeId": 154,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 155,
+      "userId": 2,
+      "episodeId": 155,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 156,
+      "userId": 9,
+      "episodeId": 156,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 157,
+      "userId": 7,
+      "episodeId": 157,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 158,
+      "userId": 8,
+      "episodeId": 158,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 159,
+      "userId": 10,
+      "episodeId": 159,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 160,
+      "userId": 8,
+      "episodeId": 160,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 161,
+      "userId": 2,
+      "episodeId": 161,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 162,
+      "userId": 8,
+      "episodeId": 162,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 163,
+      "userId": 6,
+      "episodeId": 163,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 164,
+      "userId": 8,
+      "episodeId": 164,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 165,
+      "userId": 6,
+      "episodeId": 165,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 166,
+      "userId": 6,
+      "episodeId": 166,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 167,
+      "userId": 4,
+      "episodeId": 167,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 168,
+      "userId": 10,
+      "episodeId": 168,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 169,
+      "userId": 1,
+      "episodeId": 169,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 170,
+      "userId": 4,
+      "episodeId": 170,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 171,
+      "userId": 9,
+      "episodeId": 171,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 172,
+      "userId": 2,
+      "episodeId": 172,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 173,
+      "userId": 7,
+      "episodeId": 173,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 174,
+      "userId": 1,
+      "episodeId": 174,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 175,
+      "userId": 1,
+      "episodeId": 175,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 176,
+      "userId": 1,
+      "episodeId": 176,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 177,
+      "userId": 5,
+      "episodeId": 177,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 178,
+      "userId": 7,
+      "episodeId": 178,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 179,
+      "userId": 8,
+      "episodeId": 179,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 180,
+      "userId": 5,
+      "episodeId": 180,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 181,
+      "userId": 6,
+      "episodeId": 181,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 182,
+      "userId": 10,
+      "episodeId": 182,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 183,
+      "userId": 1,
+      "episodeId": 183,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 184,
+      "userId": 5,
+      "episodeId": 184,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 185,
+      "userId": 2,
+      "episodeId": 185,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 186,
+      "userId": 10,
+      "episodeId": 186,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 187,
+      "userId": 9,
+      "episodeId": 187,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 188,
+      "userId": 9,
+      "episodeId": 188,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 189,
+      "userId": 4,
+      "episodeId": 189,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 190,
+      "userId": 3,
+      "episodeId": 190,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 191,
+      "userId": 9,
+      "episodeId": 191,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 192,
+      "userId": 1,
+      "episodeId": 192,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 193,
+      "userId": 6,
+      "episodeId": 193,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 194,
+      "userId": 10,
+      "episodeId": 194,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 195,
+      "userId": 9,
+      "episodeId": 195,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 196,
+      "userId": 7,
+      "episodeId": 196,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 197,
+      "userId": 10,
+      "episodeId": 197,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 198,
+      "userId": 10,
+      "episodeId": 198,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 199,
+      "userId": 4,
+      "episodeId": 199,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 200,
+      "userId": 5,
+      "episodeId": 200,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 201,
+      "userId": 9,
+      "episodeId": 201,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 202,
+      "userId": 6,
+      "episodeId": 202,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 203,
+      "userId": 8,
+      "episodeId": 203,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 204,
+      "userId": 1,
+      "episodeId": 204,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 205,
+      "userId": 3,
+      "episodeId": 205,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 206,
+      "userId": 2,
+      "episodeId": 206,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 207,
+      "userId": 9,
+      "episodeId": 207,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 208,
+      "userId": 5,
+      "episodeId": 208,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 209,
+      "userId": 9,
+      "episodeId": 209,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 210,
+      "userId": 3,
+      "episodeId": 210,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 211,
+      "userId": 6,
+      "episodeId": 211,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 212,
+      "userId": 10,
+      "episodeId": 212,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 213,
+      "userId": 5,
+      "episodeId": 213,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 214,
+      "userId": 4,
+      "episodeId": 214,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 215,
+      "userId": 7,
+      "episodeId": 215,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 216,
+      "userId": 8,
+      "episodeId": 216,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 217,
+      "userId": 10,
+      "episodeId": 217,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 218,
+      "userId": 8,
+      "episodeId": 218,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 219,
+      "userId": 7,
+      "episodeId": 219,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 220,
+      "userId": 8,
+      "episodeId": 220,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 221,
+      "userId": 9,
+      "episodeId": 221,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 222,
+      "userId": 4,
+      "episodeId": 222,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 223,
+      "userId": 9,
+      "episodeId": 223,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 224,
+      "userId": 3,
+      "episodeId": 224,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 225,
+      "userId": 7,
+      "episodeId": 225,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 226,
+      "userId": 8,
+      "episodeId": 226,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 227,
+      "userId": 1,
+      "episodeId": 227,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 228,
+      "userId": 1,
+      "episodeId": 228,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 229,
+      "userId": 4,
+      "episodeId": 229,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 230,
+      "userId": 5,
+      "episodeId": 230,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 231,
+      "userId": 1,
+      "episodeId": 231,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 232,
+      "userId": 9,
+      "episodeId": 232,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 233,
+      "userId": 9,
+      "episodeId": 233,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 234,
+      "userId": 7,
+      "episodeId": 234,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 235,
+      "userId": 4,
+      "episodeId": 235,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 236,
+      "userId": 3,
+      "episodeId": 236,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 237,
+      "userId": 5,
+      "episodeId": 237,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 238,
+      "userId": 4,
+      "episodeId": 238,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 239,
+      "userId": 2,
+      "episodeId": 239,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 240,
+      "userId": 4,
+      "episodeId": 240,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 241,
+      "userId": 5,
+      "episodeId": 241,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 242,
+      "userId": 9,
+      "episodeId": 242,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 243,
+      "userId": 6,
+      "episodeId": 243,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 244,
+      "userId": 1,
+      "episodeId": 244,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 245,
+      "userId": 8,
+      "episodeId": 245,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 246,
+      "userId": 6,
+      "episodeId": 246,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 247,
+      "userId": 9,
+      "episodeId": 247,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 248,
+      "userId": 1,
+      "episodeId": 248,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 249,
+      "userId": 10,
+      "episodeId": 249,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 250,
+      "userId": 2,
+      "episodeId": 250,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 251,
+      "userId": 5,
+      "episodeId": 251,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 252,
+      "userId": 8,
+      "episodeId": 252,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 253,
+      "userId": 1,
+      "episodeId": 253,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 254,
+      "userId": 4,
+      "episodeId": 254,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 255,
+      "userId": 6,
+      "episodeId": 255,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 256,
+      "userId": 2,
+      "episodeId": 256,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 257,
+      "userId": 5,
+      "episodeId": 257,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 258,
+      "userId": 4,
+      "episodeId": 258,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 259,
+      "userId": 2,
+      "episodeId": 259,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 260,
+      "userId": 1,
+      "episodeId": 260,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 261,
+      "userId": 7,
+      "episodeId": 261,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 262,
+      "userId": 2,
+      "episodeId": 262,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 263,
+      "userId": 10,
+      "episodeId": 263,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 264,
+      "userId": 1,
+      "episodeId": 264,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 265,
+      "userId": 9,
+      "episodeId": 265,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 266,
+      "userId": 10,
+      "episodeId": 266,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 267,
+      "userId": 7,
+      "episodeId": 267,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 268,
+      "userId": 8,
+      "episodeId": 268,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 269,
+      "userId": 10,
+      "episodeId": 269,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 270,
+      "userId": 2,
+      "episodeId": 270,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 271,
+      "userId": 3,
+      "episodeId": 271,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 272,
+      "userId": 7,
+      "episodeId": 272,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 273,
+      "userId": 5,
+      "episodeId": 273,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 274,
+      "userId": 2,
+      "episodeId": 274,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 275,
+      "userId": 9,
+      "episodeId": 275,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 276,
+      "userId": 8,
+      "episodeId": 276,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 277,
+      "userId": 7,
+      "episodeId": 277,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 278,
+      "userId": 4,
+      "episodeId": 278,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 279,
+      "userId": 3,
+      "episodeId": 279,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 280,
+      "userId": 10,
+      "episodeId": 280,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 281,
+      "userId": 10,
+      "episodeId": 281,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 282,
+      "userId": 1,
+      "episodeId": 282,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 283,
+      "userId": 6,
+      "episodeId": 283,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 284,
+      "userId": 1,
+      "episodeId": 284,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 285,
+      "userId": 4,
+      "episodeId": 285,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 286,
+      "userId": 9,
+      "episodeId": 286,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 287,
+      "userId": 4,
+      "episodeId": 287,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 288,
+      "userId": 5,
+      "episodeId": 288,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 289,
+      "userId": 8,
+      "episodeId": 289,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 290,
+      "userId": 4,
+      "episodeId": 290,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 291,
+      "userId": 5,
+      "episodeId": 291,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 292,
+      "userId": 6,
+      "episodeId": 292,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 293,
+      "userId": 8,
+      "episodeId": 293,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 294,
+      "userId": 5,
+      "episodeId": 294,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 295,
+      "userId": 3,
+      "episodeId": 295,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 296,
+      "userId": 7,
+      "episodeId": 296,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 297,
+      "userId": 10,
+      "episodeId": 297,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 298,
+      "userId": 9,
+      "episodeId": 298,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 299,
+      "userId": 10,
+      "episodeId": 299,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 300,
+      "userId": 9,
+      "episodeId": 300,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 301,
+      "userId": 8,
+      "episodeId": 301,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 302,
+      "userId": 2,
+      "episodeId": 302,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 303,
+      "userId": 4,
+      "episodeId": 303,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 304,
+      "userId": 4,
+      "episodeId": 304,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 305,
+      "userId": 4,
+      "episodeId": 305,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 306,
+      "userId": 6,
+      "episodeId": 306,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 307,
+      "userId": 7,
+      "episodeId": 307,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 308,
+      "userId": 8,
+      "episodeId": 308,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 309,
+      "userId": 3,
+      "episodeId": 309,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 310,
+      "userId": 2,
+      "episodeId": 310,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 311,
+      "userId": 1,
+      "episodeId": 311,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 312,
+      "userId": 6,
+      "episodeId": 312,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 313,
+      "userId": 10,
+      "episodeId": 313,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 314,
+      "userId": 7,
+      "episodeId": 314,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 315,
+      "userId": 4,
+      "episodeId": 315,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 316,
+      "userId": 4,
+      "episodeId": 316,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 317,
+      "userId": 8,
+      "episodeId": 317,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 318,
+      "userId": 8,
+      "episodeId": 318,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 319,
+      "userId": 5,
+      "episodeId": 319,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 320,
+      "userId": 2,
+      "episodeId": 320,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 321,
+      "userId": 9,
+      "episodeId": 321,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 322,
+      "userId": 8,
+      "episodeId": 322,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 323,
+      "userId": 5,
+      "episodeId": 323,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 324,
+      "userId": 9,
+      "episodeId": 324,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 325,
+      "userId": 9,
+      "episodeId": 325,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 326,
+      "userId": 1,
+      "episodeId": 326,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 327,
+      "userId": 2,
+      "episodeId": 327,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 328,
+      "userId": 8,
+      "episodeId": 328,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 329,
+      "userId": 6,
+      "episodeId": 329,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 330,
+      "userId": 2,
+      "episodeId": 330,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 331,
+      "userId": 4,
+      "episodeId": 331,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 332,
+      "userId": 8,
+      "episodeId": 332,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 333,
+      "userId": 10,
+      "episodeId": 333,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 334,
+      "userId": 4,
+      "episodeId": 334,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 335,
+      "userId": 9,
+      "episodeId": 335,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 336,
+      "userId": 8,
+      "episodeId": 336,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 337,
+      "userId": 10,
+      "episodeId": 337,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 338,
+      "userId": 7,
+      "episodeId": 338,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 339,
+      "userId": 3,
+      "episodeId": 339,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 340,
+      "userId": 3,
+      "episodeId": 340,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 341,
+      "userId": 4,
+      "episodeId": 341,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 342,
+      "userId": 8,
+      "episodeId": 342,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 343,
+      "userId": 8,
+      "episodeId": 343,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 344,
+      "userId": 3,
+      "episodeId": 344,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 345,
+      "userId": 9,
+      "episodeId": 345,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 346,
+      "userId": 7,
+      "episodeId": 346,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 347,
+      "userId": 6,
+      "episodeId": 347,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 348,
+      "userId": 10,
+      "episodeId": 348,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 349,
+      "userId": 10,
+      "episodeId": 349,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 350,
+      "userId": 2,
+      "episodeId": 350,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 351,
+      "userId": 3,
+      "episodeId": 351,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 352,
+      "userId": 3,
+      "episodeId": 352,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 353,
+      "userId": 10,
+      "episodeId": 353,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 354,
+      "userId": 2,
+      "episodeId": 354,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 355,
+      "userId": 1,
+      "episodeId": 355,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 356,
+      "userId": 8,
+      "episodeId": 356,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 357,
+      "userId": 8,
+      "episodeId": 357,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 358,
+      "userId": 2,
+      "episodeId": 358,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 359,
+      "userId": 10,
+      "episodeId": 359,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 360,
+      "userId": 2,
+      "episodeId": 360,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 361,
+      "userId": 4,
+      "episodeId": 361,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 362,
+      "userId": 1,
+      "episodeId": 362,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 363,
+      "userId": 8,
+      "episodeId": 363,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 364,
+      "userId": 5,
+      "episodeId": 364,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 365,
+      "userId": 2,
+      "episodeId": 365,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 366,
+      "userId": 4,
+      "episodeId": 366,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 367,
+      "userId": 9,
+      "episodeId": 367,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 368,
+      "userId": 3,
+      "episodeId": 368,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 369,
+      "userId": 1,
+      "episodeId": 369,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 370,
+      "userId": 6,
+      "episodeId": 370,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 371,
+      "userId": 6,
+      "episodeId": 371,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 372,
+      "userId": 2,
+      "episodeId": 372,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 373,
+      "userId": 4,
+      "episodeId": 373,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 374,
+      "userId": 9,
+      "episodeId": 374,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 375,
+      "userId": 5,
+      "episodeId": 375,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 376,
+      "userId": 4,
+      "episodeId": 376,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 377,
+      "userId": 9,
+      "episodeId": 377,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 378,
+      "userId": 2,
+      "episodeId": 378,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 379,
+      "userId": 9,
+      "episodeId": 379,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 380,
+      "userId": 7,
+      "episodeId": 380,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 381,
+      "userId": 6,
+      "episodeId": 381,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 382,
+      "userId": 1,
+      "episodeId": 382,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 383,
+      "userId": 9,
+      "episodeId": 383,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 384,
+      "userId": 2,
+      "episodeId": 384,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 385,
+      "userId": 1,
+      "episodeId": 385,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 386,
+      "userId": 1,
+      "episodeId": 386,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 387,
+      "userId": 9,
+      "episodeId": 387,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 388,
+      "userId": 8,
+      "episodeId": 388,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 389,
+      "userId": 8,
+      "episodeId": 389,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 390,
+      "userId": 5,
+      "episodeId": 390,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 391,
+      "userId": 5,
+      "episodeId": 391,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 392,
+      "userId": 9,
+      "episodeId": 392,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 393,
+      "userId": 1,
+      "episodeId": 393,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 394,
+      "userId": 9,
+      "episodeId": 394,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 395,
+      "userId": 7,
+      "episodeId": 395,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 396,
+      "userId": 7,
+      "episodeId": 396,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 397,
+      "userId": 8,
+      "episodeId": 397,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 398,
+      "userId": 8,
+      "episodeId": 398,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 399,
+      "userId": 2,
+      "episodeId": 399,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 400,
+      "userId": 5,
+      "episodeId": 400,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 401,
+      "userId": 3,
+      "episodeId": 401,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 402,
+      "userId": 5,
+      "episodeId": 402,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 403,
+      "userId": 6,
+      "episodeId": 403,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 404,
+      "userId": 5,
+      "episodeId": 404,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 405,
+      "userId": 7,
+      "episodeId": 405,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 406,
+      "userId": 3,
+      "episodeId": 406,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 407,
+      "userId": 1,
+      "episodeId": 407,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 408,
+      "userId": 8,
+      "episodeId": 408,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 409,
+      "userId": 8,
+      "episodeId": 409,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 410,
+      "userId": 9,
+      "episodeId": 410,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 411,
+      "userId": 7,
+      "episodeId": 411,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 412,
+      "userId": 9,
+      "episodeId": 412,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 413,
+      "userId": 6,
+      "episodeId": 413,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 414,
+      "userId": 4,
+      "episodeId": 414,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 415,
+      "userId": 5,
+      "episodeId": 415,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 416,
+      "userId": 4,
+      "episodeId": 416,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 417,
+      "userId": 7,
+      "episodeId": 417,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 418,
+      "userId": 3,
+      "episodeId": 418,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 419,
+      "userId": 9,
+      "episodeId": 419,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 420,
+      "userId": 8,
+      "episodeId": 420,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 421,
+      "userId": 7,
+      "episodeId": 421,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 422,
+      "userId": 7,
+      "episodeId": 422,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 423,
+      "userId": 3,
+      "episodeId": 423,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 424,
+      "userId": 10,
+      "episodeId": 424,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 425,
+      "userId": 2,
+      "episodeId": 425,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 426,
+      "userId": 7,
+      "episodeId": 426,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 427,
+      "userId": 6,
+      "episodeId": 427,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 428,
+      "userId": 10,
+      "episodeId": 428,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 429,
+      "userId": 7,
+      "episodeId": 429,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 430,
+      "userId": 4,
+      "episodeId": 430,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 431,
+      "userId": 3,
+      "episodeId": 431,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 432,
+      "userId": 5,
+      "episodeId": 432,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 433,
+      "userId": 10,
+      "episodeId": 433,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 434,
+      "userId": 7,
+      "episodeId": 434,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 435,
+      "userId": 4,
+      "episodeId": 435,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 436,
+      "userId": 10,
+      "episodeId": 436,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 437,
+      "userId": 1,
+      "episodeId": 437,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 438,
+      "userId": 10,
+      "episodeId": 438,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 439,
+      "userId": 7,
+      "episodeId": 439,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 440,
+      "userId": 6,
+      "episodeId": 440,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 441,
+      "userId": 1,
+      "episodeId": 441,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 442,
+      "userId": 4,
+      "episodeId": 442,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 443,
+      "userId": 2,
+      "episodeId": 443,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 444,
+      "userId": 4,
+      "episodeId": 444,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 445,
+      "userId": 3,
+      "episodeId": 445,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 446,
+      "userId": 7,
+      "episodeId": 446,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 447,
+      "userId": 2,
+      "episodeId": 447,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 448,
+      "userId": 8,
+      "episodeId": 448,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 449,
+      "userId": 7,
+      "episodeId": 449,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 450,
+      "userId": 4,
+      "episodeId": 450,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 451,
+      "userId": 1,
+      "episodeId": 451,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    },
+    {
+      "id": 452,
+      "userId": 6,
+      "episodeId": 452,
+      "createdAt": "2025-06-26 14:11:58",
+      "updatedAt": "2025-06-26 14:11:58"
+    }
+  ]);
+  await queryInterface.bulkInsert('Comments', [
+    {
+      "id": 1,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 1,
+      "seasonId": 1,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 2,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 6,
+      "seasonId": 1,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 3,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 2,
+      "seasonId": 1,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 4,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 10,
+      "seasonId": 1,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 5,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 9,
+      "seasonId": 2,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 6,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 2,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 7,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 8,
+      "seasonId": 2,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 8,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 10,
+      "seasonId": 2,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 9,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 1,
+      "seasonId": 3,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 10,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 9,
+      "seasonId": 3,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 11,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 4,
+      "seasonId": 3,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 12,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 3,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 13,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 1,
+      "seasonId": 4,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 14,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 7,
+      "seasonId": 4,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 15,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 8,
+      "seasonId": 4,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 16,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 4,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 17,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 10,
+      "seasonId": 5,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 18,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 1,
+      "seasonId": 5,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 19,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 3,
+      "seasonId": 5,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 20,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 7,
+      "seasonId": 5,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 21,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 4,
+      "seasonId": 6,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 22,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 5,
+      "seasonId": 6,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 23,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 9,
+      "seasonId": 6,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 24,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 8,
+      "seasonId": 6,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 25,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 7,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 26,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 5,
+      "seasonId": 7,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 27,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 3,
+      "seasonId": 7,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 28,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 2,
+      "seasonId": 7,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 29,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 5,
+      "seasonId": 8,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 30,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 8,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 31,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 8,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 32,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 10,
+      "seasonId": 8,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 33,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 10,
+      "seasonId": 9,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 34,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 5,
+      "seasonId": 9,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 35,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 7,
+      "seasonId": 9,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 36,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 9,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 37,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 3,
+      "seasonId": 10,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 38,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 4,
+      "seasonId": 10,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 39,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 6,
+      "seasonId": 10,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 40,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 2,
+      "seasonId": 10,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 41,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 8,
+      "seasonId": 11,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 42,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 11,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 43,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 4,
+      "seasonId": 11,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 44,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 3,
+      "seasonId": 11,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 45,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 12,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 46,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 1,
+      "seasonId": 12,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 47,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 6,
+      "seasonId": 12,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 48,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 3,
+      "seasonId": 12,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 49,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 2,
+      "seasonId": 13,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 50,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 4,
+      "seasonId": 13,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 51,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 6,
+      "seasonId": 13,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 52,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 7,
+      "seasonId": 13,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 53,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 8,
+      "seasonId": 14,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 54,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 1,
+      "seasonId": 14,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 55,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 7,
+      "seasonId": 14,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 56,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 9,
+      "seasonId": 14,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 57,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 8,
+      "seasonId": 15,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 58,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 5,
+      "seasonId": 15,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 59,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 3,
+      "seasonId": 15,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 60,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 15,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 61,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 2,
+      "seasonId": 16,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 62,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 7,
+      "seasonId": 16,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 63,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 9,
+      "seasonId": 16,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 64,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 5,
+      "seasonId": 16,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 65,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 10,
+      "seasonId": 17,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 66,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 1,
+      "seasonId": 17,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 67,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 5,
+      "seasonId": 17,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 68,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 2,
+      "seasonId": 17,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 69,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 18,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 70,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 18,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 71,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 5,
+      "seasonId": 18,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 72,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 9,
+      "seasonId": 18,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 73,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 6,
+      "seasonId": 19,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 74,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 1,
+      "seasonId": 19,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 75,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 4,
+      "seasonId": 19,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 76,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 19,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 77,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 4,
+      "seasonId": 20,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 78,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 1,
+      "seasonId": 20,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 79,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 8,
+      "seasonId": 20,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 80,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 20,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 81,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 10,
+      "seasonId": 21,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 82,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 5,
+      "seasonId": 21,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 83,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 2,
+      "seasonId": 21,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 84,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 4,
+      "seasonId": 21,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 85,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 9,
+      "seasonId": 22,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 86,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 1,
+      "seasonId": 22,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 87,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 3,
+      "seasonId": 22,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 88,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 5,
+      "seasonId": 22,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 89,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 9,
+      "seasonId": 23,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 90,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 8,
+      "seasonId": 23,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 91,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 6,
+      "seasonId": 23,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 92,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 1,
+      "seasonId": 23,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 93,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 10,
+      "seasonId": 24,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 94,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 3,
+      "seasonId": 24,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 95,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 6,
+      "seasonId": 24,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 96,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 8,
+      "seasonId": 24,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 97,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 3,
+      "seasonId": 25,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 98,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 5,
+      "seasonId": 25,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 99,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 2,
+      "seasonId": 25,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 100,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 8,
+      "seasonId": 25,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 101,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 5,
+      "seasonId": 26,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 102,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 10,
+      "seasonId": 26,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 103,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 9,
+      "seasonId": 26,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 104,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 8,
+      "seasonId": 26,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 105,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 5,
+      "seasonId": 27,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 106,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 1,
+      "seasonId": 27,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 107,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 10,
+      "seasonId": 27,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 108,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 6,
+      "seasonId": 27,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 109,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 2,
+      "seasonId": 28,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 110,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 1,
+      "seasonId": 28,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 111,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 7,
+      "seasonId": 28,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 112,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 3,
+      "seasonId": 28,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 113,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 7,
+      "seasonId": 29,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 114,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 2,
+      "seasonId": 29,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 115,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 29,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 116,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 1,
+      "seasonId": 29,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 117,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 9,
+      "seasonId": 30,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 118,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 5,
+      "seasonId": 30,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 119,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 3,
+      "seasonId": 30,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 120,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 8,
+      "seasonId": 30,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 121,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 6,
+      "seasonId": 31,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 122,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 8,
+      "seasonId": 31,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 123,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 1,
+      "seasonId": 31,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 124,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 4,
+      "seasonId": 31,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 125,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 32,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 126,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 3,
+      "seasonId": 32,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 127,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 8,
+      "seasonId": 32,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 128,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 4,
+      "seasonId": 32,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 129,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 8,
+      "seasonId": 33,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 130,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 2,
+      "seasonId": 33,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 131,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 33,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 132,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 33,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 133,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 34,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 134,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 9,
+      "seasonId": 34,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 135,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 7,
+      "seasonId": 34,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 136,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 4,
+      "seasonId": 34,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 137,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 2,
+      "seasonId": 35,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 138,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 1,
+      "seasonId": 35,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 139,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 10,
+      "seasonId": 35,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 140,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 7,
+      "seasonId": 35,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 141,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 9,
+      "seasonId": 36,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 142,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 2,
+      "seasonId": 36,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 143,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 5,
+      "seasonId": 36,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 144,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 3,
+      "seasonId": 36,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 145,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 8,
+      "seasonId": 37,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 146,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 6,
+      "seasonId": 37,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 147,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 7,
+      "seasonId": 37,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 148,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 4,
+      "seasonId": 37,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 149,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 7,
+      "seasonId": 38,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 150,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 38,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 151,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 5,
+      "seasonId": 38,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 152,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 3,
+      "seasonId": 38,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 153,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 8,
+      "seasonId": 39,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 154,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 39,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 155,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 10,
+      "seasonId": 39,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 156,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 6,
+      "seasonId": 39,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 157,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 1,
+      "seasonId": 40,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 158,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 6,
+      "seasonId": 40,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 159,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 5,
+      "seasonId": 40,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 160,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 4,
+      "seasonId": 40,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 161,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 3,
+      "seasonId": 41,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 162,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 7,
+      "seasonId": 41,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 163,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 4,
+      "seasonId": 41,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 164,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 9,
+      "seasonId": 41,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 165,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 9,
+      "seasonId": 42,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 166,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 8,
+      "seasonId": 42,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 167,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 10,
+      "seasonId": 42,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 168,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 42,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 169,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 8,
+      "seasonId": 43,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 170,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 4,
+      "seasonId": 43,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 171,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 43,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 172,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 7,
+      "seasonId": 43,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 173,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 9,
+      "seasonId": 44,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 174,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 10,
+      "seasonId": 44,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 175,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 6,
+      "seasonId": 44,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 176,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 5,
+      "seasonId": 44,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 177,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 2,
+      "seasonId": 45,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 178,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 4,
+      "seasonId": 45,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 179,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 6,
+      "seasonId": 45,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 180,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 7,
+      "seasonId": 45,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 181,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 7,
+      "seasonId": 46,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 182,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 3,
+      "seasonId": 46,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 183,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 1,
+      "seasonId": 46,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 184,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 8,
+      "seasonId": 46,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 185,
+      "content": "Kịch bản vkl.",
+      "userId": 1,
+      "seasonId": 47,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 186,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 5,
+      "seasonId": 47,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 187,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 2,
+      "seasonId": 47,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 188,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 3,
+      "seasonId": 47,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 189,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 10,
+      "seasonId": 48,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 190,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 3,
+      "seasonId": 48,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 191,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 9,
+      "seasonId": 48,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 192,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 8,
+      "seasonId": 48,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 193,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 2,
+      "seasonId": 49,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 194,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 3,
+      "seasonId": 49,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 195,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 5,
+      "seasonId": 49,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 196,
+      "content": "Fuck.",
+      "userId": 7,
+      "seasonId": 49,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 197,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 3,
+      "seasonId": 50,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 198,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 1,
+      "seasonId": 50,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 199,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 50,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 200,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 5,
+      "seasonId": 50,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 201,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 51,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 202,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 10,
+      "seasonId": 51,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 203,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 5,
+      "seasonId": 51,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 204,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 8,
+      "seasonId": 51,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 205,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 4,
+      "seasonId": 52,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 206,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 1,
+      "seasonId": 52,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 207,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 5,
+      "seasonId": 52,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 208,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 52,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 209,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 8,
+      "seasonId": 53,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 210,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 5,
+      "seasonId": 53,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 211,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 4,
+      "seasonId": 53,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 212,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 2,
+      "seasonId": 53,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 213,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 6,
+      "seasonId": 54,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 214,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 9,
+      "seasonId": 54,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 215,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 5,
+      "seasonId": 54,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 216,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 2,
+      "seasonId": 54,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 217,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 10,
+      "seasonId": 55,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 218,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 5,
+      "seasonId": 55,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 219,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 7,
+      "seasonId": 55,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 220,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 1,
+      "seasonId": 55,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 221,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 6,
+      "seasonId": 56,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 222,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 4,
+      "seasonId": 56,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 223,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 3,
+      "seasonId": 56,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 224,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 9,
+      "seasonId": 56,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 225,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 3,
+      "seasonId": 57,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 226,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 2,
+      "seasonId": 57,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 227,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 5,
+      "seasonId": 57,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 228,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 4,
+      "seasonId": 57,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 229,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 10,
+      "seasonId": 58,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 230,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 58,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 231,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 58,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 232,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 9,
+      "seasonId": 58,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 233,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 2,
+      "seasonId": 59,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 234,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 3,
+      "seasonId": 59,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 235,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 6,
+      "seasonId": 59,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 236,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 5,
+      "seasonId": 59,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 237,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 5,
+      "seasonId": 60,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 238,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 60,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 239,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 8,
+      "seasonId": 60,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 240,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 3,
+      "seasonId": 60,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 241,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 6,
+      "seasonId": 61,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 242,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 5,
+      "seasonId": 61,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 243,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 61,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 244,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 8,
+      "seasonId": 61,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 245,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 9,
+      "seasonId": 62,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 246,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 2,
+      "seasonId": 62,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 247,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 7,
+      "seasonId": 62,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 248,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 1,
+      "seasonId": 62,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 249,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 5,
+      "seasonId": 63,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 250,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 10,
+      "seasonId": 63,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 251,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 1,
+      "seasonId": 63,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 252,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 9,
+      "seasonId": 63,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 253,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 10,
+      "seasonId": 64,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 254,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 9,
+      "seasonId": 64,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 255,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 8,
+      "seasonId": 64,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 256,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 6,
+      "seasonId": 64,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 257,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 10,
+      "seasonId": 65,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 258,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 1,
+      "seasonId": 65,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 259,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 6,
+      "seasonId": 65,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 260,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 8,
+      "seasonId": 65,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 261,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 66,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 262,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 66,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 263,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 8,
+      "seasonId": 66,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 264,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 7,
+      "seasonId": 66,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 265,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 1,
+      "seasonId": 67,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 266,
+      "content": "Phim vkl.",
+      "userId": 5,
+      "seasonId": 67,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 267,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 10,
+      "seasonId": 67,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 268,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 67,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 269,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 9,
+      "seasonId": 68,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 270,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 1,
+      "seasonId": 68,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 271,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 68,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 272,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 8,
+      "seasonId": 68,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 273,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 5,
+      "seasonId": 69,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 274,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 7,
+      "seasonId": 69,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 275,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 69,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 276,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 3,
+      "seasonId": 69,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 277,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 4,
+      "seasonId": 70,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 278,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 7,
+      "seasonId": 70,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 279,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 9,
+      "seasonId": 70,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 280,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 10,
+      "seasonId": 70,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 281,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 1,
+      "seasonId": 71,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 282,
+      "content": "Quá dở.",
+      "userId": 6,
+      "seasonId": 71,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 283,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 8,
+      "seasonId": 71,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 284,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 7,
+      "seasonId": 71,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 285,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 9,
+      "seasonId": 72,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 286,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 6,
+      "seasonId": 72,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 287,
+      "content": "Diễn viên ngu quá.",
+      "userId": 8,
+      "seasonId": 72,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 288,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 7,
+      "seasonId": 72,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 289,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 9,
+      "seasonId": 73,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 290,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 6,
+      "seasonId": 73,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 291,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 2,
+      "seasonId": 73,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 292,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 5,
+      "seasonId": 73,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 293,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 2,
+      "seasonId": 74,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 294,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 5,
+      "seasonId": 74,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 295,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 1,
+      "seasonId": 74,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 296,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 9,
+      "seasonId": 74,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 297,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 9,
+      "seasonId": 75,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 298,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 3,
+      "seasonId": 75,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 299,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 10,
+      "seasonId": 75,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 300,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 1,
+      "seasonId": 75,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 301,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 8,
+      "seasonId": 76,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 302,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 6,
+      "seasonId": 76,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 303,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 10,
+      "seasonId": 76,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 304,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 76,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 305,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 77,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 306,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 8,
+      "seasonId": 77,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 307,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 3,
+      "seasonId": 77,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 308,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 10,
+      "seasonId": 77,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 309,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 5,
+      "seasonId": 78,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 310,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 78,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 311,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 3,
+      "seasonId": 78,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 312,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 9,
+      "seasonId": 78,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 313,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 5,
+      "seasonId": 79,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 314,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 1,
+      "seasonId": 79,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 315,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 10,
+      "seasonId": 79,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 316,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 6,
+      "seasonId": 79,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 317,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 80,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 318,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 4,
+      "seasonId": 80,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 319,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 5,
+      "seasonId": 80,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 320,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 10,
+      "seasonId": 80,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 321,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 7,
+      "seasonId": 81,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 322,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 8,
+      "seasonId": 81,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 323,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 2,
+      "seasonId": 81,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 324,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 81,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 325,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 1,
+      "seasonId": 82,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 326,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 7,
+      "seasonId": 82,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 327,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 82,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 328,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 8,
+      "seasonId": 82,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 329,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 8,
+      "seasonId": 83,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 330,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 6,
+      "seasonId": 83,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 331,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 5,
+      "seasonId": 83,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 332,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 4,
+      "seasonId": 83,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 333,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 84,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 334,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 10,
+      "seasonId": 84,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 335,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 7,
+      "seasonId": 84,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 336,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 9,
+      "seasonId": 84,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 337,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 85,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 338,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 9,
+      "seasonId": 85,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 339,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 8,
+      "seasonId": 85,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 340,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 1,
+      "seasonId": 85,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 341,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 9,
+      "seasonId": 86,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 342,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 3,
+      "seasonId": 86,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 343,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 5,
+      "seasonId": 86,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 344,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 86,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 345,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 6,
+      "seasonId": 87,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 346,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 3,
+      "seasonId": 87,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 347,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 9,
+      "seasonId": 87,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 348,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 1,
+      "seasonId": 87,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 349,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 4,
+      "seasonId": 88,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 350,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 3,
+      "seasonId": 88,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 351,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 10,
+      "seasonId": 88,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 352,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 5,
+      "seasonId": 88,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 353,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 9,
+      "seasonId": 89,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 354,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 4,
+      "seasonId": 89,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 355,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 89,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 356,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 5,
+      "seasonId": 89,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 357,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 7,
+      "seasonId": 90,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 358,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 90,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 359,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 9,
+      "seasonId": 90,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 360,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 8,
+      "seasonId": 90,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 361,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 9,
+      "seasonId": 91,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 362,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 91,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 363,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 5,
+      "seasonId": 91,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 364,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 4,
+      "seasonId": 91,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 365,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 7,
+      "seasonId": 92,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 366,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 3,
+      "seasonId": 92,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 367,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 9,
+      "seasonId": 92,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 368,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 5,
+      "seasonId": 92,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 369,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 3,
+      "seasonId": 93,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 370,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 10,
+      "seasonId": 93,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 371,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 4,
+      "seasonId": 93,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 372,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 2,
+      "seasonId": 93,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 373,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 1,
+      "seasonId": 94,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 374,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 4,
+      "seasonId": 94,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 375,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 5,
+      "seasonId": 94,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 376,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 6,
+      "seasonId": 94,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 377,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 10,
+      "seasonId": 95,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 378,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 6,
+      "seasonId": 95,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 379,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 8,
+      "seasonId": 95,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 380,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 5,
+      "seasonId": 95,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 381,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 9,
+      "seasonId": 96,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 382,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 96,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 383,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 1,
+      "seasonId": 96,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 384,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 5,
+      "seasonId": 96,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 385,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 97,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 386,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 8,
+      "seasonId": 97,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 387,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 1,
+      "seasonId": 97,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 388,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 97,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 389,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 7,
+      "seasonId": 98,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 390,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 10,
+      "seasonId": 98,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 391,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 1,
+      "seasonId": 98,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 392,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 9,
+      "seasonId": 98,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 393,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 3,
+      "seasonId": 99,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 394,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 5,
+      "seasonId": 99,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 395,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 6,
+      "seasonId": 99,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 396,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 7,
+      "seasonId": 99,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 397,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 9,
+      "seasonId": 100,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 398,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 1,
+      "seasonId": 100,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 399,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 100,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 400,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 3,
+      "seasonId": 100,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 401,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 8,
+      "seasonId": 101,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 402,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 4,
+      "seasonId": 101,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 403,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 101,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 404,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 2,
+      "seasonId": 101,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 405,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 9,
+      "seasonId": 102,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 406,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 10,
+      "seasonId": 102,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 407,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 8,
+      "seasonId": 102,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 408,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 3,
+      "seasonId": 102,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 409,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 8,
+      "seasonId": 103,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 410,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 10,
+      "seasonId": 103,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 411,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 7,
+      "seasonId": 103,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 412,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 103,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 413,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 3,
+      "seasonId": 104,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 414,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 4,
+      "seasonId": 104,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 415,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 10,
+      "seasonId": 104,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 416,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 2,
+      "seasonId": 104,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 417,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 6,
+      "seasonId": 105,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 418,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 10,
+      "seasonId": 105,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 419,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 9,
+      "seasonId": 105,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 420,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 7,
+      "seasonId": 105,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 421,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 10,
+      "seasonId": 106,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 422,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 7,
+      "seasonId": 106,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 423,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 106,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 424,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 2,
+      "seasonId": 106,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 425,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 107,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 426,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 10,
+      "seasonId": 107,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 427,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 4,
+      "seasonId": 107,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 428,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 1,
+      "seasonId": 107,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 429,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 1,
+      "seasonId": 108,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 430,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 5,
+      "seasonId": 108,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 431,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 108,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 432,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 7,
+      "seasonId": 108,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 433,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 5,
+      "seasonId": 109,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 434,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 109,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 435,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 1,
+      "seasonId": 109,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 436,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 2,
+      "seasonId": 109,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 437,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 10,
+      "seasonId": 110,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 438,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 7,
+      "seasonId": 110,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 439,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 1,
+      "seasonId": 110,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 440,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 2,
+      "seasonId": 110,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 441,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 4,
+      "seasonId": 111,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 442,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 2,
+      "seasonId": 111,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 443,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 8,
+      "seasonId": 111,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 444,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 10,
+      "seasonId": 111,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 445,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 3,
+      "seasonId": 112,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 446,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 4,
+      "seasonId": 112,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 447,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 10,
+      "seasonId": 112,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 448,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 8,
+      "seasonId": 112,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 449,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 113,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 450,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 6,
+      "seasonId": 113,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 451,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 3,
+      "seasonId": 113,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 452,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 9,
+      "seasonId": 113,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 453,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 1,
+      "seasonId": 114,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 454,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 9,
+      "seasonId": 114,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 455,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 4,
+      "seasonId": 114,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 456,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 2,
+      "seasonId": 114,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 457,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 7,
+      "seasonId": 115,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 458,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 6,
+      "seasonId": 115,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 459,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 5,
+      "seasonId": 115,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 460,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 9,
+      "seasonId": 115,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 461,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 6,
+      "seasonId": 116,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 462,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 10,
+      "seasonId": 116,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 463,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 1,
+      "seasonId": 116,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 464,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 2,
+      "seasonId": 116,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 465,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 9,
+      "seasonId": 117,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 466,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 117,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 467,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 2,
+      "seasonId": 117,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 468,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 1,
+      "seasonId": 117,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 469,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 7,
+      "seasonId": 118,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 470,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 5,
+      "seasonId": 118,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 471,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 118,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 472,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 8,
+      "seasonId": 118,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 473,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 5,
+      "seasonId": 119,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 474,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 8,
+      "seasonId": 119,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 475,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 9,
+      "seasonId": 119,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 476,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 4,
+      "seasonId": 119,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 477,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 10,
+      "seasonId": 120,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 478,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 4,
+      "seasonId": 120,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 479,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 9,
+      "seasonId": 120,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 480,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 3,
+      "seasonId": 120,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 481,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 3,
+      "seasonId": 121,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 482,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 8,
+      "seasonId": 121,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 483,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 9,
+      "seasonId": 121,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 484,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 5,
+      "seasonId": 121,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 485,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 4,
+      "seasonId": 122,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 486,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 1,
+      "seasonId": 122,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 487,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 122,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 488,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 7,
+      "seasonId": 122,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 489,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 3,
+      "seasonId": 123,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 490,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 10,
+      "seasonId": 123,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 491,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 1,
+      "seasonId": 123,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 492,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 4,
+      "seasonId": 123,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 493,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 124,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 494,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 124,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 495,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 2,
+      "seasonId": 124,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 496,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 8,
+      "seasonId": 124,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 497,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 125,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 498,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 3,
+      "seasonId": 125,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 499,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 10,
+      "seasonId": 125,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 500,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 4,
+      "seasonId": 125,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 501,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 1,
+      "seasonId": 126,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 502,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 3,
+      "seasonId": 126,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 503,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 9,
+      "seasonId": 126,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 504,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 5,
+      "seasonId": 126,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 505,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 6,
+      "seasonId": 127,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 506,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 9,
+      "seasonId": 127,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 507,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 8,
+      "seasonId": 127,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 508,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 1,
+      "seasonId": 127,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 509,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 7,
+      "seasonId": 128,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 510,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 9,
+      "seasonId": 128,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 511,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 10,
+      "seasonId": 128,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 512,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 3,
+      "seasonId": 128,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 513,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 9,
+      "seasonId": 129,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 514,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 10,
+      "seasonId": 129,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 515,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 1,
+      "seasonId": 129,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 516,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 6,
+      "seasonId": 129,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 517,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 10,
+      "seasonId": 130,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 518,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 4,
+      "seasonId": 130,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 519,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 9,
+      "seasonId": 130,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 520,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 1,
+      "seasonId": 130,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 521,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 4,
+      "seasonId": 131,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 522,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 9,
+      "seasonId": 131,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 523,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 3,
+      "seasonId": 131,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 524,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 7,
+      "seasonId": 131,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 525,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 5,
+      "seasonId": 132,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 526,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 6,
+      "seasonId": 132,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 527,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 3,
+      "seasonId": 132,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 528,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 4,
+      "seasonId": 132,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 529,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 1,
+      "seasonId": 133,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 530,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 7,
+      "seasonId": 133,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 531,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 10,
+      "seasonId": 133,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 532,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 2,
+      "seasonId": 133,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 533,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 10,
+      "seasonId": 134,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 534,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 6,
+      "seasonId": 134,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 535,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 1,
+      "seasonId": 134,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 536,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 8,
+      "seasonId": 134,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 537,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 6,
+      "seasonId": 135,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 538,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 7,
+      "seasonId": 135,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 539,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 5,
+      "seasonId": 135,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 540,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 4,
+      "seasonId": 135,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 541,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 7,
+      "seasonId": 136,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 542,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 1,
+      "seasonId": 136,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 543,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 10,
+      "seasonId": 136,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 544,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 6,
+      "seasonId": 136,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 545,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 6,
+      "seasonId": 137,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 546,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 10,
+      "seasonId": 137,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 547,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 4,
+      "seasonId": 137,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 548,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 7,
+      "seasonId": 137,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 549,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 2,
+      "seasonId": 138,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 550,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 138,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 551,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 3,
+      "seasonId": 138,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 552,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 6,
+      "seasonId": 138,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 553,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 1,
+      "seasonId": 139,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 554,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 7,
+      "seasonId": 139,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 555,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 5,
+      "seasonId": 139,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 556,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 8,
+      "seasonId": 139,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 557,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 5,
+      "seasonId": 140,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 558,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 6,
+      "seasonId": 140,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 559,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 7,
+      "seasonId": 140,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 560,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 3,
+      "seasonId": 140,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 561,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 8,
+      "seasonId": 141,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 562,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 5,
+      "seasonId": 141,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 563,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 10,
+      "seasonId": 141,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 564,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 7,
+      "seasonId": 141,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 565,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 4,
+      "seasonId": 142,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 566,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 5,
+      "seasonId": 142,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 567,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 3,
+      "seasonId": 142,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 568,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 6,
+      "seasonId": 142,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 569,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 8,
+      "seasonId": 143,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 570,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 2,
+      "seasonId": 143,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 571,
+      "content": "Diễn xuất chưa thật sự thuyết phục.",
+      "userId": 10,
+      "seasonId": 143,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 572,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 5,
+      "seasonId": 143,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 573,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 5,
+      "seasonId": 144,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 574,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 9,
+      "seasonId": 144,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 575,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 10,
+      "seasonId": 144,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 576,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 8,
+      "seasonId": 144,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 577,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 8,
+      "seasonId": 145,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 578,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 7,
+      "seasonId": 145,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 579,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 3,
+      "seasonId": 145,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 580,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 1,
+      "seasonId": 145,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 581,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 10,
+      "seasonId": 146,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 582,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 2,
+      "seasonId": 146,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 583,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 7,
+      "seasonId": 146,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 584,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 8,
+      "seasonId": 146,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 585,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 5,
+      "seasonId": 147,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 586,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 4,
+      "seasonId": 147,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 587,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 147,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 588,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 6,
+      "seasonId": 147,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 589,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 7,
+      "seasonId": 148,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 590,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 4,
+      "seasonId": 148,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 591,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 9,
+      "seasonId": 148,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 592,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 5,
+      "seasonId": 148,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 593,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 9,
+      "seasonId": 149,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 594,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 1,
+      "seasonId": 149,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 595,
+      "content": "Rất thích diễn viên chính, nhập vai tốt.",
+      "userId": 7,
+      "seasonId": 149,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 596,
+      "content": "Bối cảnh và nhạc phim tuyệt vời.",
+      "userId": 10,
+      "seasonId": 149,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 597,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 5,
+      "seasonId": 150,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 598,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 10,
+      "seasonId": 150,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 599,
+      "content": "Phim rất hay, cốt truyện hấp dẫn.",
+      "userId": 8,
+      "seasonId": 150,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 600,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 6,
+      "seasonId": 150,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 601,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 3,
+      "seasonId": 151,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 602,
+      "content": "Tập cuối hơi hụt hẫng, mong đợi nhiều hơn.",
+      "userId": 8,
+      "seasonId": 151,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 603,
+      "content": "Tình tiết phim gây cấn, không thể rời mắt.",
+      "userId": 5,
+      "seasonId": 151,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 604,
+      "content": "Phim dài dòng, nhiều đoạn không cần thiết.",
+      "userId": 2,
+      "seasonId": 151,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 605,
+      "content": "Một bộ phim đáng xem, rất cảm động.",
+      "userId": 8,
+      "seasonId": 152,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 606,
+      "content": "Kịch bản còn nhiều điểm vô lý.",
+      "userId": 10,
+      "seasonId": 152,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 607,
+      "content": "Phim ngu như thằng đạo diễn.",
+      "userId": 5,
+      "seasonId": 152,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    },
+    {
+      "id": 608,
+      "content": "Phim xem ổn, nhưng chưa đủ đột phá.",
+      "userId": 9,
+      "seasonId": 152,
+      "createdAt": "2025-06-26 14:17:55",
+      "updatedAt": "2025-06-26 14:17:55",
+      "parentId": null
+    }
+  ]);
+  await queryInterface.bulkInsert('Favorites', [
+    {
+      "userId": 1,
+      "seasonId": 43
+    },
+    {
+      "userId": 1,
+      "seasonId": 112
+    },
+    {
+      "userId": 1,
+      "seasonId": 105
+    },
+    {
+      "userId": 1,
+      "seasonId": 89
+    },
+    {
+      "userId": 1,
+      "seasonId": 126
+    },
+    {
+      "userId": 1,
+      "seasonId": 9
+    },
+    {
+      "userId": 1,
+      "seasonId": 119
+    },
+    {
+      "userId": 1,
+      "seasonId": 83
+    },
+    {
+      "userId": 1,
+      "seasonId": 6
+    },
+    {
+      "userId": 1,
+      "seasonId": 14
+    },
+    {
+      "userId": 1,
+      "seasonId": 109
+    },
+    {
+      "userId": 1,
+      "seasonId": 97
+    },
+    {
+      "userId": 1,
+      "seasonId": 2
+    },
+    {
+      "userId": 1,
+      "seasonId": 125
+    },
+    {
+      "userId": 1,
+      "seasonId": 39
+    },
+    {
+      "userId": 1,
+      "seasonId": 87
+    },
+    {
+      "userId": 1,
+      "seasonId": 47
+    },
+    {
+      "userId": 1,
+      "seasonId": 50
+    },
+    {
+      "userId": 1,
+      "seasonId": 62
+    },
+    {
+      "userId": 1,
+      "seasonId": 107
+    },
+    {
+      "userId": 1,
+      "seasonId": 104
+    },
+    {
+      "userId": 1,
+      "seasonId": 34
+    },
+    {
+      "userId": 1,
+      "seasonId": 135
+    },
+    {
+      "userId": 2,
+      "seasonId": 16
+    },
+    {
+      "userId": 2,
+      "seasonId": 61
+    },
+    {
+      "userId": 2,
+      "seasonId": 53
+    },
+    {
+      "userId": 2,
+      "seasonId": 109
+    },
+    {
+      "userId": 2,
+      "seasonId": 118
+    },
+    {
+      "userId": 2,
+      "seasonId": 144
+    },
+    {
+      "userId": 2,
+      "seasonId": 143
+    },
+    {
+      "userId": 2,
+      "seasonId": 7
+    },
+    {
+      "userId": 2,
+      "seasonId": 146
+    },
+    {
+      "userId": 2,
+      "seasonId": 48
+    },
+    {
+      "userId": 2,
+      "seasonId": 44
+    },
+    {
+      "userId": 2,
+      "seasonId": 33
+    },
+    {
+      "userId": 2,
+      "seasonId": 26
+    },
+    {
+      "userId": 2,
+      "seasonId": 43
+    },
+    {
+      "userId": 2,
+      "seasonId": 21
+    },
+    {
+      "userId": 2,
+      "seasonId": 20
+    },
+    {
+      "userId": 2,
+      "seasonId": 6
+    },
+    {
+      "userId": 2,
+      "seasonId": 136
+    },
+    {
+      "userId": 2,
+      "seasonId": 132
+    },
+    {
+      "userId": 2,
+      "seasonId": 8
+    },
+    {
+      "userId": 2,
+      "seasonId": 35
+    },
+    {
+      "userId": 2,
+      "seasonId": 125
+    },
+    {
+      "userId": 2,
+      "seasonId": 11
+    },
+    {
+      "userId": 3,
+      "seasonId": 37
+    },
+    {
+      "userId": 3,
+      "seasonId": 71
+    },
+    {
+      "userId": 3,
+      "seasonId": 35
+    },
+    {
+      "userId": 3,
+      "seasonId": 52
+    },
+    {
+      "userId": 3,
+      "seasonId": 45
+    },
+    {
+      "userId": 3,
+      "seasonId": 121
+    },
+    {
+      "userId": 3,
+      "seasonId": 135
+    },
+    {
+      "userId": 3,
+      "seasonId": 50
+    },
+    {
+      "userId": 3,
+      "seasonId": 96
+    },
+    {
+      "userId": 3,
+      "seasonId": 85
+    },
+    {
+      "userId": 3,
+      "seasonId": 8
+    },
+    {
+      "userId": 3,
+      "seasonId": 97
+    },
+    {
+      "userId": 3,
+      "seasonId": 131
+    },
+    {
+      "userId": 3,
+      "seasonId": 47
+    },
+    {
+      "userId": 3,
+      "seasonId": 42
+    },
+    {
+      "userId": 3,
+      "seasonId": 82
+    },
+    {
+      "userId": 3,
+      "seasonId": 93
+    },
+    {
+      "userId": 3,
+      "seasonId": 28
+    },
+    {
+      "userId": 3,
+      "seasonId": 118
+    },
+    {
+      "userId": 3,
+      "seasonId": 134
+    },
+    {
+      "userId": 3,
+      "seasonId": 129
+    },
+    {
+      "userId": 3,
+      "seasonId": 101
+    },
+    {
+      "userId": 3,
+      "seasonId": 141
+    },
+    {
+      "userId": 3,
+      "seasonId": 7
+    },
+    {
+      "userId": 3,
+      "seasonId": 114
+    },
+    {
+      "userId": 3,
+      "seasonId": 49
+    },
+    {
+      "userId": 3,
+      "seasonId": 10
+    },
+    {
+      "userId": 3,
+      "seasonId": 41
+    },
+    {
+      "userId": 3,
+      "seasonId": 100
+    },
+    {
+      "userId": 3,
+      "seasonId": 23
+    },
+    {
+      "userId": 3,
+      "seasonId": 30
+    },
+    {
+      "userId": 3,
+      "seasonId": 150
+    },
+    {
+      "userId": 4,
+      "seasonId": 63
+    },
+    {
+      "userId": 4,
+      "seasonId": 111
+    },
+    {
+      "userId": 4,
+      "seasonId": 95
+    },
+    {
+      "userId": 4,
+      "seasonId": 128
+    },
+    {
+      "userId": 4,
+      "seasonId": 98
+    },
+    {
+      "userId": 4,
+      "seasonId": 100
+    },
+    {
+      "userId": 4,
+      "seasonId": 75
+    },
+    {
+      "userId": 4,
+      "seasonId": 78
+    },
+    {
+      "userId": 4,
+      "seasonId": 1
+    },
+    {
+      "userId": 4,
+      "seasonId": 148
+    },
+    {
+      "userId": 4,
+      "seasonId": 117
+    },
+    {
+      "userId": 4,
+      "seasonId": 77
+    },
+    {
+      "userId": 4,
+      "seasonId": 58
+    },
+    {
+      "userId": 4,
+      "seasonId": 45
+    },
+    {
+      "userId": 4,
+      "seasonId": 138
+    },
+    {
+      "userId": 4,
+      "seasonId": 135
+    },
+    {
+      "userId": 4,
+      "seasonId": 21
+    },
+    {
+      "userId": 4,
+      "seasonId": 84
+    },
+    {
+      "userId": 4,
+      "seasonId": 150
+    },
+    {
+      "userId": 4,
+      "seasonId": 23
+    },
+    {
+      "userId": 4,
+      "seasonId": 57
+    },
+    {
+      "userId": 4,
+      "seasonId": 30
+    },
+    {
+      "userId": 4,
+      "seasonId": 86
+    },
+    {
+      "userId": 4,
+      "seasonId": 82
+    },
+    {
+      "userId": 4,
+      "seasonId": 92
+    },
+    {
+      "userId": 4,
+      "seasonId": 38
+    },
+    {
+      "userId": 4,
+      "seasonId": 87
+    },
+    {
+      "userId": 4,
+      "seasonId": 73
+    },
+    {
+      "userId": 4,
+      "seasonId": 32
+    },
+    {
+      "userId": 4,
+      "seasonId": 41
+    },
+    {
+      "userId": 4,
+      "seasonId": 15
+    },
+    {
+      "userId": 4,
+      "seasonId": 68
+    },
+    {
+      "userId": 4,
+      "seasonId": 8
+    },
+    {
+      "userId": 4,
+      "seasonId": 90
+    },
+    {
+      "userId": 4,
+      "seasonId": 115
+    },
+    {
+      "userId": 4,
+      "seasonId": 120
+    },
+    {
+      "userId": 4,
+      "seasonId": 91
+    },
+    {
+      "userId": 4,
+      "seasonId": 109
+    },
+    {
+      "userId": 5,
+      "seasonId": 134
+    },
+    {
+      "userId": 5,
+      "seasonId": 41
+    },
+    {
+      "userId": 5,
+      "seasonId": 20
+    },
+    {
+      "userId": 5,
+      "seasonId": 14
+    },
+    {
+      "userId": 5,
+      "seasonId": 17
+    },
+    {
+      "userId": 5,
+      "seasonId": 29
+    },
+    {
+      "userId": 5,
+      "seasonId": 8
+    },
+    {
+      "userId": 5,
+      "seasonId": 93
+    },
+    {
+      "userId": 5,
+      "seasonId": 88
+    },
+    {
+      "userId": 5,
+      "seasonId": 63
+    },
+    {
+      "userId": 5,
+      "seasonId": 39
+    },
+    {
+      "userId": 5,
+      "seasonId": 4
+    },
+    {
+      "userId": 5,
+      "seasonId": 146
+    },
+    {
+      "userId": 5,
+      "seasonId": 95
+    },
+    {
+      "userId": 5,
+      "seasonId": 18
+    },
+    {
+      "userId": 5,
+      "seasonId": 67
+    },
+    {
+      "userId": 5,
+      "seasonId": 2
+    },
+    {
+      "userId": 5,
+      "seasonId": 150
+    },
+    {
+      "userId": 5,
+      "seasonId": 66
+    },
+    {
+      "userId": 5,
+      "seasonId": 50
+    },
+    {
+      "userId": 5,
+      "seasonId": 102
+    },
+    {
+      "userId": 5,
+      "seasonId": 142
+    },
+    {
+      "userId": 5,
+      "seasonId": 91
+    },
+    {
+      "userId": 5,
+      "seasonId": 106
+    },
+    {
+      "userId": 5,
+      "seasonId": 138
+    },
+    {
+      "userId": 5,
+      "seasonId": 92
+    },
+    {
+      "userId": 5,
+      "seasonId": 152
+    },
+    {
+      "userId": 5,
+      "seasonId": 38
+    },
+    {
+      "userId": 5,
+      "seasonId": 140
+    },
+    {
+      "userId": 5,
+      "seasonId": 80
+    },
+    {
+      "userId": 5,
+      "seasonId": 149
+    },
+    {
+      "userId": 5,
+      "seasonId": 52
+    },
+    {
+      "userId": 5,
+      "seasonId": 90
+    },
+    {
+      "userId": 6,
+      "seasonId": 104
+    },
+    {
+      "userId": 6,
+      "seasonId": 8
+    },
+    {
+      "userId": 6,
+      "seasonId": 145
+    },
+    {
+      "userId": 6,
+      "seasonId": 152
+    },
+    {
+      "userId": 6,
+      "seasonId": 118
+    },
+    {
+      "userId": 6,
+      "seasonId": 57
+    },
+    {
+      "userId": 6,
+      "seasonId": 122
+    },
+    {
+      "userId": 6,
+      "seasonId": 34
+    },
+    {
+      "userId": 6,
+      "seasonId": 135
+    },
+    {
+      "userId": 6,
+      "seasonId": 150
+    },
+    {
+      "userId": 6,
+      "seasonId": 91
+    },
+    {
+      "userId": 6,
+      "seasonId": 17
+    },
+    {
+      "userId": 6,
+      "seasonId": 127
+    },
+    {
+      "userId": 6,
+      "seasonId": 44
+    },
+    {
+      "userId": 6,
+      "seasonId": 139
+    },
+    {
+      "userId": 6,
+      "seasonId": 21
+    },
+    {
+      "userId": 6,
+      "seasonId": 35
+    },
+    {
+      "userId": 6,
+      "seasonId": 119
+    },
+    {
+      "userId": 6,
+      "seasonId": 32
+    },
+    {
+      "userId": 6,
+      "seasonId": 97
+    },
+    {
+      "userId": 6,
+      "seasonId": 29
+    },
+    {
+      "userId": 6,
+      "seasonId": 60
+    },
+    {
+      "userId": 6,
+      "seasonId": 48
+    },
+    {
+      "userId": 6,
+      "seasonId": 147
+    },
+    {
+      "userId": 6,
+      "seasonId": 3
+    },
+    {
+      "userId": 6,
+      "seasonId": 125
+    },
+    {
+      "userId": 6,
+      "seasonId": 65
+    },
+    {
+      "userId": 6,
+      "seasonId": 131
+    },
+    {
+      "userId": 6,
+      "seasonId": 30
+    },
+    {
+      "userId": 6,
+      "seasonId": 94
+    },
+    {
+      "userId": 6,
+      "seasonId": 133
+    },
+    {
+      "userId": 6,
+      "seasonId": 12
+    },
+    {
+      "userId": 6,
+      "seasonId": 105
+    },
+    {
+      "userId": 6,
+      "seasonId": 46
+    },
+    {
+      "userId": 7,
+      "seasonId": 2
+    },
+    {
+      "userId": 7,
+      "seasonId": 14
+    },
+    {
+      "userId": 7,
+      "seasonId": 134
+    },
+    {
+      "userId": 7,
+      "seasonId": 145
+    },
+    {
+      "userId": 7,
+      "seasonId": 49
+    },
+    {
+      "userId": 7,
+      "seasonId": 67
+    },
+    {
+      "userId": 7,
+      "seasonId": 72
+    },
+    {
+      "userId": 7,
+      "seasonId": 1
+    },
+    {
+      "userId": 7,
+      "seasonId": 140
+    },
+    {
+      "userId": 7,
+      "seasonId": 29
+    },
+    {
+      "userId": 7,
+      "seasonId": 47
+    },
+    {
+      "userId": 7,
+      "seasonId": 26
+    },
+    {
+      "userId": 7,
+      "seasonId": 86
+    },
+    {
+      "userId": 7,
+      "seasonId": 52
+    },
+    {
+      "userId": 7,
+      "seasonId": 55
+    },
+    {
+      "userId": 7,
+      "seasonId": 117
+    },
+    {
+      "userId": 7,
+      "seasonId": 41
+    },
+    {
+      "userId": 7,
+      "seasonId": 30
+    },
+    {
+      "userId": 7,
+      "seasonId": 126
+    },
+    {
+      "userId": 7,
+      "seasonId": 133
+    },
+    {
+      "userId": 7,
+      "seasonId": 128
+    },
+    {
+      "userId": 7,
+      "seasonId": 8
+    },
+    {
+      "userId": 7,
+      "seasonId": 56
+    },
+    {
+      "userId": 7,
+      "seasonId": 146
+    },
+    {
+      "userId": 7,
+      "seasonId": 151
+    },
+    {
+      "userId": 7,
+      "seasonId": 21
+    },
+    {
+      "userId": 7,
+      "seasonId": 22
+    },
+    {
+      "userId": 8,
+      "seasonId": 111
+    },
+    {
+      "userId": 8,
+      "seasonId": 97
+    },
+    {
+      "userId": 8,
+      "seasonId": 80
+    },
+    {
+      "userId": 8,
+      "seasonId": 50
+    },
+    {
+      "userId": 8,
+      "seasonId": 6
+    },
+    {
+      "userId": 8,
+      "seasonId": 16
+    },
+    {
+      "userId": 8,
+      "seasonId": 143
+    },
+    {
+      "userId": 8,
+      "seasonId": 25
+    },
+    {
+      "userId": 8,
+      "seasonId": 85
+    },
+    {
+      "userId": 8,
+      "seasonId": 71
+    },
+    {
+      "userId": 8,
+      "seasonId": 18
+    },
+    {
+      "userId": 8,
+      "seasonId": 53
+    },
+    {
+      "userId": 8,
+      "seasonId": 8
+    },
+    {
+      "userId": 8,
+      "seasonId": 52
+    },
+    {
+      "userId": 8,
+      "seasonId": 101
+    },
+    {
+      "userId": 8,
+      "seasonId": 56
+    },
+    {
+      "userId": 8,
+      "seasonId": 72
+    },
+    {
+      "userId": 8,
+      "seasonId": 95
+    },
+    {
+      "userId": 8,
+      "seasonId": 28
+    },
+    {
+      "userId": 8,
+      "seasonId": 117
+    },
+    {
+      "userId": 8,
+      "seasonId": 84
+    },
+    {
+      "userId": 8,
+      "seasonId": 115
+    },
+    {
+      "userId": 8,
+      "seasonId": 33
+    },
+    {
+      "userId": 8,
+      "seasonId": 140
+    },
+    {
+      "userId": 8,
+      "seasonId": 68
+    },
+    {
+      "userId": 8,
+      "seasonId": 127
+    },
+    {
+      "userId": 8,
+      "seasonId": 17
+    },
+    {
+      "userId": 8,
+      "seasonId": 124
+    },
+    {
+      "userId": 8,
+      "seasonId": 70
+    },
+    {
+      "userId": 8,
+      "seasonId": 145
+    },
+    {
+      "userId": 8,
+      "seasonId": 35
+    },
+    {
+      "userId": 8,
+      "seasonId": 67
+    },
+    {
+      "userId": 8,
+      "seasonId": 112
+    },
+    {
+      "userId": 8,
+      "seasonId": 69
+    },
+    {
+      "userId": 8,
+      "seasonId": 94
+    },
+    {
+      "userId": 8,
+      "seasonId": 27
+    },
+    {
+      "userId": 8,
+      "seasonId": 37
+    },
+    {
+      "userId": 9,
+      "seasonId": 127
+    },
+    {
+      "userId": 9,
+      "seasonId": 107
+    },
+    {
+      "userId": 9,
+      "seasonId": 131
+    },
+    {
+      "userId": 9,
+      "seasonId": 71
+    },
+    {
+      "userId": 9,
+      "seasonId": 42
+    },
+    {
+      "userId": 9,
+      "seasonId": 128
+    },
+    {
+      "userId": 9,
+      "seasonId": 53
+    },
+    {
+      "userId": 9,
+      "seasonId": 81
+    },
+    {
+      "userId": 9,
+      "seasonId": 79
+    },
+    {
+      "userId": 9,
+      "seasonId": 122
+    },
+    {
+      "userId": 9,
+      "seasonId": 23
+    },
+    {
+      "userId": 9,
+      "seasonId": 144
+    },
+    {
+      "userId": 9,
+      "seasonId": 38
+    },
+    {
+      "userId": 9,
+      "seasonId": 8
+    },
+    {
+      "userId": 9,
+      "seasonId": 51
+    },
+    {
+      "userId": 9,
+      "seasonId": 111
+    },
+    {
+      "userId": 9,
+      "seasonId": 136
+    },
+    {
+      "userId": 9,
+      "seasonId": 120
+    },
+    {
+      "userId": 9,
+      "seasonId": 134
+    },
+    {
+      "userId": 9,
+      "seasonId": 58
+    },
+    {
+      "userId": 9,
+      "seasonId": 11
+    },
+    {
+      "userId": 9,
+      "seasonId": 31
+    },
+    {
+      "userId": 9,
+      "seasonId": 92
+    },
+    {
+      "userId": 9,
+      "seasonId": 124
+    },
+    {
+      "userId": 9,
+      "seasonId": 80
+    },
+    {
+      "userId": 9,
+      "seasonId": 68
+    },
+    {
+      "userId": 9,
+      "seasonId": 55
+    },
+    {
+      "userId": 9,
+      "seasonId": 4
+    },
+    {
+      "userId": 9,
+      "seasonId": 141
+    },
+    {
+      "userId": 9,
+      "seasonId": 100
+    },
+    {
+      "userId": 9,
+      "seasonId": 37
+    },
+    {
+      "userId": 9,
+      "seasonId": 93
+    },
+    {
+      "userId": 9,
+      "seasonId": 143
+    },
+    {
+      "userId": 9,
+      "seasonId": 50
+    },
+    {
+      "userId": 9,
+      "seasonId": 114
+    },
+    {
+      "userId": 9,
+      "seasonId": 12
+    },
+    {
+      "userId": 9,
+      "seasonId": 13
+    },
+    {
+      "userId": 9,
+      "seasonId": 142
+    },
+    {
+      "userId": 9,
+      "seasonId": 96
+    },
+    {
+      "userId": 9,
+      "seasonId": 46
+    },
+    {
+      "userId": 10,
+      "seasonId": 88
+    },
+    {
+      "userId": 10,
+      "seasonId": 41
+    },
+    {
+      "userId": 10,
+      "seasonId": 75
+    },
+    {
+      "userId": 10,
+      "seasonId": 108
+    },
+    {
+      "userId": 10,
+      "seasonId": 80
+    },
+    {
+      "userId": 10,
+      "seasonId": 36
+    },
+    {
+      "userId": 10,
+      "seasonId": 67
+    },
+    {
+      "userId": 10,
+      "seasonId": 101
+    },
+    {
+      "userId": 10,
+      "seasonId": 5
+    },
+    {
+      "userId": 10,
+      "seasonId": 61
+    },
+    {
+      "userId": 10,
+      "seasonId": 59
+    },
+    {
+      "userId": 10,
+      "seasonId": 134
+    },
+    {
+      "userId": 10,
+      "seasonId": 60
+    },
+    {
+      "userId": 10,
+      "seasonId": 107
+    },
+    {
+      "userId": 10,
+      "seasonId": 121
+    },
+    {
+      "userId": 10,
+      "seasonId": 70
+    },
+    {
+      "userId": 10,
+      "seasonId": 11
+    },
+    {
+      "userId": 10,
+      "seasonId": 51
+    },
+    {
+      "userId": 10,
+      "seasonId": 18
+    },
+    {
+      "userId": 10,
+      "seasonId": 72
+    },
+    {
+      "userId": 10,
+      "seasonId": 124
+    },
+    {
+      "userId": 10,
+      "seasonId": 22
+    }
+  ]);
 } catch (error) { // <-- THÊM KHỐI CODE NÀY VÀO
   console.error('Lỗi chi tiết khi seeding:', error);
   throw error;

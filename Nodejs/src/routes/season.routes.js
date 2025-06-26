@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const controller = require("../controllers/season.Controller");
 const authMiddleware = require("../middleware/authMiddleware");
+const { checkPermission } = require("../middleware/permissionMiddleware");
 
 // Public routes
 router.get("/trending", controller.getTrendingSeasons);
@@ -20,8 +21,14 @@ router.get("/movie/:movieId", controller.getSeasonsByMovie);
 router.get("/:id", controller.getSeasonById);
 
 // Protected routes
-router.post("/:movieId", authMiddleware.protect("admin", "moderator"), controller.createSeason);
-router.put("/:id", authMiddleware.protect("admin", "moderator"), controller.updateSeason);
-router.delete("/:id", authMiddleware.protect("admin"), controller.deleteSeason);
+router.post("/:movieId", authMiddleware.protect(), authMiddleware.restrictTo("admin", "moderator"), controller.createSeason);
+router.put("/:id", authMiddleware.protect(), authMiddleware.restrictTo("admin", "moderator"), controller.updateSeason);
+router.delete(
+  "/:id", 
+  authMiddleware.protect(), 
+  authMiddleware.restrictTo("admin", "moderator"), 
+  checkPermission('canDeleteMovie'), 
+  controller.deleteSeason
+);
 
 module.exports = router;

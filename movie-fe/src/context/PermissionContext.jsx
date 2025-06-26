@@ -20,27 +20,22 @@ export const PermissionProvider = ({ children }) => {
       }
       setLoading(true);
       try {
-        // Nếu là admin, trả về tất cả quyền true (có thể tùy chỉnh theo backend)
-        if (user.role === "admin") {
-          setPermissions({
-            canDeleteMovie: true,
-            canManageComment: true,
-            canViewReport: true,
-            // ... thêm các quyền khác nếu có
-          });
-        } else {
-          // Lấy quyền chi tiết từ backend
-          const res = await axiosInstance.get(`/api/user/permissions/${user.id}`);
-          setPermissions(res.data);
-        }
+        // Luôn lấy quyền từ backend. 
+        // Backend sẽ tự xử lý logic trả về tất cả quyền cho admin.
+        const res = await axiosInstance.get(`/api/user/permissions/${user.id}`);
+        setPermissions(res.data);
       } catch {
         setPermissions({});
       } finally {
         setLoading(false);
       }
     };
-    fetchPermissions();
-  }, [user, isAuthenticated]);
+
+    // Chỉ chạy khi có user và không còn trong trạng thái loading auth
+    if (!authLoading) {
+        fetchPermissions();
+    }
+  }, [user, isAuthenticated, authLoading]);
 
   return (
     <PermissionContext.Provider value={{ permissions, loading }}>

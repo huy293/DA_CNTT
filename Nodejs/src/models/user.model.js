@@ -45,6 +45,30 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'User',
+    hooks: {
+      afterCreate: async (user, options) => {
+        if (user.role === 'moderator') {
+          // Tự động tạo record permission cho moderator mới
+          await sequelize.models.Permission.create({ userId: user.id });
+        }
+      },
+      afterUpdate: async (user, options) => {
+        // Kiểm tra xem trường role có bị thay đổi không
+        if (user.changed('role')) {
+          if (user.role === 'moderator') {
+            // Nếu user được nâng cấp lên moderator, tìm hoặc tạo record permission
+            await sequelize.models.Permission.findOrCreate({
+              where: { userId: user.id },
+            });
+          } else if (user.previous('role') === 'moderator') {
+            // Nếu user bị giáng cấp từ moderator, xóa record permission
+            await sequelize.models.Permission.destroy({
+              where: { userId: user.id },
+            });
+          }
+        }
+      }
+    }
   });
   return User;
 };

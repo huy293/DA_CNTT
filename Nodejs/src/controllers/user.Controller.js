@@ -278,12 +278,22 @@ exports.getPermissions = async (req, res) => {
 
 exports.updatePermissions = async (req, res) => {
   try {
-    const perm = await userService.updatePermissions(req.params.userId, req.body);
+    const { userId } = req.params;
+    const permissionUpdates = req.body;
+
+    // Logic kiểm tra quyền đặc biệt: Chỉ Super Admin mới được cấp/thu hồi quyền canManageUsers
+    if (permissionUpdates.hasOwnProperty('canManageUsers') && !req.user.isSuperAdmin) {
+      return res.status(403).json({ 
+        message: "Bạn không có quyền cấp hoặc thu hồi quyền quản lý người dùng." 
+      });
+    }
+
+    const perm = await userService.updatePermissions(userId, permissionUpdates);
 
     // Ghi log khi cập nhật phân quyền
     await Log.create({
       userId: req.user.id,
-      action: `Cập nhật phân quyền chi tiết cho user ${req.params.userId}: ${JSON.stringify(req.body)}`,
+      action: `Cập nhật phân quyền chi tiết cho user ${userId}: ${JSON.stringify(permissionUpdates)}`,
       time: new Date()
     });
 

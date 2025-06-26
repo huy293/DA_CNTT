@@ -5,8 +5,18 @@ import { formatDateTime } from "../../../utils/dateUtils";
 
 // Danh sách từ khóa cấm
 const BAD_WORDS = [
-  "bậy", "tục", "địt", "lồn", "cặc", "đéo", "vkl", "vl", "cc", "ngu", "chửi", "fuck", "shit"
+  // Tiếng Việt
+  "bậy", "tục", "địt", "lồn", "loz", "l0n", "dái", "cặc", "cẹc", "đéo", "đ**", "vkl", "vl", "cc",
+  "ngu", "chửi", "chó", "đĩ", "điếm", "bú", "phò", "đú", "rặn", "ỉa", "đái", "dâm", "dâm đãng", "đú", "thẩm du",
+
+  // Viết tắt/nói lái/biến thể
+  "ncc", "nó cặc", "clgt", "clm", "vcl", "dm", "dmm", "má mày", "mẹ mày", "mày chết", "tao giết",
+  "loz", "l0z", "lồn", "lờn", "lon", "buồi", "bủi", "bú lol", "bú loz", "xàm lol", "xàm lồn",
+
+  // Tiếng Anh (thường dùng xen kẽ)
+  "fuck", "shit", "asshole", "dick", "bitch", "bastard", "slut", "damn", "pussy", "motherfucker", "f u", "f*ck", "s h i t"
 ];
+
 
 const containsBadWord = (content) => {
   if (!content) return false;

@@ -32,9 +32,7 @@ exports.updatePermissions = async (userId, updates) => {
 
 exports.getPermissions = async (userId) => {
     const user = await User.findByPk(userId);
-    if (!user) {
-        throw new Error('User not found');
-    }
+    if (!user) throw new Error('User not found');
 
     if (user.role === 'admin' || user.isSuperAdmin) {
         // Admin và SuperAdmin có tất cả các quyền

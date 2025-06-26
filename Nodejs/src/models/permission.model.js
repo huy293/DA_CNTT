@@ -5,6 +5,21 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       unique: true
     },
+    // Quyền cho Movie Center
+    canManageMovies: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false
+    },
+    // Quyền cho User & Interaction
+    canManageUsers: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false
+    },
+    // Quyền cho System Settings
+    canManageSettings: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false
+    },
     canDeleteMovie: {
       type: DataTypes.BOOLEAN,
       defaultValue: false

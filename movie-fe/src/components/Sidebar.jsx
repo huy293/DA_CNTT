@@ -1,7 +1,6 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { usePermission } from "../../context/PermissionContext";
+import { usePermission } from "../context/PermissionContext";
 
 // Component cho một mục menu có kiểm tra quyền
 const SidebarItem = ({ to, permission, children }) => {
