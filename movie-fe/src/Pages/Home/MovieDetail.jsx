@@ -9,7 +9,7 @@ import { vi } from 'date-fns/locale';
 import Login from '../../components/Modal/Login';
 import { formatRelativeTime } from "../../utils/dateUtils";
 import { useFavorite } from '../../context/FavoriteContext';
-import { FaStar, FaHeart, FaRegHeart } from 'react-icons/fa';
+import { FaStar, FaHeart, FaRegHeart, FaEye, FaClock } from 'react-icons/fa';
 
 const MovieDetail = () => {
   const { id } = useParams();
@@ -308,17 +308,30 @@ const MovieDetail = () => {
             <div className="md:w-3/4">
               {/* Thông tin chi tiết */}
               <div className="mb-8">
-                <h1 className="text-4xl font-bold mb-2">{season?.Movie?.title} - {season?.title}</h1>
-                <div className="flex flex-wrap gap-4 mb-2 text-gray-300">
-                  <span><b>Season:</b> {season?.season_number}</span>
-                  <span><b>Trạng thái:</b> {season?.status === 'upcoming' ? 'Sắp chiếu' : season?.status === 'ongoing' ? 'Đang chiếu' : 'Hoàn thành'}</span>
-                  <span><b>Thể loại:</b> {season?.Movie?.MovieGenres?.map(mg => mg.Genre?.name).join(', ')}</span>
-                  <span><b>Năm:</b> {season?.release_date ? new Date(season.release_date).getFullYear() : ''}</span>
-                  <span><b>Số tập:</b> {season?.Episodes?.length || 0}</span>
-                  <span><b>Lượt xem:</b> {season?.viewCount || 0}</span>
-                  <span><b>Yêu thích:</b> {season?.favoriteCount || 0}</span>
-                  <span><b>Điểm:</b> {season?.rating || 0}/5</span>
-                  <span><b>Thời lượng:</b> {season?.runtime ? `${season.runtime} phút/tập` : 'Đang cập nhật'}</span>
+                <h1 className="text-4xl md:text-5xl font-extrabold mb-2 drop-shadow-lg">
+                  {season?.Movie?.title || season?.title} <span className="text-gray-400 font-bold">- {season?.release_date ? new Date(season.release_date).getFullYear() : ''}</span>
+                </h1>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                  <div className="bg-gray-800 p-4 rounded-xl text-center shadow-lg">
+                    <FaEye className="w-6 h-6 mx-auto mb-2 text-blue-400" />
+                    <div className="text-sm text-gray-300">Lượt xem</div>
+                    <div className="font-bold text-xl">{season?.viewCount || 0}</div>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-xl text-center shadow-lg">
+                    <FaHeart className="w-6 h-6 mx-auto mb-2 text-pink-400" />
+                    <div className="text-sm text-gray-300">Yêu thích</div>
+                    <div className="font-bold text-xl">{season?.favoriteCount || 0}</div>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-xl text-center shadow-lg">
+                    <FaStar className="w-6 h-6 mx-auto mb-2 text-yellow-400" />
+                    <div className="text-sm text-gray-300">Điểm</div>
+                    <div className="font-bold text-xl">{season?.rating ? `${season.rating}/5` : 'Chưa có'}</div>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-xl text-center shadow-lg">
+                    <FaClock className="w-6 h-6 mx-auto mb-2 text-green-400" />
+                    <div className="text-sm text-gray-300">Thời lượng</div>
+                    <div className="font-bold text-xl">{season?.runtime ? `${season.runtime} phút` : 'Đang cập nhật'}</div>
+                  </div>
                 </div>
                 <div className="mb-2 text-gray-300">
                   <b>Mô tả:</b> {season?.overview || season?.description || 'Chưa có mô tả'}
@@ -379,51 +392,87 @@ const MovieDetail = () => {
                   </div>
                 )}
               </div>
-              {/* Danh sách tập phim */}
-              <div>
-                <h2 className="text-2xl font-bold mb-4">Danh sách tập phim</h2>
-                <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
-                  {season?.Episodes?.map((episode) => (
-                    <div
-                      key={episode.id}
-                      className="bg-gray-800 rounded-lg p-2 cursor-pointer hover:bg-gray-700"
-                      onClick={() => navigate(`/watch/${season.id}/${episode.id}`)}
-                    >
-                      <div className="flex items-center gap-2">
-                        <div className="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                          <span className="text-base font-bold">{episode.episode_number}</span>
-                        </div>
-                        <div className="flex-grow min-w-0">
-                          <h3 className="text-sm font-semibold">Tập {episode.episode_number}</h3>
-                          <p className="text-xs text-gray-400 line-clamp-1">{episode.title}</p>
-                          <div className="text-xs text-gray-500">
-                            {episode.runtime} phút
+              {/* Episodes */}
+              {season.Episodes && season.Episodes.length > 0 && (
+                <div className="mb-6">
+                  <h3 className="text-lg font-semibold mb-2 text-cyan-400">Danh sách tập:</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {season.Episodes.map((episode, index) => (
+                      <div 
+                        key={episode.id}
+                        className="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer transition-colors"
+                        onClick={() => navigate(`/watch/${season.id}/${episode.id}`)}
+                      >
+                        <div className="flex items-center gap-2">
+                          <div className="w-8 h-8 bg-gray-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <span className="text-sm font-bold">{episode.episode_number}</span>
+                          </div>
+                          <div className="flex-grow min-w-0">
+                            <p className="text-sm font-semibold text-white">Tập {episode.episode_number}</p>
+                            {episode.title && (
+                              <p className="text-xs text-gray-400 line-clamp-1">{episode.title}</p>
+                            )}
+                            {episode.runtime && (
+                              <div className="text-xs text-gray-500">{episode.runtime} phút</div>
+                            )}
                           </div>
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
+              {/* Genres */}
+              {season.Movie?.MovieGenres && season.Movie.MovieGenres.length > 0 && (
+                <div className="mb-6">
+                  <h3 className="text-lg font-semibold mb-2 text-yellow-400">Thể loại:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {season.Movie.MovieGenres.map((mg, index) => (
+                      <span key={index} className="bg-red-600 px-3 py-1 rounded-full text-sm">
+                        {mg.Genre?.name}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Overview */}
+              {season.overview && (
+                <div className="mb-6">
+                  <h3 className="text-lg font-semibold mb-2 text-cyan-400">Tóm tắt:</h3>
+                  <p className="text-gray-300 leading-relaxed">{season.overview}</p>
+                </div>
+              )}
+
               {/* Cast */}
               {season.MovieActors && season.MovieActors.length > 0 && (
                 <div className="mb-6">
-                  <h3 className="text-lg font-semibold mb-2">Diễn viên:</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-pink-400">Diễn viên:</h3>
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                     {season.MovieActors.slice(0, 6).map((actor, index) => (
                       actor.People && (
                         <div 
                           key={index}
-                          className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
+                          className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer transition-colors"
                           onClick={() => navigate(`/people/${actor.People.id}`)}
                         >
-                          <img 
-                            src={actor.People?.profile_url || '/default-avatar.png'} 
-                            alt={actor.People?.name}
-                            className="w-8 h-8 rounded-full object-cover"
-                          />
+                          <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center flex-shrink-0">
+                            {actor.People?.profile_url ? (
+                              <img 
+                                src={actor.People.profile_url} 
+                                alt={actor.People.name}
+                                className="w-8 h-8 rounded-full object-cover"
+                              />
+                            ) : (
+                              <span className="text-sm font-bold text-gray-400">
+                                {actor.People?.name?.charAt(0)?.toUpperCase()}
+                              </span>
+                            )}
+                          </div>
                           <div>
-                            <div className="text-sm font-medium">{actor.People?.name}</div>
+                            <div className="text-sm font-medium text-white hover:text-blue-400">
+                              {actor.People?.name}
+                            </div>
                             {actor.role && <div className="text-xs text-gray-400">Vai: {actor.role}</div>}
                           </div>
                         </div>
@@ -441,22 +490,32 @@ const MovieDetail = () => {
               {/* Crew */}
               {season.MovieCrews && season.MovieCrews.length > 0 && (
                 <div className="mb-6">
-                  <h3 className="text-lg font-semibold mb-2">Đạo diễn & Ekip:</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-cyan-400">Đạo diễn & Ekip:</h3>
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                     {season.MovieCrews.slice(0, 6).map((crew, index) => (
                       crew.People && (
                         <div 
                           key={index}
-                          className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
+                          className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer transition-colors"
                           onClick={() => navigate(`/people/${crew.People.id}`)}
                         >
-                          <img 
-                            src={crew.People?.profile_url || '/default-avatar.png'} 
-                            alt={crew.People?.name}
-                            className="w-8 h-8 rounded-full object-cover"
-                          />
+                          <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center flex-shrink-0">
+                            {crew.People?.profile_url ? (
+                              <img 
+                                src={crew.People.profile_url} 
+                                alt={crew.People.name}
+                                className="w-8 h-8 rounded-full object-cover"
+                              />
+                            ) : (
+                              <span className="text-sm font-bold text-gray-400">
+                                {crew.People?.name?.charAt(0)?.toUpperCase()}
+                              </span>
+                            )}
+                          </div>
                           <div>
-                            <div className="text-sm font-medium">{crew.People?.name}</div>
+                            <div className="text-sm font-medium text-white hover:text-blue-400">
+                              {crew.People?.name}
+                            </div>
                             {crew.job && <div className="text-xs text-gray-400">Vai trò: {crew.job}</div>}
                           </div>
                         </div>

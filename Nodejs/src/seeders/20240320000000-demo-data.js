@@ -15662,7 +15662,7 @@ module.exports = {
       "id": 151,
       "userId": 5,
       "seasonId": 31,
-      "rating": 7.1,
+      "rating": 2.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15670,7 +15670,7 @@ module.exports = {
       "id": 152,
       "userId": 6,
       "seasonId": 31,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15678,7 +15678,7 @@ module.exports = {
       "id": 153,
       "userId": 9,
       "seasonId": 31,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15686,7 +15686,7 @@ module.exports = {
       "id": 154,
       "userId": 8,
       "seasonId": 31,
-      "rating": 7.4,
+      "rating": 2.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15694,7 +15694,7 @@ module.exports = {
       "id": 155,
       "userId": 6,
       "seasonId": 31,
-      "rating": 9.9,
+      "rating": 5.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15702,7 +15702,7 @@ module.exports = {
       "id": 156,
       "userId": 5,
       "seasonId": 32,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15710,7 +15710,7 @@ module.exports = {
       "id": 157,
       "userId": 6,
       "seasonId": 32,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15718,7 +15718,7 @@ module.exports = {
       "id": 158,
       "userId": 3,
       "seasonId": 32,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15726,7 +15726,7 @@ module.exports = {
       "id": 159,
       "userId": 6,
       "seasonId": 32,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15734,7 +15734,7 @@ module.exports = {
       "id": 160,
       "userId": 5,
       "seasonId": 32,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15742,7 +15742,7 @@ module.exports = {
       "id": 161,
       "userId": 3,
       "seasonId": 33,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15750,7 +15750,7 @@ module.exports = {
       "id": 162,
       "userId": 9,
       "seasonId": 33,
-      "rating": 7.4,
+      "rating": 2.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15758,7 +15758,7 @@ module.exports = {
       "id": 163,
       "userId": 5,
       "seasonId": 33,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15766,7 +15766,7 @@ module.exports = {
       "id": 164,
       "userId": 1,
       "seasonId": 33,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15774,7 +15774,7 @@ module.exports = {
       "id": 165,
       "userId": 6,
       "seasonId": 33,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15782,7 +15782,7 @@ module.exports = {
       "id": 166,
       "userId": 9,
       "seasonId": 34,
-      "rating": 7.1,
+      "rating": 2.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15790,7 +15790,7 @@ module.exports = {
       "id": 167,
       "userId": 3,
       "seasonId": 34,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15798,7 +15798,7 @@ module.exports = {
       "id": 168,
       "userId": 5,
       "seasonId": 34,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15806,7 +15806,7 @@ module.exports = {
       "id": 169,
       "userId": 5,
       "seasonId": 34,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15814,7 +15814,7 @@ module.exports = {
       "id": 170,
       "userId": 10,
       "seasonId": 34,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15822,7 +15822,7 @@ module.exports = {
       "id": 171,
       "userId": 6,
       "seasonId": 35,
-      "rating": 6.5,
+      "rating": 2.0,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15830,7 +15830,7 @@ module.exports = {
       "id": 172,
       "userId": 1,
       "seasonId": 35,
-      "rating": 7.4,
+      "rating": 2.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15838,7 +15838,7 @@ module.exports = {
       "id": 173,
       "userId": 8,
       "seasonId": 35,
-      "rating": 9.2,
+      "rating": 4.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15846,7 +15846,7 @@ module.exports = {
       "id": 174,
       "userId": 8,
       "seasonId": 35,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15854,7 +15854,7 @@ module.exports = {
       "id": 175,
       "userId": 8,
       "seasonId": 35,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15862,7 +15862,7 @@ module.exports = {
       "id": 176,
       "userId": 4,
       "seasonId": 36,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15870,7 +15870,7 @@ module.exports = {
       "id": 177,
       "userId": 4,
       "seasonId": 36,
-      "rating": 7.5,
+      "rating": 3.0,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15878,7 +15878,7 @@ module.exports = {
       "id": 178,
       "userId": 2,
       "seasonId": 36,
-      "rating": 6.7,
+      "rating": 2.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15886,7 +15886,7 @@ module.exports = {
       "id": 179,
       "userId": 8,
       "seasonId": 36,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15894,7 +15894,7 @@ module.exports = {
       "id": 180,
       "userId": 4,
       "seasonId": 36,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15902,7 +15902,7 @@ module.exports = {
       "id": 181,
       "userId": 8,
       "seasonId": 37,
-      "rating": 9.2,
+      "rating": 4.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15910,7 +15910,7 @@ module.exports = {
       "id": 182,
       "userId": 10,
       "seasonId": 37,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15918,7 +15918,7 @@ module.exports = {
       "id": 183,
       "userId": 9,
       "seasonId": 37,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15926,7 +15926,7 @@ module.exports = {
       "id": 184,
       "userId": 2,
       "seasonId": 37,
-      "rating": 6.5,
+      "rating": 2.0,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15934,7 +15934,7 @@ module.exports = {
       "id": 185,
       "userId": 2,
       "seasonId": 37,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15942,7 +15942,7 @@ module.exports = {
       "id": 186,
       "userId": 6,
       "seasonId": 38,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15950,7 +15950,7 @@ module.exports = {
       "id": 187,
       "userId": 6,
       "seasonId": 38,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15958,7 +15958,7 @@ module.exports = {
       "id": 188,
       "userId": 3,
       "seasonId": 38,
-      "rating": 9.5,
+      "rating": 5.0,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15966,7 +15966,7 @@ module.exports = {
       "id": 189,
       "userId": 1,
       "seasonId": 38,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15974,7 +15974,7 @@ module.exports = {
       "id": 190,
       "userId": 10,
       "seasonId": 38,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15982,7 +15982,7 @@ module.exports = {
       "id": 191,
       "userId": 5,
       "seasonId": 39,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15990,7 +15990,7 @@ module.exports = {
       "id": 192,
       "userId": 4,
       "seasonId": 39,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -15998,7 +15998,7 @@ module.exports = {
       "id": 193,
       "userId": 1,
       "seasonId": 39,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16006,7 +16006,7 @@ module.exports = {
       "id": 194,
       "userId": 3,
       "seasonId": 39,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16014,7 +16014,7 @@ module.exports = {
       "id": 195,
       "userId": 9,
       "seasonId": 39,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16022,7 +16022,7 @@ module.exports = {
       "id": 196,
       "userId": 6,
       "seasonId": 40,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16030,7 +16030,7 @@ module.exports = {
       "id": 197,
       "userId": 4,
       "seasonId": 40,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16038,7 +16038,7 @@ module.exports = {
       "id": 198,
       "userId": 8,
       "seasonId": 40,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16046,7 +16046,7 @@ module.exports = {
       "id": 199,
       "userId": 10,
       "seasonId": 40,
-      "rating": 7.4,
+      "rating": 2.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16054,7 +16054,7 @@ module.exports = {
       "id": 200,
       "userId": 7,
       "seasonId": 40,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16062,7 +16062,7 @@ module.exports = {
       "id": 201,
       "userId": 7,
       "seasonId": 41,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16070,7 +16070,7 @@ module.exports = {
       "id": 202,
       "userId": 2,
       "seasonId": 41,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16078,7 +16078,7 @@ module.exports = {
       "id": 203,
       "userId": 8,
       "seasonId": 41,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16086,7 +16086,7 @@ module.exports = {
       "id": 204,
       "userId": 10,
       "seasonId": 41,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16094,7 +16094,7 @@ module.exports = {
       "id": 205,
       "userId": 9,
       "seasonId": 41,
-      "rating": 7.4,
+      "rating": 2.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16102,7 +16102,7 @@ module.exports = {
       "id": 206,
       "userId": 5,
       "seasonId": 42,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16110,7 +16110,7 @@ module.exports = {
       "id": 207,
       "userId": 3,
       "seasonId": 42,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16118,7 +16118,7 @@ module.exports = {
       "id": 208,
       "userId": 4,
       "seasonId": 42,
-      "rating": 9.4,
+      "rating": 4.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16126,7 +16126,7 @@ module.exports = {
       "id": 209,
       "userId": 10,
       "seasonId": 42,
-      "rating": 9.4,
+      "rating": 4.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16134,7 +16134,7 @@ module.exports = {
       "id": 210,
       "userId": 3,
       "seasonId": 42,
-      "rating": 9.5,
+      "rating": 5.0,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16142,7 +16142,7 @@ module.exports = {
       "id": 211,
       "userId": 9,
       "seasonId": 43,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16150,7 +16150,7 @@ module.exports = {
       "id": 212,
       "userId": 2,
       "seasonId": 43,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16158,7 +16158,7 @@ module.exports = {
       "id": 213,
       "userId": 6,
       "seasonId": 43,
-      "rating": 9.2,
+      "rating": 4.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16166,7 +16166,7 @@ module.exports = {
       "id": 214,
       "userId": 2,
       "seasonId": 43,
-      "rating": 6.0,
+      "rating": 1.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16174,7 +16174,7 @@ module.exports = {
       "id": 215,
       "userId": 1,
       "seasonId": 43,
-      "rating": 6.6,
+      "rating": 2.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16182,7 +16182,7 @@ module.exports = {
       "id": 216,
       "userId": 1,
       "seasonId": 44,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16190,7 +16190,7 @@ module.exports = {
       "id": 217,
       "userId": 10,
       "seasonId": 44,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16198,7 +16198,7 @@ module.exports = {
       "id": 218,
       "userId": 7,
       "seasonId": 44,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16206,7 +16206,7 @@ module.exports = {
       "id": 219,
       "userId": 7,
       "seasonId": 44,
-      "rating": 8.1,
+      "rating": 3.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16214,7 +16214,7 @@ module.exports = {
       "id": 220,
       "userId": 4,
       "seasonId": 44,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16222,7 +16222,7 @@ module.exports = {
       "id": 221,
       "userId": 3,
       "seasonId": 45,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16230,7 +16230,7 @@ module.exports = {
       "id": 222,
       "userId": 5,
       "seasonId": 45,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16238,7 +16238,7 @@ module.exports = {
       "id": 223,
       "userId": 6,
       "seasonId": 45,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16246,7 +16246,7 @@ module.exports = {
       "id": 224,
       "userId": 6,
       "seasonId": 45,
-      "rating": 6.6,
+      "rating": 2.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16254,7 +16254,7 @@ module.exports = {
       "id": 225,
       "userId": 5,
       "seasonId": 45,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16262,7 +16262,7 @@ module.exports = {
       "id": 226,
       "userId": 7,
       "seasonId": 46,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16270,7 +16270,7 @@ module.exports = {
       "id": 227,
       "userId": 6,
       "seasonId": 46,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16278,7 +16278,7 @@ module.exports = {
       "id": 228,
       "userId": 5,
       "seasonId": 46,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16286,7 +16286,7 @@ module.exports = {
       "id": 229,
       "userId": 2,
       "seasonId": 46,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16294,7 +16294,7 @@ module.exports = {
       "id": 230,
       "userId": 3,
       "seasonId": 46,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16302,7 +16302,7 @@ module.exports = {
       "id": 231,
       "userId": 9,
       "seasonId": 47,
-      "rating": 6.0,
+      "rating": 1.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16310,7 +16310,7 @@ module.exports = {
       "id": 232,
       "userId": 3,
       "seasonId": 47,
-      "rating": 6.0,
+      "rating": 1.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16318,7 +16318,7 @@ module.exports = {
       "id": 233,
       "userId": 1,
       "seasonId": 47,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16326,7 +16326,7 @@ module.exports = {
       "id": 234,
       "userId": 5,
       "seasonId": 47,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16334,7 +16334,7 @@ module.exports = {
       "id": 235,
       "userId": 2,
       "seasonId": 47,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16342,7 +16342,7 @@ module.exports = {
       "id": 236,
       "userId": 2,
       "seasonId": 48,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16350,7 +16350,7 @@ module.exports = {
       "id": 237,
       "userId": 9,
       "seasonId": 48,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16358,7 +16358,7 @@ module.exports = {
       "id": 238,
       "userId": 4,
       "seasonId": 48,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16366,7 +16366,7 @@ module.exports = {
       "id": 239,
       "userId": 7,
       "seasonId": 48,
-      "rating": 6.5,
+      "rating": 2.0,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16374,7 +16374,7 @@ module.exports = {
       "id": 240,
       "userId": 4,
       "seasonId": 48,
-      "rating": 9.2,
+      "rating": 4.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16382,7 +16382,7 @@ module.exports = {
       "id": 241,
       "userId": 1,
       "seasonId": 49,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16390,7 +16390,7 @@ module.exports = {
       "id": 242,
       "userId": 3,
       "seasonId": 49,
-      "rating": 10.0,
+      "rating": 0.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16398,7 +16398,7 @@ module.exports = {
       "id": 243,
       "userId": 1,
       "seasonId": 49,
-      "rating": 8.5,
+      "rating": 4.0,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16406,7 +16406,7 @@ module.exports = {
       "id": 244,
       "userId": 6,
       "seasonId": 49,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16414,7 +16414,7 @@ module.exports = {
       "id": 245,
       "userId": 10,
       "seasonId": 49,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16422,7 +16422,7 @@ module.exports = {
       "id": 246,
       "userId": 4,
       "seasonId": 50,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16430,7 +16430,7 @@ module.exports = {
       "id": 247,
       "userId": 1,
       "seasonId": 50,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16438,7 +16438,7 @@ module.exports = {
       "id": 248,
       "userId": 4,
       "seasonId": 50,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16446,7 +16446,7 @@ module.exports = {
       "id": 249,
       "userId": 5,
       "seasonId": 50,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16454,7 +16454,7 @@ module.exports = {
       "id": 250,
       "userId": 7,
       "seasonId": 50,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16462,7 +16462,7 @@ module.exports = {
       "id": 251,
       "userId": 3,
       "seasonId": 51,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16470,7 +16470,7 @@ module.exports = {
       "id": 252,
       "userId": 8,
       "seasonId": 51,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16478,7 +16478,7 @@ module.exports = {
       "id": 253,
       "userId": 1,
       "seasonId": 51,
-      "rating": 8.1,
+      "rating": 3.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16486,7 +16486,7 @@ module.exports = {
       "id": 254,
       "userId": 1,
       "seasonId": 51,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16494,7 +16494,7 @@ module.exports = {
       "id": 255,
       "userId": 7,
       "seasonId": 51,
-      "rating": 9.2,
+      "rating": 4.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16502,7 +16502,7 @@ module.exports = {
       "id": 256,
       "userId": 6,
       "seasonId": 52,
-      "rating": 6.5,
+      "rating": 2.0,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16510,7 +16510,7 @@ module.exports = {
       "id": 257,
       "userId": 1,
       "seasonId": 52,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16518,7 +16518,7 @@ module.exports = {
       "id": 258,
       "userId": 8,
       "seasonId": 52,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16526,7 +16526,7 @@ module.exports = {
       "id": 259,
       "userId": 9,
       "seasonId": 52,
-      "rating": 10.0,
+      "rating": 0.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16534,7 +16534,7 @@ module.exports = {
       "id": 260,
       "userId": 6,
       "seasonId": 52,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16542,7 +16542,7 @@ module.exports = {
       "id": 261,
       "userId": 4,
       "seasonId": 53,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16550,7 +16550,7 @@ module.exports = {
       "id": 262,
       "userId": 4,
       "seasonId": 53,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16558,7 +16558,7 @@ module.exports = {
       "id": 263,
       "userId": 7,
       "seasonId": 53,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16566,7 +16566,7 @@ module.exports = {
       "id": 264,
       "userId": 1,
       "seasonId": 53,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16574,7 +16574,7 @@ module.exports = {
       "id": 265,
       "userId": 3,
       "seasonId": 53,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16582,7 +16582,7 @@ module.exports = {
       "id": 266,
       "userId": 1,
       "seasonId": 54,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16590,7 +16590,7 @@ module.exports = {
       "id": 267,
       "userId": 5,
       "seasonId": 54,
-      "rating": 6.0,
+      "rating": 1.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16598,7 +16598,7 @@ module.exports = {
       "id": 268,
       "userId": 3,
       "seasonId": 54,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16606,7 +16606,7 @@ module.exports = {
       "id": 269,
       "userId": 10,
       "seasonId": 54,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16614,7 +16614,7 @@ module.exports = {
       "id": 270,
       "userId": 1,
       "seasonId": 54,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16622,7 +16622,7 @@ module.exports = {
       "id": 271,
       "userId": 9,
       "seasonId": 55,
-      "rating": 8.6,
+      "rating": 4.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16630,7 +16630,7 @@ module.exports = {
       "id": 272,
       "userId": 1,
       "seasonId": 55,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16638,7 +16638,7 @@ module.exports = {
       "id": 273,
       "userId": 3,
       "seasonId": 55,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16646,7 +16646,7 @@ module.exports = {
       "id": 274,
       "userId": 7,
       "seasonId": 55,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16654,7 +16654,7 @@ module.exports = {
       "id": 275,
       "userId": 3,
       "seasonId": 55,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16662,7 +16662,7 @@ module.exports = {
       "id": 276,
       "userId": 10,
       "seasonId": 56,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16670,7 +16670,7 @@ module.exports = {
       "id": 277,
       "userId": 2,
       "seasonId": 56,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16678,7 +16678,7 @@ module.exports = {
       "id": 278,
       "userId": 7,
       "seasonId": 56,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16686,7 +16686,7 @@ module.exports = {
       "id": 279,
       "userId": 9,
       "seasonId": 56,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16694,7 +16694,7 @@ module.exports = {
       "id": 280,
       "userId": 7,
       "seasonId": 56,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16702,7 +16702,7 @@ module.exports = {
       "id": 281,
       "userId": 4,
       "seasonId": 57,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16710,7 +16710,7 @@ module.exports = {
       "id": 282,
       "userId": 1,
       "seasonId": 57,
-      "rating": 8.1,
+      "rating": 3.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16718,7 +16718,7 @@ module.exports = {
       "id": 283,
       "userId": 8,
       "seasonId": 57,
-      "rating": 9.9,
+      "rating": 5.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16726,7 +16726,7 @@ module.exports = {
       "id": 284,
       "userId": 5,
       "seasonId": 57,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16734,7 +16734,7 @@ module.exports = {
       "id": 285,
       "userId": 10,
       "seasonId": 57,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16742,7 +16742,7 @@ module.exports = {
       "id": 286,
       "userId": 1,
       "seasonId": 58,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16750,7 +16750,7 @@ module.exports = {
       "id": 287,
       "userId": 5,
       "seasonId": 58,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16758,7 +16758,7 @@ module.exports = {
       "id": 288,
       "userId": 4,
       "seasonId": 58,
-      "rating": 6.7,
+      "rating": 2.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16766,7 +16766,7 @@ module.exports = {
       "id": 289,
       "userId": 2,
       "seasonId": 58,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16774,7 +16774,7 @@ module.exports = {
       "id": 290,
       "userId": 9,
       "seasonId": 58,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16782,7 +16782,7 @@ module.exports = {
       "id": 291,
       "userId": 5,
       "seasonId": 59,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16790,7 +16790,7 @@ module.exports = {
       "id": 292,
       "userId": 7,
       "seasonId": 59,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16798,7 +16798,7 @@ module.exports = {
       "id": 293,
       "userId": 7,
       "seasonId": 59,
-      "rating": 8.6,
+      "rating": 4.1,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16806,7 +16806,7 @@ module.exports = {
       "id": 294,
       "userId": 8,
       "seasonId": 59,
-      "rating": 7.1,
+      "rating": 2.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16814,7 +16814,7 @@ module.exports = {
       "id": 295,
       "userId": 1,
       "seasonId": 59,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16822,7 +16822,7 @@ module.exports = {
       "id": 296,
       "userId": 8,
       "seasonId": 60,
-      "rating": 8.1,
+      "rating": 3.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16830,7 +16830,7 @@ module.exports = {
       "id": 297,
       "userId": 8,
       "seasonId": 60,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16838,7 +16838,7 @@ module.exports = {
       "id": 298,
       "userId": 9,
       "seasonId": 60,
-      "rating": 7.1,
+      "rating": 2.6,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16846,7 +16846,7 @@ module.exports = {
       "id": 299,
       "userId": 1,
       "seasonId": 60,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16854,7 +16854,7 @@ module.exports = {
       "id": 300,
       "userId": 5,
       "seasonId": 60,
-      "rating": 10.0,
+      "rating": 0.5,
       "createdAt": "2025-06-23 07:47:23",
       "updatedAt": "2025-06-23 07:47:23"
     },
@@ -16862,7 +16862,7 @@ module.exports = {
       "id": 301,
       "userId": 7,
       "seasonId": 61,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-11 16:42:32",
       "updatedAt": "2025-06-11 16:42:32"
     },
@@ -16870,7 +16870,7 @@ module.exports = {
       "id": 302,
       "userId": 5,
       "seasonId": 61,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-05-31 16:20:49",
       "updatedAt": "2025-05-31 16:20:49"
     },
@@ -16878,7 +16878,7 @@ module.exports = {
       "id": 303,
       "userId": 10,
       "seasonId": 61,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-05-29 20:15:25",
       "updatedAt": "2025-05-29 20:15:25"
     },
@@ -16886,7 +16886,7 @@ module.exports = {
       "id": 304,
       "userId": 6,
       "seasonId": 61,
-      "rating": 8.1,
+      "rating": 3.6,
       "createdAt": "2025-06-20 13:26:55",
       "updatedAt": "2025-06-20 13:26:55"
     },
@@ -16894,7 +16894,7 @@ module.exports = {
       "id": 305,
       "userId": 8,
       "seasonId": 61,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-01 16:44:19",
       "updatedAt": "2025-06-01 16:44:19"
     },
@@ -16902,7 +16902,7 @@ module.exports = {
       "id": 306,
       "userId": 1,
       "seasonId": 62,
-      "rating": 8.6,
+      "rating": 4.1,
       "createdAt": "2025-06-04 10:42:19",
       "updatedAt": "2025-06-04 10:42:19"
     },
@@ -16910,7 +16910,7 @@ module.exports = {
       "id": 307,
       "userId": 9,
       "seasonId": 62,
-      "rating": 5.7,
+      "rating": 1.2,
       "createdAt": "2025-06-12 10:03:21",
       "updatedAt": "2025-06-12 10:03:21"
     },
@@ -16918,7 +16918,7 @@ module.exports = {
       "id": 308,
       "userId": 5,
       "seasonId": 62,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-05 11:26:24",
       "updatedAt": "2025-06-05 11:26:24"
     },
@@ -16926,7 +16926,7 @@ module.exports = {
       "id": 309,
       "userId": 3,
       "seasonId": 62,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-04 06:31:13",
       "updatedAt": "2025-06-04 06:31:13"
     },
@@ -16934,7 +16934,7 @@ module.exports = {
       "id": 310,
       "userId": 7,
       "seasonId": 62,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-11 20:35:41",
       "updatedAt": "2025-06-11 20:35:41"
     },
@@ -16942,7 +16942,7 @@ module.exports = {
       "id": 311,
       "userId": 1,
       "seasonId": 63,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-19 00:08:43",
       "updatedAt": "2025-06-19 00:08:43"
     },
@@ -16950,7 +16950,7 @@ module.exports = {
       "id": 312,
       "userId": 2,
       "seasonId": 63,
-      "rating": 5.9,
+      "rating": 1.4,
       "createdAt": "2025-06-05 04:09:34",
       "updatedAt": "2025-06-05 04:09:34"
     },
@@ -16958,7 +16958,7 @@ module.exports = {
       "id": 313,
       "userId": 4,
       "seasonId": 63,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-15 18:23:17",
       "updatedAt": "2025-06-15 18:23:17"
     },
@@ -16966,7 +16966,7 @@ module.exports = {
       "id": 314,
       "userId": 9,
       "seasonId": 63,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-07 17:16:00",
       "updatedAt": "2025-06-07 17:16:00"
     },
@@ -16974,7 +16974,7 @@ module.exports = {
       "id": 315,
       "userId": 6,
       "seasonId": 63,
-      "rating": 9.4,
+      "rating": 4.9,
       "createdAt": "2025-06-12 18:36:55",
       "updatedAt": "2025-06-12 18:36:55"
     },
@@ -16982,7 +16982,7 @@ module.exports = {
       "id": 316,
       "userId": 9,
       "seasonId": 64,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-17 14:44:38",
       "updatedAt": "2025-06-17 14:44:38"
     },
@@ -16990,7 +16990,7 @@ module.exports = {
       "id": 317,
       "userId": 7,
       "seasonId": 64,
-      "rating": 9.2,
+      "rating": 4.7,
       "createdAt": "2025-06-02 19:56:45",
       "updatedAt": "2025-06-02 19:56:45"
     },
@@ -17006,7 +17006,7 @@ module.exports = {
       "id": 319,
       "userId": 8,
       "seasonId": 64,
-      "rating": 5.8,
+      "rating": 1.3,
       "createdAt": "2025-06-16 14:23:53",
       "updatedAt": "2025-06-16 14:23:53"
     },
@@ -17014,7 +17014,7 @@ module.exports = {
       "id": 320,
       "userId": 1,
       "seasonId": 64,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-03 16:25:04",
       "updatedAt": "2025-06-03 16:25:04"
     },
@@ -17022,7 +17022,7 @@ module.exports = {
       "id": 321,
       "userId": 7,
       "seasonId": 65,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-16 21:54:48",
       "updatedAt": "2025-06-16 21:54:48"
     },
@@ -17030,7 +17030,7 @@ module.exports = {
       "id": 322,
       "userId": 4,
       "seasonId": 65,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-10 08:57:18",
       "updatedAt": "2025-06-10 08:57:18"
     },
@@ -17038,7 +17038,7 @@ module.exports = {
       "id": 323,
       "userId": 3,
       "seasonId": 65,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-16 13:19:17",
       "updatedAt": "2025-06-16 13:19:17"
     },
@@ -17046,7 +17046,7 @@ module.exports = {
       "id": 324,
       "userId": 8,
       "seasonId": 65,
-      "rating": 6.7,
+      "rating": 2.2,
       "createdAt": "2025-06-09 02:57:36",
       "updatedAt": "2025-06-09 02:57:36"
     },
@@ -17054,7 +17054,7 @@ module.exports = {
       "id": 325,
       "userId": 5,
       "seasonId": 65,
-      "rating": 6.7,
+      "rating": 2.2,
       "createdAt": "2025-06-07 09:00:42",
       "updatedAt": "2025-06-07 09:00:42"
     },
@@ -17062,7 +17062,7 @@ module.exports = {
       "id": 326,
       "userId": 10,
       "seasonId": 66,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-07 14:46:37",
       "updatedAt": "2025-06-07 14:46:37"
     },
@@ -17070,7 +17070,7 @@ module.exports = {
       "id": 327,
       "userId": 5,
       "seasonId": 66,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-05-28 19:37:14",
       "updatedAt": "2025-05-28 19:37:14"
     },
@@ -17078,7 +17078,7 @@ module.exports = {
       "id": 328,
       "userId": 9,
       "seasonId": 66,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-23 18:39:13",
       "updatedAt": "2025-06-23 18:39:13"
     },
@@ -17086,7 +17086,7 @@ module.exports = {
       "id": 329,
       "userId": 8,
       "seasonId": 66,
-      "rating": 5.4,
+      "rating": 0.9,
       "createdAt": "2025-06-10 13:39:12",
       "updatedAt": "2025-06-10 13:39:12"
     },
@@ -17094,7 +17094,7 @@ module.exports = {
       "id": 330,
       "userId": 3,
       "seasonId": 66,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-05-25 11:46:48",
       "updatedAt": "2025-05-25 11:46:48"
     },
@@ -17102,7 +17102,7 @@ module.exports = {
       "id": 331,
       "userId": 6,
       "seasonId": 67,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-05-25 17:11:45",
       "updatedAt": "2025-05-25 17:11:45"
     },
@@ -17110,7 +17110,7 @@ module.exports = {
       "id": 332,
       "userId": 3,
       "seasonId": 67,
-      "rating": 5.2,
+      "rating": 0.7,
       "createdAt": "2025-06-16 19:52:28",
       "updatedAt": "2025-06-16 19:52:28"
     },
@@ -17118,7 +17118,7 @@ module.exports = {
       "id": 333,
       "userId": 2,
       "seasonId": 67,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-08 04:45:17",
       "updatedAt": "2025-06-08 04:45:17"
     },
@@ -17126,7 +17126,7 @@ module.exports = {
       "id": 334,
       "userId": 4,
       "seasonId": 67,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-17 05:39:44",
       "updatedAt": "2025-06-17 05:39:44"
     },
@@ -17134,7 +17134,7 @@ module.exports = {
       "id": 335,
       "userId": 5,
       "seasonId": 67,
-      "rating": 7.1,
+      "rating": 2.6,
       "createdAt": "2025-06-11 08:57:57",
       "updatedAt": "2025-06-11 08:57:57"
     },
@@ -17142,7 +17142,7 @@ module.exports = {
       "id": 336,
       "userId": 2,
       "seasonId": 68,
-      "rating": 9.4,
+      "rating": 4.9,
       "createdAt": "2025-05-29 23:27:46",
       "updatedAt": "2025-05-29 23:27:46"
     },
@@ -17150,7 +17150,7 @@ module.exports = {
       "id": 337,
       "userId": 3,
       "seasonId": 68,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-05-28 15:36:38",
       "updatedAt": "2025-05-28 15:36:38"
     },
@@ -17158,7 +17158,7 @@ module.exports = {
       "id": 338,
       "userId": 7,
       "seasonId": 68,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-06-20 15:13:19",
       "updatedAt": "2025-06-20 15:13:19"
     },
@@ -17166,7 +17166,7 @@ module.exports = {
       "id": 339,
       "userId": 6,
       "seasonId": 68,
-      "rating": 5.9,
+      "rating": 1.4,
       "createdAt": "2025-06-19 10:24:12",
       "updatedAt": "2025-06-19 10:24:12"
     },
@@ -17182,7 +17182,7 @@ module.exports = {
       "id": 341,
       "userId": 7,
       "seasonId": 69,
-      "rating": 6.5,
+      "rating": 2.0,
       "createdAt": "2025-05-24 14:45:40",
       "updatedAt": "2025-05-24 14:45:40"
     },
@@ -17190,7 +17190,7 @@ module.exports = {
       "id": 342,
       "userId": 1,
       "seasonId": 69,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-12 05:39:40",
       "updatedAt": "2025-06-12 05:39:40"
     },
@@ -17198,7 +17198,7 @@ module.exports = {
       "id": 343,
       "userId": 2,
       "seasonId": 69,
-      "rating": 6.6,
+      "rating": 2.1,
       "createdAt": "2025-06-18 20:52:10",
       "updatedAt": "2025-06-18 20:52:10"
     },
@@ -17206,7 +17206,7 @@ module.exports = {
       "id": 344,
       "userId": 8,
       "seasonId": 69,
-      "rating": 9.5,
+      "rating": 5.0,
       "createdAt": "2025-05-30 23:18:30",
       "updatedAt": "2025-05-30 23:18:30"
     },
@@ -17214,7 +17214,7 @@ module.exports = {
       "id": 345,
       "userId": 4,
       "seasonId": 69,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-14 04:32:54",
       "updatedAt": "2025-06-14 04:32:54"
     },
@@ -17222,7 +17222,7 @@ module.exports = {
       "id": 346,
       "userId": 5,
       "seasonId": 70,
-      "rating": 5.1,
+      "rating": 0.6,
       "createdAt": "2025-05-26 11:28:38",
       "updatedAt": "2025-05-26 11:28:38"
     },
@@ -17230,7 +17230,7 @@ module.exports = {
       "id": 347,
       "userId": 9,
       "seasonId": 70,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-11 15:14:08",
       "updatedAt": "2025-06-11 15:14:08"
     },
@@ -17238,7 +17238,7 @@ module.exports = {
       "id": 348,
       "userId": 1,
       "seasonId": 70,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-10 12:22:44",
       "updatedAt": "2025-06-10 12:22:44"
     },
@@ -17246,7 +17246,7 @@ module.exports = {
       "id": 349,
       "userId": 8,
       "seasonId": 70,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-09 15:19:51",
       "updatedAt": "2025-06-09 15:19:51"
     },
@@ -17254,7 +17254,7 @@ module.exports = {
       "id": 350,
       "userId": 3,
       "seasonId": 70,
-      "rating": 9.5,
+      "rating": 5.0,
       "createdAt": "2025-06-14 10:22:38",
       "updatedAt": "2025-06-14 10:22:38"
     },
@@ -17262,7 +17262,7 @@ module.exports = {
       "id": 351,
       "userId": 9,
       "seasonId": 71,
-      "rating": 9.4,
+      "rating": 4.9,
       "createdAt": "2025-06-04 15:08:01",
       "updatedAt": "2025-06-04 15:08:01"
     },
@@ -17270,7 +17270,7 @@ module.exports = {
       "id": 352,
       "userId": 1,
       "seasonId": 71,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-22 09:20:37",
       "updatedAt": "2025-06-22 09:20:37"
     },
@@ -17278,7 +17278,7 @@ module.exports = {
       "id": 353,
       "userId": 2,
       "seasonId": 71,
-      "rating": 6.6,
+      "rating": 2.1,
       "createdAt": "2025-05-30 20:57:37",
       "updatedAt": "2025-05-30 20:57:37"
     },
@@ -17286,7 +17286,7 @@ module.exports = {
       "id": 354,
       "userId": 3,
       "seasonId": 71,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-06-23 20:40:36",
       "updatedAt": "2025-06-23 20:40:36"
     },
@@ -17294,7 +17294,7 @@ module.exports = {
       "id": 355,
       "userId": 7,
       "seasonId": 71,
-      "rating": 8.5,
+      "rating": 4.0,
       "createdAt": "2025-06-08 18:02:24",
       "updatedAt": "2025-06-08 18:02:24"
     },
@@ -17310,7 +17310,7 @@ module.exports = {
       "id": 357,
       "userId": 8,
       "seasonId": 72,
-      "rating": 7.1,
+      "rating": 2.6,
       "createdAt": "2025-06-06 23:14:47",
       "updatedAt": "2025-06-06 23:14:47"
     },
@@ -17318,7 +17318,7 @@ module.exports = {
       "id": 358,
       "userId": 3,
       "seasonId": 72,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-05-29 16:04:58",
       "updatedAt": "2025-05-29 16:04:58"
     },
@@ -17326,7 +17326,7 @@ module.exports = {
       "id": 359,
       "userId": 7,
       "seasonId": 72,
-      "rating": 5.7,
+      "rating": 1.2,
       "createdAt": "2025-06-04 12:49:14",
       "updatedAt": "2025-06-04 12:49:14"
     },
@@ -17334,7 +17334,7 @@ module.exports = {
       "id": 360,
       "userId": 9,
       "seasonId": 72,
-      "rating": 8.5,
+      "rating": 4.0,
       "createdAt": "2025-06-16 19:12:07",
       "updatedAt": "2025-06-16 19:12:07"
     },
@@ -17342,7 +17342,7 @@ module.exports = {
       "id": 361,
       "userId": 2,
       "seasonId": 73,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-18 23:13:18",
       "updatedAt": "2025-06-18 23:13:18"
     },
@@ -17358,7 +17358,7 @@ module.exports = {
       "id": 363,
       "userId": 10,
       "seasonId": 73,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-06-07 20:46:12",
       "updatedAt": "2025-06-07 20:46:12"
     },
@@ -17366,7 +17366,7 @@ module.exports = {
       "id": 364,
       "userId": 4,
       "seasonId": 73,
-      "rating": 5.3,
+      "rating": 0.8,
       "createdAt": "2025-06-15 23:51:04",
       "updatedAt": "2025-06-15 23:51:04"
     },
@@ -17374,7 +17374,7 @@ module.exports = {
       "id": 365,
       "userId": 3,
       "seasonId": 73,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-05-25 07:25:02",
       "updatedAt": "2025-05-25 07:25:02"
     },
@@ -17382,7 +17382,7 @@ module.exports = {
       "id": 366,
       "userId": 3,
       "seasonId": 74,
-      "rating": 5.2,
+      "rating": 0.7,
       "createdAt": "2025-06-19 01:40:15",
       "updatedAt": "2025-06-19 01:40:15"
     },
@@ -17390,7 +17390,7 @@ module.exports = {
       "id": 367,
       "userId": 8,
       "seasonId": 74,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-02 11:01:42",
       "updatedAt": "2025-06-02 11:01:42"
     },
@@ -17398,7 +17398,7 @@ module.exports = {
       "id": 368,
       "userId": 2,
       "seasonId": 74,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-05-30 12:49:23",
       "updatedAt": "2025-05-30 12:49:23"
     },
@@ -17406,7 +17406,7 @@ module.exports = {
       "id": 369,
       "userId": 10,
       "seasonId": 74,
-      "rating": 5.5,
+      "rating": 1.0,
       "createdAt": "2025-06-12 01:48:33",
       "updatedAt": "2025-06-12 01:48:33"
     },
@@ -17414,7 +17414,7 @@ module.exports = {
       "id": 370,
       "userId": 4,
       "seasonId": 74,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-03 13:02:07",
       "updatedAt": "2025-06-03 13:02:07"
     },
@@ -17422,7 +17422,7 @@ module.exports = {
       "id": 371,
       "userId": 9,
       "seasonId": 75,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-06-02 23:36:07",
       "updatedAt": "2025-06-02 23:36:07"
     },
@@ -17430,7 +17430,7 @@ module.exports = {
       "id": 372,
       "userId": 6,
       "seasonId": 75,
-      "rating": 7.1,
+      "rating": 2.6,
       "createdAt": "2025-06-20 08:11:52",
       "updatedAt": "2025-06-20 08:11:52"
     },
@@ -17438,7 +17438,7 @@ module.exports = {
       "id": 373,
       "userId": 7,
       "seasonId": 75,
-      "rating": 5.9,
+      "rating": 1.4,
       "createdAt": "2025-06-15 17:03:53",
       "updatedAt": "2025-06-15 17:03:53"
     },
@@ -17446,7 +17446,7 @@ module.exports = {
       "id": 374,
       "userId": 8,
       "seasonId": 75,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-10 17:53:11",
       "updatedAt": "2025-06-10 17:53:11"
     },
@@ -17454,7 +17454,7 @@ module.exports = {
       "id": 375,
       "userId": 5,
       "seasonId": 75,
-      "rating": 6.7,
+      "rating": 2.2,
       "createdAt": "2025-06-22 18:30:25",
       "updatedAt": "2025-06-22 18:30:25"
     },
@@ -17462,7 +17462,7 @@ module.exports = {
       "id": 376,
       "userId": 7,
       "seasonId": 76,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-18 20:37:10",
       "updatedAt": "2025-06-18 20:37:10"
     },
@@ -17470,7 +17470,7 @@ module.exports = {
       "id": 377,
       "userId": 5,
       "seasonId": 76,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-02 15:54:14",
       "updatedAt": "2025-06-02 15:54:14"
     },
@@ -17478,7 +17478,7 @@ module.exports = {
       "id": 378,
       "userId": 9,
       "seasonId": 76,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-05-28 10:50:07",
       "updatedAt": "2025-05-28 10:50:07"
     },
@@ -17486,7 +17486,7 @@ module.exports = {
       "id": 379,
       "userId": 3,
       "seasonId": 76,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-20 05:59:17",
       "updatedAt": "2025-06-20 05:59:17"
     },
@@ -17494,7 +17494,7 @@ module.exports = {
       "id": 380,
       "userId": 1,
       "seasonId": 76,
-      "rating": 6.5,
+      "rating": 2.0,
       "createdAt": "2025-06-12 01:07:48",
       "updatedAt": "2025-06-12 01:07:48"
     },
@@ -17502,7 +17502,7 @@ module.exports = {
       "id": 381,
       "userId": 7,
       "seasonId": 77,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-05-28 06:45:18",
       "updatedAt": "2025-05-28 06:45:18"
     },
@@ -17510,7 +17510,7 @@ module.exports = {
       "id": 382,
       "userId": 3,
       "seasonId": 77,
-      "rating": 5.8,
+      "rating": 1.3,
       "createdAt": "2025-06-23 08:27:15",
       "updatedAt": "2025-06-23 08:27:15"
     },
@@ -17518,7 +17518,7 @@ module.exports = {
       "id": 383,
       "userId": 5,
       "seasonId": 77,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-09 12:47:26",
       "updatedAt": "2025-06-09 12:47:26"
     },
@@ -17526,7 +17526,7 @@ module.exports = {
       "id": 384,
       "userId": 2,
       "seasonId": 77,
-      "rating": 5.3,
+      "rating": 0.8,
       "createdAt": "2025-06-01 07:39:20",
       "updatedAt": "2025-06-01 07:39:20"
     },
@@ -17534,7 +17534,7 @@ module.exports = {
       "id": 385,
       "userId": 4,
       "seasonId": 77,
-      "rating": 6.6,
+      "rating": 2.1,
       "createdAt": "2025-06-06 11:33:18",
       "updatedAt": "2025-06-06 11:33:18"
     },
@@ -17542,7 +17542,7 @@ module.exports = {
       "id": 386,
       "userId": 2,
       "seasonId": 78,
-      "rating": 5.7,
+      "rating": 1.2,
       "createdAt": "2025-06-09 03:40:22",
       "updatedAt": "2025-06-09 03:40:22"
     },
@@ -17550,7 +17550,7 @@ module.exports = {
       "id": 387,
       "userId": 9,
       "seasonId": 78,
-      "rating": 5.1,
+      "rating": 0.6,
       "createdAt": "2025-06-09 02:10:57",
       "updatedAt": "2025-06-09 02:10:57"
     },
@@ -17558,7 +17558,7 @@ module.exports = {
       "id": 388,
       "userId": 1,
       "seasonId": 78,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-18 09:14:10",
       "updatedAt": "2025-06-18 09:14:10"
     },
@@ -17566,7 +17566,7 @@ module.exports = {
       "id": 389,
       "userId": 6,
       "seasonId": 78,
-      "rating": 5.6,
+      "rating": 1.1,
       "createdAt": "2025-06-04 03:00:15",
       "updatedAt": "2025-06-04 03:00:15"
     },
@@ -17574,7 +17574,7 @@ module.exports = {
       "id": 390,
       "userId": 5,
       "seasonId": 78,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-12 10:19:17",
       "updatedAt": "2025-06-12 10:19:17"
     },
@@ -17582,7 +17582,7 @@ module.exports = {
       "id": 391,
       "userId": 8,
       "seasonId": 79,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-02 02:56:03",
       "updatedAt": "2025-06-02 02:56:03"
     },
@@ -17590,7 +17590,7 @@ module.exports = {
       "id": 392,
       "userId": 6,
       "seasonId": 79,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-05-24 13:11:23",
       "updatedAt": "2025-05-24 13:11:23"
     },
@@ -17598,7 +17598,7 @@ module.exports = {
       "id": 393,
       "userId": 2,
       "seasonId": 79,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-01 00:30:40",
       "updatedAt": "2025-06-01 00:30:40"
     },
@@ -17606,7 +17606,7 @@ module.exports = {
       "id": 394,
       "userId": 3,
       "seasonId": 79,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 18:48:53",
       "updatedAt": "2025-06-23 18:48:53"
     },
@@ -17614,7 +17614,7 @@ module.exports = {
       "id": 395,
       "userId": 1,
       "seasonId": 79,
-      "rating": 5.5,
+      "rating": 1.0,
       "createdAt": "2025-06-12 09:29:41",
       "updatedAt": "2025-06-12 09:29:41"
     },
@@ -17622,7 +17622,7 @@ module.exports = {
       "id": 396,
       "userId": 4,
       "seasonId": 80,
-      "rating": 9.4,
+      "rating": 4.9,
       "createdAt": "2025-06-05 04:20:27",
       "updatedAt": "2025-06-05 04:20:27"
     },
@@ -17630,7 +17630,7 @@ module.exports = {
       "id": 397,
       "userId": 10,
       "seasonId": 80,
-      "rating": 10.0,
+      "rating": 0.5,
       "createdAt": "2025-05-28 03:25:45",
       "updatedAt": "2025-05-28 03:25:45"
     },
@@ -17638,7 +17638,7 @@ module.exports = {
       "id": 398,
       "userId": 1,
       "seasonId": 80,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-05-27 21:27:04",
       "updatedAt": "2025-05-27 21:27:04"
     },
@@ -17646,7 +17646,7 @@ module.exports = {
       "id": 399,
       "userId": 5,
       "seasonId": 80,
-      "rating": 9.4,
+      "rating": 4.9,
       "createdAt": "2025-06-02 14:54:56",
       "updatedAt": "2025-06-02 14:54:56"
     },
@@ -17654,7 +17654,7 @@ module.exports = {
       "id": 400,
       "userId": 6,
       "seasonId": 80,
-      "rating": 7.5,
+      "rating": 3.0,
       "createdAt": "2025-06-12 02:34:52",
       "updatedAt": "2025-06-12 02:34:52"
     },
@@ -17662,7 +17662,7 @@ module.exports = {
       "id": 401,
       "userId": 10,
       "seasonId": 81,
-      "rating": 6.0,
+      "rating": 1.5,
       "createdAt": "2025-06-16 14:04:39",
       "updatedAt": "2025-06-16 14:04:39"
     },
@@ -17670,7 +17670,7 @@ module.exports = {
       "id": 402,
       "userId": 4,
       "seasonId": 81,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-05-26 03:29:01",
       "updatedAt": "2025-05-26 03:29:01"
     },
@@ -17678,7 +17678,7 @@ module.exports = {
       "id": 403,
       "userId": 7,
       "seasonId": 81,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-05-27 08:17:52",
       "updatedAt": "2025-05-27 08:17:52"
     },
@@ -17686,7 +17686,7 @@ module.exports = {
       "id": 404,
       "userId": 6,
       "seasonId": 81,
-      "rating": 5.6,
+      "rating": 1.1,
       "createdAt": "2025-06-07 12:35:05",
       "updatedAt": "2025-06-07 12:35:05"
     },
@@ -17694,7 +17694,7 @@ module.exports = {
       "id": 405,
       "userId": 1,
       "seasonId": 81,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-06-08 21:58:21",
       "updatedAt": "2025-06-08 21:58:21"
     },
@@ -17702,7 +17702,7 @@ module.exports = {
       "id": 406,
       "userId": 5,
       "seasonId": 82,
-      "rating": 5.6,
+      "rating": 1.1,
       "createdAt": "2025-06-09 00:10:58",
       "updatedAt": "2025-06-09 00:10:58"
     },
@@ -17710,7 +17710,7 @@ module.exports = {
       "id": 407,
       "userId": 9,
       "seasonId": 82,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-05-25 15:14:29",
       "updatedAt": "2025-05-25 15:14:29"
     },
@@ -17718,7 +17718,7 @@ module.exports = {
       "id": 408,
       "userId": 4,
       "seasonId": 82,
-      "rating": 5.1,
+      "rating": 0.6,
       "createdAt": "2025-06-21 05:43:09",
       "updatedAt": "2025-06-21 05:43:09"
     },
@@ -17726,7 +17726,7 @@ module.exports = {
       "id": 409,
       "userId": 10,
       "seasonId": 82,
-      "rating": 6.6,
+      "rating": 2.1,
       "createdAt": "2025-06-08 12:37:23",
       "updatedAt": "2025-06-08 12:37:23"
     },
@@ -17734,7 +17734,7 @@ module.exports = {
       "id": 410,
       "userId": 7,
       "seasonId": 82,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-05-29 17:09:49",
       "updatedAt": "2025-05-29 17:09:49"
     },
@@ -17742,7 +17742,7 @@ module.exports = {
       "id": 411,
       "userId": 10,
       "seasonId": 83,
-      "rating": 5.1,
+      "rating": 0.6,
       "createdAt": "2025-06-10 06:55:41",
       "updatedAt": "2025-06-10 06:55:41"
     },
@@ -17750,7 +17750,7 @@ module.exports = {
       "id": 412,
       "userId": 7,
       "seasonId": 83,
-      "rating": 6.5,
+      "rating": 2.0,
       "createdAt": "2025-06-08 21:49:11",
       "updatedAt": "2025-06-08 21:49:11"
     },
@@ -17758,7 +17758,7 @@ module.exports = {
       "id": 413,
       "userId": 5,
       "seasonId": 83,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-07 23:47:25",
       "updatedAt": "2025-06-07 23:47:25"
     },
@@ -17766,7 +17766,7 @@ module.exports = {
       "id": 414,
       "userId": 3,
       "seasonId": 83,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-15 07:14:24",
       "updatedAt": "2025-06-15 07:14:24"
     },
@@ -17774,7 +17774,7 @@ module.exports = {
       "id": 415,
       "userId": 8,
       "seasonId": 83,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-10 12:04:11",
       "updatedAt": "2025-06-10 12:04:11"
     },
@@ -17782,7 +17782,7 @@ module.exports = {
       "id": 416,
       "userId": 4,
       "seasonId": 84,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-16 05:41:09",
       "updatedAt": "2025-06-16 05:41:09"
     },
@@ -17798,7 +17798,7 @@ module.exports = {
       "id": 418,
       "userId": 3,
       "seasonId": 84,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-05-24 16:04:41",
       "updatedAt": "2025-05-24 16:04:41"
     },
@@ -17806,7 +17806,7 @@ module.exports = {
       "id": 419,
       "userId": 5,
       "seasonId": 84,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-18 11:40:15",
       "updatedAt": "2025-06-18 11:40:15"
     },
@@ -17814,7 +17814,7 @@ module.exports = {
       "id": 420,
       "userId": 2,
       "seasonId": 84,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-09 11:37:09",
       "updatedAt": "2025-06-09 11:37:09"
     },
@@ -17822,7 +17822,7 @@ module.exports = {
       "id": 421,
       "userId": 3,
       "seasonId": 85,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-05-30 23:15:06",
       "updatedAt": "2025-05-30 23:15:06"
     },
@@ -17830,7 +17830,7 @@ module.exports = {
       "id": 422,
       "userId": 10,
       "seasonId": 85,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-05-25 05:46:03",
       "updatedAt": "2025-05-25 05:46:03"
     },
@@ -17838,7 +17838,7 @@ module.exports = {
       "id": 423,
       "userId": 5,
       "seasonId": 85,
-      "rating": 5.3,
+      "rating": 0.8,
       "createdAt": "2025-06-02 23:24:18",
       "updatedAt": "2025-06-02 23:24:18"
     },
@@ -17846,7 +17846,7 @@ module.exports = {
       "id": 424,
       "userId": 6,
       "seasonId": 85,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-21 11:45:50",
       "updatedAt": "2025-06-21 11:45:50"
     },
@@ -17854,7 +17854,7 @@ module.exports = {
       "id": 425,
       "userId": 7,
       "seasonId": 85,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-05-26 23:09:26",
       "updatedAt": "2025-05-26 23:09:26"
     },
@@ -17862,7 +17862,7 @@ module.exports = {
       "id": 426,
       "userId": 2,
       "seasonId": 86,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-13 18:09:08",
       "updatedAt": "2025-06-13 18:09:08"
     },
@@ -17870,7 +17870,7 @@ module.exports = {
       "id": 427,
       "userId": 10,
       "seasonId": 86,
-      "rating": 5.4,
+      "rating": 0.9,
       "createdAt": "2025-06-20 04:01:45",
       "updatedAt": "2025-06-20 04:01:45"
     },
@@ -17878,7 +17878,7 @@ module.exports = {
       "id": 428,
       "userId": 1,
       "seasonId": 86,
-      "rating": 5.1,
+      "rating": 0.6,
       "createdAt": "2025-06-01 15:37:06",
       "updatedAt": "2025-06-01 15:37:06"
     },
@@ -17886,7 +17886,7 @@ module.exports = {
       "id": 429,
       "userId": 5,
       "seasonId": 86,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-05-31 01:48:24",
       "updatedAt": "2025-05-31 01:48:24"
     },
@@ -17894,7 +17894,7 @@ module.exports = {
       "id": 430,
       "userId": 8,
       "seasonId": 86,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-05-30 16:28:16",
       "updatedAt": "2025-05-30 16:28:16"
     },
@@ -17902,7 +17902,7 @@ module.exports = {
       "id": 431,
       "userId": 4,
       "seasonId": 87,
-      "rating": 5.3,
+      "rating": 0.8,
       "createdAt": "2025-06-05 08:04:10",
       "updatedAt": "2025-06-05 08:04:10"
     },
@@ -17910,7 +17910,7 @@ module.exports = {
       "id": 432,
       "userId": 5,
       "seasonId": 87,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-18 10:20:45",
       "updatedAt": "2025-06-18 10:20:45"
     },
@@ -17918,7 +17918,7 @@ module.exports = {
       "id": 433,
       "userId": 10,
       "seasonId": 87,
-      "rating": 5.6,
+      "rating": 1.1,
       "createdAt": "2025-06-18 23:15:38",
       "updatedAt": "2025-06-18 23:15:38"
     },
@@ -17926,7 +17926,7 @@ module.exports = {
       "id": 434,
       "userId": 1,
       "seasonId": 87,
-      "rating": 6.5,
+      "rating": 2.0,
       "createdAt": "2025-06-24 00:54:17",
       "updatedAt": "2025-06-24 00:54:17"
     },
@@ -17934,7 +17934,7 @@ module.exports = {
       "id": 435,
       "userId": 7,
       "seasonId": 87,
-      "rating": 9.9,
+      "rating": 5.4,
       "createdAt": "2025-05-30 00:13:12",
       "updatedAt": "2025-05-30 00:13:12"
     },
@@ -17942,7 +17942,7 @@ module.exports = {
       "id": 436,
       "userId": 1,
       "seasonId": 88,
-      "rating": 9.9,
+      "rating": 5.4,
       "createdAt": "2025-06-14 14:40:44",
       "updatedAt": "2025-06-14 14:40:44"
     },
@@ -17950,7 +17950,7 @@ module.exports = {
       "id": 437,
       "userId": 2,
       "seasonId": 88,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-06-17 22:56:13",
       "updatedAt": "2025-06-17 22:56:13"
     },
@@ -17958,7 +17958,7 @@ module.exports = {
       "id": 438,
       "userId": 7,
       "seasonId": 88,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-13 20:32:53",
       "updatedAt": "2025-06-13 20:32:53"
     },
@@ -17966,7 +17966,7 @@ module.exports = {
       "id": 439,
       "userId": 5,
       "seasonId": 88,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-22 22:14:31",
       "updatedAt": "2025-06-22 22:14:31"
     },
@@ -17974,7 +17974,7 @@ module.exports = {
       "id": 440,
       "userId": 6,
       "seasonId": 88,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-17 04:48:41",
       "updatedAt": "2025-06-17 04:48:41"
     },
@@ -17982,7 +17982,7 @@ module.exports = {
       "id": 441,
       "userId": 1,
       "seasonId": 89,
-      "rating": 5.4,
+      "rating": 0.9,
       "createdAt": "2025-05-31 00:02:32",
       "updatedAt": "2025-05-31 00:02:32"
     },
@@ -17990,7 +17990,7 @@ module.exports = {
       "id": 442,
       "userId": 4,
       "seasonId": 89,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-09 19:45:13",
       "updatedAt": "2025-06-09 19:45:13"
     },
@@ -17998,7 +17998,7 @@ module.exports = {
       "id": 443,
       "userId": 9,
       "seasonId": 89,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-05-28 17:05:42",
       "updatedAt": "2025-05-28 17:05:42"
     },
@@ -18006,7 +18006,7 @@ module.exports = {
       "id": 444,
       "userId": 10,
       "seasonId": 89,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-05-25 12:54:14",
       "updatedAt": "2025-05-25 12:54:14"
     },
@@ -18014,7 +18014,7 @@ module.exports = {
       "id": 445,
       "userId": 6,
       "seasonId": 89,
-      "rating": 5.5,
+      "rating": 1.0,
       "createdAt": "2025-05-28 20:24:39",
       "updatedAt": "2025-05-28 20:24:39"
     },
@@ -18022,7 +18022,7 @@ module.exports = {
       "id": 446,
       "userId": 3,
       "seasonId": 90,
-      "rating": 7.5,
+      "rating": 3.0,
       "createdAt": "2025-06-10 15:31:51",
       "updatedAt": "2025-06-10 15:31:51"
     },
@@ -18030,7 +18030,7 @@ module.exports = {
       "id": 447,
       "userId": 2,
       "seasonId": 90,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-17 04:49:37",
       "updatedAt": "2025-06-17 04:49:37"
     },
@@ -18038,7 +18038,7 @@ module.exports = {
       "id": 448,
       "userId": 4,
       "seasonId": 90,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-20 04:31:52",
       "updatedAt": "2025-06-20 04:31:52"
     },
@@ -18046,7 +18046,7 @@ module.exports = {
       "id": 449,
       "userId": 10,
       "seasonId": 90,
-      "rating": 10.0,
+      "rating": 0.5,
       "createdAt": "2025-06-10 22:34:31",
       "updatedAt": "2025-06-10 22:34:31"
     },
@@ -18054,7 +18054,7 @@ module.exports = {
       "id": 450,
       "userId": 6,
       "seasonId": 90,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-02 02:50:45",
       "updatedAt": "2025-06-02 02:50:45"
     },
@@ -18062,7 +18062,7 @@ module.exports = {
       "id": 451,
       "userId": 4,
       "seasonId": 91,
-      "rating": 7.4,
+      "rating": 2.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18070,7 +18070,7 @@ module.exports = {
       "id": 452,
       "userId": 6,
       "seasonId": 91,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18078,7 +18078,7 @@ module.exports = {
       "id": 453,
       "userId": 8,
       "seasonId": 91,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18086,7 +18086,7 @@ module.exports = {
       "id": 454,
       "userId": 10,
       "seasonId": 91,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18094,7 +18094,7 @@ module.exports = {
       "id": 455,
       "userId": 1,
       "seasonId": 91,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18102,7 +18102,7 @@ module.exports = {
       "id": 456,
       "userId": 6,
       "seasonId": 92,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18110,7 +18110,7 @@ module.exports = {
       "id": 457,
       "userId": 2,
       "seasonId": 92,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18118,7 +18118,7 @@ module.exports = {
       "id": 458,
       "userId": 1,
       "seasonId": 92,
-      "rating": 10.0,
+      "rating": 0.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18126,7 +18126,7 @@ module.exports = {
       "id": 459,
       "userId": 9,
       "seasonId": 92,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18134,7 +18134,7 @@ module.exports = {
       "id": 460,
       "userId": 3,
       "seasonId": 92,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18142,7 +18142,7 @@ module.exports = {
       "id": 461,
       "userId": 4,
       "seasonId": 93,
-      "rating": 9.5,
+      "rating": 5.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18150,7 +18150,7 @@ module.exports = {
       "id": 462,
       "userId": 10,
       "seasonId": 93,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18158,7 +18158,7 @@ module.exports = {
       "id": 463,
       "userId": 2,
       "seasonId": 93,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18166,7 +18166,7 @@ module.exports = {
       "id": 464,
       "userId": 9,
       "seasonId": 93,
-      "rating": 9.2,
+      "rating": 4.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18174,7 +18174,7 @@ module.exports = {
       "id": 465,
       "userId": 3,
       "seasonId": 93,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18182,7 +18182,7 @@ module.exports = {
       "id": 466,
       "userId": 2,
       "seasonId": 94,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18190,7 +18190,7 @@ module.exports = {
       "id": 467,
       "userId": 3,
       "seasonId": 94,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18198,7 +18198,7 @@ module.exports = {
       "id": 468,
       "userId": 7,
       "seasonId": 94,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18206,7 +18206,7 @@ module.exports = {
       "id": 469,
       "userId": 1,
       "seasonId": 94,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18214,7 +18214,7 @@ module.exports = {
       "id": 470,
       "userId": 6,
       "seasonId": 94,
-      "rating": 6.0,
+      "rating": 1.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18222,7 +18222,7 @@ module.exports = {
       "id": 471,
       "userId": 1,
       "seasonId": 95,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18230,7 +18230,7 @@ module.exports = {
       "id": 472,
       "userId": 9,
       "seasonId": 95,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18238,7 +18238,7 @@ module.exports = {
       "id": 473,
       "userId": 4,
       "seasonId": 95,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18246,7 +18246,7 @@ module.exports = {
       "id": 474,
       "userId": 5,
       "seasonId": 95,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18254,7 +18254,7 @@ module.exports = {
       "id": 475,
       "userId": 6,
       "seasonId": 95,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18262,7 +18262,7 @@ module.exports = {
       "id": 476,
       "userId": 6,
       "seasonId": 96,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18270,7 +18270,7 @@ module.exports = {
       "id": 477,
       "userId": 1,
       "seasonId": 96,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18278,7 +18278,7 @@ module.exports = {
       "id": 478,
       "userId": 3,
       "seasonId": 96,
-      "rating": 6.5,
+      "rating": 2.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18286,7 +18286,7 @@ module.exports = {
       "id": 479,
       "userId": 5,
       "seasonId": 96,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18294,7 +18294,7 @@ module.exports = {
       "id": 480,
       "userId": 10,
       "seasonId": 96,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18302,7 +18302,7 @@ module.exports = {
       "id": 481,
       "userId": 7,
       "seasonId": 97,
-      "rating": 9.4,
+      "rating": 4.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18310,7 +18310,7 @@ module.exports = {
       "id": 482,
       "userId": 5,
       "seasonId": 97,
-      "rating": 7.1,
+      "rating": 2.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18318,7 +18318,7 @@ module.exports = {
       "id": 483,
       "userId": 1,
       "seasonId": 97,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18326,7 +18326,7 @@ module.exports = {
       "id": 484,
       "userId": 4,
       "seasonId": 97,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18334,7 +18334,7 @@ module.exports = {
       "id": 485,
       "userId": 9,
       "seasonId": 97,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18342,7 +18342,7 @@ module.exports = {
       "id": 486,
       "userId": 7,
       "seasonId": 98,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18350,7 +18350,7 @@ module.exports = {
       "id": 487,
       "userId": 9,
       "seasonId": 98,
-      "rating": 8.5,
+      "rating": 4.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18358,7 +18358,7 @@ module.exports = {
       "id": 488,
       "userId": 1,
       "seasonId": 98,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18366,7 +18366,7 @@ module.exports = {
       "id": 489,
       "userId": 4,
       "seasonId": 98,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18374,7 +18374,7 @@ module.exports = {
       "id": 490,
       "userId": 2,
       "seasonId": 98,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18382,7 +18382,7 @@ module.exports = {
       "id": 491,
       "userId": 5,
       "seasonId": 99,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18390,7 +18390,7 @@ module.exports = {
       "id": 492,
       "userId": 1,
       "seasonId": 99,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18398,7 +18398,7 @@ module.exports = {
       "id": 493,
       "userId": 6,
       "seasonId": 99,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18406,7 +18406,7 @@ module.exports = {
       "id": 494,
       "userId": 10,
       "seasonId": 99,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18414,7 +18414,7 @@ module.exports = {
       "id": 495,
       "userId": 7,
       "seasonId": 99,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18422,7 +18422,7 @@ module.exports = {
       "id": 496,
       "userId": 6,
       "seasonId": 100,
-      "rating": 9.9,
+      "rating": 5.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18430,7 +18430,7 @@ module.exports = {
       "id": 497,
       "userId": 5,
       "seasonId": 100,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18438,7 +18438,7 @@ module.exports = {
       "id": 498,
       "userId": 10,
       "seasonId": 100,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18446,7 +18446,7 @@ module.exports = {
       "id": 499,
       "userId": 7,
       "seasonId": 100,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18454,7 +18454,7 @@ module.exports = {
       "id": 500,
       "userId": 8,
       "seasonId": 100,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18462,7 +18462,7 @@ module.exports = {
       "id": 501,
       "userId": 6,
       "seasonId": 101,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18470,7 +18470,7 @@ module.exports = {
       "id": 502,
       "userId": 7,
       "seasonId": 101,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18478,7 +18478,7 @@ module.exports = {
       "id": 503,
       "userId": 5,
       "seasonId": 101,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18486,7 +18486,7 @@ module.exports = {
       "id": 504,
       "userId": 4,
       "seasonId": 101,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18494,7 +18494,7 @@ module.exports = {
       "id": 505,
       "userId": 10,
       "seasonId": 101,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18502,7 +18502,7 @@ module.exports = {
       "id": 506,
       "userId": 6,
       "seasonId": 102,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18510,7 +18510,7 @@ module.exports = {
       "id": 507,
       "userId": 5,
       "seasonId": 102,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18518,7 +18518,7 @@ module.exports = {
       "id": 508,
       "userId": 4,
       "seasonId": 102,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18526,7 +18526,7 @@ module.exports = {
       "id": 509,
       "userId": 9,
       "seasonId": 102,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18534,7 +18534,7 @@ module.exports = {
       "id": 510,
       "userId": 7,
       "seasonId": 102,
-      "rating": 6.3,
+      "rating": 1.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18542,7 +18542,7 @@ module.exports = {
       "id": 511,
       "userId": 6,
       "seasonId": 103,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18550,7 +18550,7 @@ module.exports = {
       "id": 512,
       "userId": 5,
       "seasonId": 103,
-      "rating": 9.6,
+      "rating": 5.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18558,7 +18558,7 @@ module.exports = {
       "id": 513,
       "userId": 8,
       "seasonId": 103,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18566,7 +18566,7 @@ module.exports = {
       "id": 514,
       "userId": 7,
       "seasonId": 103,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18574,7 +18574,7 @@ module.exports = {
       "id": 515,
       "userId": 3,
       "seasonId": 103,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18582,7 +18582,7 @@ module.exports = {
       "id": 516,
       "userId": 4,
       "seasonId": 104,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18590,7 +18590,7 @@ module.exports = {
       "id": 517,
       "userId": 7,
       "seasonId": 104,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18598,7 +18598,7 @@ module.exports = {
       "id": 518,
       "userId": 5,
       "seasonId": 104,
-      "rating": 7.5,
+      "rating": 3.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18606,7 +18606,7 @@ module.exports = {
       "id": 519,
       "userId": 10,
       "seasonId": 104,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18614,7 +18614,7 @@ module.exports = {
       "id": 520,
       "userId": 8,
       "seasonId": 104,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18622,7 +18622,7 @@ module.exports = {
       "id": 521,
       "userId": 7,
       "seasonId": 105,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18630,7 +18630,7 @@ module.exports = {
       "id": 522,
       "userId": 5,
       "seasonId": 105,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18638,7 +18638,7 @@ module.exports = {
       "id": 523,
       "userId": 9,
       "seasonId": 105,
-      "rating": 8.8,
+      "rating": 4.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18646,7 +18646,7 @@ module.exports = {
       "id": 524,
       "userId": 1,
       "seasonId": 105,
-      "rating": 10.0,
+      "rating": 0.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18654,7 +18654,7 @@ module.exports = {
       "id": 525,
       "userId": 4,
       "seasonId": 105,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18662,7 +18662,7 @@ module.exports = {
       "id": 526,
       "userId": 7,
       "seasonId": 106,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18670,7 +18670,7 @@ module.exports = {
       "id": 527,
       "userId": 8,
       "seasonId": 106,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18678,7 +18678,7 @@ module.exports = {
       "id": 528,
       "userId": 1,
       "seasonId": 106,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18686,7 +18686,7 @@ module.exports = {
       "id": 529,
       "userId": 5,
       "seasonId": 106,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18694,7 +18694,7 @@ module.exports = {
       "id": 530,
       "userId": 4,
       "seasonId": 106,
-      "rating": 7.5,
+      "rating": 3.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18702,7 +18702,7 @@ module.exports = {
       "id": 531,
       "userId": 6,
       "seasonId": 107,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18710,7 +18710,7 @@ module.exports = {
       "id": 532,
       "userId": 10,
       "seasonId": 107,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18718,7 +18718,7 @@ module.exports = {
       "id": 533,
       "userId": 4,
       "seasonId": 107,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18726,7 +18726,7 @@ module.exports = {
       "id": 534,
       "userId": 8,
       "seasonId": 107,
-      "rating": 7.4,
+      "rating": 2.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18734,7 +18734,7 @@ module.exports = {
       "id": 535,
       "userId": 9,
       "seasonId": 107,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18742,7 +18742,7 @@ module.exports = {
       "id": 536,
       "userId": 5,
       "seasonId": 108,
-      "rating": 8.6,
+      "rating": 4.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18750,7 +18750,7 @@ module.exports = {
       "id": 537,
       "userId": 8,
       "seasonId": 108,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18758,7 +18758,7 @@ module.exports = {
       "id": 538,
       "userId": 2,
       "seasonId": 108,
-      "rating": 9.4,
+      "rating": 4.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18766,7 +18766,7 @@ module.exports = {
       "id": 539,
       "userId": 9,
       "seasonId": 108,
-      "rating": 10.0,
+      "rating": 0.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18774,7 +18774,7 @@ module.exports = {
       "id": 540,
       "userId": 10,
       "seasonId": 108,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18782,7 +18782,7 @@ module.exports = {
       "id": 541,
       "userId": 10,
       "seasonId": 109,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18790,7 +18790,7 @@ module.exports = {
       "id": 542,
       "userId": 1,
       "seasonId": 109,
-      "rating": 9.5,
+      "rating": 5.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18798,7 +18798,7 @@ module.exports = {
       "id": 543,
       "userId": 4,
       "seasonId": 109,
-      "rating": 6.9,
+      "rating": 2.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18806,7 +18806,7 @@ module.exports = {
       "id": 544,
       "userId": 2,
       "seasonId": 109,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18814,7 +18814,7 @@ module.exports = {
       "id": 545,
       "userId": 5,
       "seasonId": 109,
-      "rating": 9.7,
+      "rating": 5.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18822,7 +18822,7 @@ module.exports = {
       "id": 546,
       "userId": 6,
       "seasonId": 110,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18830,7 +18830,7 @@ module.exports = {
       "id": 547,
       "userId": 10,
       "seasonId": 110,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18838,7 +18838,7 @@ module.exports = {
       "id": 548,
       "userId": 4,
       "seasonId": 110,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18846,7 +18846,7 @@ module.exports = {
       "id": 549,
       "userId": 2,
       "seasonId": 110,
-      "rating": 7.5,
+      "rating": 3.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18854,7 +18854,7 @@ module.exports = {
       "id": 550,
       "userId": 3,
       "seasonId": 110,
-      "rating": 8.9,
+      "rating": 4.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18862,7 +18862,7 @@ module.exports = {
       "id": 551,
       "userId": 9,
       "seasonId": 111,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18870,7 +18870,7 @@ module.exports = {
       "id": 552,
       "userId": 1,
       "seasonId": 111,
-      "rating": 8.5,
+      "rating": 4.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18878,7 +18878,7 @@ module.exports = {
       "id": 553,
       "userId": 4,
       "seasonId": 111,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18886,7 +18886,7 @@ module.exports = {
       "id": 554,
       "userId": 2,
       "seasonId": 111,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18894,7 +18894,7 @@ module.exports = {
       "id": 555,
       "userId": 6,
       "seasonId": 111,
-      "rating": 8.7,
+      "rating": 4.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18902,7 +18902,7 @@ module.exports = {
       "id": 556,
       "userId": 5,
       "seasonId": 112,
-      "rating": 9.5,
+      "rating": 5.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18910,7 +18910,7 @@ module.exports = {
       "id": 557,
       "userId": 9,
       "seasonId": 112,
-      "rating": 9.8,
+      "rating": 5.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18918,7 +18918,7 @@ module.exports = {
       "id": 558,
       "userId": 2,
       "seasonId": 112,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18926,7 +18926,7 @@ module.exports = {
       "id": 559,
       "userId": 1,
       "seasonId": 112,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18934,7 +18934,7 @@ module.exports = {
       "id": 560,
       "userId": 6,
       "seasonId": 112,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18942,7 +18942,7 @@ module.exports = {
       "id": 561,
       "userId": 6,
       "seasonId": 113,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18950,7 +18950,7 @@ module.exports = {
       "id": 562,
       "userId": 3,
       "seasonId": 113,
-      "rating": 8.6,
+      "rating": 4.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18958,7 +18958,7 @@ module.exports = {
       "id": 563,
       "userId": 2,
       "seasonId": 113,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18966,7 +18966,7 @@ module.exports = {
       "id": 564,
       "userId": 9,
       "seasonId": 113,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18974,7 +18974,7 @@ module.exports = {
       "id": 565,
       "userId": 8,
       "seasonId": 113,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18982,7 +18982,7 @@ module.exports = {
       "id": 566,
       "userId": 4,
       "seasonId": 114,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18990,7 +18990,7 @@ module.exports = {
       "id": 567,
       "userId": 1,
       "seasonId": 114,
-      "rating": 8.6,
+      "rating": 4.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -18998,7 +18998,7 @@ module.exports = {
       "id": 568,
       "userId": 8,
       "seasonId": 114,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19006,7 +19006,7 @@ module.exports = {
       "id": 569,
       "userId": 3,
       "seasonId": 114,
-      "rating": 9.9,
+      "rating": 5.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19014,7 +19014,7 @@ module.exports = {
       "id": 570,
       "userId": 2,
       "seasonId": 114,
-      "rating": 7.3,
+      "rating": 2.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19022,7 +19022,7 @@ module.exports = {
       "id": 571,
       "userId": 7,
       "seasonId": 115,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19030,7 +19030,7 @@ module.exports = {
       "id": 572,
       "userId": 3,
       "seasonId": 115,
-      "rating": 9.5,
+      "rating": 5.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19038,7 +19038,7 @@ module.exports = {
       "id": 573,
       "userId": 5,
       "seasonId": 115,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19046,7 +19046,7 @@ module.exports = {
       "id": 574,
       "userId": 6,
       "seasonId": 115,
-      "rating": 7.5,
+      "rating": 3.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19054,7 +19054,7 @@ module.exports = {
       "id": 575,
       "userId": 10,
       "seasonId": 115,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19062,7 +19062,7 @@ module.exports = {
       "id": 576,
       "userId": 8,
       "seasonId": 116,
-      "rating": 9.3,
+      "rating": 4.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19070,7 +19070,7 @@ module.exports = {
       "id": 577,
       "userId": 1,
       "seasonId": 116,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19078,7 +19078,7 @@ module.exports = {
       "id": 578,
       "userId": 6,
       "seasonId": 116,
-      "rating": 8.1,
+      "rating": 3.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19086,7 +19086,7 @@ module.exports = {
       "id": 579,
       "userId": 2,
       "seasonId": 116,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19094,7 +19094,7 @@ module.exports = {
       "id": 580,
       "userId": 9,
       "seasonId": 116,
-      "rating": 8.6,
+      "rating": 4.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19102,7 +19102,7 @@ module.exports = {
       "id": 581,
       "userId": 9,
       "seasonId": 117,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19110,7 +19110,7 @@ module.exports = {
       "id": 582,
       "userId": 5,
       "seasonId": 117,
-      "rating": 8.5,
+      "rating": 4.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19118,7 +19118,7 @@ module.exports = {
       "id": 583,
       "userId": 3,
       "seasonId": 117,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19126,7 +19126,7 @@ module.exports = {
       "id": 584,
       "userId": 6,
       "seasonId": 117,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19134,7 +19134,7 @@ module.exports = {
       "id": 585,
       "userId": 1,
       "seasonId": 117,
-      "rating": 6.6,
+      "rating": 2.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19142,7 +19142,7 @@ module.exports = {
       "id": 586,
       "userId": 3,
       "seasonId": 118,
-      "rating": 6.2,
+      "rating": 1.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19150,7 +19150,7 @@ module.exports = {
       "id": 587,
       "userId": 9,
       "seasonId": 118,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19158,7 +19158,7 @@ module.exports = {
       "id": 588,
       "userId": 2,
       "seasonId": 118,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19166,7 +19166,7 @@ module.exports = {
       "id": 589,
       "userId": 5,
       "seasonId": 118,
-      "rating": 6.1,
+      "rating": 1.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19174,7 +19174,7 @@ module.exports = {
       "id": 590,
       "userId": 1,
       "seasonId": 118,
-      "rating": 9.0,
+      "rating": 4.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19182,7 +19182,7 @@ module.exports = {
       "id": 591,
       "userId": 8,
       "seasonId": 119,
-      "rating": 7.2,
+      "rating": 2.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19190,7 +19190,7 @@ module.exports = {
       "id": 592,
       "userId": 5,
       "seasonId": 119,
-      "rating": 9.1,
+      "rating": 4.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19198,7 +19198,7 @@ module.exports = {
       "id": 593,
       "userId": 1,
       "seasonId": 119,
-      "rating": 6.8,
+      "rating": 2.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19206,7 +19206,7 @@ module.exports = {
       "id": 594,
       "userId": 6,
       "seasonId": 119,
-      "rating": 7.0,
+      "rating": 2.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19214,7 +19214,7 @@ module.exports = {
       "id": 595,
       "userId": 7,
       "seasonId": 119,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19222,7 +19222,7 @@ module.exports = {
       "id": 596,
       "userId": 4,
       "seasonId": 120,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19230,7 +19230,7 @@ module.exports = {
       "id": 597,
       "userId": 2,
       "seasonId": 120,
-      "rating": 7.1,
+      "rating": 2.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19238,7 +19238,7 @@ module.exports = {
       "id": 598,
       "userId": 8,
       "seasonId": 120,
-      "rating": 8.1,
+      "rating": 3.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19246,7 +19246,7 @@ module.exports = {
       "id": 599,
       "userId": 5,
       "seasonId": 120,
-      "rating": 6.4,
+      "rating": 1.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19254,7 +19254,7 @@ module.exports = {
       "id": 600,
       "userId": 3,
       "seasonId": 120,
-      "rating": 8.6,
+      "rating": 4.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19262,7 +19262,7 @@ module.exports = {
       "id": 601,
       "userId": 3,
       "seasonId": 121,
-      "rating": 8.2,
+      "rating": 3.7,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19270,7 +19270,7 @@ module.exports = {
       "id": 602,
       "userId": 3,
       "seasonId": 122,
-      "rating": 7.5,
+      "rating": 3.0,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19278,7 +19278,7 @@ module.exports = {
       "id": 603,
       "userId": 3,
       "seasonId": 123,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19286,7 +19286,7 @@ module.exports = {
       "id": 604,
       "userId": 3,
       "seasonId": 124,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19294,7 +19294,7 @@ module.exports = {
       "id": 605,
       "userId": 3,
       "seasonId": 125,
-      "rating": 8.1,
+      "rating": 3.6,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19302,7 +19302,7 @@ module.exports = {
       "id": 606,
       "userId": 3,
       "seasonId": 126,
-      "rating": 7.6,
+      "rating": 3.1,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19310,7 +19310,7 @@ module.exports = {
       "id": 607,
       "userId": 3,
       "seasonId": 127,
-      "rating": 8.3,
+      "rating": 3.8,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19318,7 +19318,7 @@ module.exports = {
       "id": 608,
       "userId": 3,
       "seasonId": 128,
-      "rating": 7.8,
+      "rating": 3.3,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19326,7 +19326,7 @@ module.exports = {
       "id": 609,
       "userId": 3,
       "seasonId": 129,
-      "rating": 8.0,
+      "rating": 3.5,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19334,7 +19334,7 @@ module.exports = {
       "id": 610,
       "userId": 3,
       "seasonId": 130,
-      "rating": 7.7,
+      "rating": 3.2,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19342,7 +19342,7 @@ module.exports = {
       "id": 611,
       "userId": 3,
       "seasonId": 131,
-      "rating": 8.4,
+      "rating": 3.9,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },
@@ -19350,7 +19350,7 @@ module.exports = {
       "id": 612,
       "userId": 3,
       "seasonId": 132,
-      "rating": 7.9,
+      "rating": 3.4,
       "createdAt": "2025-06-23 07:54:49",
       "updatedAt": "2025-06-23 07:54:49"
     },

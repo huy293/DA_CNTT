@@ -9,8 +9,18 @@ module.exports = (sequelize, DataTypes) => {
   });
 
   People.associate = (models) => {
-      People.belongsToMany(models.Season, { through: models.MovieActor, foreignKey: 'peopleId', otherKey: 'seasonId' });
-      People.belongsToMany(models.Season, { through: models.MovieCrew, foreignKey: 'peopleId', otherKey: 'seasonId' });
+      People.belongsToMany(models.Season, { 
+        through: models.MovieActor, 
+        foreignKey: 'peopleId', 
+        otherKey: 'seasonId',
+        as: 'ActorSeasons'
+      });
+      People.belongsToMany(models.Season, { 
+        through: models.MovieCrew, 
+        foreignKey: 'peopleId', 
+        otherKey: 'seasonId',
+        as: 'CrewSeasons'
+      });
   };
   return People;
 };

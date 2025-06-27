@@ -11,70 +11,64 @@ exports.GetById = async (id) => {
         const people = await People.findByPk(id, {
             include: [
                 {
-                    model: MovieActor,
+                    model: Season,
+                    as: 'ActorSeasons',
                     include: [
                         {
-                            model: Season,
-                            include: [
-                                {
-                                    model: Movie,
-                                    attributes: ['id', 'title']
-                                }
-                            ]
+                            model: Movie,
+                            attributes: ['id', 'title']
                         }
-                    ]
+                    ],
+                    through: {
+                        attributes: ['role']
+                    }
                 },
                 {
-                    model: MovieCrew,
+                    model: Season,
+                    as: 'CrewSeasons',
                     include: [
                         {
-                            model: Season,
-                            include: [
-                                {
-                                    model: Movie,
-                                    attributes: ['id', 'title']
-                                }
-                            ]
+                            model: Movie,
+                            attributes: ['id', 'title']
                         }
-                    ]
+                    ],
+                    through: {
+                        attributes: ['job']
+                    }
                 }
             ]
         });
 
         console.log('People found:', people ? 'Yes' : 'No');
-        console.log('MovieActors count:', people?.MovieActors?.length || 0);
-        console.log('MovieCrews count:', people?.MovieCrews?.length || 0);
+        console.log('ActorSeasons count:', people?.ActorSeasons?.length || 0);
+        console.log('CrewSeasons count:', people?.CrewSeasons?.length || 0);
 
         if (!people) return null;
 
         // Tổng hợp thông tin
         const movies = [];
         
-        // Thêm movies từ MovieActor
-        if (people.MovieActors) {
-            people.MovieActors.forEach(ma => {
-                if (ma.Season) {
-                    movies.push({
-                        ...ma.Season.toJSON(),
-                        role: 'Actor',
-                        character: ma.role,
-                        movieTitle: ma.Season.Movie?.title
-                    });
-                }
+        // Thêm movies từ ActorSeasons
+        if (people.ActorSeasons) {
+            people.ActorSeasons.forEach(season => {
+                movies.push({
+                    ...season.toJSON(),
+                    role: 'Actor',
+                    character: season.MovieActor?.role,
+                    movieTitle: season.Movie?.title
+                });
             });
         }
 
-        // Thêm movies từ MovieCrew
-        if (people.MovieCrews) {
-            people.MovieCrews.forEach(mc => {
-                if (mc.Season) {
-                    movies.push({
-                        ...mc.Season.toJSON(),
-                        role: 'Crew',
-                        job: mc.job,
-                        movieTitle: mc.Season.Movie?.title
-                    });
-                }
+        // Thêm movies từ CrewSeasons
+        if (people.CrewSeasons) {
+            people.CrewSeasons.forEach(season => {
+                movies.push({
+                    ...season.toJSON(),
+                    role: 'Crew',
+                    job: season.MovieCrew?.job,
+                    movieTitle: season.Movie?.title
+                });
             });
         }
 
