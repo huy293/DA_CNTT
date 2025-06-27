@@ -72,10 +72,12 @@ exports.getSeasonsByMovie = async (req, res) => {
 
 exports.getSeasonById = async (req, res) => {
   try {
+    console.log('Getting season by ID:', req.params.id);
     const season = await service.getSeasonById(req.params.id);
     if (!season) return res.status(404).json({ error: "Not found" });
     res.json(season);
   } catch (error) {
+    console.error('Error in getSeasonById controller:', error);
     res.status(400).json({ error: error.message });
   }
 };

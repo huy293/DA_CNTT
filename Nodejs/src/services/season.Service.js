@@ -1,4 +1,4 @@
-const { Season, Episode, Movie, MovieGenre, Genre, Comment, User, Favorite, Rating, WatchHistory, sequelize } = require("../models");
+const { Season, Episode, Movie, MovieGenre, Genre, Comment, User, Favorite, Rating, WatchHistory, MovieActor, MovieCrew, People, sequelize } = require("../models");
 const { Op } = require("sequelize");
 
 exports.createSeason = async (movieId, data) => {
@@ -30,48 +30,82 @@ exports.getSeasonsByMovie = async (movieId) => {
 };
 
 exports.getSeasonById = async (id) => {
-  const season = await Season.findByPk(id, {
-    include: [
-      { model: Episode },
-      { 
-        model: Movie,
-        include: [
-          {
-            model: MovieGenre,
-            include: [{ model: Genre }]
-          }
-        ]
-      }
-    ]
-  });
+  try {
+    console.log('getSeasonById called with id:', id);
+    
+    const season = await Season.findByPk(id, {
+      include: [
+        { model: Episode },
+        { 
+          model: Movie,
+          include: [
+            {
+              model: MovieGenre,
+              include: [{ model: Genre }]
+            }
+          ]
+        }
+      ]
+    });
 
-  if (!season) return null;
+    console.log('Season found:', season ? 'Yes' : 'No');
 
-  // Đếm lượt xem (WatchHistory) - SỬA ĐOẠN NÀY
-  const episodes = await Episode.findAll({ where: { seasonId: id }, attributes: ['id'], raw: true });
-  const episodeIds = episodes.map(e => e.id);
-  const viewCount = episodeIds.length
-    ? await WatchHistory.count({ where: { episodeId: { [Op.in]: episodeIds } } })
-    : 0;
+    if (!season) return null;
 
-  // Đếm yêu thích (Favorite)
-  const favoriteCount = await Favorite.count({ where: { seasonId: id } });
+    // Lấy MovieActors và MovieCrews với People data
+    const movieActors = await MovieActor.findAll({
+      where: { seasonId: id },
+      include: [{ 
+        model: People,
+        as: 'People'
+      }]
+    });
 
-  // Tính điểm rating trung bình (Rating)
-  const ratingData = await Rating.findOne({
-    where: { seasonId: id },
-    attributes: [[sequelize.fn('AVG', sequelize.col('rating')), 'avgRating']],
-    raw: true
-  });
-  const rating = ratingData?.avgRating ? Number(ratingData.avgRating).toFixed(1) : 0;
+    const movieCrews = await MovieCrew.findAll({
+      where: { seasonId: id },
+      include: [{ 
+        model: People,
+        as: 'People'
+      }]
+    });
 
-  // Gộp vào kết quả trả về
-  return {
-    ...season.toJSON(),
-    viewCount,
-    favoriteCount,
-    rating
-  };
+    console.log('MovieActors found:', movieActors.length);
+    console.log('MovieCrews found:', movieCrews.length);
+
+    // Đếm lượt xem (WatchHistory)
+    const episodes = await Episode.findAll({ where: { seasonId: id }, attributes: ['id'], raw: true });
+    const episodeIds = episodes.map(e => e.id);
+    const viewCount = episodeIds.length
+      ? await WatchHistory.count({ where: { episodeId: { [Op.in]: episodeIds } } })
+      : 0;
+
+    // Đếm yêu thích (Favorite)
+    const favoriteCount = await Favorite.count({ where: { seasonId: id } });
+
+    // Tính điểm rating trung bình (Rating)
+    const ratingData = await Rating.findOne({
+      where: { seasonId: id },
+      attributes: [[sequelize.fn('AVG', sequelize.col('rating')), 'avgRating']],
+      raw: true
+    });
+    const rating = ratingData?.avgRating ? Number(ratingData.avgRating).toFixed(1) : 0;
+
+    console.log('Stats calculated:', { viewCount, favoriteCount, rating });
+
+    // Gộp vào kết quả trả về
+    return {
+      ...season.toJSON(),
+      MovieActors: movieActors,
+      MovieCrews: movieCrews,
+      viewCount,
+      favoriteCount,
+      rating
+    };
+  } catch (error) {
+    console.error('Error in getSeasonById:', error);
+    console.error('Error stack:', error.stack);
+    throw error;
+  }
 };
 
 // Lấy comment của season

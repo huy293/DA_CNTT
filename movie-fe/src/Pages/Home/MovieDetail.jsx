@@ -38,44 +38,49 @@ const MovieDetail = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-    try {
-      const [seasonRes, commentsRes, relatedRes] = await Promise.all([
-        axios.get(`/api/season/${id}`),
-        axios.get(`/api/season/${id}/comments?page=${page}`).catch(() => ({ data: [] })),
-        axios.get(`/api/season/${id}/related`).catch(() => ({ data: [] }))
-      ]);
-      setSeason(seasonRes.data);
+      try {
+        const [seasonRes, commentsRes, relatedRes] = await Promise.all([
+          axios.get(`/api/season/${id}`),
+          axios.get(`/api/season/${id}/comments?page=${page}`).catch(() => ({ data: [] })),
+          axios.get(`/api/season/${id}/related`).catch(() => ({ data: [] }))
+        ]);
 
-      // Group comment cha và reply
-      const commentMap = {};
-      const parents = [];
-      commentsRes.data.forEach(c => {
-        c.replies = [];
-        commentMap[c.id] = c;
-      });
-      commentsRes.data.forEach(c => {
-        if (c.parentId) {
-          if (commentMap[c.parentId]) {
-            commentMap[c.parentId].replies.push(c);
+        console.log('Season data received:', seasonRes.data);
+        console.log('MovieActors:', seasonRes.data.MovieActors);
+        console.log('MovieCrews:', seasonRes.data.MovieCrews);
+        
+        setSeason(seasonRes.data);
+
+        // Group comment cha và reply
+        const commentMap = {};
+        const parents = [];
+        commentsRes.data.forEach(c => {
+          c.replies = [];
+          commentMap[c.id] = c;
+        });
+        commentsRes.data.forEach(c => {
+          if (c.parentId) {
+            if (commentMap[c.parentId]) {
+              commentMap[c.parentId].replies.push(c);
+            }
+          } else {
+            parents.push(c);
           }
-        } else {
-          parents.push(c);
-        }
-      });
+        });
 
-      if (page === 1) {
-        setComments(parents);
-      } else {
-        setComments(prev => [...prev, ...parents]);
+        if (page === 1) {
+          setComments(parents);
+        } else {
+          setComments(prev => [...prev, ...parents]);
+        }
+        setHasMore(commentsRes.data.length === 10); // Assuming 10 comments per page
+        setRelated(relatedRes.data);
+        setLoading(false);
+      } catch (err) {
+        setError('Không thể tải thông tin phim');
+        setLoading(false);
       }
-      setHasMore(commentsRes.data.length === 10); // Assuming 10 comments per page
-      setRelated(relatedRes.data);
-      setLoading(false);
-    } catch (err) {
-      setError('Không thể tải thông tin phim');
-      setLoading(false);
-    }
-  };
+    };
     fetchData();
   }, [id, page]);
   useEffect(() => {
@@ -400,6 +405,71 @@ const MovieDetail = () => {
                   ))}
                 </div>
               </div>
+              {/* Cast */}
+              {season.MovieActors && season.MovieActors.length > 0 && (
+                <div className="mb-6">
+                  <h3 className="text-lg font-semibold mb-2">Diễn viên:</h3>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                    {season.MovieActors.slice(0, 6).map((actor, index) => (
+                      actor.People && (
+                        <div 
+                          key={index}
+                          className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
+                          onClick={() => navigate(`/people/${actor.People.id}`)}
+                        >
+                          <img 
+                            src={actor.People?.profile_url || '/default-avatar.png'} 
+                            alt={actor.People?.name}
+                            className="w-8 h-8 rounded-full object-cover"
+                          />
+                          <div>
+                            <div className="text-sm font-medium">{actor.People?.name}</div>
+                            {actor.role && <div className="text-xs text-gray-400">Vai: {actor.role}</div>}
+                          </div>
+                        </div>
+                      )
+                    ))}
+                  </div>
+                  {season.MovieActors.length > 6 && (
+                    <div className="text-center text-gray-400 text-sm mt-2">
+                      +{season.MovieActors.length - 6} diễn viên khác
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Crew */}
+              {season.MovieCrews && season.MovieCrews.length > 0 && (
+                <div className="mb-6">
+                  <h3 className="text-lg font-semibold mb-2">Đạo diễn & Ekip:</h3>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                    {season.MovieCrews.slice(0, 6).map((crew, index) => (
+                      crew.People && (
+                        <div 
+                          key={index}
+                          className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
+                          onClick={() => navigate(`/people/${crew.People.id}`)}
+                        >
+                          <img 
+                            src={crew.People?.profile_url || '/default-avatar.png'} 
+                            alt={crew.People?.name}
+                            className="w-8 h-8 rounded-full object-cover"
+                          />
+                          <div>
+                            <div className="text-sm font-medium">{crew.People?.name}</div>
+                            {crew.job && <div className="text-xs text-gray-400">Vai trò: {crew.job}</div>}
+                          </div>
+                        </div>
+                      )
+                    ))}
+                  </div>
+                  {season.MovieCrews.length > 6 && (
+                    <div className="text-center text-gray-400 text-sm mt-2">
+                      +{season.MovieCrews.length - 6} thành viên khác
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           </div>
 

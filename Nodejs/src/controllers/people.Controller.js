@@ -12,12 +12,15 @@ exports.getAll = async (req, res) => {
 exports.getById = async (req, res) => {
     const { id } = req.params;
     try {
+        console.log('Getting people by ID:', id);
         const people = await peopleService.GetById(id);
+        console.log('People found:', people ? 'Yes' : 'No');
         if (!people) {
             return res.status(404).json({ error: 'People not found' });
         }
         return res.status(200).json(people);
     } catch (error) {
+        console.error('Error in getById controller:', error);
         return res.status(500).json({ error: error.message });
     }
 }

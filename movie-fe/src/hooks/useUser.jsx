@@ -34,7 +34,10 @@ const useUser = () => {
     checkAuth();
   }, [checkAuth]);
 
-  return { user, loading, error, recheckAuth: checkAuth };
+  // Tính toán isAuthenticated dựa trên user
+  const isAuthenticated = !!user;
+
+  return { user, loading, error, isAuthenticated, recheckAuth: checkAuth };
 };
 
 export default useUser; 

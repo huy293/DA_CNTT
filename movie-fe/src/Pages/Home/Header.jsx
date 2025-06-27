@@ -10,6 +10,7 @@ import { API_URL } from '../../config/config';
 import ForgotPassword from "../../components/Modal/ForgotPassword";
 import VerifyCode from "../../components/Modal/Verify-code";
 import { formatDate } from "../../utils/dateUtils";
+import UserNotificationBell from "../../components/UserNotificationBell";
 
 const Header = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -279,52 +280,55 @@ const Header = () => {
                             {loading ? (
                                 <div className="w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
                             ) : user ? (
-                                <div className="relative">
-                                    <button
-                                        type="button"
-                                        className="flex rounded-full bg-gray-800 text-sm focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 md:me-0"
-                                        onClick={() => setIsUserDropdownOpen(!isUserDropdownOpen)}
-                                    >
-                                        <span className="sr-only">Open user menu</span>
-                                        <img
-                                            className="w-8 h-8 rounded-full"
-                                            src={user.avatar ? `${API_URL}${user.avatar}` : "https://flowbite.com/docs/images/people/profile-picture-5.jpg"}
-                                            alt="user photo"
-                                        />
-                                    </button>
+                                <>
+                                    <UserNotificationBell />
+                                    <div className="relative">
+                                        <button
+                                            type="button"
+                                            className="flex rounded-full bg-gray-800 text-sm focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 md:me-0"
+                                            onClick={() => setIsUserDropdownOpen(!isUserDropdownOpen)}
+                                        >
+                                            <span className="sr-only">Open user menu</span>
+                                            <img
+                                                className="w-8 h-8 rounded-full"
+                                                src={user.avatar ? `${API_URL}${user.avatar}` : "https://flowbite.com/docs/images/people/profile-picture-5.jpg"}
+                                                alt="user photo"
+                                            />
+                                        </button>
 
-                                    {/* Dropdown menu */}
-                                    {isUserDropdownOpen && (
-                                        <div className="absolute right-0 mt-2 w-48 rounded-lg bg-white py-2 shadow-lg dark:bg-gray-700">
-                                            <div className="px-4 py-3">
-                                                <span className="block text-sm text-gray-900 dark:text-white">{user.username}</span>
-                                                <span className="block text-sm text-gray-500 truncate dark:text-gray-400">{user.email}</span>
+                                        {/* Dropdown menu */}
+                                        {isUserDropdownOpen && (
+                                            <div className="absolute right-0 mt-2 w-48 rounded-lg bg-white py-2 shadow-lg dark:bg-gray-700">
+                                                <div className="px-4 py-3">
+                                                    <span className="block text-sm text-gray-900 dark:text-white">{user.username}</span>
+                                                    <span className="block text-sm text-gray-500 truncate dark:text-gray-400">{user.email}</span>
+                                                </div>
+                                                <ul className="py-2" aria-labelledby="user-menu-button">
+                                                    <li>
+                                                        <a href="/profile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Trang cá nhân</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/history" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Lịch sử xem</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/favorites" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Yêu thích</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                                                    </li>
+                                                    <li>
+                                                        <button
+                                                            onClick={handleLogout}
+                                                            className="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600"
+                                                        >
+                                                            Đăng xuất
+                                                        </button>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                            <ul className="py-2" aria-labelledby="user-menu-button">
-                                                <li>
-                                                    <a href="/profile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Trang cá nhân</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/history" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Lịch sử xem</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/favorites" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Yêu thích</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
-                                                </li>
-                                                <li>
-                                                    <button
-                                                        onClick={handleLogout}
-                                                        className="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600"
-                                                    >
-                                                        Đăng xuất
-                                                    </button>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    )}
-                                </div>
+                                        )}
+                                    </div>
+                                </>
                             ) : (
                                 <>
                                     <Gradient_outline_Blue onClick={() => setLoginModalOpen(true)} content="Login" />

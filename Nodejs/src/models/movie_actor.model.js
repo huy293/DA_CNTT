@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
     
     MovieActor.associate = (models) => {
         MovieActor.belongsTo(models.Season, { foreignKey: 'seasonId' });
-        MovieActor.belongsTo(models.People, { foreignKey: 'peopleId' });
+        MovieActor.belongsTo(models.People, { foreignKey: 'peopleId', as: 'People' });
     }
     return MovieActor;
   }; 

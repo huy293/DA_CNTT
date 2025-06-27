@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
-import Banner from '../../components/Banner'
-import SlideMovie from '../../components/SlideMovie'
+import React, { useState, useEffect } from "react";
+import Banner from "../../components/Banner";
+import SlideMovie from "../../components/SlideMovie";
 import '../../index.css';
 import axios from '../../config/axios';
 

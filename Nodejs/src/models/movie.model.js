@@ -24,7 +24,7 @@ module.exports = (sequelize, DataTypes) => {
           otherKey: 'genreId',
         });
         
-    Movie.hasMany(models.Season, { foreignKey: 'movieId' });
+        Movie.hasMany(models.Season, { foreignKey: 'movieId' });
         
         Movie.hasMany(models.MovieGenre, { foreignKey: 'movieId' });
     };

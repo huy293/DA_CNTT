@@ -31,4 +31,20 @@ const checkPermission = (requiredPermission) => {
   };
 };
 
-module.exports = { checkPermission }; 
+/**
+ * Middleware để yêu cầu quyền admin hoặc super admin
+ */
+const requireAdmin = () => {
+  return (req, res, next) => {
+    const user = req.user;
+
+    // Chỉ admin hoặc super admin mới được phép
+    if (user.role === 'admin' || user.isSuperAdmin) {
+      return next();
+    }
+
+    return res.status(403).json({ message: 'Chỉ admin mới có quyền thực hiện hành động này.' });
+  };
+};
+
+module.exports = { checkPermission, requireAdmin }; 

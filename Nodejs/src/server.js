@@ -44,6 +44,7 @@ const setupRoutes = () => {
     const episodeRoutes = require("./routes/episode.routes");
     const dashboardRoutes = require("./routes/dashboard.routes");
     const editorsPickListRoutes = require("./routes/editorsPickList.routes");
+    const notificationRoutes = require("./routes/notification.routes");
 
     app.use("/api/auth", authRoutes);
     app.use("/api/movies", movieRoutes);
@@ -61,6 +62,7 @@ const setupRoutes = () => {
     app.use("/api/episode", episodeRoutes);
     app.use("/api/dashboard", dashboardRoutes);
     app.use("/api/editors-pick-list", editorsPickListRoutes);
+    app.use("/api/notification", notificationRoutes);
 
     // General error handler should be last
     app.use((err, req, res, next) => {
