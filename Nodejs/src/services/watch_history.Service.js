@@ -6,23 +6,13 @@ exports.createWatchHistory = async (userId, episodeId = null) => {
   if (!userId || !episodeId) {
     throw new Error('User ID and Episode ID are required');
   }
-
   try {
-    // Tìm hoặc tạo mới bản ghi lịch sử
-    const [history, created] = await WatchHistory.findOrCreate({
-      where: { userId, episodeId },
-      defaults: { userId, episodeId }
-    });
-
-    if (!created) {
-      // Nếu bản ghi đã tồn tại, chỉ cần cập nhật timestamp
-      await history.save();
-    }
-
+    // Luôn tạo mới bản ghi lịch sử
+    const history = await WatchHistory.create({ userId, episodeId });
     return history;
   } catch (error) {
     console.error("Error in createWatchHistory service:", error);
-    throw new Error('Error creating or updating watch history');
+    throw new Error('Error creating watch history');
   }
 };
 

@@ -39,6 +39,12 @@ const Episode = () => {
   const [ratingLoading, setRatingLoading] = useState(false);
   const [showLoginModal, setShowLoginModal] = useState(false);
 
+  const hasSentHistory = useRef(false);
+
+  useEffect(() => {
+    hasSentHistory.current = false;
+  }, [episodeId]);
+
   // Lấy thông tin tập phim và mùa
   useEffect(() => {
     setLoading(true);
@@ -89,8 +95,9 @@ const Episode = () => {
 
   // Record watch history
   useEffect(() => {
-    if (user && episodeId) {
+    if (user && episodeId && !hasSentHistory.current) {
       addWatchHistory(episodeId);
+      hasSentHistory.current = true;
     }
   }, [user, episodeId, addWatchHistory]);
 
